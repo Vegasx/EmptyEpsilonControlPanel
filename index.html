@@ -1,0 +1,29 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#10191b">
+  <title>Engineering · Epsilon controller</title>
+  <link rel="icon" href="data:,">
+  <link rel="preload" href="RussoOne-Regular.ttf" as="font" type="font/ttf" crossorigin>
+  <link rel="preload" href="assets/slider-candidates/02-brass-grip.png" as="image">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <main>
+    <section class="console" aria-label="Engineering controls" data-mode="power">
+      <i class="screw screw-tl" aria-hidden="true"></i><i class="screw screw-tr" aria-hidden="true"></i><i class="screw screw-bl" aria-hidden="true"></i><i class="screw screw-br" aria-hidden="true"></i>
+      <div class="panel-header"><h1>ENGINEERING</h1></div>
+      <div class="table-heading" aria-hidden="true"><div class="scale"><span>0%</span><span>100%</span><span>200%</span><span>300%</span></div></div>
+      <div id="systems"></div>
+      <div class="panel-footer">
+        <button id="reset" class="reset" disabled><span class="reset-icon" aria-hidden="true"></span><span>RESET<br>LEVELS</span></button>
+        <div class="mode-control"><span id="power-label" class="mode-label selected">POWER</span><button id="mode-switch" role="switch" aria-checked="false" aria-label="Coolant mode" disabled><span class="rocker"><span></span></span></button><span id="coolant-label" class="mode-label">COOLANT</span></div>
+      </div>
+    </section>
+    <p id="feedback" class="sr-only" role="status" aria-live="polite">Loading…</p>
+  </main>
+  <script type="module" src="app.mjs"></script>
+</body>
+</html>

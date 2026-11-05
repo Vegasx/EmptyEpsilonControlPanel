@@ -1,0 +1,21 @@
+{
+  "tool": "Built-in image_gen",
+  "transparent_background": true,
+  "candidates": [
+    {
+      "key": "slider_candidate_1",
+      "name": "01 · Amber classic",
+      "prompt": "Use case: stylized-concept. Asset type: production-ready raster UI slider thumb for a touch-screen starship engineering console. Generate exactly ONE isolated handle, centered, straight-on orthographic TOP VIEW, no perspective tilt. A chunky regular hexagon with a point at top and bottom, a strong readable silhouette at 56px display size. Square canvas, handle occupies about 80% of canvas, fully visible, equal transparent margins. Warm studio light from upper left, subtle beveled thickness only at edges, restrained realistic materials, retro industrial spaceship hardware. Transparent background with true alpha; no panel, track, surroundings, floor, typography, logos, labels, numbers, borders around canvas, or cast shadow outside the handle. Design candidate 1: faithfully evocative of a physical arcade engineering controller: a thick ochre amber molded hexagonal outer grip, slightly rounded bevels, and a flat inset smaller hexagonal gray pebbled metal center. Minimal surface detail, a narrow dark seam and dark lower edge giving tactile depth. The amber ring is broad and prominent. Satin orange-gold and cool gray, clean gently used equipment, no heavy grime."
+    },
+    {
+      "key": "slider_candidate_2",
+      "name": "02 · Brass grip",
+      "prompt": "Use case: stylized-concept. Asset type: production-ready raster UI slider thumb for a touch-screen starship engineering console. Generate exactly ONE isolated handle, centered, straight-on orthographic TOP VIEW, no perspective tilt. A chunky regular hexagon with a point at top and bottom, a strong readable silhouette at 56px display size. Square canvas, handle occupies about 80% of canvas, fully visible, equal transparent margins. Warm studio light from upper left, subtle beveled thickness only at edges, restrained realistic materials, retro industrial spaceship hardware. Transparent background with true alpha; no panel, track, surroundings, floor, typography, logos, labels, numbers, borders around canvas, or cast shadow outside the handle. Design candidate 2: heavy machined brass hexagonal slider grip. Wide matte brass outer bevel, dark graphite recessed center with THREE large horizontal grip ribs. Bold architectural geometry; brass and near-black, no circular center, no light effects, no tiny screws or fussy detail. A little brushed metal grain, crisp tactile tool-like appearance, easy to read at small scale."
+    },
+    {
+      "key": "slider_candidate_3",
+      "name": "03 · Teal illuminated",
+      "prompt": "Use case: stylized-concept. Asset type: production-ready raster UI slider thumb for a touch-screen starship engineering console. Generate exactly ONE isolated handle, centered, straight-on orthographic TOP VIEW, no perspective tilt. A chunky regular hexagon with a point at top and bottom, a strong readable silhouette at 56px display size. Square canvas, handle occupies about 80% of canvas, fully visible, equal transparent margins. Warm studio light from upper left, subtle beveled thickness only at edges, restrained realistic materials, retro industrial spaceship hardware. Transparent background with true alpha; no panel, track, surroundings, floor, typography, logos, labels, numbers, borders around canvas, or cast shadow outside the handle. Design candidate 3: futuristic illuminated coolant slider grip. A chunky dark gunmetal regular hexagonal body with a narrow warm brass bevel, and a large inset smaller hexagonal translucent deep teal lens. Soft controlled turquoise illumination inside the lens, a clean narrow highlight. No bloom beyond the silhouette. Simple substantial construction, premium retro spacecraft instrumentation, easy to read at small scale."
+    }
+  ]
+}

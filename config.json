@@ -1,0 +1,26 @@
+{
+  "version": 1,
+  "shipName": "ESS Endeavour",
+  "defaults": {
+    "power": {
+      "reactor": 100,
+      "beamweapons": 100,
+      "missilesystem": 100,
+      "maneuver": 100,
+      "impulse": 100,
+      "warp": 100,
+      "frontshield": 100,
+      "rearshield": 100
+    },
+    "coolant": {
+      "reactor": 0,
+      "beamweapons": 0,
+      "missilesystem": 0,
+      "maneuver": 0,
+      "impulse": 0,
+      "warp": 0,
+      "frontshield": 0,
+      "rearshield": 0
+    }
+  }
+}
