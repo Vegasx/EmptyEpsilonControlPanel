@@ -1,0 +1,54 @@
+[
+  {
+    "Path": "C:\\Users\\Cheyenne\\Documents\\ChatGPT\\Epsilon Controller\\README.md",
+    "Hash": "D15940959510E9EB4F2791F16B0383CEB5F95337FCA9E5872475C300D0428783"
+  },
+  {
+    "Path": "C:\\Users\\Cheyenne\\Documents\\ChatGPT\\Epsilon Controller\\app.mjs",
+    "Hash": "1C36FCDB7800580F513E367014086BFFDA70C1720D59016E94E57B59E93C7558"
+  },
+  {
+    "Path": "C:\\Users\\Cheyenne\\Documents\\ChatGPT\\Epsilon Controller\\model.mjs",
+    "Hash": "702EAD6346BEBC1C6BB0C369BEC158349C5E588246FB5A98638AF034E09376E4"
+  },
+  {
+    "Path": "C:\\Users\\Cheyenne\\Documents\\ChatGPT\\Epsilon Controller\\style.css",
+    "Hash": "0E70942E67886F6B7904198F3219A089186CDB93A8D47A75F19F14C7A7767B55"
+  },
+  {
+    "Path": "C:\\Users\\Cheyenne\\Documents\\ChatGPT\\Epsilon Controller\\config.json",
+    "Hash": "19808105D136067A2AF33B21FBA1EA233C639AEE8EB2BB63A844390D5E5325B4"
+  },
+  {
+    "Path": "C:\\Users\\Cheyenne\\Documents\\ChatGPT\\Epsilon Controller\\index.html",
+    "Hash": "D2BED3D60835D0A582C401458DE7EC0B2F23A9061F1C4DBF821D7867361FAC3D"
+  },
+  {
+    "Path": "C:\\Users\\Cheyenne\\Documents\\ChatGPT\\Epsilon Controller\\preview.png",
+    "Hash": "B02E102D69E5BBFDDCC0805DF9C1982BAE98827737E01E5C0E45421109149078"
+  },
+  {
+    "Path": "C:\\Users\\Cheyenne\\Documents\\ChatGPT\\Epsilon Controller\\adapter.mjs",
+    "Hash": "227E7C3B5D24355BD3B705DDFE4472890290F8DF51A4BD778595FC6CA2055C25"
+  },
+  {
+    "Path": "C:\\Users\\Cheyenne\\Documents\\ChatGPT\\Epsilon Controller\\browser.mjs",
+    "Hash": "4AA6AA77AB7CF21EA5A08CFBF63EA5C17E14E67ADCA7149C2E2D24D269CEE72B"
+  },
+  {
+    "Path": "C:\\Users\\Cheyenne\\Documents\\ChatGPT\\Epsilon Controller\\server.mjs",
+    "Hash": "F6A8C549CC22F5B4CECCBA259A8426682127D3A3D6C5633B0E92943AFACD1CF5"
+  },
+  {
+    "Path": "C:\\Users\\Cheyenne\\Documents\\ChatGPT\\Epsilon Controller\\RussoOne-Regular.ttf",
+    "Hash": "BC0ABCC660BD8B7AD3000ECB2898A27C58A29A50F7EC81652FA12E75148D09DF"
+  },
+  {
+    "Path": "C:\\Users\\Cheyenne\\Documents\\ChatGPT\\Epsilon Controller\\FONT-LICENSE.txt",
+    "Hash": "3AC1301549523D9861FEDCA12871F24E575FBD26D520632FC00BA849B471D275"
+  },
+  {
+    "Path": "C:\\Users\\Cheyenne\\Documents\\ChatGPT\\Epsilon Controller\\assets\\slider-candidates\\02-brass-grip.png",
+    "Hash": "0FD374AC26B74C1A59F00AAE5B9781C2CE7F51464DB0021454638D356BE2087C"
+  }
+]

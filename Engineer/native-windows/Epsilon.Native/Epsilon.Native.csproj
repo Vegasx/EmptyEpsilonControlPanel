@@ -1,0 +1,14 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType><TargetFramework>net10.0-windows</TargetFramework><UseWPF>true</UseWPF>
+    <ImplicitUsings>enable</ImplicitUsings><Nullable>enable</Nullable><ApplicationManifest>app.manifest</ApplicationManifest>
+    <AssemblyName>Epsilon Engineering</AssemblyName><RootNamespace>Epsilon.Native</RootNamespace>
+  </PropertyGroup>
+  <ItemGroup>
+    <ProjectReference Include="../Epsilon.Core/Epsilon.Core.csproj" />
+    <Resource Include="../../RussoOne-Regular.ttf" Link="Assets/RussoOne-Regular.ttf" />
+    <Resource Include="../../assets/slider-candidates/02-brass-grip.png" Link="Assets/BrassGrip.png" />
+    <Content Include="../../config.json" Link="config.json" CopyToOutputDirectory="PreserveNewest" CopyToPublishDirectory="PreserveNewest" />
+    <Content Include="../../FONT-LICENSE.txt" Link="FONT-LICENSE.txt" CopyToOutputDirectory="PreserveNewest" CopyToPublishDirectory="PreserveNewest" />
+  </ItemGroup>
+</Project>

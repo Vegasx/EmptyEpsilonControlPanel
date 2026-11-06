@@ -7,15 +7,30 @@ const reducedMotion = window.matchMedia('(prefers-reduced-motion: reduce)');
 let renderedMode = null;
 let animateNextRender = false;
 
+function setTransforms(record, value) {
+  record.handle.style.transform = 'translate3d(' + (value / 300 * record.travelWidth) + 'px,-50%,0) translateX(-50%)';
+  record.fill.style.transform = 'scaleX(' + Math.max(0, Math.min(1, value / 300)) + ')';
+}
 function paintPosition(record, value) {
   record.displayed = value;
-  record.row.style.setProperty('--level', (Math.max(0, Math.min(300, value)) / 3) + '%');
-  record.row.style.setProperty('--handle-level', (value / 3) + '%');
+  setTransforms(record, value);
+}
+function sampleMotion(motion, elapsed) {
+  let start = motion.from;
+  for (const segment of motion.segments) {
+    if (elapsed < segment.duration) return start + (segment.to - start) * Math.max(0, elapsed) / segment.duration;
+    elapsed -= segment.duration;
+    start = segment.to;
+  }
+  return motion.target;
 }
 function cancelMotion(record) {
-  cancelAnimationFrame(record.frame);
-  record.frame = null;
+  if (record.motion) record.displayed = sampleMotion(record.motion, record.animations[0].currentTime ?? 0);
+  record.motion = null;
+  for (const animation of record.animations) animation.cancel();
+  record.animations = [];
   record.row.classList.remove('moving');
+  paintPosition(record, record.displayed);
 }
 function finishMotion(record) {
   cancelMotion(record);
@@ -26,10 +41,7 @@ function animatePosition(record, target) {
   const from = record.displayed;
   const delta = target - from;
   const distance = Math.abs(delta);
-  if (reducedMotion.matches || distance < 0.01) { paintPosition(record, target); return; }
-  // Linear travel reaches 10% beyond the target, then each correction leaves
-  // an opposite error one tenth as large: +10%, -1%, +0.1%, -0.01%, exact.
-  // Four end corrections get real frame time, within a 250ms full-range move.
+  if (reducedMotion.matches || distance < 0.01 || record.travelWidth === 0) { paintPosition(record, target); return; }
   const segments = [
     { to: target + delta * 0.1, duration: Math.min(distance, 300) / 300 * 170 },
     { to: target - delta * 0.01, duration: 24 },
@@ -38,34 +50,48 @@ function animatePosition(record, target) {
     { to: target, duration: 18 }
   ];
   const duration = segments.reduce((sum, segment) => sum + segment.duration, 0);
-  const started = performance.now();
-  record.row.classList.add('moving');
-  function tick(now) {
-    const elapsed = Math.max(0, now - started);
-    if (elapsed >= duration) {
-      paintPosition(record, target);
-      record.frame = null;
-      record.row.classList.remove('moving');
-      return;
-    }
-    let remaining = elapsed;
-    let start = from;
-    for (const segment of segments) {
-      if (remaining < segment.duration) {
-        paintPosition(record, start + (segment.to - start) * remaining / segment.duration);
-        break;
-      }
-      remaining -= segment.duration;
-      start = segment.to;
-    }
-    record.frame = requestAnimationFrame(tick);
+  const points = [{ value: from, offset: 0 }];
+  let elapsed = 0, previous = from;
+  for (const segment of segments) {
+    // Preserve exact clamping when the decorative handle passes an endpoint.
+    const crossings = [0, 300].map(boundary => ({boundary, t:(boundary - previous) / (segment.to - previous)}))
+      .filter(crossing => crossing.t > 0 && crossing.t < 1).sort((a,b) => a.t-b.t);
+    for (const crossing of crossings) points.push({value:crossing.boundary, offset:(elapsed+segment.duration*crossing.t)/duration});
+    elapsed += segment.duration;
+    points.push({value:segment.to, offset:elapsed/duration});
+    previous = segment.to;
   }
-  record.frame = requestAnimationFrame(tick);
+  const handleFrames = points.map(point => ({offset:point.offset, transform:'translate3d(' + (point.value/300*record.travelWidth) + 'px,-50%,0) translateX(-50%)'}));
+  const fillFrames = points.map(point => ({offset:point.offset, transform:'scaleX(' + Math.max(0,Math.min(1,point.value/300)) + ')'}));
+  const motion = {from, target, segments};
+  record.motion = motion;
+  record.row.classList.add('moving');
+  // Underlying transforms hold the final position when the compositor finishes.
+  setTransforms(record, target);
+  record.animations = [record.handle.animate(handleFrames, {duration,easing:'linear'}), record.fill.animate(fillFrames, {duration,easing:'linear'})];
+  Promise.all(record.animations.map(animation => animation.finished)).then(() => {
+    if (record.motion !== motion) return;
+    record.motion = null;
+    record.animations = [];
+    paintPosition(record, target);
+    record.row.classList.remove('moving');
+  }).catch(() => { /* Interrupted animations are sampled before cancellation. */ });
 }
+const sizeObserver = new ResizeObserver(entries => {
+  for (const entry of entries) {
+    const record = pathRecords.get(entry.target);
+    const moving = record.motion !== null;
+    cancelMotion(record);
+    record.travelWidth = entry.contentRect.width;
+    if (moving) animatePosition(record, record.target);
+    else paintPosition(record, record.target ?? record.displayed);
+  }
+});
+const pathRecords = new Map();
 for (const system of systems) {
   const row = document.createElement('div');
   row.className = 'system-row';
-  row.innerHTML = `<div class="system-name"><label for="${system.id}">${system.label}</label></div><div class="range-shell"><div class="track"><div class="track-fill"></div></div><div class="handle-path" aria-hidden="true"><span class="visual-handle"></span></div><input type="range" id="${system.id}" min="0" max="300" step="1" value="0" disabled></div><output class="readout" for="${system.id}">—</output>`;
+  row.innerHTML = `<div class="system-name"><label for="${system.id}">${system.label}</label></div><div class="range-shell"><div class="track"><div class="track-fill"></div></div><div class="handle-path" aria-hidden="true"><span class="visual-handle"></span></div><input type="range" id="${system.id}" min="0" max="300" step="1" value="0" disabled></div><output class="readout" for="${system.id}"><span class="readout-value">—</span><small>%</small></output>`;
   const input = row.querySelector('input');
   let keyboardEditing = false;
   input.addEventListener('pointerdown', () => { keyboardEditing = false; finishMotion(rows.get(system.id)); });
@@ -82,45 +108,60 @@ for (const system of systems) {
     keyboardEditing = false;
   });
   $('#systems').append(row);
-  rows.set(system.id, { row, input, output: row.querySelector('output'), displayed: 0, target: undefined, frame: null });
+  const record = {row, input, valueNode:row.querySelector('.readout-value'), handle:row.querySelector('.visual-handle'), fill:row.querySelector('.track-fill'), path:row.querySelector('.handle-path'), displayed:0, target:undefined, percent:undefined, travelWidth:0, motion:null, animations:[]};
+  rows.set(system.id, record);
+  pathRecords.set(record.path, record);
+  sizeObserver.observe(record.path);
 }
 function feedback(message, error = false) {
   $('#feedback').textContent = message;
   $('#feedback').className = error ? 'error-banner' : 'sr-only';
 }
+const consolePanel = $('.console');
+const modeSwitch = $('#mode-switch');
+const powerLabel = $('#power-label');
+const coolantLabel = $('#coolant-label');
+const resetButton = $('#reset');
+const scaleTicks = [...document.querySelectorAll('.scale span')];
 function render() {
-  const { mode, levels } = controller;
-  const switching = renderedMode !== null && renderedMode !== mode;
-  const animate = switching || animateNextRender;
+  const {mode, levels} = controller;
+  const modeChanged = renderedMode !== mode;
+  const animate = (renderedMode !== null && modeChanged) || animateNextRender;
   animateNextRender = false;
   const allocation = mode === 'coolant' ? getCoolantAllocation(levels.coolant) : null;
   const scaleMax = allocation ? allocation.scaleMax : 300;
-  document.querySelectorAll('.scale span').forEach((tick, index) => {
-    tick.textContent = Math.round(scaleMax * index / 3) + '%';
+  scaleTicks.forEach((tick,index) => {
+    const text = Math.round(scaleMax*index/3)+'%';
+    if (tick.textContent !== text) tick.textContent = text;
   });
-  $('.console').dataset.mode = mode;
-  $('#mode-switch').setAttribute('aria-checked', String(mode === 'coolant'));
-  $('#power-label').classList.toggle('selected', mode === 'power');
-  $('#coolant-label').classList.toggle('selected', mode === 'coolant');
-  for (const {id, label} of systems) {
+  if (modeChanged) {
+    consolePanel.dataset.mode = mode;
+    modeSwitch.setAttribute('aria-checked', String(mode === 'coolant'));
+    powerLabel.classList.toggle('selected', mode === 'power');
+    coolantLabel.classList.toggle('selected', mode === 'coolant');
+  }
+  for (const {id,label} of systems) {
     const record = rows.get(id);
-    const {row, input, output} = record;
+    const {row,input,valueNode} = record;
     const value = levels[mode][id];
-    input.value = value;
-    input.disabled = false;
-    input.setAttribute('aria-label', `${label} ${mode}`);
-    const percent = allocation ? Math.round(allocation.shares[id]) : value;
-    input.setAttribute('aria-valuetext', allocation ? percent + ' percent of coolant' : percent + ' percent power');
-    output.innerHTML = percent + '<small>%</small>';
     const changed = record.target !== value;
+    const percent = allocation ? Math.round(allocation.shares[id]) : value;
+    if (changed || modeChanged) input.value = value;
+    if (record.target === undefined) input.disabled = false;
+    if (modeChanged) input.setAttribute('aria-label', label+' '+mode);
+    if (record.percent !== percent || modeChanged) {
+      valueNode.textContent = percent;
+      input.setAttribute('aria-valuetext', percent+(allocation ? ' percent of coolant' : ' percent power'));
+      record.percent = percent;
+    }
     record.target = value;
-    if (animate) animatePosition(record, value);
+    if (animate) animatePosition(record,value);
     else if (changed || renderedMode === null) finishMotion(record);
-    row.classList.toggle('overdrive', mode === 'power' && value > 100);
+    if (changed || modeChanged) row.classList.toggle('overdrive', mode === 'power' && value>100);
   }
   renderedMode = mode;
-  $('#reset').disabled = false;
-  $('#mode-switch').disabled = false;
+  resetButton.disabled = false;
+  modeSwitch.disabled = false;
 }
 async function bundledConfig() {
   const response = await fetch('./config.json', {cache: 'no-store'});

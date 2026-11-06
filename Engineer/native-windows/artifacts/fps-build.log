@@ -1,0 +1,26 @@
+  Determining projects to restore...
+  Restored C:\Users\Cheyenne\Documents\ChatGPT\Epsilon Controller\native-windows\Epsilon.Core\Epsilon.Core.csproj (in 200 ms).
+  Restored C:\Users\Cheyenne\Documents\ChatGPT\Epsilon Controller\native-windows\Epsilon.Native\Epsilon.Native.csproj (in 215 ms).
+  Epsilon.Core -> C:\Users\Cheyenne\Documents\ChatGPT\Epsilon Controller\native-windows\Epsilon.Core\bin\Release\net10.0\Epsilon.Core.dll
+  Epsilon.Native -> C:\Users\Cheyenne\Documents\ChatGPT\Epsilon Controller\native-windows\Epsilon.Native\bin\Release\net10.0-windows\Epsilon Engineering.dll
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:03.35
+  Determining projects to restore...
+  All projects are up-to-date for restore.
+PASS snap boundaries and priority exhaustively, every integer 0–300
+PASS coolant examples, precision, capped ruler and unchanged weights
+PASS configuration invalid forms, paths, version, ship name, duplicate keys
+PASS profile preservation and active-only reset with exact unsnapped defaults
+PASS adapter snapshots immutable, complete and distinguish weights from shares
+PASS motion timing, true overshoot, continuity and clamped fill
+PASS: 6 groups; 5815 assertions.
+  Determining projects to restore...
+  Restored C:\Users\Cheyenne\Documents\ChatGPT\Epsilon Controller\native-windows\Epsilon.Core\Epsilon.Core.csproj (in 405 ms).
+  Restored C:\Users\Cheyenne\Documents\ChatGPT\Epsilon Controller\native-windows\Epsilon.Native\Epsilon.Native.csproj (in 417 ms).
+  Epsilon.Core -> C:\Users\Cheyenne\Documents\ChatGPT\Epsilon Controller\native-windows\Epsilon.Core\bin\Release\net10.0\Epsilon.Core.dll
+  Epsilon.Native -> C:\Users\Cheyenne\Documents\ChatGPT\Epsilon Controller\native-windows\Epsilon.Native\bin\Release\net10.0-windows\win-x64\Epsilon Engineering.dll
+  Epsilon.Native -> C:\Users\Cheyenne\Documents\ChatGPT\Epsilon Controller\native-windows\dist\Epsilon-Engineering-win-x64\

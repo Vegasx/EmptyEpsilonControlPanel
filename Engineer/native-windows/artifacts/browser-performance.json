@@ -1,0 +1,142 @@
+{
+  "conditions": {
+    "widthCss": 912,
+    "heightCss": 1312,
+    "devicePixelRatio": 2,
+    "screenWidth": 912,
+    "screenHeight": 1368,
+    "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/157.0.0.0 Safari/537.36",
+    "reducedMotion": false
+  },
+  "logicalProcessors": 8,
+  "cpuModel": "Intel(R) Core(TM) i7-1065G7 CPU @ 1.30GHz",
+  "idle": {
+    "phase": "idle",
+    "elapsedSeconds": 10.0059603,
+    "cpuSeconds": 0.06330999999999953,
+    "cpuPercentOfMachine": 0.079090359772864,
+    "cpuPercentOfOneLogicalCore": 0.632722878182912,
+    "workingSetMiB": 514.68359375,
+    "privateMiB": 256.890625,
+    "frames": null,
+    "processes": [
+      {
+        "id": 4456,
+        "type": "browser"
+      },
+      {
+        "id": 15804,
+        "type": "renderer"
+      },
+      {
+        "id": 12952,
+        "type": "renderer"
+      },
+      {
+        "id": 4960,
+        "type": "renderer"
+      },
+      {
+        "id": 13768,
+        "type": "GPU"
+      },
+      {
+        "id": 17372,
+        "type": "network.mojom.NetworkService"
+      },
+      {
+        "id": 5632,
+        "type": "storage.mojom.StorageService"
+      }
+    ]
+  },
+  "rapid": {
+    "phase": "rapid-switch-10Hz",
+    "elapsedSeconds": 20.0063123,
+    "cpuSeconds": 18.317994000000002,
+    "cpuPercentOfMachine": 11.445133994034473,
+    "cpuPercentOfOneLogicalCore": 91.56107195227578,
+    "workingSetMiB": 605.87109375,
+    "privateMiB": 336.09765625,
+    "frames": {
+      "switches": 200,
+      "resets": 28,
+      "count": 1199,
+      "wallCallbackMedianMs": 16.699999928474426,
+      "wallCallbackP95Ms": 17.300000071525574,
+      "wallCallbackP99Ms": 18.200000047683716,
+      "wallCallbackMaxMs": 19.399999976158142
+    },
+    "processes": [
+      {
+        "id": 4456,
+        "type": "browser"
+      },
+      {
+        "id": 15804,
+        "type": "renderer"
+      },
+      {
+        "id": 12952,
+        "type": "renderer"
+      },
+      {
+        "id": 4960,
+        "type": "renderer"
+      },
+      {
+        "id": 13768,
+        "type": "GPU"
+      },
+      {
+        "id": 17372,
+        "type": "network.mojom.NetworkService"
+      },
+      {
+        "id": 5632,
+        "type": "storage.mojom.StorageService"
+      }
+    ]
+  },
+  "recovery": {
+    "phase": "idle",
+    "elapsedSeconds": 10.009013399999997,
+    "cpuSeconds": 0.25803400000000565,
+    "cpuPercentOfMachine": 0.3222520413450612,
+    "cpuPercentOfOneLogicalCore": 2.5780163307604895,
+    "workingSetMiB": 560.16015625,
+    "privateMiB": 288.734375,
+    "frames": null,
+    "processes": [
+      {
+        "id": 4456,
+        "type": "browser"
+      },
+      {
+        "id": 15804,
+        "type": "renderer"
+      },
+      {
+        "id": 12952,
+        "type": "renderer"
+      },
+      {
+        "id": 4960,
+        "type": "renderer"
+      },
+      {
+        "id": 13768,
+        "type": "GPU"
+      },
+      {
+        "id": 17372,
+        "type": "network.mojom.NetworkService"
+      },
+      {
+        "id": 5632,
+        "type": "storage.mojom.StorageService"
+      }
+    ]
+  },
+  "note": "Headful installed Chrome with isolated profile, same unchanged browser source/config; CDP process CPU sums browser/renderer/GPU/utility. Working set sums shared pages more than once. Node static server and benchmark harness excluded. rAF wall callback timing is not display-present timing."
+}

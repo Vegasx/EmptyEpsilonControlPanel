@@ -24,7 +24,7 @@ h1{font-size:clamp(36px,4.9vw,72px);line-height:1;letter-spacing:-1px;margin:0}
 .system-name label{display:block;font-size:clamp(20px,2.25vw,32px);line-height:1.15;text-transform:uppercase;letter-spacing:-.4px;cursor:pointer}
 .range-shell{position:relative;height:64px;display:flex;align-items:center}
 .track{position:absolute;left:28px;right:28px;height:13px;background:var(--rail);transition:background-color 250ms linear;border-radius:2px;box-shadow:inset 0 2px 3px #0008,0 1px #fff5;pointer-events:none}
-.track-fill{height:100%;width:var(--level);background:var(--accent);border-radius:2px;transition:background-color 250ms linear}
+.track-fill{height:100%;width:100%;transform:scaleX(0);transform-origin:left center;background:var(--accent);border-radius:2px;transition:background-color 250ms linear}
 .track:before{content:'';position:absolute;inset:-23px 0;background:linear-gradient(to right,transparent calc(33.333% - .5px),#6f563840 calc(33.333% - .5px),#6f563840 calc(33.333% + .5px),transparent calc(33.333% + .5px),transparent calc(66.666% - .5px),#6f563840 calc(66.666% - .5px),#6f563840 calc(66.666% + .5px),transparent calc(66.666% + .5px));border-left:1px solid #6f563840;border-right:1px solid #6f563840}
 input[type=range]{appearance:none;-webkit-appearance:none;position:relative;z-index:1;width:100%;height:64px;margin:0;background:transparent;cursor:ew-resize;touch-action:none;border-radius:3px}
 input[type=range]::-webkit-slider-runnable-track{height:56px;background:transparent}
@@ -129,7 +129,7 @@ input[type=range]::-moz-range-thumb{height:var(--handle);width:var(--handle)}
 /* Decorative handle moves at sub-pixel precision; native range retains touch,
    keyboard and accessibility behavior and always contains the real setting. */
 .handle-path{position:absolute;left:calc(var(--handle) / 2);right:calc(var(--handle) / 2);top:50%;height:0;z-index:2;pointer-events:none}
-.visual-handle{position:absolute;left:var(--handle-level,var(--level,0%));top:0;width:var(--handle);height:var(--handle);transform:translate(-50%,-50%);background:url('./assets/slider-candidates/02-brass-grip.png') center/contain no-repeat;pointer-events:none}
+.visual-handle{position:absolute;left:0;top:0;width:var(--handle);height:var(--handle);transform:translate3d(0,-50%,0) translateX(-50%);background:url('./assets/slider-candidates/02-brass-grip.png') center/contain no-repeat;pointer-events:none}
 .readout,.mode-label{transition:color 250ms linear}
 @media(prefers-reduced-motion:reduce){.track,.track-fill,.readout,.mode-label{transition:none}}
 
@@ -137,3 +137,5 @@ input[type=range]::-moz-range-thumb{height:var(--handle);width:var(--handle)}
 .reset{color:var(--accent);transition:color 250ms linear}
 .reset-icon{background-color:var(--accent);background-image:linear-gradient(145deg,#ffffff55,#00000022);border-color:var(--rail);box-shadow:0 3px 4px #4a38275c,inset 0 0 0 2px #ffffff55;transition:background-color 250ms linear,border-color 250ms linear}
 @media(prefers-reduced-motion:reduce){.reset,.reset-icon{transition:none}}
+
+.visual-handle,.track-fill{will-change:transform}

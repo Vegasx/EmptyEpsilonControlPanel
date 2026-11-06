@@ -1,0 +1,70 @@
+{
+  "Checks": [
+    "temporary FPS counter unsubscribes at startup idle",
+    "fullscreen startup",
+    "fullscreen restores normal window",
+    "all 8 controls visible: request 1280x800, actual 1280x800",
+    "all 8 controls visible: request 1024x768, actual 1024x768",
+    "all 8 controls visible: request 800x600, actual 800x600",
+    "all 8 controls visible: request 1920x1080, actual 1383x927",
+    "all 8 controls visible: request 768x1024, actual 768x927",
+    "interrupted profile animation starts from visible position",
+    "animation lands exactly",
+    "120 rapid toggles with reset settle exactly",
+    "FPS counter reports a finite positive rate during repeated toggles",
+    "FPS counter detaches after interaction settles",
+    "touch track press sets underlying position immediately",
+    "touch drag remains unsnapped",
+    "touch release applies strong snapping",
+    "keyboard escapes major snap stop by one-point steps",
+    "keyboard snaps only on focus loss",
+    "reduced-animation slider immediately reaches target",
+    "reset preserves inactive bank",
+    "F11 fullscreen re-entry"
+  ],
+  "Layouts": [
+    {
+      "RequestedWidth": 1280,
+      "RequestedHeight": 800,
+      "ActualWidth": 1280,
+      "ActualHeight": 800,
+      "MinimumSliderHeight": 62.5
+    },
+    {
+      "RequestedWidth": 1024,
+      "RequestedHeight": 768,
+      "ActualWidth": 1024,
+      "ActualHeight": 768,
+      "MinimumSliderHeight": 60.5
+    },
+    {
+      "RequestedWidth": 800,
+      "RequestedHeight": 600,
+      "ActualWidth": 800,
+      "ActualHeight": 600,
+      "MinimumSliderHeight": 46
+    },
+    {
+      "RequestedWidth": 1920,
+      "RequestedHeight": 1080,
+      "ActualWidth": 1383,
+      "ActualHeight": 927,
+      "MinimumSliderHeight": 73
+    },
+    {
+      "RequestedWidth": 768,
+      "RequestedHeight": 1024,
+      "ActualWidth": 768,
+      "ActualHeight": 927,
+      "MinimumSliderHeight": 78
+    }
+  ],
+  "Dpi": 192,
+  "NotVerified": [
+    "physical touch hardware",
+    "real Windows display scale changes",
+    "high-refresh presentation timestamps",
+    "mouse capture through OS input (separate manual UI check)",
+    "OS Alt\u002BF4 shortcut"
+  ]
+}

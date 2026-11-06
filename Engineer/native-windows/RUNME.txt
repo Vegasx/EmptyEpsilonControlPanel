@@ -1,0 +1,21 @@
+Epsilon Engineering - native Windows x64
+
+Run "Epsilon Engineering.exe". This folder includes its .NET runtime.
+Keep all files together when copying the application to another computer.
+No installer, Chrome, Node.js or separate .NET installation is needed.
+
+Starts fullscreen. F11 toggles an ordinary resizable window; Alt+F4 closes.
+Temporary FPS readout at top right: active WPF callback rate; FPS — when idle.
+It is a UI timing diagnostic, not GPU/display-present FPS. No menus or toggles.
+Click/touch a track or drag the Brass Grip. Tab selects controls.
+Arrows adjust by one; Page Up/Down by ten; Home/End go to the endpoints.
+Pointer/touch adjustments snap on release; keyboard adjustments snap on focus loss.
+Reset Levels affects only the selected Power or Coolant profile.
+
+Edit config.json in this folder, then restart. Defaults are never snapped.
+Coolant positions are raw weights; displayed values are shares of one coolant pool.
+This is a local practice controller. No game connection is implemented.
+
+Russo One font copyright and SIL Open Font License: FONT-LICENSE.txt.
+Source, reproducible scripts, tests and performance report: native-windows folder
+in the Epsilon Controller project.
