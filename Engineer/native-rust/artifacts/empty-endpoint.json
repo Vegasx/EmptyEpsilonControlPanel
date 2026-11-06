@@ -1,0 +1,4 @@
+{
+  "error": "Endpoint must be HTTP/HTTPS without credentials or fragment",
+  "passed": false
+}

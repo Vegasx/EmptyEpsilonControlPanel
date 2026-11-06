@@ -1,0 +1,5632 @@
+{
+  "generated": "2026-11-06T02:53:58.037Z",
+  "eventsLost": 0,
+  "taskSource": "run-20261105-193851",
+  "conditions": [
+    {
+      "implementation": "native",
+      "timestamp": "2026-11-06T02:45:27.9730329+00:00",
+      "width": 1000,
+      "height": 700,
+      "deviceScaleFactor": 1,
+      "reducedMotion": false,
+      "renderTier": 2,
+      "logicalProcessors": 16,
+      "runtime": "10.0.14",
+      "overlayEnabled": false,
+      "interactionWarmup": true
+    },
+    {
+      "implementation": "browser",
+      "timestamp": "2026-11-06T02:46:20.619Z",
+      "width": 1000,
+      "height": 700,
+      "deviceScaleFactor": 1,
+      "reducedMotion": false,
+      "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/132.0.0.0 Safari/537.36",
+      "logicalProcessors": 16,
+      "detailedTrace": false,
+      "interactionWarmup": true
+    },
+    {
+      "implementation": "browser",
+      "timestamp": "2026-11-06T02:47:13.311Z",
+      "width": 1000,
+      "height": 700,
+      "deviceScaleFactor": 1,
+      "reducedMotion": false,
+      "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/132.0.0.0 Safari/537.36",
+      "logicalProcessors": 16,
+      "detailedTrace": false,
+      "interactionWarmup": true
+    },
+    {
+      "implementation": "native",
+      "timestamp": "2026-11-06T02:48:05.8094839+00:00",
+      "width": 1000,
+      "height": 700,
+      "deviceScaleFactor": 1,
+      "reducedMotion": false,
+      "renderTier": 2,
+      "logicalProcessors": 16,
+      "runtime": "10.0.14",
+      "overlayEnabled": false,
+      "interactionWarmup": true
+    }
+  ],
+  "gpuConditions": [
+    {
+      "implementation": "native",
+      "timestamp": "2026-11-06T02:49:37.0790688+00:00",
+      "width": 1000,
+      "height": 700,
+      "deviceScaleFactor": 1,
+      "reducedMotion": false,
+      "renderTier": 2,
+      "logicalProcessors": 16,
+      "runtime": "10.0.14",
+      "overlayEnabled": false,
+      "interactionWarmup": true
+    },
+    {
+      "implementation": "browser",
+      "timestamp": "2026-11-06T02:50:27.735Z",
+      "width": 1000,
+      "height": 700,
+      "deviceScaleFactor": 1,
+      "reducedMotion": false,
+      "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/132.0.0.0 Safari/537.36",
+      "logicalProcessors": 16,
+      "detailedTrace": false,
+      "interactionWarmup": true
+    }
+  ],
+  "phases": {
+    "idle": {
+      "native": {
+        "trials": 2,
+        "cpuMs": 0,
+        "elapsedMs": 5008.39645,
+        "cpuPercent": 0,
+        "sampleCount": 1,
+        "sampledCpuMs": 0.5,
+        "stackCoverage": 1,
+        "gpuTrials": 1,
+        "gpuCoverageMs": 2013,
+        "gpuEngineMs": 0,
+        "actions": 0,
+        "resets": 0,
+        "cpu": [
+          {
+            "group": "Windows and other modules",
+            "branch": "Native WPF",
+            "name": "ntoskrnl",
+            "detail": "ntoskrnl",
+            "value": 0.5,
+            "samples": 1
+          }
+        ],
+        "gpu": [],
+        "tasks": []
+      },
+      "browser": {
+        "trials": 2,
+        "cpuMs": 6.593000000000293,
+        "elapsedMs": 5013.74005,
+        "cpuPercent": 0.008218665026321384,
+        "sampleCount": 16,
+        "sampledCpuMs": 8,
+        "stackCoverage": 1,
+        "gpuTrials": 1,
+        "gpuCoverageMs": 1006,
+        "gpuEngineMs": 0,
+        "actions": 0,
+        "resets": 0,
+        "cpu": [
+          {
+            "group": "Windows and other modules",
+            "branch": "browser",
+            "name": "ntoskrnl",
+            "detail": "ntoskrnl",
+            "value": 3.5,
+            "samples": 4
+          },
+          {
+            "group": "Chrome engine",
+            "branch": "browser",
+            "name": "chrome",
+            "detail": "chrome",
+            "value": 1,
+            "samples": 2
+          },
+          {
+            "group": "Windows and other modules",
+            "branch": "browser",
+            "name": "ntdll",
+            "detail": "ntdll",
+            "value": 1,
+            "samples": 2
+          },
+          {
+            "group": "Chrome engine",
+            "branch": "renderer",
+            "name": "chrome",
+            "detail": "chrome",
+            "value": 0.5,
+            "samples": 1
+          },
+          {
+            "group": "Windows and other modules",
+            "branch": "browser",
+            "name": "win32kbase.sys",
+            "detail": "win32kbase.sys",
+            "value": 0.5,
+            "samples": 1
+          },
+          {
+            "group": "Windows and other modules",
+            "branch": "browser",
+            "name": "win32k.sys",
+            "detail": "win32k.sys",
+            "value": 0.5,
+            "samples": 1
+          },
+          {
+            "group": "Windows and other modules",
+            "branch": "browser",
+            "name": "combase",
+            "detail": "combase",
+            "value": 0.5,
+            "samples": 1
+          },
+          {
+            "group": "Windows and other modules",
+            "branch": "browser",
+            "name": "ntfs.sys",
+            "detail": "ntfs.sys",
+            "value": 0.5,
+            "samples": 1
+          }
+        ],
+        "gpu": [],
+        "tasks": [
+          {
+            "group": "Other renderer work",
+            "name": "EventHandler::handleMouseMoveEvent",
+            "value": 2.700499999999982
+          },
+          {
+            "group": "Other renderer work",
+            "name": "ProxyMain::BeginMainFrame",
+            "value": 2.0229999999999846
+          },
+          {
+            "group": "Other renderer work",
+            "name": "ThreadControllerImpl::RunTask",
+            "value": 1.9359999999999853
+          },
+          {
+            "group": "Other renderer work",
+            "name": "HitTest",
+            "value": 1.657999999999999
+          },
+          {
+            "group": "Other renderer work",
+            "name": "RunTask",
+            "value": 1.1209999999999885
+          },
+          {
+            "group": "Other renderer work",
+            "name": "Commit",
+            "value": 0.9459999999999955
+          },
+          {
+            "group": "JavaScript and event handling",
+            "name": "FunctionCall",
+            "value": 0.7235000000000004
+          },
+          {
+            "group": "Other renderer work",
+            "name": "AsyncTask Run",
+            "value": 0.5400000000000003
+          },
+          {
+            "group": "JavaScript and event handling",
+            "name": "EventDispatch",
+            "value": 0.36750000000000027
+          },
+          {
+            "group": "Other renderer work",
+            "name": "MainFrameAborted",
+            "value": 0.31900000000000023
+          },
+          {
+            "group": "Other renderer work",
+            "name": "WebFrameWidgetImpl::UpdateLifecycle",
+            "value": 0.2980000000000002
+          },
+          {
+            "group": "Paint and composition preparation",
+            "name": "PrePaint",
+            "value": 0.29250000000000015
+          },
+          {
+            "group": "Paint and composition preparation",
+            "name": "LocalFrameView::RunCompositingInputsLifecyclePhase",
+            "value": 0.2470000000000002
+          },
+          {
+            "group": "Style and layout",
+            "name": "LocalFrameView::RunStyleAndLayoutLifecyclePhases",
+            "value": 0.24050000000000019
+          },
+          {
+            "group": "Paint and composition preparation",
+            "name": "LayerTreeHost::WaitForCommitCompletion",
+            "value": 0.20550000000000013
+          },
+          {
+            "group": "Other renderer work",
+            "name": "WebFrameWidgetImpl::BeginMainFrame",
+            "value": 0.1905000000000001
+          },
+          {
+            "group": "Paint and composition preparation",
+            "name": "LocalFrameView::RunPrePaintLifecyclePhase",
+            "value": 0.18150000000000013
+          },
+          {
+            "group": "Paint and composition preparation",
+            "name": "LocalFrameView::RunPaintLifecyclePhase",
+            "value": 0.1700000000000001
+          },
+          {
+            "group": "Other renderer work",
+            "name": "Receive mojo message",
+            "value": 0.16949999999999998
+          },
+          {
+            "group": "JavaScript and event handling",
+            "name": "BlinkScheduler_PerformMicrotaskCheckpoint",
+            "value": 0.1585000000000001
+          },
+          {
+            "group": "Other renderer work",
+            "name": "Blink.Animate.UpdateTime",
+            "value": 0.1355000000000001
+          },
+          {
+            "group": "Animation processing",
+            "name": "PageAnimator::serviceScriptedAnimations",
+            "value": 0.13000000000000006
+          },
+          {
+            "group": "Style and layout",
+            "name": "LocalFrameView::UpdateStyleAndLayout",
+            "value": 0.12200000000000008
+          },
+          {
+            "group": "Paint and composition preparation",
+            "name": "Blink.Paint.UpdateTime",
+            "value": 0.11600000000000008
+          },
+          {
+            "group": "Other renderer work",
+            "name": "LocalFrameView::NotifyResizeObservers",
+            "value": 0.10950000000000007
+          },
+          {
+            "group": "Other renderer work",
+            "name": "LocalFrameView::UpdateViewportIntersectionsForSubtree",
+            "value": 0.09150000000000007
+          },
+          {
+            "group": "Paint and composition preparation",
+            "name": "Blink.CompositingInputs.UpdateTime",
+            "value": 0.08900000000000005
+          },
+          {
+            "group": "Paint and composition preparation",
+            "name": "LocalFrameView::pushPaintArtifactToCompositor",
+            "value": 0.08550000000000006
+          },
+          {
+            "group": "Paint and composition preparation",
+            "name": "Blink.PrePaint.UpdateTime",
+            "value": 0.08400000000000005
+          },
+          {
+            "group": "Other renderer work",
+            "name": "WidgetBase::WillBeginMainFrame",
+            "value": 0.08300000000000005
+          },
+          {
+            "group": "Other renderer work",
+            "name": "LocalFrameView::RunAccessibilitySteps",
+            "value": 0.08300000000000005
+          },
+          {
+            "group": "Other renderer work",
+            "name": "TimerBase::run",
+            "value": 0.06150000000000001
+          },
+          {
+            "group": "Other renderer work",
+            "name": "EventHandler::handleMouseLeaveEvent",
+            "value": 0.06
+          },
+          {
+            "group": "Paint and composition preparation",
+            "name": "LayerTreeHost::ApplyCompositorChanges",
+            "value": 0.054000000000000034
+          },
+          {
+            "group": "Other renderer work",
+            "name": "RootScrollerController::PerformRootScrollerSelection",
+            "value": 0.05250000000000003
+          },
+          {
+            "group": "Paint and composition preparation",
+            "name": "Blink.CompositingCommit.UpdateTime",
+            "value": 0.042500000000000024
+          },
+          {
+            "group": "Other renderer work",
+            "name": "LocalFrameView::WillStartLifecycleUpdate",
+            "value": 0.037500000000000026
+          },
+          {
+            "group": "Animation processing",
+            "name": "AnimationTimeline::serviceAnimations",
+            "value": 0.03200000000000002
+          },
+          {
+            "group": "Style and layout",
+            "name": "UpdateLayoutTree",
+            "value": 0.028999999999999998
+          },
+          {
+            "group": "Other renderer work",
+            "name": "MouseEventManager::handleMouseDraggedEvent",
+            "value": 0.027000000000000017
+          },
+          {
+            "group": "Other renderer work",
+            "name": "CullRectUpdate",
+            "value": 0.02600000000000001
+          },
+          {
+            "group": "Animation processing",
+            "name": "AnimationHost::TickAnimations",
+            "value": 0.025500000000000016
+          },
+          {
+            "group": "Other renderer work",
+            "name": "LocalFrameView::UpdateLifecyclePhases - start of lifecycle tasks",
+            "value": 0.023000000000000013
+          },
+          {
+            "group": "Other renderer work",
+            "name": "LocalFrameView::DidFinishLifecycleUpdate",
+            "value": 0.022500000000000013
+          },
+          {
+            "group": "Other renderer work",
+            "name": "Blink.IntersectionObservation.UpdateTime",
+            "value": 0.020000000000000004
+          },
+          {
+            "group": "Other renderer work",
+            "name": "SimpleWatcher::OnHandleReady",
+            "value": 0.0175
+          },
+          {
+            "group": "Paint and composition preparation",
+            "name": "Layerize",
+            "value": 0.013000000000000003
+          },
+          {
+            "group": "Other renderer work",
+            "name": "Blink.Accessibility.UpdateTime",
+            "value": 0.013000000000000003
+          },
+          {
+            "group": "Other renderer work",
+            "name": "OverlayInterstitialAdDetector::MaybeFireDetection",
+            "value": 0.011
+          },
+          {
+            "group": "Style and layout",
+            "name": "LayoutView::commitPendingSelection",
+            "value": 0.010500000000000002
+          },
+          {
+            "group": "Style and layout",
+            "name": "Document::updateStyle",
+            "value": 0.010499999999999999
+          },
+          {
+            "group": "Paint and composition preparation",
+            "name": "LayerTreeHost::DoUpdateLayers",
+            "value": 0.010000000000000002
+          },
+          {
+            "group": "JavaScript and event handling",
+            "name": "TimerFire",
+            "value": 0.009999999999999998
+          },
+          {
+            "group": "Other renderer work",
+            "name": "UpdateLayer",
+            "value": 0.0075
+          },
+          {
+            "group": "Style and layout",
+            "name": "StyleEngine::updateActiveStyleSheets",
+            "value": 0.0075
+          },
+          {
+            "group": "Style and layout",
+            "name": "Document::UpdateStyleAndLayout",
+            "value": 0.006500000000000002
+          },
+          {
+            "group": "Other renderer work",
+            "name": "StickyAdDetector::MaybeFireDetection",
+            "value": 0.006
+          },
+          {
+            "group": "Style and layout",
+            "name": "Blink.ForcedStyleAndLayout.UpdateTime",
+            "value": 0.004
+          },
+          {
+            "group": "Style and layout",
+            "name": "Blink.Style.UpdateTime",
+            "value": 0.0035
+          },
+          {
+            "group": "Other renderer work",
+            "name": "Blink.UpdateViewportIntersection.UpdateTime",
+            "value": 0.0025
+          },
+          {
+            "group": "Other renderer work",
+            "name": "ProxyMain::BeginMainFrame::commit",
+            "value": 0.0025
+          },
+          {
+            "group": "Other renderer work",
+            "name": "AsyncTask Scheduled",
+            "value": 0.0015
+          },
+          {
+            "group": "Paint and composition preparation",
+            "name": "WidgetBase::DidCommitAndDrawCompositorFrame",
+            "value": 0.001
+          },
+          {
+            "group": "Style and layout",
+            "name": "Document::updateActiveStyle",
+            "value": 0.001
+          }
+        ]
+      }
+    },
+    "switching": {
+      "native": {
+        "trials": 2,
+        "cpuMs": 1523.4375,
+        "elapsedMs": 11999.4248,
+        "cpuPercent": 0.7934950661135023,
+        "sampleCount": 2933,
+        "sampledCpuMs": 1466.5,
+        "stackCoverage": 1,
+        "gpuTrials": 1,
+        "gpuCoverageMs": 5046,
+        "gpuEngineMs": 49.9727148065046,
+        "actions": 120,
+        "resets": 17,
+        "cpu": [
+          {
+            "group": "Graphics and driver CPU",
+            "branch": "Native WPF",
+            "name": "wpfgfx_cor3",
+            "detail": "wpfgfx_cor3",
+            "value": 544,
+            "samples": 439
+          },
+          {
+            "group": "Windows and other modules",
+            "branch": "Native WPF",
+            "name": "ntoskrnl",
+            "detail": "ntoskrnl",
+            "value": 138,
+            "samples": 100
+          },
+          {
+            "group": "Windows and other modules",
+            "branch": "Native WPF",
+            "name": "ntdll",
+            "detail": "ntdll",
+            "value": 130.5,
+            "samples": 85
+          },
+          {
+            "group": "Graphics and driver CPU",
+            "branch": "Native WPF",
+            "name": "nvd3dumx",
+            "detail": "nvd3dumx",
+            "value": 130,
+            "samples": 89
+          },
+          {
+            "group": "Windows and other modules",
+            "branch": "Native WPF",
+            "name": "win32kbase.sys",
+            "detail": "win32kbase.sys",
+            "value": 47,
+            "samples": 38
+          },
+          {
+            "group": "Runtime and libraries",
+            "branch": "Native WPF",
+            "name": "clrjit",
+            "detail": "clrjit",
+            "value": 40.5,
+            "samples": 49
+          },
+          {
+            "group": "Unresolved",
+            "branch": "Native WPF",
+            "name": "Unresolved / JIT code",
+            "detail": "Unresolved / JIT code",
+            "value": 34.5,
+            "samples": 31
+          },
+          {
+            "group": "Runtime and libraries",
+            "branch": "Native WPF",
+            "name": "coreclr",
+            "detail": "coreclr",
+            "value": 33,
+            "samples": 30
+          },
+          {
+            "group": "Graphics and driver CPU",
+            "branch": "Native WPF",
+            "name": "nvlddmkm.sys",
+            "detail": "nvlddmkm.sys",
+            "value": 32.5,
+            "samples": 21
+          },
+          {
+            "group": "Graphics and driver CPU",
+            "branch": "Native WPF",
+            "name": "d3d9",
+            "detail": "d3d9",
+            "value": 26,
+            "samples": 21
+          },
+          {
+            "group": "WPF UI and layout",
+            "branch": "Native WPF",
+            "name": "presentationcore.il",
+            "detail": "System.Windows.Media.Animation.ClockGroup.ComputeTreeState()",
+            "value": 24,
+            "samples": 24
+          },
+          {
+            "group": "Graphics and driver CPU",
+            "branch": "Native WPF",
+            "name": "dwrite",
+            "detail": "dwrite",
+            "value": 23,
+            "samples": 24
+          },
+          {
+            "group": "Windows and other modules",
+            "branch": "Native WPF",
+            "name": "win32kfull.sys",
+            "detail": "win32kfull.sys",
+            "value": 18.5,
+            "samples": 17
+          },
+          {
+            "group": "Windows and other modules",
+            "branch": "Native WPF",
+            "name": "dxgkrnl.sys",
+            "detail": "dxgkrnl.sys",
+            "value": 14.5,
+            "samples": 15
+          },
+          {
+            "group": "WPF UI and layout",
+            "branch": "Native WPF",
+            "name": "presentationcore.il",
+            "detail": "System.Windows.Media.Animation.ClockGroup.ComputeTreeStateRoot()",
+            "value": 12,
+            "samples": 16
+          },
+          {
+            "group": "Runtime and libraries",
+            "branch": "Native WPF",
+            "name": "ucrtbase",
+            "detail": "ucrtbase",
+            "value": 9.5,
+            "samples": 9
+          },
+          {
+            "group": "Windows and other modules",
+            "branch": "Native WPF",
+            "name": "dxgmms2.sys",
+            "detail": "dxgmms2.sys",
+            "value": 9.5,
+            "samples": 4
+          },
+          {
+            "group": "WPF UI and layout",
+            "branch": "Native WPF",
+            "name": "windowsbase.il",
+            "detail": "System.Windows.DependencyObject.LookupEntry(int32)",
+            "value": 8.5,
+            "samples": 8
+          },
+          {
+            "group": "WPF UI and layout",
+            "branch": "Native WPF",
+            "name": "windowsbase.il",
+            "detail": "System.Windows.Freezable.GetChangeHandlersAndInvalidateSubProperties(class EventStorage&)",
+            "value": 8.5,
+            "samples": 7
+          },
+          {
+            "group": "Windows and other modules",
+            "branch": "Native WPF",
+            "name": "msvcrt",
+            "detail": "msvcrt",
+            "value": 6.5,
+            "samples": 7
+          },
+          {
+            "group": "WPF UI and layout",
+            "branch": "Native WPF",
+            "name": "presentationnative_cor3",
+            "detail": "presentationnative_cor3",
+            "value": 6.5,
+            "samples": 7
+          },
+          {
+            "group": "Windows and other modules",
+            "branch": "Native WPF",
+            "name": "win32u",
+            "detail": "win32u",
+            "value": 5.5,
+            "samples": 4
+          },
+          {
+            "group": "Runtime and libraries",
+            "branch": "Native WPF",
+            "name": "System.Private.CoreLib.il",
+            "detail": "System.Runtime.CompilerServices.CastHelpers.IsInstanceOfClass(void*,class System.Object)",
+            "value": 5.5,
+            "samples": 11
+          },
+          {
+            "group": "WPF UI and layout",
+            "branch": "Native WPF",
+            "name": "windowsbase.il",
+            "detail": "System.Windows.DependencyObject.GetEffectiveValue(value class System.Windows.EntryIndex,class System.Windows.DependencyProperty,value class System.Windows.RequestFlags)",
+            "value": 5,
+            "samples": 4
+          },
+          {
+            "group": "WPF UI and layout",
+            "branch": "Native WPF",
+            "name": "presentationcore.il",
+            "detail": "System.Windows.UIElement.GetHitTestBounds()",
+            "value": 4.5,
+            "samples": 2
+          },
+          {
+            "group": "Runtime and libraries",
+            "branch": "Native WPF",
+            "name": "System.Private.CoreLib.il",
+            "detail": "System.Runtime.CompilerServices.CastHelpers.ChkCastClassSpecial(void*,class System.Object)",
+            "value": 4.5,
+            "samples": 9
+          },
+          {
+            "group": "Runtime and libraries",
+            "branch": "Native WPF",
+            "name": "system.private.corelib.il",
+            "detail": "System.Runtime.CompilerServices.CastHelpers.IsInstanceOfClass(void*,class System.Object)",
+            "value": 4,
+            "samples": 8
+          },
+          {
+            "group": "WPF UI and layout",
+            "branch": "Native WPF",
+            "name": "windowsbase.il",
+            "detail": "System.Windows.DependencyProperty.GetMetadata(class System.Windows.DependencyObjectType)",
+            "value": 4,
+            "samples": 5
+          },
+          {
+            "group": "Windows and other modules",
+            "branch": "Native WPF",
+            "name": "textshaping",
+            "detail": "textshaping",
+            "value": 4,
+            "samples": 5
+          },
+          {
+            "group": "Runtime and libraries",
+            "branch": "Native WPF",
+            "name": "system.private.corelib.il",
+            "detail": "System.Runtime.CompilerServices.CastHelpers.ChkCastClassSpecial(void*,class System.Object)",
+            "value": 3.5,
+            "samples": 7
+          },
+          {
+            "group": "Windows and other modules",
+            "branch": "Native WPF",
+            "name": "user32",
+            "detail": "user32",
+            "value": 3.5,
+            "samples": 4
+          },
+          {
+            "group": "WPF UI and layout",
+            "branch": "Native WPF",
+            "name": "presentationframework.il",
+            "detail": "System.Windows.FrameworkElement.ArrangeCore(value class System.Windows.Rect)",
+            "value": 3,
+            "samples": 4
+          },
+          {
+            "group": "WPF UI and layout",
+            "branch": "Native WPF",
+            "name": "presentationframework.il",
+            "detail": "System.Windows.FrameworkElement.OnPropertyChanged(value class System.Windows.DependencyPropertyChangedEventArgs)",
+            "value": 3,
+            "samples": 3
+          },
+          {
+            "group": "WPF UI and layout",
+            "branch": "Native WPF",
+            "name": "presentationcore.il",
+            "detail": "System.Windows.ContextLayoutManager.UpdateLayout()",
+            "value": 3,
+            "samples": 2
+          },
+          {
+            "group": "WPF UI and layout",
+            "branch": "Native WPF",
+            "name": "presentationcore.il",
+            "detail": "System.Windows.Media.RenderData.DrawingContextWalk(class System.Windows.Media.DrawingContextWalker)",
+            "value": 3,
+            "samples": 6
+          },
+          {
+            "group": "WPF UI and layout",
+            "branch": "Native WPF",
+            "name": "presentationcore.il",
+            "detail": "System.Windows.Media.Visual.GetDpi()",
+            "value": 2.5,
+            "samples": 4
+          },
+          {
+            "group": "WPF UI and layout",
+            "branch": "Native WPF",
+            "name": "presentationcore.il",
+            "detail": "System.Windows.Media.Visual.PrecomputeRecursive(value class System.Windows.Rect&)",
+            "value": 2.5,
+            "samples": 3
+          },
+          {
+            "group": "WPF UI and layout",
+            "branch": "Native WPF",
+            "name": "presentationcore.il",
+            "detail": "System.Windows.Media.Visual.PrecomputeContent()",
+            "value": 2.5,
+            "samples": 2
+          },
+          {
+            "group": "Windows and other modules",
+            "branch": "Native WPF",
+            "name": "kernelbase",
+            "detail": "kernelbase",
+            "value": 2.5,
+            "samples": 1
+          },
+          {
+            "group": "WPF UI and layout",
+            "branch": "Native WPF",
+            "name": "windowsbase.il",
+            "detail": "System.Windows.DependencyObject.NotifyPropertyChange(value class System.Windows.DependencyPropertyChangedEventArgs)",
+            "value": 2,
+            "samples": 4
+          },
+          {
+            "group": "WPF UI and layout",
+            "branch": "Native WPF",
+            "name": "presentationframework.il",
+            "detail": "System.Windows.FrameworkElement.MeasureCore(value class System.Windows.Size)",
+            "value": 2,
+            "samples": 3
+          },
+          {
+            "group": "WPF UI and layout",
+            "branch": "Native WPF",
+            "name": "presentationframework.il",
+            "detail": "System.Windows.StyleHelper.InvalidateDependents(class System.Windows.Style,class System.Windows.FrameworkTemplate,class System.Windows.DependencyObject,class System.Windows.DependencyProperty,value class MS.Utility.FrugalStructList`1<value class System.Windows.ChildPropertyDependent>&,bool)",
+            "value": 2,
+            "samples": 3
+          },
+          {
+            "group": "WPF UI and layout",
+            "branch": "Native WPF",
+            "name": "presentationcore.il",
+            "detail": "System.Windows.Media.TransformGroup.get_Value()",
+            "value": 2,
+            "samples": 2
+          },
+          {
+            "group": "Windows and other modules",
+            "branch": "Native WPF",
+            "name": "win32k.sys",
+            "detail": "win32k.sys",
+            "value": 2,
+            "samples": 2
+          },
+          {
+            "group": "WPF UI and layout",
+            "branch": "Native WPF",
+            "name": "presentationcore.il",
+            "detail": "System.Windows.Media.Animation.Clock.get_CurrentGlobalTime()",
+            "value": 2,
+            "samples": 2
+          },
+          {
+            "group": "WPF UI and layout",
+            "branch": "Native WPF",
+            "name": "presentationcore.il",
+            "detail": "System.Windows.Media.Animation.ColorAnimation.GetCurrentValueCore(value class System.Windows.Media.Color,value class System.Windows.Media.Color,class System.Windows.Media.Animation.AnimationClock)",
+            "value": 2,
+            "samples": 2
+          },
+          {
+            "group": "WPF UI and layout",
+            "branch": "Native WPF",
+            "name": "presentationcore.il",
+            "detail": "System.Windows.Media.Animation.Clock.ComputeEvents(value class System.Nullable`1<value class System.TimeSpan>,value class System.Windows.Media.Animation.TimeIntervalCollection)",
+            "value": 2,
+            "samples": 2
+          },
+          {
+            "group": "WPF UI and layout",
+            "branch": "Native WPF",
+            "name": "presentationcore.il",
+            "detail": "System.Windows.Media.Animation.AnimationStorage.OnCurrentTimeInvalidated(class System.Object,class System.EventArgs)",
+            "value": 2,
+            "samples": 1
+          },
+          {
+            "group": "WPF UI and layout",
+            "branch": "Native WPF",
+            "name": "presentationcore.il",
+            "detail": "System.Windows.ContextLayoutManager+LayoutQueue.Add(class System.Windows.UIElement)",
+            "value": 1.5,
+            "samples": 2
+          },
+          {
+            "group": "WPF UI and layout",
+            "branch": "Native WPF",
+            "name": "windowsbase.il",
+            "detail": "System.Windows.DependencyObject.InvalidateSubProperty(class System.Windows.DependencyProperty)",
+            "value": 1.5,
+            "samples": 2
+          },
+          {
+            "group": "WPF UI and layout",
+            "branch": "Native WPF",
+            "name": "presentationcore.il",
+            "detail": "System.Windows.Media.GlyphRun.ComputeInkBoundingBox()",
+            "value": 1.5,
+            "samples": 1
+          },
+          {
+            "group": "WPF UI and layout",
+            "branch": "Native WPF",
+            "name": "presentationframework.il",
+            "detail": "MS.Internal.FrameworkObject.get_FrameworkParent()",
+            "value": 1,
+            "samples": 2
+          },
+          {
+            "group": "WPF UI and layout",
+            "branch": "Native WPF",
+            "name": "windowsbase.il",
+            "detail": "MS.Win32.HwndWrapper.WndProc(int,int32,int,int,bool&)",
+            "value": 1,
+            "samples": 2
+          },
+          {
+            "group": "Application",
+            "branch": "Native WPF",
+            "name": "epsilon.core",
+            "detail": "Epsilon.Core.Motion.ClampedPoints(class System.Collections.Generic.IReadOnlyList`1<value class Epsilon.Core.MotionPoint>)",
+            "value": 1,
+            "samples": 2
+          },
+          {
+            "group": "WPF UI and layout",
+            "branch": "Native WPF",
+            "name": "windowsbase.il",
+            "detail": "System.Windows.Freezable.OnPropertyChanged(value class System.Windows.DependencyPropertyChangedEventArgs)",
+            "value": 1,
+            "samples": 1
+          },
+          {
+            "group": "WPF UI and layout",
+            "branch": "Native WPF",
+            "name": "presentationcore.il",
+            "detail": "System.Windows.Media.TranslateTransform.get_Value()",
+            "value": 1,
+            "samples": 1
+          },
+          {
+            "group": "Windows and other modules",
+            "branch": "Native WPF",
+            "name": "kernel32",
+            "detail": "kernel32",
+            "value": 1,
+            "samples": 1
+          },
+          {
+            "group": "WPF UI and layout",
+            "branch": "Native WPF",
+            "name": "windowsbase.il",
+            "detail": "System.Windows.DependencyObjectType.FromSystemTypeInternal(class System.Type)",
+            "value": 1,
+            "samples": 1
+          },
+          {
+            "group": "WPF UI and layout",
+            "branch": "Native WPF",
+            "name": "windowsbase.il",
+            "detail": "System.Windows.Threading.Dispatcher.RequestBackgroundProcessing()",
+            "value": 1,
+            "samples": 1
+          },
+          {
+            "group": "Application",
+            "branch": "Native WPF",
+            "name": "epsilon.core",
+            "detail": "Epsilon.Core.Rules.Allocate(class System.Collections.Generic.IReadOnlyDictionary`2<class System.String,int32>)",
+            "value": 1,
+            "samples": 1
+          },
+          {
+            "group": "WPF UI and layout",
+            "branch": "Native WPF",
+            "name": "presentationcore.il",
+            "detail": "System.Windows.Media.Animation.Clock.ComputeCurrentIteration(value class System.TimeSpan,float64,value class System.Nullable`1<value class System.TimeSpan>,value class System.TimeSpan&)",
+            "value": 1,
+            "samples": 1
+          },
+          {
+            "group": "WPF UI and layout",
+            "branch": "Native WPF",
+            "name": "presentationcore.il",
+            "detail": "System.Windows.Media.Animation.Clock.ComputeParentParameters(value class System.Nullable`1<value class System.TimeSpan>&,value class System.Nullable`1<float64>&,value class System.Windows.Media.Animation.TimeIntervalCollection&,bool)",
+            "value": 1,
+            "samples": 1
+          },
+          {
+            "group": "WPF UI and layout",
+            "branch": "Native WPF",
+            "name": "presentationcore.il",
+            "detail": "System.Windows.Media.Visual.RenderRecursive(class System.Windows.Media.RenderContext)",
+            "value": 1,
+            "samples": 1
+          },
+          {
+            "group": "WPF UI and layout",
+            "branch": "Native WPF",
+            "name": "presentationcore.il",
+            "detail": "System.Windows.Media.Animation.DoubleAnimation.GetCurrentValueCore(float64,float64,class System.Windows.Media.Animation.AnimationClock)",
+            "value": 1,
+            "samples": 1
+          },
+          {
+            "group": "WPF UI and layout",
+            "branch": "Native WPF",
+            "name": "windowsbase.il",
+            "detail": "System.Windows.EntryIndex.get_Found()",
+            "value": 1,
+            "samples": 1
+          },
+          {
+            "group": "WPF UI and layout",
+            "branch": "Native WPF",
+            "name": "windowsbase.il",
+            "detail": "MS.Win32.HwndSubclass.SubclassWndProc(int,int32,int,int)",
+            "value": 1,
+            "samples": 1
+          },
+          {
+            "group": "Windows and other modules",
+            "branch": "Native WPF",
+            "name": "ManagedModule",
+            "detail": "MS.Internal.Text.TextInterface.Font.GetFontFace()",
+            "value": 1,
+            "samples": 1
+          },
+          {
+            "group": "WPF UI and layout",
+            "branch": "Native WPF",
+            "name": "windowsbase.il",
+            "detail": "System.Windows.Freezable.CloneCoreCommon(class System.Windows.Freezable,bool,bool)",
+            "value": 1,
+            "samples": 1
+          },
+          {
+            "group": "WPF UI and layout",
+            "branch": "Native WPF",
+            "name": "presentationframework.il",
+            "detail": "System.Windows.Documents.AdornerDecorator.GetVisualChild(int32)",
+            "value": 1,
+            "samples": 1
+          },
+          {
+            "group": "WPF UI and layout",
+            "branch": "Native WPF",
+            "name": "presentationcore.il",
+            "detail": "System.Windows.Media.MediaContext.CountsToTicks(int64)",
+            "value": 1,
+            "samples": 2
+          },
+          {
+            "group": "WPF UI and layout",
+            "branch": "Native WPF",
+            "name": "presentationcore.il",
+            "detail": "System.Windows.Duration.op_Implicit(value class System.TimeSpan)",
+            "value": 1,
+            "samples": 2
+          },
+          {
+            "group": "WPF UI and layout",
+            "branch": "Native WPF",
+            "name": "presentationcore.il",
+            "detail": "System.Windows.UIElement.AddToEventRoute(class System.Windows.EventRoute,class System.Windows.RoutedEventArgs)",
+            "value": 1,
+            "samples": 2
+          },
+          {
+            "group": "WPF UI and layout",
+            "branch": "Native WPF",
+            "name": "presentationcore.il",
+            "detail": "System.Windows.Media.GlyphRun.CreateOnChannel(class Channel)",
+            "value": 1,
+            "samples": 2
+          },
+          {
+            "group": "WPF UI and layout",
+            "branch": "Native WPF",
+            "name": "windowsbase.il",
+            "detail": "System.Windows.Threading.DispatcherOperation.InvokeImpl()",
+            "value": 1,
+            "samples": 2
+          },
+          {
+            "group": "WPF UI and layout",
+            "branch": "Native WPF",
+            "name": "windowsbase.il",
+            "detail": "System.Windows.Freezable.GetEventStorage()",
+            "value": 1,
+            "samples": 2
+          },
+          {
+            "group": "WPF UI and layout",
+            "branch": "Native WPF",
+            "name": "presentationcore.il",
+            "detail": "System.Windows.UIElement.Measure(value class System.Windows.Size)",
+            "value": 1,
+            "samples": 2
+          },
+          {
+            "group": "Windows and other modules",
+            "branch": "Native WPF",
+            "name": "ManagedModule",
+            "detail": "dynamicClass.IL_STUB_PInvoke(pMT: 00007FF9E0FA5F40*,float64*,pMT: 00007FF9E0DED5B0*,pMT: 00007FF9E0DED4B8,unsigned int8*,unsigned int32,pMT: 00007FF9E0DED5B0*,float64,bool,bool,pMT: 00007FF9E10F7DD8*)",
+            "value": 1,
+            "samples": 2
+          },
+          {
+            "group": "WPF UI and layout",
+            "branch": "Native WPF",
+            "name": "presentationcore.il",
+            "detail": "System.Windows.Media.Composition.DUCE+Map.Get(class System.Object,value class ResourceHandle&)",
+            "value": 1,
+            "samples": 2
+          },
+          {
+            "group": "WPF UI and layout",
+            "branch": "Native WPF",
+            "name": "presentationcore.il",
+            "detail": "System.Windows.Media.Animation.DoubleAnimationUsingKeyFrames.GetCurrentValueCore(float64,float64,class System.Windows.Media.Animation.AnimationClock)",
+            "value": 1,
+            "samples": 2
+          },
+          {
+            "group": "WPF UI and layout",
+            "branch": "Native WPF",
+            "name": "presentationcore.il",
+            "detail": "MS.Internal.FontCache.BufferCache.ReleaseBuffer(class System.Array,int32)",
+            "value": 0.5,
+            "samples": 1
+          },
+          {
+            "group": "Runtime and libraries",
+            "branch": "Native WPF",
+            "name": "system.private.corelib.il",
+            "detail": "System.Globalization.CultureInfo.set_CurrentCulture(class System.Globalization.CultureInfo)",
+            "value": 0.5,
+            "samples": 1
+          },
+          {
+            "group": "Windows and other modules",
+            "branch": "Native WPF",
+            "name": "msctf",
+            "detail": "msctf",
+            "value": 0.5,
+            "samples": 1
+          },
+          {
+            "group": "WPF UI and layout",
+            "branch": "Native WPF",
+            "name": "windowsbase.il",
+            "detail": "System.Windows.Interop.ComponentDispatcher.get_CurrentThreadData()",
+            "value": 0.5,
+            "samples": 1
+          },
+          {
+            "group": "WPF UI and layout",
+            "branch": "Native WPF",
+            "name": "presentationcore.il",
+            "detail": "System.Windows.Media.Visual.UpdateTransform(class Channel,value class ResourceHandle,value class System.Windows.Media.VisualProxyFlags,bool)",
+            "value": 0.5,
+            "samples": 1
+          },
+          {
+            "group": "WPF UI and layout",
+            "branch": "Native WPF",
+            "name": "presentationcore.il",
+            "detail": "System.Windows.Media.EllipseGeometry.GetBoundsInternal(class System.Windows.Media.Pen,value class System.Windows.Media.Matrix,float64,value class System.Windows.Media.ToleranceType)",
+            "value": 0.5,
+            "samples": 1
+          },
+          {
+            "group": "Runtime and libraries",
+            "branch": "Native WPF",
+            "name": "system.private.corelib.il",
+            "detail": "System.Collections.Generic.GenericArraySortHelper`1[System.Int32].BinarySearch(!0[],int32,int32,!0,class System.Collections.Generic.IComparer`1<!0>)",
+            "value": 0.5,
+            "samples": 1
+          },
+          {
+            "group": "WPF UI and layout",
+            "branch": "Native WPF",
+            "name": "presentationcore.il",
+            "detail": "System.Windows.Media.BoundsDrawingContextWalker.AddTransformedBounds(value class System.Windows.Rect&)",
+            "value": 0.5,
+            "samples": 1
+          },
+          {
+            "group": "WPF UI and layout",
+            "branch": "Native WPF",
+            "name": "windowsbase.il",
+            "detail": "System.Windows.Threading.DispatcherOperation.Invoke()",
+            "value": 0.5,
+            "samples": 1
+          },
+          {
+            "group": "WPF UI and layout",
+            "branch": "Native WPF",
+            "name": "presentationcore.il",
+            "detail": "MS.Internal.SpanVector.Set(int32,int32,class System.Object,class MS.Internal.Equals,value class MS.Internal.SpanPosition)",
+            "value": 0.5,
+            "samples": 1
+          },
+          {
+            "group": "WPF UI and layout",
+            "branch": "Native WPF",
+            "name": "windowsbase",
+            "detail": "windowsbase",
+            "value": 0.5,
+            "samples": 1
+          },
+          {
+            "group": "WPF UI and layout",
+            "branch": "Native WPF",
+            "name": "presentationcore.il",
+            "detail": "System.Windows.Media.Animation.Clock..ctor(class System.Windows.Media.Animation.Timeline)",
+            "value": 0.5,
+            "samples": 1
+          },
+          {
+            "group": "Runtime and libraries",
+            "branch": "Native WPF",
+            "name": "system.private.uri.il",
+            "detail": "System.Uri.CreateThis(class System.String,bool,value class System.UriKind,value class System.UriCreationOptions&)",
+            "value": 0.5,
+            "samples": 1
+          },
+          {
+            "group": "WPF UI and layout",
+            "branch": "Native WPF",
+            "name": "presentationframework.il",
+            "detail": "System.Windows.Controls.Grid.Choose(float64,float64,float64)",
+            "value": 0.5,
+            "samples": 1
+          },
+          {
+            "group": "Runtime and libraries",
+            "branch": "Native WPF",
+            "name": "system.private.corelib.il",
+            "detail": "System.Runtime.CompilerServices.CastHelpers.StelemRef_Helper(class System.Object&,void*,class System.Object)",
+            "value": 0.5,
+            "samples": 1
+          },
+          {
+            "group": "WPF UI and layout",
+            "branch": "Native WPF",
+            "name": "windowsbase.il",
+            "detail": "System.Windows.Threading.Dispatcher.InvokeAsyncImpl(class System.Windows.Threading.DispatcherOperation,value class System.Threading.CancellationToken)",
+            "value": 0.5,
+            "samples": 1
+          },
+          {
+            "group": "Windows and other modules",
+            "branch": "Native WPF",
+            "name": "dwmapi",
+            "detail": "dwmapi",
+            "value": 0.5,
+            "samples": 1
+          },
+          {
+            "group": "Runtime and libraries",
+            "branch": "Native WPF",
+            "name": "system.collections.immutable.il",
+            "detail": "System.Collections.Frozen.FrozenDictionary.CreateFromDictionary(class System.Collections.Generic.Dictionary`2<!!0,!!1>)",
+            "value": 0.5,
+            "samples": 1
+          },
+          {
+            "group": "Runtime and libraries",
+            "branch": "Native WPF",
+            "name": "system.private.corelib.il",
+            "detail": "System.Runtime.CompilerServices.CastHelpers.ChkCastClass(void*,class System.Object)",
+            "value": 0.5,
+            "samples": 1
+          },
+          {
+            "group": "WPF UI and layout",
+            "branch": "Native WPF",
+            "name": "windowsbase.il",
+            "detail": "System.Windows.Freezable.Debug_DetectContextLeaks()",
+            "value": 0.5,
+            "samples": 1
+          },
+          {
+            "group": "WPF UI and layout",
+            "branch": "Native WPF",
+            "name": "presentationcore.il",
+            "detail": "System.Windows.Media.ScaleTransform.get_IsIdentity()",
+            "value": 0.5,
+            "samples": 1
+          },
+          {
+            "group": "WPF UI and layout",
+            "branch": "Native WPF",
+            "name": "windowsbase.il",
+            "detail": "System.Windows.DependencyObject.get_InheritanceParent()",
+            "value": 0.5,
+            "samples": 1
+          },
+          {
+            "group": "WPF UI and layout",
+            "branch": "Native WPF",
+            "name": "presentationcore.il",
+            "detail": "System.Windows.Input.InputManager.GetCurrentInputManagerImpl()",
+            "value": 0.5,
+            "samples": 1
+          },
+          {
+            "group": "Runtime and libraries",
+            "branch": "Native WPF",
+            "name": "system.private.corelib.il",
+            "detail": "System.Runtime.CompilerServices.AsyncTaskMethodBuilder`1[System.Threading.Tasks.VoidTaskResult].AwaitUnsafeOnCompleted(!!0&,class System.Runtime.CompilerServices.IAsyncStateMachineBox)",
+            "value": 0.5,
+            "samples": 1
+          },
+          {
+            "group": "WPF UI and layout",
+            "branch": "Native WPF",
+            "name": "presentationcore.il",
+            "detail": "System.Windows.Media.SolidColorBrush.ColorPropertyChanged(class System.Windows.DependencyObject,value class System.Windows.DependencyPropertyChangedEventArgs)",
+            "value": 0.5,
+            "samples": 1
+          },
+          {
+            "group": "WPF UI and layout",
+            "branch": "Native WPF",
+            "name": "presentationcore.il",
+            "detail": "System.Windows.Media.Animation.DoubleAnimationUsingKeyFrames.get_LargestTimeSpanKeyTime()",
+            "value": 0.5,
+            "samples": 1
+          },
+          {
+            "group": "Windows and other modules",
+            "branch": "Native WPF",
+            "name": "watchdog.sys",
+            "detail": "watchdog.sys",
+            "value": 0.5,
+            "samples": 1
+          },
+          {
+            "group": "WPF UI and layout",
+            "branch": "Native WPF",
+            "name": "presentationcore.il",
+            "detail": "System.Windows.Media.Transform.System.Windows.Media.Composition.DUCE.IResource.AddRefOnChannel(class Channel)",
+            "value": 0.5,
+            "samples": 1
+          },
+          {
+            "group": "Runtime and libraries",
+            "branch": "Native WPF",
+            "name": "system.private.corelib.il",
+            "detail": "System.Threading.ThreadPoolWorkQueue.Dispatch()",
+            "value": 0.5,
+            "samples": 1
+          },
+          {
+            "group": "WPF UI and layout",
+            "branch": "Native WPF",
+            "name": "presentationcore.il",
+            "detail": "System.Windows.UIElement.RoundLayoutValue(float64,float64)",
+            "value": 0.5,
+            "samples": 1
+          },
+          {
+            "group": "WPF UI and layout",
+            "branch": "Native WPF",
+            "name": "windowsbase.il",
+            "detail": "System.Windows.Freezable.FireChanged()",
+            "value": 0.5,
+            "samples": 1
+          },
+          {
+            "group": "WPF UI and layout",
+            "branch": "Native WPF",
+            "name": "presentationframework.il",
+            "detail": "System.Windows.FrameworkElement.ApplyTemplate()",
+            "value": 0.5,
+            "samples": 1
+          },
+          {
+            "group": "WPF UI and layout",
+            "branch": "Native WPF",
+            "name": "presentationcore.il",
+            "detail": "System.Windows.Media.MediaContext.Render(class System.Windows.Media.ICompositionTarget)",
+            "value": 0.5,
+            "samples": 1
+          },
+          {
+            "group": "WPF UI and layout",
+            "branch": "Native WPF",
+            "name": "windowsbase.il",
+            "detail": "MS.Utility.SixItemList`1[System.__Canon].EntryAt(int32)",
+            "value": 0.5,
+            "samples": 1
+          },
+          {
+            "group": "WPF UI and layout",
+            "branch": "Native WPF",
+            "name": "windowsbase.il",
+            "detail": "System.Windows.Freezable.get_ContextList()",
+            "value": 0.5,
+            "samples": 1
+          },
+          {
+            "group": "WPF UI and layout",
+            "branch": "Native WPF",
+            "name": "presentationcore.il",
+            "detail": "System.Windows.Media.Animation.Clock.RaiseAccumulatedEvents()",
+            "value": 0.5,
+            "samples": 1
+          },
+          {
+            "group": "WPF UI and layout",
+            "branch": "Native WPF",
+            "name": "windowsbase.il",
+            "detail": "System.Windows.DependencyObject.UpdateEffectiveValue(value class System.Windows.EntryIndex,class System.Windows.DependencyProperty,class System.Windows.PropertyMetadata,value class System.Windows.EffectiveValueEntry,value class System.Windows.EffectiveValueEntry&,bool,bool,value class System.Windows.OperationType)",
+            "value": 0.5,
+            "samples": 1
+          },
+          {
+            "group": "WPF UI and layout",
+            "branch": "Native WPF",
+            "name": "presentationframework.il",
+            "detail": "System.Windows.Controls.TextBlock.OnRender(class System.Windows.Media.DrawingContext)",
+            "value": 0.5,
+            "samples": 1
+          },
+          {
+            "group": "WPF UI and layout",
+            "branch": "Native WPF",
+            "name": "presentationcore",
+            "detail": "presentationcore",
+            "value": 0.5,
+            "samples": 1
+          },
+          {
+            "group": "WPF UI and layout",
+            "branch": "Native WPF",
+            "name": "presentationcore.il",
+            "detail": "System.Windows.Media.Visual.PropagateFlags(class System.Windows.Media.Visual,value class System.Windows.Media.VisualFlags,value class System.Windows.Media.VisualProxyFlags)",
+            "value": 0.5,
+            "samples": 1
+          },
+          {
+            "group": "WPF UI and layout",
+            "branch": "Native WPF",
+            "name": "presentationcore.il",
+            "detail": "MS.Internal.Shaping.TypefaceMap.GetShapeableText(value class System.Windows.Media.TextFormatting.CharacterBufferReference,int32,class System.Windows.Media.TextFormatting.TextRunProperties,class System.Globalization.CultureInfo,bool,class System.Collections.Generic.IList`1<class MS.Internal.TextFormatting.TextShapeableSymbols>,class MS.Internal.TextFormatting.IShapeableTextCollector,value class System.Windows.Media.TextFormattingMode)",
+            "value": 0.5,
+            "samples": 1
+          },
+          {
+            "group": "WPF UI and layout",
+            "branch": "Native WPF",
+            "name": "presentationcore.il",
+            "detail": "System.Windows.Media.Animation.ColorAnimation.ValidateAnimationFunction()",
+            "value": 0.5,
+            "samples": 1
+          },
+          {
+            "group": "Runtime and libraries",
+            "branch": "Native WPF",
+            "name": "System.Private.CoreLib.il",
+            "detail": "System.Collections.Generic.GenericArraySortHelper`1[System.__Canon].BinarySearch(!0[],int32,int32,!0,class System.Collections.Generic.IComparer`1<!0>)",
+            "value": 0.5,
+            "samples": 1
+          },
+          {
+            "group": "WPF UI and layout",
+            "branch": "Native WPF",
+            "name": "windowsbase.il",
+            "detail": "MS.Internal.CulturePreservingExecutionContext.CallbackWrapper(class System.Object)",
+            "value": 0.5,
+            "samples": 1
+          },
+          {
+            "group": "WPF UI and layout",
+            "branch": "Native WPF",
+            "name": "presentationframework.il",
+            "detail": "System.Windows.Controls.Grid.get_VisualChildrenCount()",
+            "value": 0.5,
+            "samples": 1
+          },
+          {
+            "group": "Windows and other modules",
+            "branch": "Native WPF",
+            "name": "ManagedModule",
+            "detail": "dynamicClass.IL_STUB_PInvoke(pMT: 00007FF9E0CA10A8&)",
+            "value": 0.5,
+            "samples": 1
+          },
+          {
+            "group": "WPF UI and layout",
+            "branch": "Native WPF",
+            "name": "presentationcore.il",
+            "detail": "MS.Internal.SpanVector.FindSpan(int32,value class MS.Internal.SpanPosition,value class MS.Internal.SpanPosition&)",
+            "value": 0.5,
+            "samples": 1
+          },
+          {
+            "group": "WPF UI and layout",
+            "branch": "Native WPF",
+            "name": "presentationframework.il",
+            "detail": "MS.Internal.Text.TextProperties.get_FontRenderingEmSize()",
+            "value": 0.5,
+            "samples": 1
+          },
+          {
+            "group": "WPF UI and layout",
+            "branch": "Native WPF",
+            "name": "windowsbase.il",
+            "detail": "MS.Utility.LargeSortedObjectMap.GetKeyValuePair(int32,int32&,class System.Object&)",
+            "value": 0.5,
+            "samples": 1
+          },
+          {
+            "group": "WPF UI and layout",
+            "branch": "Native WPF",
+            "name": "presentationframework.il",
+            "detail": "System.Windows.Controls.Viewbox.get_VisualChildrenCount()",
+            "value": 0.5,
+            "samples": 1
+          },
+          {
+            "group": "Runtime and libraries",
+            "branch": "Native WPF",
+            "name": "System.Private.CoreLib.il",
+            "detail": "System.Runtime.CompilerServices.VirtualDispatchHelpers.VirtualFunctionPointer(class System.Object,int,int)",
+            "value": 0.5,
+            "samples": 1
+          },
+          {
+            "group": "WPF UI and layout",
+            "branch": "Native WPF",
+            "name": "presentationcore.il",
+            "detail": "System.Windows.Media.Visual.UpdateEffect(class Channel,value class ResourceHandle,value class System.Windows.Media.VisualProxyFlags,bool)",
+            "value": 0.5,
+            "samples": 1
+          },
+          {
+            "group": "WPF UI and layout",
+            "branch": "Native WPF",
+            "name": "windowsbase.il",
+            "detail": "System.Windows.DependencyObject.RemoveSelfAsInheritanceContext(class System.Object,class System.Windows.DependencyProperty)",
+            "value": 0.5,
+            "samples": 1
+          },
+          {
+            "group": "Windows and other modules",
+            "branch": "Native WPF",
+            "name": "ManagedModule",
+            "detail": "MS.Internal.Text.TextInterface.Native.Util.ConvertHresultToException(optional_modifier System.Runtime.CompilerServices.IsLong int32)",
+            "value": 0.5,
+            "samples": 1
+          },
+          {
+            "group": "WPF UI and layout",
+            "branch": "Native WPF",
+            "name": "presentationcore.il",
+            "detail": "System.Windows.Media.Animation.Clock.ComputeEffectiveDuration()",
+            "value": 0.5,
+            "samples": 1
+          },
+          {
+            "group": "WPF UI and layout",
+            "branch": "Native WPF",
+            "name": "presentationcore.il",
+            "detail": "MS.Internal.TextFormatting.SimpleTextLine.Create(class MS.Internal.TextFormatting.FormatSettings,int32,int32,float64)",
+            "value": 0.5,
+            "samples": 1
+          },
+          {
+            "group": "WPF UI and layout",
+            "branch": "Native WPF",
+            "name": "presentationcore.il",
+            "detail": "System.Windows.ContextLayoutManager+LayoutQueue._getNewRequest(class System.Windows.UIElement)",
+            "value": 0.5,
+            "samples": 1
+          },
+          {
+            "group": "WPF UI and layout",
+            "branch": "Native WPF",
+            "name": "windowsbase.il",
+            "detail": "System.Windows.Rect..ctor(value class System.Windows.Size)",
+            "value": 0.5,
+            "samples": 1
+          },
+          {
+            "group": "WPF UI and layout",
+            "branch": "Native WPF",
+            "name": "windowsbase.il",
+            "detail": "System.Windows.EffectiveValueEntry.CreateDefaultValueEntry(class System.Windows.DependencyProperty,class System.Object)",
+            "value": 0.5,
+            "samples": 1
+          },
+          {
+            "group": "WPF UI and layout",
+            "branch": "Native WPF",
+            "name": "presentationcore.il",
+            "detail": "System.Windows.Media.Animation.KeyTime.Equals(class System.Object)",
+            "value": 0.5,
+            "samples": 1
+          },
+          {
+            "group": "WPF UI and layout",
+            "branch": "Native WPF",
+            "name": "presentationcore.il",
+            "detail": "System.Windows.Media.Geometry.GetBoundsInternal(class System.Windows.Media.Pen,value class System.Windows.Media.Matrix,float64,value class System.Windows.Media.ToleranceType)",
+            "value": 0.5,
+            "samples": 1
+          },
+          {
+            "group": "WPF UI and layout",
+            "branch": "Native WPF",
+            "name": "presentationcore.il",
+            "detail": "System.Windows.Media.Animation.TimeIntervalCollection.IntersectsPeriodicCollection(value class System.TimeSpan,value class System.Windows.Duration,float64,float64,float64,bool)",
+            "value": 0.5,
+            "samples": 1
+          },
+          {
+            "group": "WPF UI and layout",
+            "branch": "Native WPF",
+            "name": "presentationcore.il",
+            "detail": "System.Windows.Media.Visual.UpdateChildren(class System.Windows.Media.RenderContext,value class ResourceHandle)",
+            "value": 0.5,
+            "samples": 1
+          },
+          {
+            "group": "WPF UI and layout",
+            "branch": "Native WPF",
+            "name": "presentationcore.il",
+            "detail": "System.Windows.ContextLayoutManager.fireSizeChangedEvents()",
+            "value": 0.5,
+            "samples": 1
+          },
+          {
+            "group": "Application",
+            "branch": "Native WPF",
+            "name": "epsilon engineering",
+            "detail": "Epsilon.Native.GripSlider.SetTarget(int32,bool)",
+            "value": 0.5,
+            "samples": 1
+          },
+          {
+            "group": "WPF UI and layout",
+            "branch": "Native WPF",
+            "name": "presentationcore.il",
+            "detail": "System.Windows.Media.MediaContext.NotifyChannelMessage()",
+            "value": 0.5,
+            "samples": 1
+          },
+          {
+            "group": "Runtime and libraries",
+            "branch": "Native WPF",
+            "name": "System.Private.CoreLib.il",
+            "detail": "System.Runtime.CompilerServices.CastHelpers.ChkCastClass(void*,class System.Object)",
+            "value": 0.5,
+            "samples": 1
+          },
+          {
+            "group": "WPF UI and layout",
+            "branch": "Native WPF",
+            "name": "presentationcore.il",
+            "detail": "System.Windows.UIElement.updatePixelSnappingGuidelines()",
+            "value": 0.5,
+            "samples": 1
+          },
+          {
+            "group": "WPF UI and layout",
+            "branch": "Native WPF",
+            "name": "presentationframework.il",
+            "detail": "System.Windows.Shapes.Ellipse.MeasureOverride(value class System.Windows.Size)",
+            "value": 0.5,
+            "samples": 1
+          },
+          {
+            "group": "WPF UI and layout",
+            "branch": "Native WPF",
+            "name": "windowsbase.il",
+            "detail": "MS.Utility.ArrayItemList`1[System.Windows.ChildRecord].EntryAt(int32)",
+            "value": 0.5,
+            "samples": 1
+          },
+          {
+            "group": "WPF UI and layout",
+            "branch": "Native WPF",
+            "name": "presentationcore.il",
+            "detail": "System.Windows.Media.GlyphRun.ComputeInkBoundingBoxLtoR(value class MS.Internal.Text.TextInterface.GlyphMetrics[])",
+            "value": 0.5,
+            "samples": 1
+          },
+          {
+            "group": "WPF UI and layout",
+            "branch": "Native WPF",
+            "name": "presentationcore.il",
+            "detail": "System.Windows.UIElement.Arrange(value class System.Windows.Rect)",
+            "value": 0.5,
+            "samples": 1
+          },
+          {
+            "group": "WPF UI and layout",
+            "branch": "Native WPF",
+            "name": "presentationcore.il",
+            "detail": "System.Windows.Media.MatrixTransform.get_Value()",
+            "value": 0.5,
+            "samples": 1
+          },
+          {
+            "group": "WPF UI and layout",
+            "branch": "Native WPF",
+            "name": "presentationcore.il",
+            "detail": "System.Windows.Media.TransformGroup.get_IsIdentity()",
+            "value": 0.5,
+            "samples": 1
+          },
+          {
+            "group": "Runtime and libraries",
+            "branch": "Native WPF",
+            "name": "System.Private.CoreLib.il",
+            "detail": "System.MulticastDelegate.RemoveImpl(class System.Delegate)",
+            "value": 0.5,
+            "samples": 1
+          },
+          {
+            "group": "Windows and other modules",
+            "branch": "Native WPF",
+            "name": "windowscodecs",
+            "detail": "windowscodecs",
+            "value": 0.5,
+            "samples": 1
+          },
+          {
+            "group": "Windows and other modules",
+            "branch": "Native WPF",
+            "name": "ManagedModule",
+            "detail": "MS.Internal.Text.TextInterface.FontFileStream.ReadFileFragment(optional_modifier System.Runtime.CompilerServices.IsConst void**,unsigned int64,unsigned int64,void**)",
+            "value": 0.5,
+            "samples": 1
+          },
+          {
+            "group": "WPF UI and layout",
+            "branch": "Native WPF",
+            "name": "presentationframework.il",
+            "detail": "System.Windows.FrameworkElement.ComputeAlignmentOffset(value class System.Windows.Size,value class System.Windows.Size)",
+            "value": 0.5,
+            "samples": 1
+          },
+          {
+            "group": "WPF UI and layout",
+            "branch": "Native WPF",
+            "name": "presentationcore.il",
+            "detail": "System.Windows.Media.RectangleGeometry.GetBoundsHelper(class System.Windows.Media.Pen,value class System.Windows.Media.Matrix,value class System.Windows.Rect,float64,float64,value class System.Windows.Media.Matrix,float64,value class System.Windows.Media.ToleranceType)",
+            "value": 0.5,
+            "samples": 1
+          },
+          {
+            "group": "WPF UI and layout",
+            "branch": "Native WPF",
+            "name": "presentationframework.il",
+            "detail": "System.Windows.Controls.Grid.SetFinalSizeMaxDiscrepancy(class System.Windows.Controls.DefinitionBase[],float64,bool)",
+            "value": 0.5,
+            "samples": 1
+          },
+          {
+            "group": "Runtime and libraries",
+            "branch": "Native WPF",
+            "name": "System.Private.CoreLib.il",
+            "detail": "System.Collections.Hashtable.get_Count()",
+            "value": 0.5,
+            "samples": 1
+          },
+          {
+            "group": "WPF UI and layout",
+            "branch": "Native WPF",
+            "name": "windowsbase.il",
+            "detail": "MS.Utility.ThreeObjectMap.Search(int32)",
+            "value": 0.5,
+            "samples": 1
+          },
+          {
+            "group": "Runtime and libraries",
+            "branch": "Native WPF",
+            "name": "System.Private.CoreLib.il",
+            "detail": "System.Threading.TimerQueue.FireNextTimers()",
+            "value": 0.5,
+            "samples": 1
+          },
+          {
+            "group": "WPF UI and layout",
+            "branch": "Native WPF",
+            "name": "windowsbase.il",
+            "detail": "System.Windows.Freezable.get_SingletonContext()",
+            "value": 0.5,
+            "samples": 1
+          },
+          {
+            "group": "WPF UI and layout",
+            "branch": "Native WPF",
+            "name": "presentationcore.il",
+            "detail": "System.Windows.Duration..ctor(value class System.TimeSpan)",
+            "value": 0.5,
+            "samples": 1
+          },
+          {
+            "group": "WPF UI and layout",
+            "branch": "Native WPF",
+            "name": "windowsbase.il",
+            "detail": "MS.Internal.MatrixUtil.MultiplyMatrix(value class System.Windows.Media.Matrix&,value class System.Windows.Media.Matrix&)",
+            "value": 0.5,
+            "samples": 1
+          },
+          {
+            "group": "WPF UI and layout",
+            "branch": "Native WPF",
+            "name": "presentationcore.il",
+            "detail": "System.Windows.Media.RenderData.WriteDataRecord(value class System.Windows.Media.Composition.MILCMD,unsigned int8*,int32)",
+            "value": 0.5,
+            "samples": 1
+          },
+          {
+            "group": "WPF UI and layout",
+            "branch": "Native WPF",
+            "name": "presentationcore.il",
+            "detail": "System.Windows.Media.TranslateTransform.XPropertyChanged(class System.Windows.DependencyObject,value class System.Windows.DependencyPropertyChangedEventArgs)",
+            "value": 0.5,
+            "samples": 1
+          },
+          {
+            "group": "WPF UI and layout",
+            "branch": "Native WPF",
+            "name": "presentationcore.il",
+            "detail": "System.Windows.Media.Visual.set_VisualTransform(class System.Windows.Media.Transform)",
+            "value": 0.5,
+            "samples": 1
+          },
+          {
+            "group": "WPF UI and layout",
+            "branch": "Native WPF",
+            "name": "presentationframework.il",
+            "detail": "MS.Utility.ItemStructMap`1[System.Windows.TriggerSourceRecord].Search(int32)",
+            "value": 0.5,
+            "samples": 1
+          },
+          {
+            "group": "Runtime and libraries",
+            "branch": "Native WPF",
+            "name": "System.Private.CoreLib.il",
+            "detail": "System.Globalization.CultureInfo.set_CurrentCulture(class System.Globalization.CultureInfo)",
+            "value": 0.5,
+            "samples": 1
+          },
+          {
+            "group": "Runtime and libraries",
+            "branch": "Native WPF",
+            "name": "System.Private.CoreLib.il",
+            "detail": "System.Globalization.CultureInfo.set_CurrentUICulture(class System.Globalization.CultureInfo)",
+            "value": 0.5,
+            "samples": 1
+          },
+          {
+            "group": "WPF UI and layout",
+            "branch": "Native WPF",
+            "name": "presentationcore.il",
+            "detail": "System.Windows.UIElement.GetUIParentWithinLayoutIsland()",
+            "value": 0.5,
+            "samples": 1
+          },
+          {
+            "group": "WPF UI and layout",
+            "branch": "Native WPF",
+            "name": "presentationcore.il",
+            "detail": "System.Windows.Media.Pen.get_DoesNotContainGaps()",
+            "value": 0.5,
+            "samples": 1
+          },
+          {
+            "group": "WPF UI and layout",
+            "branch": "Native WPF",
+            "name": "presentationcore.il",
+            "detail": "System.Windows.Media.Animation.TimeManager.GetNextTickNeeded()",
+            "value": 0.5,
+            "samples": 1
+          },
+          {
+            "group": "WPF UI and layout",
+            "branch": "Native WPF",
+            "name": "presentationcore.il",
+            "detail": "System.Windows.Media.MediaContext.System.Windows.Media.Animation.IClock.get_CurrentTime()",
+            "value": 0.5,
+            "samples": 1
+          },
+          {
+            "group": "WPF UI and layout",
+            "branch": "Native WPF",
+            "name": "windowsbase.il",
+            "detail": "System.Windows.PropertyMetadata.DefaultFreezeValueCallback(class System.Windows.DependencyObject,class System.Windows.DependencyProperty,value class System.Windows.EntryIndex,class System.Windows.PropertyMetadata,bool)",
+            "value": 0.5,
+            "samples": 1
+          },
+          {
+            "group": "WPF UI and layout",
+            "branch": "Native WPF",
+            "name": "presentationcore.il",
+            "detail": "System.Windows.Media.MediaContext.From(class System.Windows.Threading.Dispatcher)",
+            "value": 0.5,
+            "samples": 1
+          },
+          {
+            "group": "WPF UI and layout",
+            "branch": "Native WPF",
+            "name": "presentationcore.il",
+            "detail": "System.Windows.Media.Animation.TimeManager.Tick()",
+            "value": 0.5,
+            "samples": 1
+          },
+          {
+            "group": "WPF UI and layout",
+            "branch": "Native WPF",
+            "name": "windowsbase.il",
+            "detail": "System.Windows.PropertyMetadata.get_DefaultValue()",
+            "value": 0.5,
+            "samples": 1
+          },
+          {
+            "group": "WPF UI and layout",
+            "branch": "Native WPF",
+            "name": "windowsbase.il",
+            "detail": "System.Windows.Threading.Dispatcher.ProcessQueue()",
+            "value": 0.5,
+            "samples": 1
+          },
+          {
+            "group": "WPF UI and layout",
+            "branch": "Native WPF",
+            "name": "windowsbase.il",
+            "detail": "MS.Utility.ThreeObjectMap.InsertEntry(int32,class System.Object)",
+            "value": 0.5,
+            "samples": 1
+          },
+          {
+            "group": "WPF UI and layout",
+            "branch": "Native WPF",
+            "name": "windowsbase.il",
+            "detail": "System.Windows.Threading.DispatcherOperationTaskSource`1[System.__Canon].Initialize(class System.Windows.Threading.DispatcherOperation)",
+            "value": 0.5,
+            "samples": 1
+          },
+          {
+            "group": "WPF UI and layout",
+            "branch": "Native WPF",
+            "name": "presentationcore.il",
+            "detail": "System.Windows.Media.Animation.DoubleAnimationUsingKeyFrames.ResolveKeyTimes()",
+            "value": 0.5,
+            "samples": 1
+          },
+          {
+            "group": "WPF UI and layout",
+            "branch": "Native WPF",
+            "name": "windowsbase.il",
+            "detail": "System.Windows.Threading.ExceptionWrapper.InternalRealCall(class System.Delegate,class System.Object,int32)",
+            "value": 0.5,
+            "samples": 1
+          },
+          {
+            "group": "WPF UI and layout",
+            "branch": "Native WPF",
+            "name": "presentationcore.il",
+            "detail": "MS.Internal.TextFormatting.LineServicesCallbacks.GetGlyphsRedefined(int,int*,int32*,int32,wchar*,int32,value class MS.Internal.TextFormatting.LsTFlow,unsigned int16*,unsigned int32*,int32,int32&,unsigned int16*,unsigned int16*,int32*,int32&)",
+            "value": 0.5,
+            "samples": 1
+          }
+        ],
+        "gpu": [
+          {
+            "group": "3d",
+            "branch": "Native WPF",
+            "name": "luid_0x00000000_0x00017f82_phys_0_eng_0_engtype_3d",
+            "detail": "Process 33820",
+            "value": 49.9727148065046
+          }
+        ],
+        "tasks": []
+      },
+      "browser": {
+        "trials": 2,
+        "cpuMs": 8304.893499999998,
+        "elapsedMs": 12002.749450000001,
+        "cpuPercent": 4.3244745373736,
+        "sampleCount": 14876,
+        "sampledCpuMs": 7438,
+        "stackCoverage": 1,
+        "gpuTrials": 1,
+        "gpuCoverageMs": 4041,
+        "gpuEngineMs": 149.48337476983622,
+        "actions": 120,
+        "resets": 17,
+        "cpu": [
+          {
+            "group": "Chrome engine",
+            "branch": "renderer",
+            "name": "chrome",
+            "detail": "chrome",
+            "value": 2617,
+            "samples": 2664
+          },
+          {
+            "group": "Chrome engine",
+            "branch": "GPU",
+            "name": "chrome",
+            "detail": "chrome",
+            "value": 1877,
+            "samples": 1906
+          },
+          {
+            "group": "Graphics and driver CPU",
+            "branch": "GPU",
+            "name": "nvwgf2umx",
+            "detail": "nvwgf2umx",
+            "value": 846,
+            "samples": 858
+          },
+          {
+            "group": "Chrome engine",
+            "branch": "GPU",
+            "name": "libglesv2",
+            "detail": "libglesv2",
+            "value": 833,
+            "samples": 814
+          },
+          {
+            "group": "Windows and other modules",
+            "branch": "GPU",
+            "name": "ntdll",
+            "detail": "ntdll",
+            "value": 429.5,
+            "samples": 415
+          },
+          {
+            "group": "Windows and other modules",
+            "branch": "GPU",
+            "name": "ntoskrnl",
+            "detail": "ntoskrnl",
+            "value": 215,
+            "samples": 225
+          },
+          {
+            "group": "Windows and other modules",
+            "branch": "renderer",
+            "name": "ntdll",
+            "detail": "ntdll",
+            "value": 188.5,
+            "samples": 189
+          },
+          {
+            "group": "Windows and other modules",
+            "branch": "renderer",
+            "name": "ntoskrnl",
+            "detail": "ntoskrnl",
+            "value": 158,
+            "samples": 152
+          },
+          {
+            "group": "Graphics and driver CPU",
+            "branch": "GPU",
+            "name": "d3d11",
+            "detail": "d3d11",
+            "value": 94.5,
+            "samples": 105
+          },
+          {
+            "group": "Windows and other modules",
+            "branch": "GPU",
+            "name": "dxgkrnl.sys",
+            "detail": "dxgkrnl.sys",
+            "value": 36.5,
+            "samples": 41
+          },
+          {
+            "group": "Graphics and driver CPU",
+            "branch": "GPU",
+            "name": "nvlddmkm.sys",
+            "detail": "nvlddmkm.sys",
+            "value": 23,
+            "samples": 22
+          },
+          {
+            "group": "Windows and other modules",
+            "branch": "GPU",
+            "name": "dxgmms2.sys",
+            "detail": "dxgmms2.sys",
+            "value": 19.5,
+            "samples": 21
+          },
+          {
+            "group": "Windows and other modules",
+            "branch": "browser",
+            "name": "ntoskrnl",
+            "detail": "ntoskrnl",
+            "value": 14.5,
+            "samples": 15
+          },
+          {
+            "group": "Windows and other modules",
+            "branch": "GPU",
+            "name": "kernelbase",
+            "detail": "kernelbase",
+            "value": 13,
+            "samples": 10
+          },
+          {
+            "group": "Chrome engine",
+            "branch": "browser",
+            "name": "chrome",
+            "detail": "chrome",
+            "value": 9,
+            "samples": 6
+          },
+          {
+            "group": "Graphics and driver CPU",
+            "branch": "GPU",
+            "name": "dxgi",
+            "detail": "dxgi",
+            "value": 7.5,
+            "samples": 10
+          },
+          {
+            "group": "Windows and other modules",
+            "branch": "GPU",
+            "name": "win32kbase.sys",
+            "detail": "win32kbase.sys",
+            "value": 7,
+            "samples": 8
+          },
+          {
+            "group": "Windows and other modules",
+            "branch": "GPU",
+            "name": "npfs.sys",
+            "detail": "npfs.sys",
+            "value": 5,
+            "samples": 7
+          },
+          {
+            "group": "Windows and other modules",
+            "branch": "renderer",
+            "name": "kernelbase",
+            "detail": "kernelbase",
+            "value": 5,
+            "samples": 6
+          },
+          {
+            "group": "Windows and other modules",
+            "branch": "GPU",
+            "name": "kernel32",
+            "detail": "kernel32",
+            "value": 4,
+            "samples": 5
+          },
+          {
+            "group": "Unresolved",
+            "branch": "GPU",
+            "name": "Unresolved / JIT code",
+            "detail": "Unresolved / JIT code",
+            "value": 3.5,
+            "samples": 5
+          },
+          {
+            "group": "Windows and other modules",
+            "branch": "GPU",
+            "name": "watchdog.sys",
+            "detail": "watchdog.sys",
+            "value": 3.5,
+            "samples": 4
+          },
+          {
+            "group": "Windows and other modules",
+            "branch": "GPU",
+            "name": "win32u",
+            "detail": "win32u",
+            "value": 3.5,
+            "samples": 3
+          },
+          {
+            "group": "Windows and other modules",
+            "branch": "renderer",
+            "name": "npfs.sys",
+            "detail": "npfs.sys",
+            "value": 3,
+            "samples": 2
+          },
+          {
+            "group": "Windows and other modules",
+            "branch": "GPU",
+            "name": "msvcrt",
+            "detail": "msvcrt",
+            "value": 2.5,
+            "samples": 2
+          },
+          {
+            "group": "Windows and other modules",
+            "branch": "browser",
+            "name": "ntdll",
+            "detail": "ntdll",
+            "value": 2.5,
+            "samples": 2
+          },
+          {
+            "group": "Windows and other modules",
+            "branch": "GPU",
+            "name": "nvgpucomp64",
+            "detail": "nvgpucomp64",
+            "value": 1.5,
+            "samples": 3
+          },
+          {
+            "group": "Windows and other modules",
+            "branch": "GPU",
+            "name": "user32",
+            "detail": "user32",
+            "value": 1.5,
+            "samples": 2
+          },
+          {
+            "group": "Chrome engine",
+            "branch": "GPU",
+            "name": "libegl",
+            "detail": "libegl",
+            "value": 1.5,
+            "samples": 1
+          },
+          {
+            "group": "Windows and other modules",
+            "branch": "GPU",
+            "name": "fltmgr.sys",
+            "detail": "fltmgr.sys",
+            "value": 1.5,
+            "samples": 3
+          },
+          {
+            "group": "Windows and other modules",
+            "branch": "renderer",
+            "name": "fltmgr.sys",
+            "detail": "fltmgr.sys",
+            "value": 1,
+            "samples": 1
+          },
+          {
+            "group": "Windows and other modules",
+            "branch": "renderer",
+            "name": "kernel32",
+            "detail": "kernel32",
+            "value": 1,
+            "samples": 1
+          },
+          {
+            "group": "Windows and other modules",
+            "branch": "GPU",
+            "name": "win32k.sys",
+            "detail": "win32k.sys",
+            "value": 1,
+            "samples": 1
+          },
+          {
+            "group": "Windows and other modules",
+            "branch": "GPU",
+            "name": "win32kfull.sys",
+            "detail": "win32kfull.sys",
+            "value": 1,
+            "samples": 2
+          },
+          {
+            "group": "Runtime and libraries",
+            "branch": "renderer",
+            "name": "ucrtbase",
+            "detail": "ucrtbase",
+            "value": 0.5,
+            "samples": 1
+          },
+          {
+            "group": "Windows and other modules",
+            "branch": "browser",
+            "name": "wdfilter.sys",
+            "detail": "wdfilter.sys",
+            "value": 0.5,
+            "samples": 1
+          },
+          {
+            "group": "Windows and other modules",
+            "branch": "browser",
+            "name": "win32kbase.sys",
+            "detail": "win32kbase.sys",
+            "value": 0.5,
+            "samples": 1
+          },
+          {
+            "group": "Graphics and driver CPU",
+            "branch": "GPU",
+            "name": "gdi32",
+            "detail": "gdi32",
+            "value": 0.5,
+            "samples": 1
+          },
+          {
+            "group": "Unresolved",
+            "branch": "renderer",
+            "name": "Unresolved / JIT code",
+            "detail": "Unresolved / JIT code",
+            "value": 0.5,
+            "samples": 1
+          },
+          {
+            "group": "Windows and other modules",
+            "branch": "browser",
+            "name": "combase",
+            "detail": "combase",
+            "value": 0.5,
+            "samples": 1
+          },
+          {
+            "group": "Windows and other modules",
+            "branch": "browser",
+            "name": "fltmgr.sys",
+            "detail": "fltmgr.sys",
+            "value": 0.5,
+            "samples": 1
+          },
+          {
+            "group": "Windows and other modules",
+            "branch": "browser",
+            "name": "cldflt.sys",
+            "detail": "cldflt.sys",
+            "value": 0.5,
+            "samples": 1
+          },
+          {
+            "group": "Windows and other modules",
+            "branch": "browser",
+            "name": "ntfs.sys",
+            "detail": "ntfs.sys",
+            "value": 0.5,
+            "samples": 1
+          },
+          {
+            "group": "Windows and other modules",
+            "branch": "network.mojom.NetworkService",
+            "name": "ntoskrnl",
+            "detail": "ntoskrnl",
+            "value": 0.5,
+            "samples": 1
+          },
+          {
+            "group": "Windows and other modules",
+            "branch": "storage.mojom.StorageService",
+            "name": "ntdll",
+            "detail": "ntdll",
+            "value": 0.5,
+            "samples": 1
+          },
+          {
+            "group": "Unresolved",
+            "branch": "browser",
+            "name": "Unresolved / JIT code",
+            "detail": "Unresolved / JIT code",
+            "value": 0.5,
+            "samples": 1
+          },
+          {
+            "group": "Windows and other modules",
+            "branch": "GPU",
+            "name": "winmm",
+            "detail": "winmm",
+            "value": 0.5,
+            "samples": 1
+          },
+          {
+            "group": "Windows and other modules",
+            "branch": "renderer",
+            "name": "bcryptprimitives",
+            "detail": "bcryptprimitives",
+            "value": 0.5,
+            "samples": 1
+          }
+        ],
+        "gpu": [
+          {
+            "group": "3d",
+            "branch": "GPU",
+            "name": "luid_0x00000000_0x00017f82_phys_0_eng_0_engtype_3d",
+            "detail": "Process 3588",
+            "value": 148.9945543325401
+          },
+          {
+            "group": "copy",
+            "branch": "GPU",
+            "name": "luid_0x00000000_0x00017f82_phys_0_eng_4_engtype_copy",
+            "detail": "Process 3588",
+            "value": 0.4888204372961159
+          }
+        ],
+        "tasks": [
+          {
+            "group": "Style and layout",
+            "name": "Document::recalcStyle",
+            "value": 840.935499999998
+          },
+          {
+            "group": "Paint and composition preparation",
+            "name": "Paint",
+            "value": 211.12899999999763
+          },
+          {
+            "group": "Animation processing",
+            "name": "LocalFrameView::ScheduleAnimation",
+            "value": 118.89200000017217
+          },
+          {
+            "group": "Other renderer work",
+            "name": "ThreadControllerImpl::RunTask",
+            "value": 97.64800000000392
+          },
+          {
+            "group": "Other renderer work",
+            "name": "AsyncTask Run",
+            "value": 94.16050000000206
+          },
+          {
+            "group": "Animation processing",
+            "name": "AnimationTimeline::serviceAnimations",
+            "value": 79.6610000000006
+          },
+          {
+            "group": "Paint and composition preparation",
+            "name": "Layerize",
+            "value": 63.7734999999997
+          },
+          {
+            "group": "Animation processing",
+            "name": "PageAnimator::serviceScriptedAnimations",
+            "value": 62.189499999999484
+          },
+          {
+            "group": "Style and layout",
+            "name": "LocalFrameView::UpdateStyleAndLayout",
+            "value": 60.11900000000695
+          },
+          {
+            "group": "Other renderer work",
+            "name": "UpdateLayer",
+            "value": 49.05799999998432
+          },
+          {
+            "group": "Paint and composition preparation",
+            "name": "Blink.PrePaint.UpdateTime",
+            "value": 48.87449999999954
+          },
+          {
+            "group": "Animation processing",
+            "name": "AnimationHost::TickAnimations",
+            "value": 42.440000000000325
+          },
+          {
+            "group": "Paint and composition preparation",
+            "name": "LocalFrameView::RunPaintLifecyclePhase",
+            "value": 39.77750000000029
+          },
+          {
+            "group": "Other renderer work",
+            "name": "RunTask",
+            "value": 37.250500000001296
+          },
+          {
+            "group": "Style and layout",
+            "name": "LocalFrameView::performLayout",
+            "value": 36.431499999999986
+          },
+          {
+            "group": "Other renderer work",
+            "name": "Commit",
+            "value": 33.610000000001705
+          },
+          {
+            "group": "Paint and composition preparation",
+            "name": "Blink.CompositingCommit.UpdateTime",
+            "value": 33.05300000000031
+          },
+          {
+            "group": "Style and layout",
+            "name": "Document::updateStyle",
+            "value": 30.761500000001142
+          },
+          {
+            "group": "Paint and composition preparation",
+            "name": "Blink.CompositingInputs.UpdateTime",
+            "value": 27.10000000000013
+          },
+          {
+            "group": "Paint and composition preparation",
+            "name": "LayerTreeHost::DoUpdateLayers",
+            "value": 24.011500000001924
+          },
+          {
+            "group": "Paint and composition preparation",
+            "name": "LocalFrameView::RunPrePaintLifecyclePhase",
+            "value": 22.228000000000236
+          },
+          {
+            "group": "Paint and composition preparation",
+            "name": "PaintImage",
+            "value": 17.8779999999998
+          },
+          {
+            "group": "Other renderer work",
+            "name": "ProxyMain::BeginMainFrame",
+            "value": 17.07999999999936
+          },
+          {
+            "group": "Paint and composition preparation",
+            "name": "LocalFrameView::pushPaintArtifactToCompositor",
+            "value": 14.202999999999626
+          },
+          {
+            "group": "Other renderer work",
+            "name": "WebFrameWidgetImpl::UpdateLifecycle",
+            "value": 12.444999999999641
+          },
+          {
+            "group": "Paint and composition preparation",
+            "name": "Blink.Paint.UpdateTime",
+            "value": 12.344499999999844
+          },
+          {
+            "group": "Paint and composition preparation",
+            "name": "LocalFrameView::RunCompositingInputsLifecyclePhase",
+            "value": 12.195999999999714
+          },
+          {
+            "group": "Other renderer work",
+            "name": "RecordingSource::FinishDisplayItemListUpdate",
+            "value": 11.315999999999573
+          },
+          {
+            "group": "Style and layout",
+            "name": "UpdateLayoutTree",
+            "value": 10.350000000000014
+          },
+          {
+            "group": "Paint and composition preparation",
+            "name": "LayerTreeHost::WaitForCommitCompletion",
+            "value": 9.100000000000087
+          },
+          {
+            "group": "Other renderer work",
+            "name": "WebFrameWidgetImpl::BeginMainFrame",
+            "value": 8.025999999999861
+          },
+          {
+            "group": "JavaScript and event handling",
+            "name": "V8.GC_MC_INCREMENTAL_EMBEDDER_TRACING",
+            "value": 7.935999999999996
+          },
+          {
+            "group": "Other renderer work",
+            "name": "Blink.Animate.UpdateTime",
+            "value": 7.702000000000238
+          },
+          {
+            "group": "JavaScript and event handling",
+            "name": "BlinkScheduler_PerformMicrotaskCheckpoint",
+            "value": 5.838000000000188
+          },
+          {
+            "group": "Other renderer work",
+            "name": "CullRectUpdate",
+            "value": 5.529999999999772
+          },
+          {
+            "group": "Style and layout",
+            "name": "LocalFrameView::RunStyleAndLayoutLifecyclePhases",
+            "value": 5.4779999999999065
+          },
+          {
+            "group": "Animation processing",
+            "name": "AnimationHost::UpdateAnimationState",
+            "value": 5.42249999999993
+          },
+          {
+            "group": "Paint and composition preparation",
+            "name": "PrePaint",
+            "value": 4.567499999999862
+          },
+          {
+            "group": "Style and layout",
+            "name": "Blink.Style.UpdateTime",
+            "value": 4.4449999999998155
+          },
+          {
+            "group": "JavaScript and event handling",
+            "name": "FunctionCall",
+            "value": 4.244499999999977
+          },
+          {
+            "group": "Other renderer work",
+            "name": "ProxyMain::BeginMainFrame::commit",
+            "value": 4.155999999999809
+          },
+          {
+            "group": "Paint and composition preparation",
+            "name": "PendingAnimations::notifyCompositorAnimationStarted",
+            "value": 3.8369999999999544
+          },
+          {
+            "group": "Other renderer work",
+            "name": "LocalFrameView::NotifyResizeObservers",
+            "value": 3.069499999999846
+          },
+          {
+            "group": "Other renderer work",
+            "name": "WidgetBase::WillBeginMainFrame",
+            "value": 2.9599999999998508
+          },
+          {
+            "group": "Other renderer work",
+            "name": "RecordingSource::DetermineIfSolidColor",
+            "value": 2.6879999999998985
+          },
+          {
+            "group": "Other renderer work",
+            "name": "LocalFrameView::UpdateViewportIntersectionsForSubtree",
+            "value": 2.630999999999859
+          },
+          {
+            "group": "Other renderer work",
+            "name": "LocalFrameView::RunAccessibilitySteps",
+            "value": 2.4469999999998686
+          },
+          {
+            "group": "Paint and composition preparation",
+            "name": "PaintController::commitNewDisplayItems",
+            "value": 2.2054999999998963
+          },
+          {
+            "group": "Paint and composition preparation",
+            "name": "LayerTreeHost::ApplyCompositorChanges",
+            "value": 1.8854999999999245
+          },
+          {
+            "group": "Style and layout",
+            "name": "Document::updateStyleInvalidationIfNeeded",
+            "value": 1.539999999999999
+          },
+          {
+            "group": "Other renderer work",
+            "name": "RootScrollerController::PerformRootScrollerSelection",
+            "value": 1.3319999999999697
+          },
+          {
+            "group": "Style and layout",
+            "name": "Document::rebuildLayoutTree",
+            "value": 1.3039999999999994
+          },
+          {
+            "group": "Other renderer work",
+            "name": "LocalFrameView::WillStartLifecycleUpdate",
+            "value": 1.2689999999999713
+          },
+          {
+            "group": "JavaScript and event handling",
+            "name": "V8.GC_MC_INCREMENTAL",
+            "value": 1.2134999999999971
+          },
+          {
+            "group": "Other renderer work",
+            "name": "LocalFrameView::DidFinishLifecycleUpdate",
+            "value": 1.0684999999999931
+          },
+          {
+            "group": "JavaScript and event handling",
+            "name": "V8.GC_SCAVENGER_SCAVENGE_PARALLEL",
+            "value": 1.0275
+          },
+          {
+            "group": "JavaScript and event handling",
+            "name": "EventDispatch",
+            "value": 1.0254999999999992
+          },
+          {
+            "group": "JavaScript and event handling",
+            "name": "V8.GC_MARK_COMPACTOR",
+            "value": 0.9620000000000001
+          },
+          {
+            "group": "Style and layout",
+            "name": "LayoutView::commitPendingSelection",
+            "value": 0.9594999999999991
+          },
+          {
+            "group": "JavaScript and event handling",
+            "name": "V8.GC_SCAVENGER_SCAVENGE_ROOTS",
+            "value": 0.8945000000000001
+          },
+          {
+            "group": "Style and layout",
+            "name": "Document::updateActiveStyle",
+            "value": 0.8820000000000007
+          },
+          {
+            "group": "Other renderer work",
+            "name": "LocalFrameView::UpdateLifecyclePhases - start of lifecycle tasks",
+            "value": 0.8775000000000006
+          },
+          {
+            "group": "Other renderer work",
+            "name": "MinorGC",
+            "value": 0.7240000000000002
+          },
+          {
+            "group": "JavaScript and event handling",
+            "name": "V8.GC_HEAP_EMBEDDER_TRACING_EPILOGUE",
+            "value": 0.6559999999999999
+          },
+          {
+            "group": "Style and layout",
+            "name": "Blink.Layout.UpdateTime",
+            "value": 0.5515000000000004
+          },
+          {
+            "group": "JavaScript and event handling",
+            "name": "TimerFire",
+            "value": 0.5230000000000004
+          },
+          {
+            "group": "Style and layout",
+            "name": "Layout",
+            "value": 0.5180000000000003
+          },
+          {
+            "group": "Other renderer work",
+            "name": "HitTest",
+            "value": 0.5095000000000001
+          },
+          {
+            "group": "JavaScript and event handling",
+            "name": "V8.GC_MC_EVACUATE_UPDATE_POINTERS_TO_NEW_ROOTS",
+            "value": 0.4985
+          },
+          {
+            "group": "JavaScript and event handling",
+            "name": "V8.GC_MC_EVACUATE_COPY_PARALLEL",
+            "value": 0.46150000000000013
+          },
+          {
+            "group": "JavaScript and event handling",
+            "name": "V8.GC_MC_EVACUATE_COPY",
+            "value": 0.35300000000000004
+          },
+          {
+            "group": "JavaScript and event handling",
+            "name": "V8.GC_MC_INCREMENTAL_EXTERNAL_PROLOGUE",
+            "value": 0.3165
+          },
+          {
+            "group": "JavaScript and event handling",
+            "name": "V8.GC_SCAVENGER_SCAVENGE",
+            "value": 0.3105000000000001
+          },
+          {
+            "group": "Other renderer work",
+            "name": "TimerBase::run",
+            "value": 0.3085000000000002
+          },
+          {
+            "group": "Other renderer work",
+            "name": "Blink.IntersectionObservation.UpdateTime",
+            "value": 0.30100000000000016
+          },
+          {
+            "group": "Style and layout",
+            "name": "LocalFrameView::layout",
+            "value": 0.2715000000000002
+          },
+          {
+            "group": "JavaScript and event handling",
+            "name": "V8.GC_HEAP_EXTERNAL_PROLOGUE",
+            "value": 0.2555
+          },
+          {
+            "group": "JavaScript and event handling",
+            "name": "V8.GC_MC_MARK_EMBEDDER_PROLOGUE",
+            "value": 0.253
+          },
+          {
+            "group": "JavaScript and event handling",
+            "name": "V8.GC_SCAVENGER_SCAVENGE_PARALLEL_PHASE",
+            "value": 0.24500000000000002
+          },
+          {
+            "group": "JavaScript and event handling",
+            "name": "V8.GC_MC_SWEEP",
+            "value": 0.23700000000000002
+          },
+          {
+            "group": "JavaScript and event handling",
+            "name": "V8.GC_MC_INCREMENTAL_START",
+            "value": 0.23600000000000013
+          },
+          {
+            "group": "JavaScript and event handling",
+            "name": "V8.GC_MC_EVACUATE_UPDATE_POINTERS_POINTER_TABLES",
+            "value": 0.23249999999999998
+          },
+          {
+            "group": "Other renderer work",
+            "name": "MajorGC",
+            "value": 0.21550000000000008
+          },
+          {
+            "group": "JavaScript and event handling",
+            "name": "V8.GC_MC_SWEEP_EXTERNAL_POINTER_TABLE",
+            "value": 0.21249999999999997
+          },
+          {
+            "group": "JavaScript and event handling",
+            "name": "V8.GC_MC_MARK_ROOTS",
+            "value": 0.18900000000000006
+          },
+          {
+            "group": "Other renderer work",
+            "name": "SerializedScriptValueFactory::create",
+            "value": 0.17700000000000007
+          },
+          {
+            "group": "Style and layout",
+            "name": "LocalFrameView::performPostLayoutTasks",
+            "value": 0.17100000000000012
+          },
+          {
+            "group": "JavaScript and event handling",
+            "name": "V8.GC_SCAVENGER_SCAVENGE_WEAK_GLOBAL_HANDLES_IDENTIFY",
+            "value": 0.16200000000000003
+          },
+          {
+            "group": "JavaScript and event handling",
+            "name": "V8.GC_MC_CLEAR_WEAK_GLOBAL_HANDLES",
+            "value": 0.157
+          },
+          {
+            "group": "Paint and composition preparation",
+            "name": "WidgetBase::DidCommitAndDrawCompositorFrame",
+            "value": 0.1460000000000001
+          },
+          {
+            "group": "Other renderer work",
+            "name": "SerializedScriptValueFactory::deserialize",
+            "value": 0.14150000000000007
+          },
+          {
+            "group": "JavaScript and event handling",
+            "name": "V8.GC_MC_EVACUATE_EPILOGUE",
+            "value": 0.1405
+          },
+          {
+            "group": "JavaScript and event handling",
+            "name": "V8.GC_SCAVENGER_SCAVENGE_FINALIZE",
+            "value": 0.137
+          },
+          {
+            "group": "JavaScript and event handling",
+            "name": "V8.GC_SCAVENGER_SCAVENGE_WEAK_GLOBAL_HANDLES_PROCESS",
+            "value": 0.13049999999999998
+          },
+          {
+            "group": "Paint and composition preparation",
+            "name": "PaintArtifactCompositor::Update",
+            "value": 0.13
+          },
+          {
+            "group": "Other renderer work",
+            "name": "Blink.Accessibility.UpdateTime",
+            "value": 0.12000000000000008
+          },
+          {
+            "group": "JavaScript and event handling",
+            "name": "V8.GC_MC_MARK",
+            "value": 0.11200000000000002
+          },
+          {
+            "group": "JavaScript and event handling",
+            "name": "V8.GC_MC_CLEAR",
+            "value": 0.09600000000000006
+          },
+          {
+            "group": "JavaScript and event handling",
+            "name": "V8.GC_MC_EVACUATE_UPDATE_POINTERS_PARALLEL",
+            "value": 0.096
+          },
+          {
+            "group": "JavaScript and event handling",
+            "name": "V8.GC_MC_EVACUATE_UPDATE_POINTERS_SLOTS_MAIN",
+            "value": 0.09200000000000001
+          },
+          {
+            "group": "Other renderer work",
+            "name": "AsyncTask Scheduled",
+            "value": 0.08300000000000006
+          },
+          {
+            "group": "JavaScript and event handling",
+            "name": "V8.GC_HEAP_EPILOGUE_SAFEPOINT",
+            "value": 0.08050000000000004
+          },
+          {
+            "group": "JavaScript and event handling",
+            "name": "V8.GC_MC_SWEEP_JS_DISPATCH_TABLE",
+            "value": 0.08050000000000002
+          },
+          {
+            "group": "JavaScript and event handling",
+            "name": "V8.GC_SCAVENGER",
+            "value": 0.07850000000000004
+          },
+          {
+            "group": "JavaScript and event handling",
+            "name": "V8.GC_HEAP_EXTERNAL_EPILOGUE",
+            "value": 0.07850000000000004
+          },
+          {
+            "group": "JavaScript and event handling",
+            "name": "V8.GC_MC_MARK_FULL_CLOSURE_PARALLEL_JOIN",
+            "value": 0.0655
+          },
+          {
+            "group": "JavaScript and event handling",
+            "name": "V8.GC_HEAP_EPILOGUE",
+            "value": 0.061000000000000026
+          },
+          {
+            "group": "JavaScript and event handling",
+            "name": "V8.GC_MC_COMPLETE_SWEEPING",
+            "value": 0.05750000000000001
+          },
+          {
+            "group": "Other renderer work",
+            "name": "OverlayInterstitialAdDetector::MaybeFireDetection",
+            "value": 0.05250000000000002
+          },
+          {
+            "group": "JavaScript and event handling",
+            "name": "V8.GC_MC_SWEEP_TRUSTED_POINTER_TABLE",
+            "value": 0.049
+          },
+          {
+            "group": "JavaScript and event handling",
+            "name": "V8.GC_MC_PROLOGUE",
+            "value": 0.043
+          },
+          {
+            "group": "Other renderer work",
+            "name": "Receive mojo message",
+            "value": 0.0415
+          },
+          {
+            "group": "JavaScript and event handling",
+            "name": "V8.GC_MC_SWEEP_CODE_POINTER_TABLE",
+            "value": 0.04050000000000001
+          },
+          {
+            "group": "JavaScript and event handling",
+            "name": "V8.GC_MC_INCREMENTAL_EXTERNAL_EPILOGUE",
+            "value": 0.03900000000000001
+          },
+          {
+            "group": "JavaScript and event handling",
+            "name": "V8.GC_TIME_TO_SAFEPOINT",
+            "value": 0.03400000000000001
+          },
+          {
+            "group": "Other renderer work",
+            "name": "StickyAdDetector::MaybeFireDetection",
+            "value": 0.03300000000000001
+          },
+          {
+            "group": "JavaScript and event handling",
+            "name": "V8.GC_MC_EVACUATE_UPDATE_POINTERS",
+            "value": 0.032500000000000015
+          },
+          {
+            "group": "JavaScript and event handling",
+            "name": "V8.GC_MC_EVACUATE",
+            "value": 0.031500000000000014
+          },
+          {
+            "group": "JavaScript and event handling",
+            "name": "V8.GC_MC_CLEAR_JOIN_JOB",
+            "value": 0.0315
+          },
+          {
+            "group": "Other renderer work",
+            "name": "Major concurrent marking rescheduled",
+            "value": 0.031000000000000014
+          },
+          {
+            "group": "JavaScript and event handling",
+            "name": "V8.GC_MC_SWEEP_START_JOBS",
+            "value": 0.031
+          },
+          {
+            "group": "JavaScript and event handling",
+            "name": "V8.GC_MC_CLEAR_EXTERNAL_STRING_TABLE",
+            "value": 0.024
+          },
+          {
+            "group": "Other renderer work",
+            "name": "ResourceLoadPriorityOptimizer::updateAllImageResourcePriorities",
+            "value": 0.023500000000000014
+          },
+          {
+            "group": "JavaScript and event handling",
+            "name": "V8.GC_MC_FINISH",
+            "value": 0.023000000000000007
+          },
+          {
+            "group": "Other renderer work",
+            "name": "Blink.UpdateViewportIntersection.UpdateTime",
+            "value": 0.022500000000000013
+          },
+          {
+            "group": "JavaScript and event handling",
+            "name": "V8.GC_MC_MARK_EMBEDDER_TRACING",
+            "value": 0.022000000000000006
+          },
+          {
+            "group": "JavaScript and event handling",
+            "name": "V8.GC_SCAVENGER_FREE_REMEMBERED_SET",
+            "value": 0.022000000000000002
+          },
+          {
+            "group": "JavaScript and event handling",
+            "name": "V8.GC_MC_EVACUATE_PROLOGUE",
+            "value": 0.020999999999999998
+          },
+          {
+            "group": "JavaScript and event handling",
+            "name": "V8.GC_MC_MARK_FULL_CLOSURE",
+            "value": 0.020000000000000007
+          },
+          {
+            "group": "JavaScript and event handling",
+            "name": "V8.GC_MC_MARK_FINISH_INCREMENTAL",
+            "value": 0.019000000000000003
+          },
+          {
+            "group": "JavaScript and event handling",
+            "name": "V8.GC_MC_MARK_FULL_CLOSURE_PARALLEL",
+            "value": 0.018000000000000002
+          },
+          {
+            "group": "JavaScript and event handling",
+            "name": "V8.GC_HEAP_PROLOGUE",
+            "value": 0.01750000000000001
+          },
+          {
+            "group": "JavaScript and event handling",
+            "name": "V8.GC_MC_WEAKNESS_HANDLING",
+            "value": 0.017
+          },
+          {
+            "group": "JavaScript and event handling",
+            "name": "V8.GC_SCAVENGER_SCAVENGE_UPDATE_REFS",
+            "value": 0.016
+          },
+          {
+            "group": "JavaScript and event handling",
+            "name": "V8.GC_HEAP_EXTERNAL_WEAK_GLOBAL_HANDLES",
+            "value": 0.0155
+          },
+          {
+            "group": "Other renderer work",
+            "name": "MainFrameAborted",
+            "value": 0.015000000000000005
+          },
+          {
+            "group": "JavaScript and event handling",
+            "name": "V8.GC_MC_CLEAR_MAPS",
+            "value": 0.014000000000000002
+          },
+          {
+            "group": "JavaScript and event handling",
+            "name": "V8.GC_MC_CLEAR_FLUSHABLE_BYTECODE",
+            "value": 0.014
+          },
+          {
+            "group": "JavaScript and event handling",
+            "name": "V8.GC_MC_CLEAR_WEAK_LISTS",
+            "value": 0.012
+          },
+          {
+            "group": "JavaScript and event handling",
+            "name": "V8.GC_MC_CLEAR_STRING_FORWARDING_TABLE",
+            "value": 0.0115
+          },
+          {
+            "group": "JavaScript and event handling",
+            "name": "V8.GC_HEAP_PROLOGUE_SAFEPOINT",
+            "value": 0.011000000000000003
+          },
+          {
+            "group": "JavaScript and event handling",
+            "name": "V8.GC_MC_CLEAR_WEAK_REFERENCES_JOIN_FILTER_JOB",
+            "value": 0.010500000000000002
+          },
+          {
+            "group": "JavaScript and event handling",
+            "name": "V8.GC_MC_EVACUATE_UPDATE_POINTERS_WEAK",
+            "value": 0.010000000000000002
+          },
+          {
+            "group": "Other renderer work",
+            "name": "Parallel scavenge started",
+            "value": 0.009500000000000001
+          },
+          {
+            "group": "Other renderer work",
+            "name": "Major concurrent marking started",
+            "value": 0.009500000000000001
+          },
+          {
+            "group": "JavaScript and event handling",
+            "name": "V8.GC_MC_CLEAR_FLUSHED_JS_FUNCTIONS",
+            "value": 0.009500000000000001
+          },
+          {
+            "group": "JavaScript and event handling",
+            "name": "V8.GC_MC_MARK_WEAK_CLOSURE_EPHEMERON_MARKING",
+            "value": 0.0085
+          },
+          {
+            "group": "JavaScript and event handling",
+            "name": "V8.GC_MC_MARK_RETAIN_MAPS",
+            "value": 0.008
+          },
+          {
+            "group": "Other renderer work",
+            "name": "HTMLDocumentParser::~HTMLDocumentParser",
+            "value": 0.008
+          },
+          {
+            "group": "Other renderer work",
+            "name": "PageEvacuationJob started",
+            "value": 0.0075
+          },
+          {
+            "group": "JavaScript and event handling",
+            "name": "V8.GC_HEAP_EXTERNAL_SECOND_PASS_CALLBACKS",
+            "value": 0.007
+          },
+          {
+            "group": "JavaScript and event handling",
+            "name": "V8.GC_MC_EVACUATE_REBALANCE",
+            "value": 0.006500000000000001
+          },
+          {
+            "group": "Other renderer work",
+            "name": "ClearStringTableJob started",
+            "value": 0.006
+          },
+          {
+            "group": "Other renderer work",
+            "name": "PointersUpdatingJob started",
+            "value": 0.006
+          },
+          {
+            "group": "JavaScript and event handling",
+            "name": "V8.GC_MC_CLEAR_WEAK_REFERENCES_NON_TRIVIAL",
+            "value": 0.0055
+          },
+          {
+            "group": "Other renderer work",
+            "name": "FilterNonTrivialWeakRefJob started",
+            "value": 0.0055
+          },
+          {
+            "group": "JavaScript and event handling",
+            "name": "V8.GC_MC_MARK_CLIENT_HEAPS",
+            "value": 0.005
+          },
+          {
+            "group": "JavaScript and event handling",
+            "name": "V8.GC_MC_EVACUATE_CLEAN_UP",
+            "value": 0.005
+          },
+          {
+            "group": "JavaScript and event handling",
+            "name": "V8.GC_MC_SWEEP_WASM_CODE_POINTER_TABLE",
+            "value": 0.005
+          },
+          {
+            "group": "JavaScript and event handling",
+            "name": "V8.GC_MC_EVACUATE_UPDATE_POINTERS_CLIENT_HEAPS",
+            "value": 0.0045000000000000005
+          },
+          {
+            "group": "JavaScript and event handling",
+            "name": "V8.GC_MC_CLEAR_WEAK_COLLECTIONS",
+            "value": 0.004
+          },
+          {
+            "group": "JavaScript and event handling",
+            "name": "V8.GC_MC_EPILOGUE",
+            "value": 0.004
+          },
+          {
+            "group": "JavaScript and event handling",
+            "name": "V8.GC_MC_CLEAR_JS_WEAK_REFERENCES",
+            "value": 0.0035
+          },
+          {
+            "group": "Other renderer work",
+            "name": "ClearTrivialWeakRefJob started",
+            "value": 0.0035
+          },
+          {
+            "group": "Other renderer work",
+            "name": "ScrollTree::SetScrollOffset",
+            "value": 0.003
+          },
+          {
+            "group": "JavaScript and event handling",
+            "name": "V8.GC_MC_SWEEP_NEW_LO",
+            "value": 0.0025
+          },
+          {
+            "group": "Other renderer work",
+            "name": "Major concurrent marking resumed",
+            "value": 0.001
+          },
+          {
+            "group": "Other renderer work",
+            "name": "Major concurrent marking paused",
+            "value": 0.0005
+          }
+        ]
+      }
+    },
+    "settled": {
+      "native": {
+        "trials": 2,
+        "cpuMs": 39.0625,
+        "elapsedMs": 4999.839599999999,
+        "cpuPercent": 0.048829691456501935,
+        "sampleCount": 42,
+        "sampledCpuMs": 21,
+        "stackCoverage": 1,
+        "gpuTrials": 1,
+        "gpuCoverageMs": 2022,
+        "gpuEngineMs": 0,
+        "actions": 0,
+        "resets": 0,
+        "cpu": [
+          {
+            "group": "Graphics and driver CPU",
+            "branch": "Native WPF",
+            "name": "wpfgfx_cor3",
+            "detail": "wpfgfx_cor3",
+            "value": 7,
+            "samples": 7
+          },
+          {
+            "group": "Windows and other modules",
+            "branch": "Native WPF",
+            "name": "ntdll",
+            "detail": "ntdll",
+            "value": 2.5,
+            "samples": 1
+          },
+          {
+            "group": "Graphics and driver CPU",
+            "branch": "Native WPF",
+            "name": "nvd3dumx",
+            "detail": "nvd3dumx",
+            "value": 2.5,
+            "samples": 5
+          },
+          {
+            "group": "Unresolved",
+            "branch": "Native WPF",
+            "name": "Unresolved / JIT code",
+            "detail": "Unresolved / JIT code",
+            "value": 1,
+            "samples": 1
+          },
+          {
+            "group": "Windows and other modules",
+            "branch": "Native WPF",
+            "name": "win32kfull.sys",
+            "detail": "win32kfull.sys",
+            "value": 1,
+            "samples": 1
+          },
+          {
+            "group": "Windows and other modules",
+            "branch": "Native WPF",
+            "name": "ntoskrnl",
+            "detail": "ntoskrnl",
+            "value": 1,
+            "samples": 1
+          },
+          {
+            "group": "Windows and other modules",
+            "branch": "Native WPF",
+            "name": "win32kbase.sys",
+            "detail": "win32kbase.sys",
+            "value": 1,
+            "samples": 2
+          },
+          {
+            "group": "Runtime and libraries",
+            "branch": "Native WPF",
+            "name": "clrjit",
+            "detail": "clrjit",
+            "value": 0.5,
+            "samples": 1
+          },
+          {
+            "group": "Graphics and driver CPU",
+            "branch": "Native WPF",
+            "name": "dwrite",
+            "detail": "dwrite",
+            "value": 0.5,
+            "samples": 1
+          },
+          {
+            "group": "WPF UI and layout",
+            "branch": "Native WPF",
+            "name": "presentationcore.il",
+            "detail": "System.Windows.Media.Composition.DUCE+Map.Get(class System.Object,value class ResourceHandle&)",
+            "value": 0.5,
+            "samples": 1
+          },
+          {
+            "group": "WPF UI and layout",
+            "branch": "Native WPF",
+            "name": "presentationcore.il",
+            "detail": "System.Windows.Media.Animation.Clock.ComputeEvents(value class System.Nullable`1<value class System.TimeSpan>,value class System.Windows.Media.Animation.TimeIntervalCollection)",
+            "value": 0.5,
+            "samples": 1
+          },
+          {
+            "group": "Runtime and libraries",
+            "branch": "Native WPF",
+            "name": "coreclr",
+            "detail": "coreclr",
+            "value": 0.5,
+            "samples": 1
+          },
+          {
+            "group": "Graphics and driver CPU",
+            "branch": "Native WPF",
+            "name": "nvlddmkm.sys",
+            "detail": "nvlddmkm.sys",
+            "value": 0.5,
+            "samples": 1
+          },
+          {
+            "group": "Windows and other modules",
+            "branch": "Native WPF",
+            "name": "dxgkrnl.sys",
+            "detail": "dxgkrnl.sys",
+            "value": 0.5,
+            "samples": 1
+          },
+          {
+            "group": "Runtime and libraries",
+            "branch": "Native WPF",
+            "name": "System.Private.CoreLib.il",
+            "detail": "System.Runtime.CompilerServices.CastHelpers.IsInstanceOfClass(void*,class System.Object)",
+            "value": 0.5,
+            "samples": 1
+          },
+          {
+            "group": "Runtime and libraries",
+            "branch": "Native WPF",
+            "name": "ucrtbase",
+            "detail": "ucrtbase",
+            "value": 0.5,
+            "samples": 1
+          },
+          {
+            "group": "WPF UI and layout",
+            "branch": "Native WPF",
+            "name": "windowsbase.il",
+            "detail": "System.Windows.DependencyObject.LookupEntry(int32)",
+            "value": 0.5,
+            "samples": 1
+          }
+        ],
+        "gpu": [],
+        "tasks": []
+      },
+      "browser": {
+        "trials": 2,
+        "cpuMs": 110.31300000000056,
+        "elapsedMs": 5017.283400000004,
+        "cpuPercent": 0.13741624601074018,
+        "sampleCount": 201,
+        "sampledCpuMs": 100.5,
+        "stackCoverage": 1,
+        "gpuTrials": 1,
+        "gpuCoverageMs": 2022,
+        "gpuEngineMs": 0.021694316516660737,
+        "actions": 0,
+        "resets": 0,
+        "cpu": [
+          {
+            "group": "Chrome engine",
+            "branch": "renderer",
+            "name": "chrome",
+            "detail": "chrome",
+            "value": 32,
+            "samples": 35
+          },
+          {
+            "group": "Chrome engine",
+            "branch": "GPU",
+            "name": "chrome",
+            "detail": "chrome",
+            "value": 25.5,
+            "samples": 24
+          },
+          {
+            "group": "Chrome engine",
+            "branch": "GPU",
+            "name": "libglesv2",
+            "detail": "libglesv2",
+            "value": 12.5,
+            "samples": 16
+          },
+          {
+            "group": "Graphics and driver CPU",
+            "branch": "GPU",
+            "name": "nvwgf2umx",
+            "detail": "nvwgf2umx",
+            "value": 8.5,
+            "samples": 11
+          },
+          {
+            "group": "Windows and other modules",
+            "branch": "GPU",
+            "name": "ntdll",
+            "detail": "ntdll",
+            "value": 7.5,
+            "samples": 6
+          },
+          {
+            "group": "Windows and other modules",
+            "branch": "GPU",
+            "name": "ntoskrnl",
+            "detail": "ntoskrnl",
+            "value": 4.5,
+            "samples": 5
+          },
+          {
+            "group": "Windows and other modules",
+            "branch": "renderer",
+            "name": "ntoskrnl",
+            "detail": "ntoskrnl",
+            "value": 3,
+            "samples": 5
+          },
+          {
+            "group": "Windows and other modules",
+            "branch": "renderer",
+            "name": "ntdll",
+            "detail": "ntdll",
+            "value": 2.5,
+            "samples": 2
+          },
+          {
+            "group": "Windows and other modules",
+            "branch": "browser",
+            "name": "ntoskrnl",
+            "detail": "ntoskrnl",
+            "value": 1,
+            "samples": 1
+          },
+          {
+            "group": "Windows and other modules",
+            "branch": "renderer",
+            "name": "kernel32",
+            "detail": "kernel32",
+            "value": 0.5,
+            "samples": 1
+          },
+          {
+            "group": "Windows and other modules",
+            "branch": "GPU",
+            "name": "win32kbase.sys",
+            "detail": "win32kbase.sys",
+            "value": 0.5,
+            "samples": 1
+          },
+          {
+            "group": "Windows and other modules",
+            "branch": "renderer",
+            "name": "kernelbase",
+            "detail": "kernelbase",
+            "value": 0.5,
+            "samples": 1
+          },
+          {
+            "group": "Graphics and driver CPU",
+            "branch": "GPU",
+            "name": "nvlddmkm.sys",
+            "detail": "nvlddmkm.sys",
+            "value": 0.5,
+            "samples": 1
+          },
+          {
+            "group": "Windows and other modules",
+            "branch": "GPU",
+            "name": "dxgmms2.sys",
+            "detail": "dxgmms2.sys",
+            "value": 0.5,
+            "samples": 1
+          },
+          {
+            "group": "Graphics and driver CPU",
+            "branch": "GPU",
+            "name": "d3d11",
+            "detail": "d3d11",
+            "value": 0.5,
+            "samples": 1
+          },
+          {
+            "group": "Windows and other modules",
+            "branch": "GPU",
+            "name": "dxgkrnl.sys",
+            "detail": "dxgkrnl.sys",
+            "value": 0.5,
+            "samples": 1
+          }
+        ],
+        "gpu": [
+          {
+            "group": "3d",
+            "branch": "GPU",
+            "name": "luid_0x00000000_0x00017f82_phys_0_eng_0_engtype_3d",
+            "detail": "Process 3588",
+            "value": 0.015195974111770191
+          },
+          {
+            "group": "copy",
+            "branch": "GPU",
+            "name": "luid_0x00000000_0x00017f82_phys_0_eng_4_engtype_copy",
+            "detail": "Process 3588",
+            "value": 0.006498342404890546
+          }
+        ],
+        "tasks": [
+          {
+            "group": "Style and layout",
+            "name": "Document::recalcStyle",
+            "value": 5.776
+          },
+          {
+            "group": "Paint and composition preparation",
+            "name": "Paint",
+            "value": 1.8889999999999993
+          },
+          {
+            "group": "Animation processing",
+            "name": "PageAnimator::serviceScriptedAnimations",
+            "value": 1.5184999999999997
+          },
+          {
+            "group": "Animation processing",
+            "name": "AnimationTimeline::serviceAnimations",
+            "value": 0.9205000000000003
+          },
+          {
+            "group": "Other renderer work",
+            "name": "ThreadControllerImpl::RunTask",
+            "value": 0.8484999999999994
+          },
+          {
+            "group": "Other renderer work",
+            "name": "RunTask",
+            "value": 0.7390000000000005
+          },
+          {
+            "group": "Animation processing",
+            "name": "AnimationHost::TickAnimations",
+            "value": 0.5775000000000002
+          },
+          {
+            "group": "Paint and composition preparation",
+            "name": "Blink.PrePaint.UpdateTime",
+            "value": 0.5585000000000001
+          },
+          {
+            "group": "Other renderer work",
+            "name": "Commit",
+            "value": 0.5570000000000004
+          },
+          {
+            "group": "Other renderer work",
+            "name": "ProxyMain::BeginMainFrame",
+            "value": 0.5340000000000004
+          },
+          {
+            "group": "Paint and composition preparation",
+            "name": "Layerize",
+            "value": 0.4935
+          },
+          {
+            "group": "Other renderer work",
+            "name": "EventHandler::handleMouseMoveEvent",
+            "value": 0.4470000000000003
+          },
+          {
+            "group": "Other renderer work",
+            "name": "UpdateLayer",
+            "value": 0.4255000000000003
+          },
+          {
+            "group": "Style and layout",
+            "name": "Document::updateStyle",
+            "value": 0.3500000000000002
+          },
+          {
+            "group": "Paint and composition preparation",
+            "name": "Blink.CompositingCommit.UpdateTime",
+            "value": 0.32899999999999996
+          },
+          {
+            "group": "Paint and composition preparation",
+            "name": "Blink.CompositingInputs.UpdateTime",
+            "value": 0.32150000000000006
+          },
+          {
+            "group": "Other renderer work",
+            "name": "HitTest",
+            "value": 0.27500000000000013
+          },
+          {
+            "group": "Paint and composition preparation",
+            "name": "LocalFrameView::RunPrePaintLifecyclePhase",
+            "value": 0.2725000000000001
+          },
+          {
+            "group": "Paint and composition preparation",
+            "name": "LocalFrameView::RunPaintLifecyclePhase",
+            "value": 0.2380000000000001
+          },
+          {
+            "group": "Paint and composition preparation",
+            "name": "LayerTreeHost::DoUpdateLayers",
+            "value": 0.23250000000000018
+          },
+          {
+            "group": "Other renderer work",
+            "name": "WebFrameWidgetImpl::UpdateLifecycle",
+            "value": 0.20000000000000015
+          },
+          {
+            "group": "Paint and composition preparation",
+            "name": "LocalFrameView::pushPaintArtifactToCompositor",
+            "value": 0.197
+          },
+          {
+            "group": "Paint and composition preparation",
+            "name": "LocalFrameView::RunCompositingInputsLifecyclePhase",
+            "value": 0.19550000000000006
+          },
+          {
+            "group": "Other renderer work",
+            "name": "Blink.Animate.UpdateTime",
+            "value": 0.18450000000000005
+          },
+          {
+            "group": "Animation processing",
+            "name": "LocalFrameView::ScheduleAnimation",
+            "value": 0.1800000000000001
+          },
+          {
+            "group": "Paint and composition preparation",
+            "name": "Blink.Paint.UpdateTime",
+            "value": 0.1775000000000001
+          },
+          {
+            "group": "Style and layout",
+            "name": "LocalFrameView::UpdateStyleAndLayout",
+            "value": 0.1700000000000001
+          },
+          {
+            "group": "Paint and composition preparation",
+            "name": "PaintImage",
+            "value": 0.14900000000000008
+          },
+          {
+            "group": "Paint and composition preparation",
+            "name": "PrePaint",
+            "value": 0.13750000000000007
+          },
+          {
+            "group": "Other renderer work",
+            "name": "WebFrameWidgetImpl::BeginMainFrame",
+            "value": 0.1315000000000001
+          },
+          {
+            "group": "Style and layout",
+            "name": "UpdateLayoutTree",
+            "value": 0.12450000000000007
+          },
+          {
+            "group": "Paint and composition preparation",
+            "name": "LayerTreeHost::WaitForCommitCompletion",
+            "value": 0.11800000000000005
+          },
+          {
+            "group": "Style and layout",
+            "name": "LocalFrameView::RunStyleAndLayoutLifecyclePhases",
+            "value": 0.10400000000000006
+          },
+          {
+            "group": "JavaScript and event handling",
+            "name": "BlinkScheduler_PerformMicrotaskCheckpoint",
+            "value": 0.10250000000000006
+          },
+          {
+            "group": "Other renderer work",
+            "name": "RecordingSource::FinishDisplayItemListUpdate",
+            "value": 0.09800000000000007
+          },
+          {
+            "group": "Paint and composition preparation",
+            "name": "PaintArtifactCompositor::Update",
+            "value": 0.0935
+          },
+          {
+            "group": "Other renderer work",
+            "name": "AsyncTask Run",
+            "value": 0.09300000000000004
+          },
+          {
+            "group": "Other renderer work",
+            "name": "MainFrameAborted",
+            "value": 0.09250000000000004
+          },
+          {
+            "group": "JavaScript and event handling",
+            "name": "FunctionCall",
+            "value": 0.08950000000000002
+          },
+          {
+            "group": "Style and layout",
+            "name": "LocalFrameView::performLayout",
+            "value": 0.08399999999999999
+          },
+          {
+            "group": "Animation processing",
+            "name": "AnimationHost::UpdateAnimationState",
+            "value": 0.07850000000000001
+          },
+          {
+            "group": "Paint and composition preparation",
+            "name": "RasterImplementation::SetAggressivelyFreeResources",
+            "value": 0.07350000000000001
+          },
+          {
+            "group": "JavaScript and event handling",
+            "name": "EventDispatch",
+            "value": 0.07150000000000005
+          },
+          {
+            "group": "Other renderer work",
+            "name": "CullRectUpdate",
+            "value": 0.06450000000000003
+          },
+          {
+            "group": "Other renderer work",
+            "name": "LocalFrameView::NotifyResizeObservers",
+            "value": 0.055500000000000035
+          },
+          {
+            "group": "Style and layout",
+            "name": "Blink.Style.UpdateTime",
+            "value": 0.055000000000000035
+          },
+          {
+            "group": "Other renderer work",
+            "name": "WidgetBase::WillBeginMainFrame",
+            "value": 0.05100000000000003
+          },
+          {
+            "group": "Other renderer work",
+            "name": "LocalFrameView::UpdateViewportIntersectionsForSubtree",
+            "value": 0.05000000000000003
+          },
+          {
+            "group": "Paint and composition preparation",
+            "name": "PendingAnimations::notifyCompositorAnimationStarted",
+            "value": 0.0485
+          },
+          {
+            "group": "Other renderer work",
+            "name": "LocalFrameView::RunAccessibilitySteps",
+            "value": 0.04200000000000003
+          },
+          {
+            "group": "Other renderer work",
+            "name": "Blink.Accessibility.UpdateTime",
+            "value": 0.042
+          },
+          {
+            "group": "Other renderer work",
+            "name": "Receive mojo message",
+            "value": 0.039
+          },
+          {
+            "group": "Other renderer work",
+            "name": "ProxyMain::BeginMainFrame::commit",
+            "value": 0.03750000000000002
+          },
+          {
+            "group": "Other renderer work",
+            "name": "TransferBuffer::Free",
+            "value": 0.037000000000000005
+          },
+          {
+            "group": "Paint and composition preparation",
+            "name": "LayerTreeHost::ApplyCompositorChanges",
+            "value": 0.03550000000000002
+          },
+          {
+            "group": "Other renderer work",
+            "name": "RecordingSource::DetermineIfSolidColor",
+            "value": 0.02600000000000001
+          },
+          {
+            "group": "Other renderer work",
+            "name": "RootScrollerController::PerformRootScrollerSelection",
+            "value": 0.025000000000000015
+          },
+          {
+            "group": "Other renderer work",
+            "name": "LocalFrameView::WillStartLifecycleUpdate",
+            "value": 0.021500000000000012
+          },
+          {
+            "group": "Other renderer work",
+            "name": "TimerBase::run",
+            "value": 0.019000000000000003
+          },
+          {
+            "group": "Paint and composition preparation",
+            "name": "PaintController::commitNewDisplayItems",
+            "value": 0.01800000000000001
+          },
+          {
+            "group": "Other renderer work",
+            "name": "CommandBufferProxyImpl::Flush",
+            "value": 0.0165
+          },
+          {
+            "group": "Other renderer work",
+            "name": "LocalFrameView::DidFinishLifecycleUpdate",
+            "value": 0.015500000000000007
+          },
+          {
+            "group": "Other renderer work",
+            "name": "LocalFrameView::UpdateLifecyclePhases - start of lifecycle tasks",
+            "value": 0.013000000000000005
+          },
+          {
+            "group": "Style and layout",
+            "name": "LayoutView::commitPendingSelection",
+            "value": 0.012000000000000004
+          },
+          {
+            "group": "Paint and composition preparation",
+            "name": "WidgetBase::DidCommitAndDrawCompositorFrame",
+            "value": 0.012
+          },
+          {
+            "group": "Style and layout",
+            "name": "Document::updateActiveStyle",
+            "value": 0.011500000000000003
+          },
+          {
+            "group": "Other renderer work",
+            "name": "EventHandler::handleMouseLeaveEvent",
+            "value": 0.011500000000000002
+          },
+          {
+            "group": "JavaScript and event handling",
+            "name": "TimerFire",
+            "value": 0.0085
+          },
+          {
+            "group": "Other renderer work",
+            "name": "OverlayInterstitialAdDetector::MaybeFireDetection",
+            "value": 0.007000000000000001
+          },
+          {
+            "group": "Style and layout",
+            "name": "Layout",
+            "value": 0.007
+          },
+          {
+            "group": "Other renderer work",
+            "name": "Blink.IntersectionObservation.UpdateTime",
+            "value": 0.006
+          },
+          {
+            "group": "Other renderer work",
+            "name": "CommandBufferHelper::Flush",
+            "value": 0.006
+          },
+          {
+            "group": "Other renderer work",
+            "name": "ResourceLoadPriorityOptimizer::updateAllImageResourcePriorities",
+            "value": 0.006
+          },
+          {
+            "group": "Other renderer work",
+            "name": "StickyAdDetector::MaybeFireDetection",
+            "value": 0.005
+          },
+          {
+            "group": "Other renderer work",
+            "name": "MouseEventManager::handleMouseDraggedEvent",
+            "value": 0.0045000000000000005
+          },
+          {
+            "group": "Style and layout",
+            "name": "LocalFrameView::layout",
+            "value": 0.0035
+          },
+          {
+            "group": "Style and layout",
+            "name": "Blink.ForcedStyleAndLayout.UpdateTime",
+            "value": 0.0035
+          },
+          {
+            "group": "Style and layout",
+            "name": "Blink.Layout.UpdateTime",
+            "value": 0.003
+          },
+          {
+            "group": "Other renderer work",
+            "name": "ScrollTree::SetScrollOffset",
+            "value": 0.003
+          },
+          {
+            "group": "Other renderer work",
+            "name": "CommandBufferProxyImpl::OrderingBarrier",
+            "value": 0.003
+          },
+          {
+            "group": "Style and layout",
+            "name": "Document::UpdateStyleAndLayout",
+            "value": 0.003
+          },
+          {
+            "group": "Style and layout",
+            "name": "LocalFrameView::performPostLayoutTasks",
+            "value": 0.002
+          },
+          {
+            "group": "Other renderer work",
+            "name": "AsyncTask Scheduled",
+            "value": 0.0005
+          },
+          {
+            "group": "Other renderer work",
+            "name": "Blink.UpdateViewportIntersection.UpdateTime",
+            "value": 0.0005
+          }
+        ]
+      }
+    },
+    "dragging": {
+      "native": {
+        "trials": 2,
+        "cpuMs": 7.8125,
+        "elapsedMs": 10004.0859,
+        "cpuPercent": 0.004880818246472673,
+        "sampleCount": 367,
+        "sampledCpuMs": 183.5,
+        "stackCoverage": 1,
+        "gpuTrials": 1,
+        "gpuCoverageMs": 4029,
+        "gpuEngineMs": 5.827752481500909,
+        "actions": 300,
+        "resets": 0,
+        "cpu": [
+          {
+            "group": "Windows and other modules",
+            "branch": "Native WPF",
+            "name": "ntoskrnl",
+            "detail": "ntoskrnl",
+            "value": 25,
+            "samples": 23
+          },
+          {
+            "group": "Graphics and driver CPU",
+            "branch": "Native WPF",
+            "name": "wpfgfx_cor3",
+            "detail": "wpfgfx_cor3",
+            "value": 20,
+            "samples": 20
+          },
+          {
+            "group": "Runtime and libraries",
+            "branch": "Native WPF",
+            "name": "coreclr",
+            "detail": "coreclr",
+            "value": 17,
+            "samples": 14
+          },
+          {
+            "group": "Windows and other modules",
+            "branch": "Native WPF",
+            "name": "ntdll",
+            "detail": "ntdll",
+            "value": 15,
+            "samples": 16
+          },
+          {
+            "group": "Graphics and driver CPU",
+            "branch": "Native WPF",
+            "name": "nvd3dumx",
+            "detail": "nvd3dumx",
+            "value": 13.5,
+            "samples": 10
+          },
+          {
+            "group": "Graphics and driver CPU",
+            "branch": "Native WPF",
+            "name": "dwrite",
+            "detail": "dwrite",
+            "value": 9.5,
+            "samples": 13
+          },
+          {
+            "group": "Unresolved",
+            "branch": "Native WPF",
+            "name": "Unresolved / JIT code",
+            "detail": "Unresolved / JIT code",
+            "value": 8.5,
+            "samples": 8
+          },
+          {
+            "group": "Windows and other modules",
+            "branch": "Native WPF",
+            "name": "win32kbase.sys",
+            "detail": "win32kbase.sys",
+            "value": 8,
+            "samples": 6
+          },
+          {
+            "group": "Graphics and driver CPU",
+            "branch": "Native WPF",
+            "name": "nvlddmkm.sys",
+            "detail": "nvlddmkm.sys",
+            "value": 5.5,
+            "samples": 5
+          },
+          {
+            "group": "WPF UI and layout",
+            "branch": "Native WPF",
+            "name": "presentationnative_cor3",
+            "detail": "presentationnative_cor3",
+            "value": 5.5,
+            "samples": 4
+          },
+          {
+            "group": "Windows and other modules",
+            "branch": "Native WPF",
+            "name": "win32kfull.sys",
+            "detail": "win32kfull.sys",
+            "value": 4,
+            "samples": 6
+          },
+          {
+            "group": "Runtime and libraries",
+            "branch": "Native WPF",
+            "name": "clrjit",
+            "detail": "clrjit",
+            "value": 4,
+            "samples": 3
+          },
+          {
+            "group": "WPF UI and layout",
+            "branch": "Native WPF",
+            "name": "presentationcore.il",
+            "detail": "System.Windows.Media.Animation.ClockGroup.ComputeTreeState()",
+            "value": 4,
+            "samples": 3
+          },
+          {
+            "group": "Windows and other modules",
+            "branch": "Native WPF",
+            "name": "textshaping",
+            "detail": "textshaping",
+            "value": 3,
+            "samples": 4
+          },
+          {
+            "group": "Windows and other modules",
+            "branch": "Native WPF",
+            "name": "dxgkrnl.sys",
+            "detail": "dxgkrnl.sys",
+            "value": 2.5,
+            "samples": 4
+          },
+          {
+            "group": "WPF UI and layout",
+            "branch": "Native WPF",
+            "name": "windowsbase.il",
+            "detail": "System.Windows.DependencyObject.LookupEntry(int32)",
+            "value": 2.5,
+            "samples": 1
+          },
+          {
+            "group": "Graphics and driver CPU",
+            "branch": "Native WPF",
+            "name": "d3d9",
+            "detail": "d3d9",
+            "value": 2,
+            "samples": 2
+          },
+          {
+            "group": "Runtime and libraries",
+            "branch": "Native WPF",
+            "name": "System.Private.CoreLib.il",
+            "detail": "System.Runtime.CompilerServices.CastHelpers.ChkCastClassSpecial(void*,class System.Object)",
+            "value": 1.5,
+            "samples": 3
+          },
+          {
+            "group": "Runtime and libraries",
+            "branch": "Native WPF",
+            "name": "system.private.corelib.il",
+            "detail": "System.Runtime.CompilerServices.CastHelpers.IsInstanceOfClass(void*,class System.Object)",
+            "value": 1,
+            "samples": 2
+          },
+          {
+            "group": "WPF UI and layout",
+            "branch": "Native WPF",
+            "name": "presentationframework.il",
+            "detail": "System.Windows.FrameworkElement.MeasureCore(value class System.Windows.Size)",
+            "value": 1,
+            "samples": 2
+          },
+          {
+            "group": "Windows and other modules",
+            "branch": "Native WPF",
+            "name": "dxgmms2.sys",
+            "detail": "dxgmms2.sys",
+            "value": 1,
+            "samples": 2
+          },
+          {
+            "group": "WPF UI and layout",
+            "branch": "Native WPF",
+            "name": "presentationcore.il",
+            "detail": "System.Windows.Media.Visual.GetDpi()",
+            "value": 1,
+            "samples": 1
+          },
+          {
+            "group": "WPF UI and layout",
+            "branch": "Native WPF",
+            "name": "presentationcore.il",
+            "detail": "System.Windows.Media.Visual.UpdateChildren(class System.Windows.Media.RenderContext,value class ResourceHandle)",
+            "value": 1,
+            "samples": 1
+          },
+          {
+            "group": "Runtime and libraries",
+            "branch": "Native WPF",
+            "name": "system.private.uri.il",
+            "detail": "System.Uri.ParseRemaining()",
+            "value": 1,
+            "samples": 1
+          },
+          {
+            "group": "Runtime and libraries",
+            "branch": "Native WPF",
+            "name": "System.Private.CoreLib.il",
+            "detail": "System.Runtime.CompilerServices.CastHelpers.IsInstanceOfClass(void*,class System.Object)",
+            "value": 1,
+            "samples": 2
+          },
+          {
+            "group": "Windows and other modules",
+            "branch": "Native WPF",
+            "name": "user32",
+            "detail": "user32",
+            "value": 1,
+            "samples": 2
+          },
+          {
+            "group": "WPF UI and layout",
+            "branch": "Native WPF",
+            "name": "presentationcore.il",
+            "detail": "System.Windows.Media.Visual.PrecomputeRecursive(value class System.Windows.Rect&)",
+            "value": 1,
+            "samples": 2
+          },
+          {
+            "group": "Windows and other modules",
+            "branch": "Native WPF",
+            "name": "win32k.sys",
+            "detail": "win32k.sys",
+            "value": 0.5,
+            "samples": 1
+          },
+          {
+            "group": "Runtime and libraries",
+            "branch": "Native WPF",
+            "name": "system.private.corelib.il",
+            "detail": "System.Threading.ThreadPoolWorkQueue.EnqueueAtHighPriority(class System.Object)",
+            "value": 0.5,
+            "samples": 1
+          },
+          {
+            "group": "WPF UI and layout",
+            "branch": "Native WPF",
+            "name": "windowsbase.il",
+            "detail": "System.Windows.Freezable.FireChanged()",
+            "value": 0.5,
+            "samples": 1
+          },
+          {
+            "group": "Runtime and libraries",
+            "branch": "Native WPF",
+            "name": "system.private.corelib.il",
+            "detail": "System.Collections.Generic.ArraySortHelper`1[System.Int32].InsertionSort(value class System.Span`1<!0>,class System.Comparison`1<!0>)",
+            "value": 0.5,
+            "samples": 1
+          },
+          {
+            "group": "Runtime and libraries",
+            "branch": "Native WPF",
+            "name": "system.private.uri.il",
+            "detail": "System.Uri.RecreateParts(value class System.UriComponents,unsigned int16,value class System.UriFormat)",
+            "value": 0.5,
+            "samples": 1
+          },
+          {
+            "group": "WPF UI and layout",
+            "branch": "Native WPF",
+            "name": "windowsbase.il",
+            "detail": "System.Windows.DependencyObject.get_DependencyObjectType()",
+            "value": 0.5,
+            "samples": 1
+          },
+          {
+            "group": "WPF UI and layout",
+            "branch": "Native WPF",
+            "name": "presentationcore.il",
+            "detail": "System.Windows.Media.Visual.PrecomputeContent()",
+            "value": 0.5,
+            "samples": 1
+          },
+          {
+            "group": "Application",
+            "branch": "Native WPF",
+            "name": "epsilon engineering",
+            "detail": "Epsilon.Native.GripSlider.<.ctor>b__24_0(class System.Object,class System.Windows.RoutedPropertyChangedEventArgs`1<float64>)",
+            "value": 0.5,
+            "samples": 1
+          },
+          {
+            "group": "WPF UI and layout",
+            "branch": "Native WPF",
+            "name": "presentationcore.il",
+            "detail": "MS.Internal.TextFormatting.LSRun.DrawGlyphRun(class System.Windows.Media.DrawingContext,class System.Windows.Media.Brush,class System.Windows.Media.GlyphRun)",
+            "value": 0.5,
+            "samples": 1
+          },
+          {
+            "group": "WPF UI and layout",
+            "branch": "Native WPF",
+            "name": "presentationcore.il",
+            "detail": "MS.Internal.TextFormatting.TextStore.FetchLSRun(int32,value class System.Windows.Media.TextFormattingMode,bool,value class MS.Internal.TextFormatting.Plsrun&,int32&,int32&)",
+            "value": 0.5,
+            "samples": 1
+          },
+          {
+            "group": "WPF UI and layout",
+            "branch": "Native WPF",
+            "name": "presentationframework.il",
+            "detail": "System.Windows.Controls.Control.get_TemplateInternal()",
+            "value": 0.5,
+            "samples": 1
+          },
+          {
+            "group": "Runtime and libraries",
+            "branch": "Native WPF",
+            "name": "system.private.corelib.il",
+            "detail": "System.Threading.LowLevelLifoSemaphore.Wait(int32,bool)",
+            "value": 0.5,
+            "samples": 1
+          },
+          {
+            "group": "WPF UI and layout",
+            "branch": "Native WPF",
+            "name": "presentationcore.il",
+            "detail": "MS.Internal.TextFormatting.TextStore.CreateLSRunsUniformBidiLevel(class MS.Internal.SpanVector,class MS.Internal.SpanVector,int32,int32,int32,int32,value class System.Windows.Media.TextFormattingMode,bool,int32&)",
+            "value": 0.5,
+            "samples": 1
+          },
+          {
+            "group": "WPF UI and layout",
+            "branch": "Native WPF",
+            "name": "presentationframework.il",
+            "detail": "System.Windows.FrameworkElement.GetVisualChild(int32)",
+            "value": 0.5,
+            "samples": 1
+          },
+          {
+            "group": "Runtime and libraries",
+            "branch": "Native WPF",
+            "name": "system.private.corelib.il",
+            "detail": "System.Globalization.CultureInfo.set_CurrentCulture(class System.Globalization.CultureInfo)",
+            "value": 0.5,
+            "samples": 1
+          },
+          {
+            "group": "Graphics and driver CPU",
+            "branch": "Native WPF",
+            "name": "nvldumdx",
+            "detail": "nvldumdx",
+            "value": 0.5,
+            "samples": 1
+          },
+          {
+            "group": "WPF UI and layout",
+            "branch": "Native WPF",
+            "name": "presentationframework.il",
+            "detail": "System.Windows.FrameworkElement.ComputeAlignmentOffset(value class System.Windows.Size,value class System.Windows.Size)",
+            "value": 0.5,
+            "samples": 1
+          },
+          {
+            "group": "Windows and other modules",
+            "branch": "Native WPF",
+            "name": "ManagedModule",
+            "detail": "MS.Internal.Text.TextInterface.Font.GetFontFace()",
+            "value": 0.5,
+            "samples": 1
+          },
+          {
+            "group": "Runtime and libraries",
+            "branch": "Native WPF",
+            "name": "system.private.corelib.il",
+            "detail": "System.Threading.CancellationTokenSource.Register(class System.Delegate,class System.Object,class System.Threading.SynchronizationContext,class System.Threading.ExecutionContext)",
+            "value": 0.5,
+            "samples": 1
+          },
+          {
+            "group": "WPF UI and layout",
+            "branch": "Native WPF",
+            "name": "windowsbase.il",
+            "detail": "System.Windows.DependencyObject.UpdateEffectiveValue(value class System.Windows.EntryIndex,class System.Windows.DependencyProperty,class System.Windows.PropertyMetadata,value class System.Windows.EffectiveValueEntry,value class System.Windows.EffectiveValueEntry&,bool,bool,value class System.Windows.OperationType)",
+            "value": 0.5,
+            "samples": 1
+          },
+          {
+            "group": "WPF UI and layout",
+            "branch": "Native WPF",
+            "name": "windowsbase.il",
+            "detail": "System.Windows.Media.Matrix.get_Identity()",
+            "value": 0.5,
+            "samples": 1
+          },
+          {
+            "group": "WPF UI and layout",
+            "branch": "Native WPF",
+            "name": "presentationcore.il",
+            "detail": "System.Windows.Media.TransformGroup.get_IsIdentity()",
+            "value": 0.5,
+            "samples": 1
+          },
+          {
+            "group": "WPF UI and layout",
+            "branch": "Native WPF",
+            "name": "presentationframework.il",
+            "detail": "System.Windows.Controls.Grid.SetFinalSizeMaxDiscrepancy(class System.Windows.Controls.DefinitionBase[],float64,bool)",
+            "value": 0.5,
+            "samples": 1
+          },
+          {
+            "group": "WPF UI and layout",
+            "branch": "Native WPF",
+            "name": "presentationcore.il",
+            "detail": "System.IO.Packaging.PackWebRequestFactory.System.Net.IWebRequestCreate.Create(class System.Uri)",
+            "value": 0.5,
+            "samples": 1
+          },
+          {
+            "group": "Windows and other modules",
+            "branch": "Native WPF",
+            "name": "ManagedModule",
+            "detail": "MS.Internal.Text.TextInterface.Font.LookupFontFaceSlow()",
+            "value": 0.5,
+            "samples": 1
+          },
+          {
+            "group": "WPF UI and layout",
+            "branch": "Native WPF",
+            "name": "presentationcore.il",
+            "detail": "System.Windows.Media.Visual.DisconnectAttachedResource(value class System.Windows.Media.VisualProxyFlags,class IResource)",
+            "value": 0.5,
+            "samples": 1
+          },
+          {
+            "group": "WPF UI and layout",
+            "branch": "Native WPF",
+            "name": "windowsbase.il",
+            "detail": "System.Windows.DependencyObject.ProcessCoerceValue(class System.Windows.DependencyProperty,class System.Windows.PropertyMetadata,value class System.Windows.EntryIndex&,int32&,value class System.Windows.EffectiveValueEntry&,value class System.Windows.EffectiveValueEntry&,class System.Object&,class System.Object,class System.Object,class System.Windows.CoerceValueCallback,bool,bool,bool)",
+            "value": 0.5,
+            "samples": 1
+          },
+          {
+            "group": "Windows and other modules",
+            "branch": "Native WPF",
+            "name": "msvcrt",
+            "detail": "msvcrt",
+            "value": 0.5,
+            "samples": 1
+          },
+          {
+            "group": "Windows and other modules",
+            "branch": "Native WPF",
+            "name": "kernel32",
+            "detail": "kernel32",
+            "value": 0.5,
+            "samples": 1
+          },
+          {
+            "group": "WPF UI and layout",
+            "branch": "Native WPF",
+            "name": "presentationframework.il",
+            "detail": "System.Windows.FrameworkElement.ArrangeCore(value class System.Windows.Rect)",
+            "value": 0.5,
+            "samples": 1
+          },
+          {
+            "group": "Runtime and libraries",
+            "branch": "Native WPF",
+            "name": "System.Private.CoreLib.il",
+            "detail": "System.Object.Equals(class System.Object,class System.Object)",
+            "value": 0.5,
+            "samples": 1
+          },
+          {
+            "group": "Windows and other modules",
+            "branch": "Native WPF",
+            "name": "kernelbase",
+            "detail": "kernelbase",
+            "value": 0.5,
+            "samples": 1
+          },
+          {
+            "group": "WPF UI and layout",
+            "branch": "Native WPF",
+            "name": "presentationframework.il",
+            "detail": "System.Windows.Controls.Grid.ResolveStarMaxDiscrepancy(class System.Windows.Controls.DefinitionBase[],float64)",
+            "value": 0.5,
+            "samples": 1
+          },
+          {
+            "group": "WPF UI and layout",
+            "branch": "Native WPF",
+            "name": "presentationcore.il",
+            "detail": "MS.Internal.TextFormatting.TextStore.CreateLSRuns(class MS.Internal.TextFormatting.TextRunInfo,class System.Collections.Generic.IList`1<class System.Windows.Media.TextEffect>,class System.Globalization.CultureInfo,int32,int32,int32,value class System.Windows.Media.TextFormattingMode,bool,int32&,int32&)",
+            "value": 0.5,
+            "samples": 1
+          },
+          {
+            "group": "WPF UI and layout",
+            "branch": "Native WPF",
+            "name": "presentationframework.il",
+            "detail": "System.Windows.Controls.Grid.MeasureCellsGroup(int32,value class System.Windows.Size,bool,bool,bool&)",
+            "value": 0.5,
+            "samples": 1
+          },
+          {
+            "group": "Runtime and libraries",
+            "branch": "Native WPF",
+            "name": "system.private.uri.il",
+            "detail": "System.Uri.CreateUriInfo(value class Flags)",
+            "value": 0.5,
+            "samples": 1
+          },
+          {
+            "group": "WPF UI and layout",
+            "branch": "Native WPF",
+            "name": "windowsbase.il",
+            "detail": "System.Windows.Threading.Dispatcher.GetMessage(value class System.Windows.Interop.MSG&,int,int32,int32)",
+            "value": 0.5,
+            "samples": 1
+          },
+          {
+            "group": "Runtime and libraries",
+            "branch": "Native WPF",
+            "name": "System.Private.CoreLib.il",
+            "detail": "System.Threading.LowLevelLifoSemaphore.Wait(int32,bool)",
+            "value": 0.5,
+            "samples": 1
+          },
+          {
+            "group": "Runtime and libraries",
+            "branch": "Native WPF",
+            "name": "System.Private.CoreLib.il",
+            "detail": "System.Threading.LowLevelLifoSemaphore.WaitForSignal(int32)",
+            "value": 0.5,
+            "samples": 1
+          },
+          {
+            "group": "WPF UI and layout",
+            "branch": "Native WPF",
+            "name": "presentationcore.il",
+            "detail": "System.Windows.ContextLayoutManager+LayoutQueue._getNewRequest(class System.Windows.UIElement)",
+            "value": 0.5,
+            "samples": 1
+          },
+          {
+            "group": "Runtime and libraries",
+            "branch": "Native WPF",
+            "name": "system.private.uri.il",
+            "detail": "System.Uri.CheckAuthorityHelper(wchar*,int32,int32,value class System.ParsingError&,value class Flags&,class System.UriParser,class System.String&)",
+            "value": 0.5,
+            "samples": 1
+          },
+          {
+            "group": "Runtime and libraries",
+            "branch": "Native WPF",
+            "name": "System.Private.CoreLib.il",
+            "detail": "System.Runtime.CompilerServices.CastHelpers.StelemRef_Helper(class System.Object&,void*,class System.Object)",
+            "value": 0.5,
+            "samples": 1
+          },
+          {
+            "group": "Windows and other modules",
+            "branch": "Native WPF",
+            "name": "win32u",
+            "detail": "win32u",
+            "value": 0.5,
+            "samples": 1
+          },
+          {
+            "group": "WPF UI and layout",
+            "branch": "Native WPF",
+            "name": "presentationcore.il",
+            "detail": "System.IO.Packaging.PackWebResponse+CachedResponse.GetResponseStream()",
+            "value": 0.5,
+            "samples": 1
+          },
+          {
+            "group": "WPF UI and layout",
+            "branch": "Native WPF",
+            "name": "presentationcore.il",
+            "detail": "System.Windows.Media.MediaContext.FireInvokeOnRenderCallbacks()",
+            "value": 0.5,
+            "samples": 1
+          },
+          {
+            "group": "WPF UI and layout",
+            "branch": "Native WPF",
+            "name": "windowsbase.il",
+            "detail": "MS.Win32.HwndWrapper.WndProc(int,int32,int,int,bool&)",
+            "value": 0.5,
+            "samples": 1
+          },
+          {
+            "group": "WPF UI and layout",
+            "branch": "Native WPF",
+            "name": "presentationcore.il",
+            "detail": "System.Windows.UIElement.GetHitTestBounds()",
+            "value": 0.5,
+            "samples": 1
+          }
+        ],
+        "gpu": [
+          {
+            "group": "3d",
+            "branch": "Native WPF",
+            "name": "luid_0x00000000_0x00017f82_phys_0_eng_0_engtype_3d",
+            "detail": "Process 33820",
+            "value": 5.827752481500909
+          }
+        ],
+        "tasks": []
+      },
+      "browser": {
+        "trials": 2,
+        "cpuMs": 905.9885000000013,
+        "elapsedMs": 10006.982199999999,
+        "cpuPercent": 0.5658477263005433,
+        "sampleCount": 1568,
+        "sampledCpuMs": 784,
+        "stackCoverage": 1,
+        "gpuTrials": 1,
+        "gpuCoverageMs": 4021,
+        "gpuEngineMs": 7.85822082423792,
+        "actions": 300,
+        "resets": 0,
+        "cpu": [
+          {
+            "group": "Chrome engine",
+            "branch": "renderer",
+            "name": "chrome",
+            "detail": "chrome",
+            "value": 327.5,
+            "samples": 338
+          },
+          {
+            "group": "Chrome engine",
+            "branch": "GPU",
+            "name": "chrome",
+            "detail": "chrome",
+            "value": 143.5,
+            "samples": 151
+          },
+          {
+            "group": "Windows and other modules",
+            "branch": "renderer",
+            "name": "ntoskrnl",
+            "detail": "ntoskrnl",
+            "value": 68.5,
+            "samples": 65
+          },
+          {
+            "group": "Graphics and driver CPU",
+            "branch": "GPU",
+            "name": "nvwgf2umx",
+            "detail": "nvwgf2umx",
+            "value": 50.5,
+            "samples": 52
+          },
+          {
+            "group": "Windows and other modules",
+            "branch": "GPU",
+            "name": "ntoskrnl",
+            "detail": "ntoskrnl",
+            "value": 49.5,
+            "samples": 50
+          },
+          {
+            "group": "Chrome engine",
+            "branch": "GPU",
+            "name": "libglesv2",
+            "detail": "libglesv2",
+            "value": 44,
+            "samples": 47
+          },
+          {
+            "group": "Windows and other modules",
+            "branch": "renderer",
+            "name": "ntdll",
+            "detail": "ntdll",
+            "value": 38,
+            "samples": 35
+          },
+          {
+            "group": "Windows and other modules",
+            "branch": "GPU",
+            "name": "ntdll",
+            "detail": "ntdll",
+            "value": 25.5,
+            "samples": 24
+          },
+          {
+            "group": "Graphics and driver CPU",
+            "branch": "GPU",
+            "name": "d3d11",
+            "detail": "d3d11",
+            "value": 5.5,
+            "samples": 8
+          },
+          {
+            "group": "Windows and other modules",
+            "branch": "GPU",
+            "name": "dxgkrnl.sys",
+            "detail": "dxgkrnl.sys",
+            "value": 5.5,
+            "samples": 7
+          },
+          {
+            "group": "Windows and other modules",
+            "branch": "browser",
+            "name": "ntoskrnl",
+            "detail": "ntoskrnl",
+            "value": 3,
+            "samples": 4
+          },
+          {
+            "group": "Graphics and driver CPU",
+            "branch": "GPU",
+            "name": "dxgi",
+            "detail": "dxgi",
+            "value": 3,
+            "samples": 3
+          },
+          {
+            "group": "Windows and other modules",
+            "branch": "GPU",
+            "name": "kernelbase",
+            "detail": "kernelbase",
+            "value": 3,
+            "samples": 3
+          },
+          {
+            "group": "Graphics and driver CPU",
+            "branch": "GPU",
+            "name": "nvlddmkm.sys",
+            "detail": "nvlddmkm.sys",
+            "value": 3,
+            "samples": 3
+          },
+          {
+            "group": "Windows and other modules",
+            "branch": "GPU",
+            "name": "dxgmms2.sys",
+            "detail": "dxgmms2.sys",
+            "value": 2.5,
+            "samples": 2
+          },
+          {
+            "group": "Windows and other modules",
+            "branch": "renderer",
+            "name": "kernelbase",
+            "detail": "kernelbase",
+            "value": 2,
+            "samples": 1
+          },
+          {
+            "group": "Windows and other modules",
+            "branch": "renderer",
+            "name": "kernel32",
+            "detail": "kernel32",
+            "value": 1.5,
+            "samples": 3
+          },
+          {
+            "group": "Chrome engine",
+            "branch": "browser",
+            "name": "chrome",
+            "detail": "chrome",
+            "value": 1.5,
+            "samples": 1
+          },
+          {
+            "group": "Windows and other modules",
+            "branch": "GPU",
+            "name": "npfs.sys",
+            "detail": "npfs.sys",
+            "value": 1,
+            "samples": 2
+          },
+          {
+            "group": "Windows and other modules",
+            "branch": "GPU",
+            "name": "win32kbase.sys",
+            "detail": "win32kbase.sys",
+            "value": 1,
+            "samples": 2
+          },
+          {
+            "group": "Windows and other modules",
+            "branch": "GPU",
+            "name": "win32kfull.sys",
+            "detail": "win32kfull.sys",
+            "value": 0.5,
+            "samples": 1
+          },
+          {
+            "group": "Windows and other modules",
+            "branch": "GPU",
+            "name": "win32u",
+            "detail": "win32u",
+            "value": 0.5,
+            "samples": 1
+          },
+          {
+            "group": "Windows and other modules",
+            "branch": "GPU",
+            "name": "kernel32",
+            "detail": "kernel32",
+            "value": 0.5,
+            "samples": 1
+          },
+          {
+            "group": "Unresolved",
+            "branch": "GPU",
+            "name": "Unresolved / JIT code",
+            "detail": "Unresolved / JIT code",
+            "value": 0.5,
+            "samples": 1
+          },
+          {
+            "group": "Windows and other modules",
+            "branch": "GPU",
+            "name": "fltmgr.sys",
+            "detail": "fltmgr.sys",
+            "value": 0.5,
+            "samples": 1
+          },
+          {
+            "group": "Unresolved",
+            "branch": "browser",
+            "name": "Unresolved / JIT code",
+            "detail": "Unresolved / JIT code",
+            "value": 0.5,
+            "samples": 1
+          },
+          {
+            "group": "Windows and other modules",
+            "branch": "renderer",
+            "name": "npfs.sys",
+            "detail": "npfs.sys",
+            "value": 0.5,
+            "samples": 1
+          },
+          {
+            "group": "Windows and other modules",
+            "branch": "GPU",
+            "name": "dcomp",
+            "detail": "dcomp",
+            "value": 0.5,
+            "samples": 1
+          },
+          {
+            "group": "Unresolved",
+            "branch": "renderer",
+            "name": "Unresolved / JIT code",
+            "detail": "Unresolved / JIT code",
+            "value": 0.5,
+            "samples": 1
+          }
+        ],
+        "gpu": [
+          {
+            "group": "3d",
+            "branch": "GPU",
+            "name": "luid_0x00000000_0x00017f82_phys_0_eng_0_engtype_3d",
+            "detail": "Process 3588",
+            "value": 7.772830804778419
+          },
+          {
+            "group": "copy",
+            "branch": "GPU",
+            "name": "luid_0x00000000_0x00017f82_phys_0_eng_4_engtype_copy",
+            "detail": "Process 3588",
+            "value": 0.08539001945950114
+          }
+        ],
+        "tasks": [
+          {
+            "group": "Style and layout",
+            "name": "LocalFrameView::performLayout",
+            "value": 37.572499999999984
+          },
+          {
+            "group": "Other renderer work",
+            "name": "ThreadControllerImpl::RunTask",
+            "value": 27.045500000002736
+          },
+          {
+            "group": "Other renderer work",
+            "name": "AsyncTask Run",
+            "value": 24.77000000000008
+          },
+          {
+            "group": "Paint and composition preparation",
+            "name": "PaintArtifactCompositor::Update",
+            "value": 19.549499999999973
+          },
+          {
+            "group": "Style and layout",
+            "name": "Document::recalcStyle",
+            "value": 16.55999999999998
+          },
+          {
+            "group": "JavaScript and event handling",
+            "name": "V8.GC_HEAP_EMBEDDER_TRACING_EPILOGUE",
+            "value": 15.737
+          },
+          {
+            "group": "Other renderer work",
+            "name": "RunTask",
+            "value": 13.698500000000134
+          },
+          {
+            "group": "Animation processing",
+            "name": "PageAnimator::serviceScriptedAnimations",
+            "value": 10.97549999999999
+          },
+          {
+            "group": "Paint and composition preparation",
+            "name": "LocalFrameView::RunPaintLifecyclePhase",
+            "value": 9.8115
+          },
+          {
+            "group": "Paint and composition preparation",
+            "name": "Paint",
+            "value": 9.187499999999991
+          },
+          {
+            "group": "JavaScript and event handling",
+            "name": "FunctionCall",
+            "value": 6.123999999999959
+          },
+          {
+            "group": "Other renderer work",
+            "name": "Commit",
+            "value": 4.956499999999938
+          },
+          {
+            "group": "Paint and composition preparation",
+            "name": "Blink.PrePaint.UpdateTime",
+            "value": 4.40299999999999
+          },
+          {
+            "group": "Paint and composition preparation",
+            "name": "LayerTreeHost::DoUpdateLayers",
+            "value": 2.866499999999974
+          },
+          {
+            "group": "JavaScript and event handling",
+            "name": "BlinkScheduler_PerformMicrotaskCheckpoint",
+            "value": 2.7874999999998202
+          },
+          {
+            "group": "JavaScript and event handling",
+            "name": "V8.GC_MC_INCREMENTAL_EMBEDDER_TRACING",
+            "value": 2.7224999999999997
+          },
+          {
+            "group": "Paint and composition preparation",
+            "name": "Blink.CompositingInputs.UpdateTime",
+            "value": 2.6339999999999897
+          },
+          {
+            "group": "Paint and composition preparation",
+            "name": "LocalFrameView::RunPrePaintLifecyclePhase",
+            "value": 2.484499999999981
+          },
+          {
+            "group": "Other renderer work",
+            "name": "UpdateLayer",
+            "value": 2.2209999999998975
+          },
+          {
+            "group": "Other renderer work",
+            "name": "ProxyMain::BeginMainFrame",
+            "value": 2.057499999999945
+          },
+          {
+            "group": "Other renderer work",
+            "name": "SerializedScriptValueFactory::create",
+            "value": 1.8934999999999946
+          },
+          {
+            "group": "Style and layout",
+            "name": "Document::updateStyle",
+            "value": 1.8539999999999779
+          },
+          {
+            "group": "Other renderer work",
+            "name": "CullRectUpdate",
+            "value": 1.7374999999999927
+          },
+          {
+            "group": "Other renderer work",
+            "name": "WebFrameWidgetImpl::UpdateLifecycle",
+            "value": 1.6919999999999589
+          },
+          {
+            "group": "Paint and composition preparation",
+            "name": "Blink.Paint.UpdateTime",
+            "value": 1.5949999999999718
+          },
+          {
+            "group": "Style and layout",
+            "name": "Layout",
+            "value": 1.5334999999999892
+          },
+          {
+            "group": "Paint and composition preparation",
+            "name": "LocalFrameView::RunCompositingInputsLifecyclePhase",
+            "value": 1.5174999999999876
+          },
+          {
+            "group": "Style and layout",
+            "name": "UpdateLayoutTree",
+            "value": 1.4324999999999948
+          },
+          {
+            "group": "Other renderer work",
+            "name": "SerializedScriptValueFactory::deserialize",
+            "value": 1.349499999999996
+          },
+          {
+            "group": "JavaScript and event handling",
+            "name": "V8.GC_MC_MARK_EMBEDDER_PROLOGUE",
+            "value": 1.263
+          },
+          {
+            "group": "Style and layout",
+            "name": "Document::rebuildLayoutTree",
+            "value": 1.2319999999999962
+          },
+          {
+            "group": "JavaScript and event handling",
+            "name": "TimerFire",
+            "value": 1.1884999999999952
+          },
+          {
+            "group": "Style and layout",
+            "name": "Blink.Layout.UpdateTime",
+            "value": 1.1839999999999948
+          },
+          {
+            "group": "Other renderer work",
+            "name": "WebFrameWidgetImpl::BeginMainFrame",
+            "value": 1.0959999999999979
+          },
+          {
+            "group": "Other renderer work",
+            "name": "Blink.Animate.UpdateTime",
+            "value": 1.019999999999999
+          },
+          {
+            "group": "Paint and composition preparation",
+            "name": "LayerTreeHost::WaitForCommitCompletion",
+            "value": 0.9915000000000005
+          },
+          {
+            "group": "Other renderer work",
+            "name": "ProxyMain::BeginMainFrame::commit",
+            "value": 0.9090000000000007
+          },
+          {
+            "group": "Style and layout",
+            "name": "LocalFrameView::UpdateStyleAndLayout",
+            "value": 0.8810000000000007
+          },
+          {
+            "group": "JavaScript and event handling",
+            "name": "V8.GC_MC_MARK_EMBEDDER_TRACING",
+            "value": 0.8214999999999999
+          },
+          {
+            "group": "JavaScript and event handling",
+            "name": "EventDispatch",
+            "value": 0.7645000000000006
+          },
+          {
+            "group": "Style and layout",
+            "name": "LocalFrameView::RunStyleAndLayoutLifecyclePhases",
+            "value": 0.7465000000000006
+          },
+          {
+            "group": "Style and layout",
+            "name": "LocalFrameView::layout",
+            "value": 0.6825000000000006
+          },
+          {
+            "group": "Style and layout",
+            "name": "Blink.Style.UpdateTime",
+            "value": 0.6255000000000004
+          },
+          {
+            "group": "Paint and composition preparation",
+            "name": "PrePaint",
+            "value": 0.5760000000000004
+          },
+          {
+            "group": "Other renderer work",
+            "name": "TimerBase::run",
+            "value": 0.5655000000000003
+          },
+          {
+            "group": "Paint and composition preparation",
+            "name": "Layerize",
+            "value": 0.5275000000000003
+          },
+          {
+            "group": "JavaScript and event handling",
+            "name": "V8.GC_MC_MARK",
+            "value": 0.5265
+          },
+          {
+            "group": "Other renderer work",
+            "name": "LocalFrameView::NotifyResizeObservers",
+            "value": 0.5095000000000004
+          },
+          {
+            "group": "Other renderer work",
+            "name": "HitTest",
+            "value": 0.5015000000000003
+          },
+          {
+            "group": "Paint and composition preparation",
+            "name": "LocalFrameView::pushPaintArtifactToCompositor",
+            "value": 0.45650000000000035
+          },
+          {
+            "group": "Style and layout",
+            "name": "LocalFrameView::performPostLayoutTasks",
+            "value": 0.4195000000000003
+          },
+          {
+            "group": "Other renderer work",
+            "name": "ScrollTree::SetScrollOffset",
+            "value": 0.3985000000000003
+          },
+          {
+            "group": "Other renderer work",
+            "name": "LocalFrameView::UpdateViewportIntersectionsForSubtree",
+            "value": 0.3820000000000003
+          },
+          {
+            "group": "Paint and composition preparation",
+            "name": "Blink.CompositingCommit.UpdateTime",
+            "value": 0.3805000000000003
+          },
+          {
+            "group": "Other renderer work",
+            "name": "WidgetBase::WillBeginMainFrame",
+            "value": 0.36550000000000027
+          },
+          {
+            "group": "Other renderer work",
+            "name": "LocalFrameView::RunAccessibilitySteps",
+            "value": 0.34900000000000025
+          },
+          {
+            "group": "JavaScript and event handling",
+            "name": "V8.GC_MC_INCREMENTAL",
+            "value": 0.3465000000000001
+          },
+          {
+            "group": "Paint and composition preparation",
+            "name": "PaintController::commitNewDisplayItems",
+            "value": 0.3085000000000002
+          },
+          {
+            "group": "JavaScript and event handling",
+            "name": "V8.GC_MARK_COMPACTOR",
+            "value": 0.264
+          },
+          {
+            "group": "JavaScript and event handling",
+            "name": "V8.GC_HEAP_EPILOGUE_SAFEPOINT",
+            "value": 0.257
+          },
+          {
+            "group": "JavaScript and event handling",
+            "name": "V8.GC_MC_EVACUATE_COPY_PARALLEL",
+            "value": 0.2565
+          },
+          {
+            "group": "Paint and composition preparation",
+            "name": "LayerTreeHost::ApplyCompositorChanges",
+            "value": 0.25150000000000017
+          },
+          {
+            "group": "Other renderer work",
+            "name": "AsyncTask Scheduled",
+            "value": 0.18500000000000014
+          },
+          {
+            "group": "Paint and composition preparation",
+            "name": "WidgetBase::DidCommitAndDrawCompositorFrame",
+            "value": 0.17550000000000013
+          },
+          {
+            "group": "Other renderer work",
+            "name": "LocalFrameView::WillStartLifecycleUpdate",
+            "value": 0.17200000000000013
+          },
+          {
+            "group": "Other renderer work",
+            "name": "LocalFrameView::DidFinishLifecycleUpdate",
+            "value": 0.17150000000000012
+          },
+          {
+            "group": "Animation processing",
+            "name": "AnimationTimeline::serviceAnimations",
+            "value": 0.16850000000000012
+          },
+          {
+            "group": "JavaScript and event handling",
+            "name": "V8.GC_MC_INCREMENTAL_EXTERNAL_PROLOGUE",
+            "value": 0.1535
+          },
+          {
+            "group": "JavaScript and event handling",
+            "name": "V8.GC_MC_EVACUATE_UPDATE_POINTERS_TO_NEW_ROOTS",
+            "value": 0.1525
+          },
+          {
+            "group": "Other renderer work",
+            "name": "RecordingSource::FinishDisplayItemListUpdate",
+            "value": 0.1490000000000001
+          },
+          {
+            "group": "Style and layout",
+            "name": "Document::updateActiveStyle",
+            "value": 0.14600000000000007
+          },
+          {
+            "group": "Style and layout",
+            "name": "LayoutView::commitPendingSelection",
+            "value": 0.1380000000000001
+          },
+          {
+            "group": "Other renderer work",
+            "name": "RootScrollerController::PerformRootScrollerSelection",
+            "value": 0.1365000000000001
+          },
+          {
+            "group": "Other renderer work",
+            "name": "LocalFrameView::UpdateLifecyclePhases - start of lifecycle tasks",
+            "value": 0.1295000000000001
+          },
+          {
+            "group": "JavaScript and event handling",
+            "name": "V8.GC_MC_EVACUATE_COPY",
+            "value": 0.126
+          },
+          {
+            "group": "JavaScript and event handling",
+            "name": "V8.GC_HEAP_EXTERNAL_PROLOGUE",
+            "value": 0.124
+          },
+          {
+            "group": "Animation processing",
+            "name": "AnimationHost::TickAnimations",
+            "value": 0.1235000000000001
+          },
+          {
+            "group": "JavaScript and event handling",
+            "name": "V8.GC_MC_EVACUATE_UPDATE_POINTERS_SLOTS_MAIN",
+            "value": 0.0805
+          },
+          {
+            "group": "Other renderer work",
+            "name": "ResourceLoadPriorityOptimizer::updateAllImageResourcePriorities",
+            "value": 0.07650000000000005
+          },
+          {
+            "group": "JavaScript and event handling",
+            "name": "V8.GC_MC_SWEEP_EXTERNAL_POINTER_TABLE",
+            "value": 0.0765
+          },
+          {
+            "group": "Other renderer work",
+            "name": "Blink.IntersectionObservation.UpdateTime",
+            "value": 0.07350000000000004
+          },
+          {
+            "group": "Other renderer work",
+            "name": "MajorGC",
+            "value": 0.07100000000000001
+          },
+          {
+            "group": "JavaScript and event handling",
+            "name": "V8.GC_MC_MARK_ROOTS",
+            "value": 0.07050000000000001
+          },
+          {
+            "group": "JavaScript and event handling",
+            "name": "V8.GC_MC_SWEEP",
+            "value": 0.0625
+          },
+          {
+            "group": "JavaScript and event handling",
+            "name": "V8.GC_MC_INCREMENTAL_START",
+            "value": 0.062
+          },
+          {
+            "group": "JavaScript and event handling",
+            "name": "V8.GC_MC_EVACUATE_UPDATE_POINTERS_POINTER_TABLES",
+            "value": 0.056499999999999995
+          },
+          {
+            "group": "Other renderer work",
+            "name": "OverlayInterstitialAdDetector::MaybeFireDetection",
+            "value": 0.05000000000000002
+          },
+          {
+            "group": "Other renderer work",
+            "name": "Blink.Accessibility.UpdateTime",
+            "value": 0.045500000000000033
+          },
+          {
+            "group": "JavaScript and event handling",
+            "name": "V8.GC_MC_EVACUATE_UPDATE_POINTERS_PARALLEL",
+            "value": 0.0405
+          },
+          {
+            "group": "JavaScript and event handling",
+            "name": "V8.GC_MC_CLEAR_WEAK_GLOBAL_HANDLES",
+            "value": 0.038500000000000006
+          },
+          {
+            "group": "Other renderer work",
+            "name": "Receive mojo message",
+            "value": 0.0385
+          },
+          {
+            "group": "Other renderer work",
+            "name": "StickyAdDetector::MaybeFireDetection",
+            "value": 0.031500000000000014
+          },
+          {
+            "group": "JavaScript and event handling",
+            "name": "V8.GC_MC_COMPLETE_SWEEPING",
+            "value": 0.031000000000000003
+          },
+          {
+            "group": "JavaScript and event handling",
+            "name": "V8.GC_MC_CLEAR",
+            "value": 0.02650000000000001
+          },
+          {
+            "group": "JavaScript and event handling",
+            "name": "V8.GC_MC_EVACUATE_EPILOGUE",
+            "value": 0.0235
+          },
+          {
+            "group": "JavaScript and event handling",
+            "name": "V8.GC_MC_MARK_WEAK_CLOSURE_EPHEMERON_MARKING",
+            "value": 0.023
+          },
+          {
+            "group": "Other renderer work",
+            "name": "Blink.UpdateViewportIntersection.UpdateTime",
+            "value": 0.017500000000000005
+          },
+          {
+            "group": "JavaScript and event handling",
+            "name": "V8.GC_MC_MARK_FULL_CLOSURE_PARALLEL_JOIN",
+            "value": 0.0175
+          },
+          {
+            "group": "JavaScript and event handling",
+            "name": "V8.GC_MC_INCREMENTAL_EXTERNAL_EPILOGUE",
+            "value": 0.016
+          },
+          {
+            "group": "JavaScript and event handling",
+            "name": "V8.GC_MC_PROLOGUE",
+            "value": 0.016
+          },
+          {
+            "group": "JavaScript and event handling",
+            "name": "V8.GC_MC_SWEEP_JS_DISPATCH_TABLE",
+            "value": 0.0155
+          },
+          {
+            "group": "Other renderer work",
+            "name": "Major concurrent marking rescheduled",
+            "value": 0.014500000000000002
+          },
+          {
+            "group": "JavaScript and event handling",
+            "name": "V8.GC_MC_CLEAR_EXTERNAL_STRING_TABLE",
+            "value": 0.0125
+          },
+          {
+            "group": "JavaScript and event handling",
+            "name": "V8.GC_MC_EVACUATE",
+            "value": 0.012000000000000002
+          },
+          {
+            "group": "JavaScript and event handling",
+            "name": "V8.GC_HEAP_EXTERNAL_EPILOGUE",
+            "value": 0.010499999999999999
+          },
+          {
+            "group": "JavaScript and event handling",
+            "name": "V8.GC_MC_MARK_FULL_CLOSURE_PARALLEL",
+            "value": 0.010000000000000002
+          },
+          {
+            "group": "JavaScript and event handling",
+            "name": "V8.GC_MC_SWEEP_TRUSTED_POINTER_TABLE",
+            "value": 0.009500000000000001
+          },
+          {
+            "group": "JavaScript and event handling",
+            "name": "V8.GC_HEAP_EXTERNAL_WEAK_GLOBAL_HANDLES",
+            "value": 0.009
+          },
+          {
+            "group": "JavaScript and event handling",
+            "name": "V8.GC_MC_SWEEP_START_JOBS",
+            "value": 0.008
+          },
+          {
+            "group": "JavaScript and event handling",
+            "name": "V8.GC_MC_SWEEP_CODE_POINTER_TABLE",
+            "value": 0.0075
+          },
+          {
+            "group": "JavaScript and event handling",
+            "name": "V8.GC_MC_EVACUATE_UPDATE_POINTERS",
+            "value": 0.0075
+          },
+          {
+            "group": "JavaScript and event handling",
+            "name": "V8.GC_MC_MARK_FINISH_INCREMENTAL",
+            "value": 0.006
+          },
+          {
+            "group": "JavaScript and event handling",
+            "name": "V8.GC_TIME_TO_SAFEPOINT",
+            "value": 0.0055
+          },
+          {
+            "group": "JavaScript and event handling",
+            "name": "V8.GC_HEAP_EPILOGUE",
+            "value": 0.0055
+          },
+          {
+            "group": "JavaScript and event handling",
+            "name": "V8.GC_MC_WEAKNESS_HANDLING",
+            "value": 0.005
+          },
+          {
+            "group": "JavaScript and event handling",
+            "name": "V8.GC_HEAP_EXTERNAL_SECOND_PASS_CALLBACKS",
+            "value": 0.005
+          },
+          {
+            "group": "JavaScript and event handling",
+            "name": "V8.GC_MC_MARK_FULL_CLOSURE",
+            "value": 0.0045000000000000005
+          },
+          {
+            "group": "JavaScript and event handling",
+            "name": "V8.GC_MC_EVACUATE_PROLOGUE",
+            "value": 0.0045000000000000005
+          },
+          {
+            "group": "JavaScript and event handling",
+            "name": "V8.GC_MC_EVACUATE_UPDATE_POINTERS_WEAK",
+            "value": 0.0045000000000000005
+          },
+          {
+            "group": "JavaScript and event handling",
+            "name": "V8.GC_MC_FINISH",
+            "value": 0.0045000000000000005
+          },
+          {
+            "group": "JavaScript and event handling",
+            "name": "V8.GC_MC_CLEAR_WEAK_LISTS",
+            "value": 0.004
+          },
+          {
+            "group": "Other renderer work",
+            "name": "Major concurrent marking started",
+            "value": 0.0035
+          },
+          {
+            "group": "JavaScript and event handling",
+            "name": "V8.GC_MC_CLEAR_MAPS",
+            "value": 0.0035
+          },
+          {
+            "group": "JavaScript and event handling",
+            "name": "V8.GC_MC_MARK_CLIENT_HEAPS",
+            "value": 0.003
+          },
+          {
+            "group": "JavaScript and event handling",
+            "name": "V8.GC_MC_MARK_RETAIN_MAPS",
+            "value": 0.0025
+          },
+          {
+            "group": "JavaScript and event handling",
+            "name": "V8.GC_MC_CLEAR_STRING_FORWARDING_TABLE",
+            "value": 0.0025
+          },
+          {
+            "group": "JavaScript and event handling",
+            "name": "V8.GC_MC_CLEAR_JOIN_JOB",
+            "value": 0.0025
+          },
+          {
+            "group": "Other renderer work",
+            "name": "PageEvacuationJob started",
+            "value": 0.0025
+          },
+          {
+            "group": "JavaScript and event handling",
+            "name": "V8.GC_MC_SWEEP_WASM_CODE_POINTER_TABLE",
+            "value": 0.002
+          },
+          {
+            "group": "JavaScript and event handling",
+            "name": "V8.GC_MC_CLEAR_WEAK_REFERENCES_JOIN_FILTER_JOB",
+            "value": 0.002
+          },
+          {
+            "group": "JavaScript and event handling",
+            "name": "V8.GC_MC_SWEEP_NEW_LO",
+            "value": 0.002
+          },
+          {
+            "group": "JavaScript and event handling",
+            "name": "V8.GC_MC_EVACUATE_REBALANCE",
+            "value": 0.002
+          },
+          {
+            "group": "Other renderer work",
+            "name": "ClearStringTableJob started",
+            "value": 0.0015
+          },
+          {
+            "group": "JavaScript and event handling",
+            "name": "V8.GC_MC_CLEAR_FLUSHABLE_BYTECODE",
+            "value": 0.0015
+          },
+          {
+            "group": "JavaScript and event handling",
+            "name": "V8.GC_MC_CLEAR_FLUSHED_JS_FUNCTIONS",
+            "value": 0.0015
+          },
+          {
+            "group": "Other renderer work",
+            "name": "PointersUpdatingJob started",
+            "value": 0.0015
+          },
+          {
+            "group": "JavaScript and event handling",
+            "name": "V8.GC_HEAP_PROLOGUE",
+            "value": 0.0015
+          },
+          {
+            "group": "Other renderer work",
+            "name": "FilterNonTrivialWeakRefJob started",
+            "value": 0.001
+          },
+          {
+            "group": "JavaScript and event handling",
+            "name": "V8.GC_MC_EPILOGUE",
+            "value": 0.001
+          },
+          {
+            "group": "JavaScript and event handling",
+            "name": "V8.GC_HEAP_PROLOGUE_SAFEPOINT",
+            "value": 0.001
+          },
+          {
+            "group": "Other renderer work",
+            "name": "ClearTrivialWeakRefJob started",
+            "value": 0.0005
+          },
+          {
+            "group": "JavaScript and event handling",
+            "name": "V8.GC_MC_EVACUATE_UPDATE_POINTERS_CLIENT_HEAPS",
+            "value": 0.0005
+          },
+          {
+            "group": "JavaScript and event handling",
+            "name": "V8.GC_MC_CLEAR_WEAK_REFERENCES_NON_TRIVIAL",
+            "value": 0.0005
+          },
+          {
+            "group": "JavaScript and event handling",
+            "name": "V8.GC_MC_CLEAR_WEAK_COLLECTIONS",
+            "value": 0.0005
+          },
+          {
+            "group": "JavaScript and event handling",
+            "name": "V8.GC_MC_EVACUATE_CLEAN_UP",
+            "value": 0.0005
+          }
+        ]
+      }
+    }
+  }
+}

@@ -1,0 +1,4397 @@
+{
+  "eventsLost": 0,
+  "results": [
+    {
+      "implementation": "native",
+      "phase": "idle",
+      "totalSamples": 1,
+      "samplesWithStack": 1,
+      "sampleIntervalMs": 1,
+      "leaves": [
+        {
+          "role": "Native WPF",
+          "module": "clrjit",
+          "method": "clrjit",
+          "samples": 1
+        }
+      ]
+    },
+    {
+      "implementation": "native",
+      "phase": "switching",
+      "totalSamples": 3646,
+      "samplesWithStack": 3645,
+      "sampleIntervalMs": 1,
+      "leaves": [
+        {
+          "role": "Native WPF",
+          "module": "clrjit",
+          "method": "clrjit",
+          "samples": 1475
+        },
+        {
+          "role": "Native WPF",
+          "module": "wpfgfx_cor3",
+          "method": "wpfgfx_cor3",
+          "samples": 649
+        },
+        {
+          "role": "Native WPF",
+          "module": "coreclr",
+          "method": "coreclr",
+          "samples": 316
+        },
+        {
+          "role": "Native WPF",
+          "module": "ntoskrnl",
+          "method": "ntoskrnl",
+          "samples": 221
+        },
+        {
+          "role": "Native WPF",
+          "module": "ntdll",
+          "method": "ntdll",
+          "samples": 220
+        },
+        {
+          "role": "Native WPF",
+          "module": "nvd3dumx",
+          "method": "nvd3dumx",
+          "samples": 175
+        },
+        {
+          "role": "Native WPF",
+          "module": "win32kbase.sys",
+          "method": "win32kbase.sys",
+          "samples": 58
+        },
+        {
+          "role": "Native WPF",
+          "module": "Unresolved / JIT code",
+          "method": "Unresolved / JIT code",
+          "samples": 56
+        },
+        {
+          "role": "Native WPF",
+          "module": "nvlddmkm.sys",
+          "method": "nvlddmkm.sys",
+          "samples": 47
+        },
+        {
+          "role": "Native WPF",
+          "module": "dwrite",
+          "method": "dwrite",
+          "samples": 29
+        },
+        {
+          "role": "Native WPF",
+          "module": "d3d9",
+          "method": "d3d9",
+          "samples": 27
+        },
+        {
+          "role": "Native WPF",
+          "module": "ucrtbase",
+          "method": "ucrtbase",
+          "samples": 20
+        },
+        {
+          "role": "Native WPF",
+          "module": "dxgkrnl.sys",
+          "method": "dxgkrnl.sys",
+          "samples": 19
+        },
+        {
+          "role": "Native WPF",
+          "module": "win32kfull.sys",
+          "method": "win32kfull.sys",
+          "samples": 19
+        },
+        {
+          "role": "Native WPF",
+          "module": "windowsbase.il",
+          "method": "System.Windows.DependencyObject.LookupEntry(int32)",
+          "samples": 16
+        },
+        {
+          "role": "Native WPF",
+          "module": "presentationcore.il",
+          "method": "System.Windows.Media.Animation.ClockGroup.ComputeTreeState()",
+          "samples": 14
+        },
+        {
+          "role": "Native WPF",
+          "module": "msvcrt",
+          "method": "msvcrt",
+          "samples": 10
+        },
+        {
+          "role": "Native WPF",
+          "module": "system.private.corelib.il",
+          "method": "System.Runtime.CompilerServices.CastHelpers.IsInstanceOfClass(void*,class System.Object)",
+          "samples": 9
+        },
+        {
+          "role": "Native WPF",
+          "module": "windowsbase.il",
+          "method": "System.Windows.Freezable.GetChangeHandlersAndInvalidateSubProperties(class EventStorage\u0026)",
+          "samples": 9
+        },
+        {
+          "role": "Native WPF",
+          "module": "presentationcore.il",
+          "method": "System.Windows.Media.Animation.ClockGroup.ComputeTreeStateRoot()",
+          "samples": 9
+        },
+        {
+          "role": "Native WPF",
+          "module": "system.private.corelib.il",
+          "method": "System.Runtime.CompilerServices.CastHelpers.ChkCastClassSpecial(void*,class System.Object)",
+          "samples": 9
+        },
+        {
+          "role": "Native WPF",
+          "module": "presentationcore",
+          "method": "presentationcore",
+          "samples": 8
+        },
+        {
+          "role": "Native WPF",
+          "module": "dxgmms2.sys",
+          "method": "dxgmms2.sys",
+          "samples": 8
+        },
+        {
+          "role": "Native WPF",
+          "module": "presentationcore.il",
+          "method": "System.Windows.Media.Visual.PrecomputeRecursive(value class System.Windows.Rect\u0026)",
+          "samples": 7
+        },
+        {
+          "role": "Native WPF",
+          "module": "windowsbase.il",
+          "method": "System.Windows.DependencyObject.GetEffectiveValue(value class System.Windows.EntryIndex,class System.Windows.DependencyProperty,value class System.Windows.RequestFlags)",
+          "samples": 7
+        },
+        {
+          "role": "Native WPF",
+          "module": "windowsbase.il",
+          "method": "System.Windows.DependencyObject.InvalidateSubProperty(class System.Windows.DependencyProperty)",
+          "samples": 6
+        },
+        {
+          "role": "Native WPF",
+          "module": "user32",
+          "method": "user32",
+          "samples": 6
+        },
+        {
+          "role": "Native WPF",
+          "module": "presentationnative_cor3",
+          "method": "presentationnative_cor3",
+          "samples": 6
+        },
+        {
+          "role": "Native WPF",
+          "module": "presentationcore.il",
+          "method": "System.Windows.Media.RenderData.DrawingContextWalk(class System.Windows.Media.DrawingContextWalker)",
+          "samples": 6
+        },
+        {
+          "role": "Native WPF",
+          "module": "textshaping",
+          "method": "textshaping",
+          "samples": 5
+        },
+        {
+          "role": "Native WPF",
+          "module": "presentationcore.il",
+          "method": "System.Windows.Media.Animation.Clock.get_CurrentGlobalTime()",
+          "samples": 5
+        },
+        {
+          "role": "Native WPF",
+          "module": "windowsbase.il",
+          "method": "System.Windows.DependencyObject.NotifyPropertyChange(value class System.Windows.DependencyPropertyChangedEventArgs)",
+          "samples": 5
+        },
+        {
+          "role": "Native WPF",
+          "module": "system.private.corelib",
+          "method": "system.private.corelib",
+          "samples": 4
+        },
+        {
+          "role": "Native WPF",
+          "module": "windowsbase.il",
+          "method": "System.Windows.DependencyObject.UpdateEffectiveValue(value class System.Windows.EntryIndex,class System.Windows.DependencyProperty,class System.Windows.PropertyMetadata,value class System.Windows.EffectiveValueEntry,value class System.Windows.EffectiveValueEntry\u0026,bool,bool,value class System.Windows.OperationType)",
+          "samples": 4
+        },
+        {
+          "role": "Native WPF",
+          "module": "win32k.sys",
+          "method": "win32k.sys",
+          "samples": 4
+        },
+        {
+          "role": "Native WPF",
+          "module": "presentationcore.il",
+          "method": "System.Windows.Media.TransformGroup.get_Value()",
+          "samples": 4
+        },
+        {
+          "role": "Native WPF",
+          "module": "presentationcore.il",
+          "method": "System.Windows.Media.Visual.PrecomputeContent()",
+          "samples": 4
+        },
+        {
+          "role": "Native WPF",
+          "module": "presentationcore.il",
+          "method": "System.Windows.Media.Visual.GetDpi()",
+          "samples": 3
+        },
+        {
+          "role": "Native WPF",
+          "module": "presentationframework.il",
+          "method": "System.Windows.FrameworkElement\u002BMinMax..ctor(class System.Windows.FrameworkElement)",
+          "samples": 3
+        },
+        {
+          "role": "Native WPF",
+          "module": "presentationframework.il",
+          "method": "System.Windows.FrameworkElement.OnPropertyChanged(value class System.Windows.DependencyPropertyChangedEventArgs)",
+          "samples": 3
+        },
+        {
+          "role": "Native WPF",
+          "module": "presentationcore.il",
+          "method": "System.Windows.Media.Visual.UpdateChildren(class System.Windows.Media.RenderContext,value class ResourceHandle)",
+          "samples": 3
+        },
+        {
+          "role": "Native WPF",
+          "module": "ManagedModule",
+          "method": "dynamicClass.IL_STUB_PInvoke(pMT: 00007FF9E0C80D58\u0026,pMT: 00007FF9E0A9C2A0,int32,int32)",
+          "samples": 3
+        },
+        {
+          "role": "Native WPF",
+          "module": "kernelbase",
+          "method": "kernelbase",
+          "samples": 3
+        },
+        {
+          "role": "Native WPF",
+          "module": "presentationcore.il",
+          "method": "System.Windows.UIElement.GetHitTestBounds()",
+          "samples": 3
+        },
+        {
+          "role": "Native WPF",
+          "module": "win32u",
+          "method": "win32u",
+          "samples": 3
+        },
+        {
+          "role": "Native WPF",
+          "module": "presentationcore.il",
+          "method": "System.Windows.Media.Animation.PrefixSubtreeEnumerator.MoveNext()",
+          "samples": 2
+        },
+        {
+          "role": "Native WPF",
+          "module": "presentationcore.il",
+          "method": "System.Windows.Media.Animation.Clock.ComputeInteractiveValues()",
+          "samples": 2
+        },
+        {
+          "role": "Native WPF",
+          "module": "windowsbase.il",
+          "method": "System.Windows.EffectiveValueEntry.get_LocalValue()",
+          "samples": 2
+        },
+        {
+          "role": "Native WPF",
+          "module": "windowsbase.il",
+          "method": "System.Windows.DependencyObject.GetValue(class System.Windows.DependencyProperty)",
+          "samples": 2
+        },
+        {
+          "role": "Native WPF",
+          "module": "system.private.corelib.il",
+          "method": "System.Globalization.CultureInfo.set_CurrentCulture(class System.Globalization.CultureInfo)",
+          "samples": 2
+        },
+        {
+          "role": "Native WPF",
+          "module": "windowsbase.il",
+          "method": "MS.Internal.DoubleUtil.RectHasNaN(value class System.Windows.Rect)",
+          "samples": 2
+        },
+        {
+          "role": "Native WPF",
+          "module": "wpprecorder.sys",
+          "method": "wpprecorder.sys",
+          "samples": 2
+        },
+        {
+          "role": "Native WPF",
+          "module": "windowsbase.il",
+          "method": "System.Windows.Rect..ctor(value class System.Windows.Size)",
+          "samples": 2
+        },
+        {
+          "role": "Native WPF",
+          "module": "presentationcore.il",
+          "method": "System.Windows.Media.Visual.RenderRecursive(class System.Windows.Media.RenderContext)",
+          "samples": 2
+        },
+        {
+          "role": "Native WPF",
+          "module": "presentationcore.il",
+          "method": "System.Windows.Media.Animation.WeakRefEnumerator\u00601[System.__Canon].MoveNext()",
+          "samples": 2
+        },
+        {
+          "role": "Native WPF",
+          "module": "presentationframework.il",
+          "method": "System.Windows.StyleHelper.InvalidateDependents(class System.Windows.Style,class System.Windows.FrameworkTemplate,class System.Windows.DependencyObject,class System.Windows.DependencyProperty,value class MS.Utility.FrugalStructList\u00601\u003Cvalue class System.Windows.ChildPropertyDependent\u003E\u0026,bool)",
+          "samples": 2
+        },
+        {
+          "role": "Native WPF",
+          "module": "presentationframework.il",
+          "method": "System.Windows.Controls.Panel.GetVisualChild(int32)",
+          "samples": 2
+        },
+        {
+          "role": "Native WPF",
+          "module": "presentationframework.il",
+          "method": "System.Windows.Controls.TextBlock.OnPropertyChanged(value class System.Windows.DependencyPropertyChangedEventArgs)",
+          "samples": 2
+        },
+        {
+          "role": "Native WPF",
+          "module": "presentationcore.il",
+          "method": "System.Windows.ContextLayoutManager.UpdateLayout()",
+          "samples": 2
+        },
+        {
+          "role": "Native WPF",
+          "module": "presentationcore.il",
+          "method": "System.Windows.Media.Animation.AnimationStorage.OnCurrentTimeInvalidated(class System.Object,class System.EventArgs)",
+          "samples": 2
+        },
+        {
+          "role": "Native WPF",
+          "module": "presentationframework.il",
+          "method": "System.Windows.FrameworkElement.ApplyTemplate()",
+          "samples": 2
+        },
+        {
+          "role": "Native WPF",
+          "module": "windowsbase.il",
+          "method": "System.Windows.DependencyProperty.GetMetadata(class System.Windows.DependencyObjectType)",
+          "samples": 2
+        },
+        {
+          "role": "Native WPF",
+          "module": "watchdog.sys",
+          "method": "watchdog.sys",
+          "samples": 2
+        },
+        {
+          "role": "Native WPF",
+          "module": "presentationframework.il",
+          "method": "System.Windows.FrameworkElement.ArrangeCore(value class System.Windows.Rect)",
+          "samples": 2
+        },
+        {
+          "role": "Native WPF",
+          "module": "windowsbase.il",
+          "method": "System.Windows.DependencyObject.EvaluateEffectiveValue(value class System.Windows.EntryIndex,class System.Windows.DependencyProperty,class System.Windows.PropertyMetadata,value class System.Windows.EffectiveValueEntry,value class System.Windows.EffectiveValueEntry,value class System.Windows.OperationType)",
+          "samples": 2
+        },
+        {
+          "role": "Native WPF",
+          "module": "system.private.corelib.il",
+          "method": "System.Runtime.CompilerServices.CastHelpers.ChkCastAny(void*,class System.Object)",
+          "samples": 1
+        },
+        {
+          "role": "Native WPF",
+          "module": "presentationcore.il",
+          "method": "System.Windows.ContextLayoutManager.From(class System.Windows.Threading.Dispatcher)",
+          "samples": 1
+        },
+        {
+          "role": "Native WPF",
+          "module": "presentationcore.il",
+          "method": "System.Windows.Media.Animation.Clock.ComputeEvents(value class System.Nullable\u00601\u003Cvalue class System.TimeSpan\u003E,value class System.Windows.Media.Animation.TimeIntervalCollection)",
+          "samples": 1
+        },
+        {
+          "role": "Native WPF",
+          "module": "presentationcore.il",
+          "method": "System.Windows.Media.Typeface.CheckFastPathNominalGlyphs(value class System.Windows.Media.TextFormatting.CharacterBufferRange,float64,float32,float64,float64,bool,bool,class System.Globalization.CultureInfo,value class System.Windows.Media.TextFormattingMode,bool,bool,int32\u0026)",
+          "samples": 1
+        },
+        {
+          "role": "Native WPF",
+          "module": "windowsbase.il",
+          "method": "System.Windows.DependencyObject.SetValueInternal(class System.Windows.DependencyProperty,class System.Object)",
+          "samples": 1
+        },
+        {
+          "role": "Native WPF",
+          "module": "windowsbase.il",
+          "method": "MS.Utility.ThreeItemList\u00601[System.__Canon].EntryAt(int32)",
+          "samples": 1
+        },
+        {
+          "role": "Native WPF",
+          "module": "windowsbase.il",
+          "method": "System.Windows.Freezable.OnChanged()",
+          "samples": 1
+        },
+        {
+          "role": "Native WPF",
+          "module": "presentationcore.il",
+          "method": "System.Windows.Interop.HwndSource\u002BWeakEventPreprocessMessage.OnPreprocessMessage(value class System.Windows.Interop.MSG\u0026,bool\u0026)",
+          "samples": 1
+        },
+        {
+          "role": "Native WPF",
+          "module": "windowsbase.il",
+          "method": "MS.Internal.MatrixUtil.TransformRect(value class System.Windows.Rect\u0026,value class System.Windows.Media.Matrix\u0026)",
+          "samples": 1
+        },
+        {
+          "role": "Native WPF",
+          "module": "windowsbase.il",
+          "method": "System.Windows.Threading.PriorityQueue\u00601[System.__Canon].Dequeue()",
+          "samples": 1
+        },
+        {
+          "role": "Native WPF",
+          "module": "presentationcore.il",
+          "method": "System.Windows.Media.TextFormatting.TextShapeableCharacters.get_IsShapingRequired()",
+          "samples": 1
+        },
+        {
+          "role": "Native WPF",
+          "module": "windowsbase.il",
+          "method": "System.Windows.EffectiveValueEntry.GetFlattenedEntry(value class System.Windows.RequestFlags)",
+          "samples": 1
+        },
+        {
+          "role": "Native WPF",
+          "module": "windowsbase.il",
+          "method": "System.Windows.ModifiedValue.get_BaseValue()",
+          "samples": 1
+        },
+        {
+          "role": "Native WPF",
+          "module": "presentationframework.il",
+          "method": "System.Windows.FrameworkElement.GetRawValue(class System.Windows.DependencyProperty,class System.Windows.PropertyMetadata,value class System.Windows.EffectiveValueEntry\u0026)",
+          "samples": 1
+        },
+        {
+          "role": "Native WPF",
+          "module": "presentationframework.il",
+          "method": "System.Windows.FrameworkElement.get_VisualChildrenCount()",
+          "samples": 1
+        },
+        {
+          "role": "Native WPF",
+          "module": "presentationcore.il",
+          "method": "System.Windows.Media.Composition.DUCE\u002BMultiChannelResource.IsOnChannel(class Channel)",
+          "samples": 1
+        },
+        {
+          "role": "Native WPF",
+          "module": "system.collections.il",
+          "method": "System.Collections.Generic.SortedList\u00602[System.Int32,System.__Canon].RemoveAt(int32)",
+          "samples": 1
+        },
+        {
+          "role": "Native WPF",
+          "module": "windowsbase.il",
+          "method": "System.Windows.UncommonField\u00601[System.__Canon].GetValue(class System.Windows.DependencyObject)",
+          "samples": 1
+        },
+        {
+          "role": "Native WPF",
+          "module": "system.private.corelib.il",
+          "method": "System.Collections.ArrayList.get_Count()",
+          "samples": 1
+        },
+        {
+          "role": "Native WPF",
+          "module": "presentationframework.il",
+          "method": "System.Windows.Controls.Grid.GetVisualChild(int32)",
+          "samples": 1
+        },
+        {
+          "role": "Native WPF",
+          "module": "presentationcore.il",
+          "method": "System.Windows.Duration.op_Implicit(value class System.TimeSpan)",
+          "samples": 1
+        },
+        {
+          "role": "Native WPF",
+          "module": "presentationframework.il",
+          "method": "System.Windows.Controls.TextBlock.get_Background()",
+          "samples": 1
+        },
+        {
+          "role": "Native WPF",
+          "module": "presentationcore.il",
+          "method": "System.Windows.Media.Animation.Clock.ComputeCurrentTime(value class System.TimeSpan,float64\u0026)",
+          "samples": 1
+        },
+        {
+          "role": "Native WPF",
+          "module": "system.private.corelib.il",
+          "method": "System.Collections.ArrayList\u002BReadOnlyArrayList.get_Count()",
+          "samples": 1
+        },
+        {
+          "role": "Native WPF",
+          "module": "windowsbase.il",
+          "method": "MS.Win32.HwndWrapper.WndProc(int,int32,int,int,bool\u0026)",
+          "samples": 1
+        },
+        {
+          "role": "Native WPF",
+          "module": "system.private.corelib.il",
+          "method": "System.MulticastDelegate.CombineImpl(class System.Delegate)",
+          "samples": 1
+        },
+        {
+          "role": "Native WPF",
+          "module": "presentationcore.il",
+          "method": "System.Windows.Media.Animation.Clock.ComputeLocalState()",
+          "samples": 1
+        },
+        {
+          "role": "Native WPF",
+          "module": "presentationcore.il",
+          "method": "System.Windows.Media.Animation.Clock.ComputeExpirationTime(value class System.Nullable\u00601\u003Cvalue class System.TimeSpan\u003E\u0026)",
+          "samples": 1
+        },
+        {
+          "role": "Native WPF",
+          "module": "ManagedModule",
+          "method": "MS.Internal.Text.TextInterface.TextAnalyzer.GetGlyphs(optional_modifier System.Runtime.CompilerServices.IsConst wchar*,unsigned int32,class MS.Internal.Text.TextInterface.Font,unsigned int16,bool,bool,class System.Globalization.CultureInfo,value class MS.Internal.Text.TextInterface.DWriteFontFeature[][],unsigned int32[],unsigned int32,value class System.Windows.Media.TextFormattingMode,class MS.Internal.Text.TextInterface.ItemProps,unsigned int16*,unsigned int16*,unsigned int16*,unsigned int32*,int32*,unsigned int32\u0026)",
+          "samples": 1
+        },
+        {
+          "role": "Native WPF",
+          "module": "system.private.corelib.il",
+          "method": "System.Collections.Hashtable.get_Count()",
+          "samples": 1
+        },
+        {
+          "role": "Native WPF",
+          "module": "presentationcore.il",
+          "method": "System.Windows.Media.MediaContext.EnterInterlockedPresentation()",
+          "samples": 1
+        },
+        {
+          "role": "Native WPF",
+          "module": "presentationcore.il",
+          "method": "System.Windows.ContextLayoutManager\u002BInternalMeasureQueue.setRequest(class System.Windows.UIElement,class Request)",
+          "samples": 1
+        },
+        {
+          "role": "Native WPF",
+          "module": "windowsbase.il",
+          "method": "System.Windows.Freezable.OnPropertyChanged(value class System.Windows.DependencyPropertyChangedEventArgs)",
+          "samples": 1
+        },
+        {
+          "role": "Native WPF",
+          "module": "gdi32",
+          "method": "gdi32",
+          "samples": 1
+        },
+        {
+          "role": "Native WPF",
+          "module": "presentationcore.il",
+          "method": "System.Windows.Input.InputManager.OnLayoutUpdated(class System.Object,class System.EventArgs)",
+          "samples": 1
+        },
+        {
+          "role": "Native WPF",
+          "module": "presentationcore.il",
+          "method": "System.Windows.Media.VisualTreeHelper.GetParent(class System.Windows.DependencyObject)",
+          "samples": 1
+        },
+        {
+          "role": "Native WPF",
+          "module": "system.private.corelib.il",
+          "method": "System.Runtime.CompilerServices.CastHelpers.StelemRef(class System.Object[],int,class System.Object)",
+          "samples": 1
+        },
+        {
+          "role": "Native WPF",
+          "module": "presentationcore.il",
+          "method": "System.Windows.Media.Composition.DUCE\u002BMap.Get(class System.Object,value class ResourceHandle\u0026)",
+          "samples": 1
+        },
+        {
+          "role": "Native WPF",
+          "module": "ManagedModule",
+          "method": "dynamicClass.IL_STUB_PInvoke(unsigned int8*,unsigned int32,bool,int)",
+          "samples": 1
+        },
+        {
+          "role": "Native WPF",
+          "module": "presentationframework.il",
+          "method": "System.Windows.Controls.Grid.Choose(float64,float64,float64)",
+          "samples": 1
+        },
+        {
+          "role": "Native WPF",
+          "module": "presentationcore.il",
+          "method": "System.Windows.Media.Geometry.GetBoundsInternal(class System.Windows.Media.Pen,value class System.Windows.Media.Matrix,float64,value class System.Windows.Media.ToleranceType)",
+          "samples": 1
+        },
+        {
+          "role": "Native WPF",
+          "module": "presentationcore.il",
+          "method": "System.Windows.Media.Animation.Animatable.EvaluateAnimatedValueCore(class System.Windows.DependencyProperty,class System.Windows.PropertyMetadata,value class System.Windows.EffectiveValueEntry\u0026)",
+          "samples": 1
+        },
+        {
+          "role": "Native WPF",
+          "module": "windowsbase.il",
+          "method": "System.Windows.DependencyObject.get_DependencyObjectType()",
+          "samples": 1
+        },
+        {
+          "role": "Native WPF",
+          "module": "presentationcore.il",
+          "method": "System.Windows.Media.Visual.TransformChanged(class System.Object,class System.EventArgs)",
+          "samples": 1
+        },
+        {
+          "role": "Native WPF",
+          "module": "presentationcore.il",
+          "method": "MS.Internal.TextFormatting.TextMetrics\u002BFullTextLine..ctor(class MS.Internal.TextFormatting.FormatSettings,int32,int32,int32,value class MS.Internal.TextFormatting.LineFlags)",
+          "samples": 1
+        },
+        {
+          "role": "Native WPF",
+          "module": "system.private.corelib.il",
+          "method": "System.Runtime.CompilerServices.CastHelpers.ChkCastClass(void*,class System.Object)",
+          "samples": 1
+        },
+        {
+          "role": "Native WPF",
+          "module": "presentationframework.il",
+          "method": "System.Windows.FrameworkElement.GetLayoutClip(value class System.Windows.Size)",
+          "samples": 1
+        },
+        {
+          "role": "Native WPF",
+          "module": "presentationcore.il",
+          "method": "System.Windows.Media.TranslateTransform.XPropertyChanged(class System.Windows.DependencyObject,value class System.Windows.DependencyPropertyChangedEventArgs)",
+          "samples": 1
+        },
+        {
+          "role": "Native WPF",
+          "module": "presentationcore.il",
+          "method": "MS.Internal.TextFormatting.TextRunCacheImp.FetchTextRun(class MS.Internal.TextFormatting.FormatSettings,int32,int32,int32\u0026,int32\u0026)",
+          "samples": 1
+        },
+        {
+          "role": "Native WPF",
+          "module": "ManagedModule",
+          "method": "dynamicClass.IL_STUB_PInvoke(int32,int[],int32,int32,int32)",
+          "samples": 1
+        },
+        {
+          "role": "Native WPF",
+          "module": "presentationcore.il",
+          "method": "System.Windows.Media.MediaContextNotificationWindow.MessageFilter(int,int32,int,int,bool\u0026)",
+          "samples": 1
+        },
+        {
+          "role": "Native WPF",
+          "module": "presentationcore.il",
+          "method": "MS.Internal.TextFormatting.SimpleTextLine.Create(class MS.Internal.TextFormatting.FormatSettings,int32,int32,float64)",
+          "samples": 1
+        },
+        {
+          "role": "Native WPF",
+          "module": "presentationcore.il",
+          "method": "System.Windows.Media.Visual.PropagateFlags(class System.Windows.Media.Visual,value class System.Windows.Media.VisualFlags,value class System.Windows.Media.VisualProxyFlags)",
+          "samples": 1
+        },
+        {
+          "role": "Native WPF",
+          "module": "windowsbase.il",
+          "method": "MS.Utility.SingleItemList\u00601[MS.Utility.ItemStructMap\u00601[System.Windows.TriggerSourceRecord]].EntryAt(int32)",
+          "samples": 1
+        },
+        {
+          "role": "Native WPF",
+          "module": "system.private.corelib.il",
+          "method": "System.Collections.Generic.GenericArraySortHelper\u00601[System.__Canon].BinarySearch(!0[],int32,int32,!0,class System.Collections.Generic.IComparer\u00601\u003C!0\u003E)",
+          "samples": 1
+        },
+        {
+          "role": "Native WPF",
+          "module": "windowsbase.il",
+          "method": "System.Windows.DependencyProperty.get_IsPotentiallyUsingDefaultValueFactory()",
+          "samples": 1
+        },
+        {
+          "role": "Native WPF",
+          "module": "presentationcore.il",
+          "method": "MS.Internal.FontCache.BufferCache.GetUShorts(int32)",
+          "samples": 1
+        },
+        {
+          "role": "Native WPF",
+          "module": "windowsbase.il",
+          "method": "System.Windows.Threading.Dispatcher.ProcessQueue()",
+          "samples": 1
+        },
+        {
+          "role": "Native WPF",
+          "module": "presentationframework.il",
+          "method": "System.Windows.Controls.TextBlock.get_VisualChildrenCount()",
+          "samples": 1
+        },
+        {
+          "role": "Native WPF",
+          "module": "presentationcore.il",
+          "method": "System.Windows.Media.Animation.TimeManager.Tick()",
+          "samples": 1
+        },
+        {
+          "role": "Native WPF",
+          "module": "presentationcore.il",
+          "method": "System.Windows.Media.Animation.AnimationStorage.GetCurrentPropertyValue(class System.Windows.Media.Animation.AnimationStorage,class System.Windows.DependencyObject,class System.Windows.DependencyProperty,class System.Windows.PropertyMetadata,class System.Object)",
+          "samples": 1
+        },
+        {
+          "role": "Native WPF",
+          "module": "dwmapi",
+          "method": "dwmapi",
+          "samples": 1
+        },
+        {
+          "role": "Native WPF",
+          "module": "windowsbase.il",
+          "method": "System.Windows.DependencyObject.CheckEntryIndex(value class System.Windows.EntryIndex,int32)",
+          "samples": 1
+        },
+        {
+          "role": "Native WPF",
+          "module": "presentationcore.il",
+          "method": "System.Windows.Media.Animation.Clock.ComputeCurrentIteration(value class System.TimeSpan,float64,value class System.Nullable\u00601\u003Cvalue class System.TimeSpan\u003E,value class System.TimeSpan\u0026)",
+          "samples": 1
+        },
+        {
+          "role": "Native WPF",
+          "module": "system.private.uri.il",
+          "method": "System.Uri.get_Fragment()",
+          "samples": 1
+        },
+        {
+          "role": "Native WPF",
+          "module": "windowsbase.il",
+          "method": "System.Windows.Freezable.get_SingletonContext()",
+          "samples": 1
+        },
+        {
+          "role": "Native WPF",
+          "module": "presentationcore.il",
+          "method": "System.Windows.Media.Animation.AnimationStorage.WritePostscript()",
+          "samples": 1
+        },
+        {
+          "role": "Native WPF",
+          "module": "presentationcore.il",
+          "method": "System.Windows.Media.Animation.DoubleAnimationUsingKeyFrames.ResolveKeyTimes()",
+          "samples": 1
+        },
+        {
+          "role": "Native WPF",
+          "module": "system.private.corelib.il",
+          "method": "System.Threading.PortableThreadPool\u002BHillClimbing.Update(int32,float64,int32)",
+          "samples": 1
+        },
+        {
+          "role": "Native WPF",
+          "module": "windowsbase.il",
+          "method": "System.Windows.PropertyMetadata.DefaultFreezeValueCallback(class System.Windows.DependencyObject,class System.Windows.DependencyProperty,value class System.Windows.EntryIndex,class System.Windows.PropertyMetadata,bool)",
+          "samples": 1
+        },
+        {
+          "role": "Native WPF",
+          "module": "windowsbase.il",
+          "method": "System.Windows.Freezable.get_ContextList()",
+          "samples": 1
+        },
+        {
+          "role": "Native WPF",
+          "module": "presentationcore.il",
+          "method": "dynamicClass.IL_STUB_MulticastDelegate_Invoke(class Channel,bool)",
+          "samples": 1
+        },
+        {
+          "role": "Native WPF",
+          "module": "system.private.corelib.il",
+          "method": "System.Collections.Generic.GenericArraySortHelper\u00601[System.Int32].BinarySearch(!0[],int32,int32,!0,class System.Collections.Generic.IComparer\u00601\u003C!0\u003E)",
+          "samples": 1
+        },
+        {
+          "role": "Native WPF",
+          "module": "windowsbase.il",
+          "method": "System.Windows.Media.Matrix.ScaleAt(float64,float64,float64,float64)",
+          "samples": 1
+        },
+        {
+          "role": "Native WPF",
+          "module": "kernel32",
+          "method": "kernel32",
+          "samples": 1
+        },
+        {
+          "role": "Native WPF",
+          "module": "presentationcore.il",
+          "method": "System.Windows.Media.Visual.VerifyAPIReadWrite()",
+          "samples": 1
+        },
+        {
+          "role": "Native WPF",
+          "module": "windowsbase.il",
+          "method": "MS.Internal.CulturePreservingExecutionContext.CallbackWrapper(class System.Object)",
+          "samples": 1
+        },
+        {
+          "role": "Native WPF",
+          "module": "system.private.corelib.il",
+          "method": "System.Threading.AsyncLocalValueMap.Create(class System.Threading.IAsyncLocal,class System.Object,bool)",
+          "samples": 1
+        },
+        {
+          "role": "Native WPF",
+          "module": "windowsbase.il",
+          "method": "System.Windows.EffectiveValueEntry.WritePrivateFlag(value class System.Windows.FullValueSource,bool)",
+          "samples": 1
+        },
+        {
+          "role": "Native WPF",
+          "module": "epsilon.core",
+          "method": "Epsilon.Core.Rules.Allocate(class System.Collections.Generic.IReadOnlyDictionary\u00602\u003Cclass System.String,int32\u003E)",
+          "samples": 1
+        },
+        {
+          "role": "Native WPF",
+          "module": "windowsbase.il",
+          "method": "System.Windows.Threading.DispatcherOperationTaskSource\u00601[System.__Canon].Initialize(class System.Windows.Threading.DispatcherOperation)",
+          "samples": 1
+        },
+        {
+          "role": "Native WPF",
+          "module": "windowsbase.il",
+          "method": "MS.Win32.HwndSubclass.SubclassWndProc(int,int32,int,int)",
+          "samples": 1
+        },
+        {
+          "role": "Native WPF",
+          "module": "windowsbase.il",
+          "method": "System.Windows.Freezable.Debug_DetectContextLeaks()",
+          "samples": 1
+        },
+        {
+          "role": "Native WPF",
+          "module": "windowsbase.il",
+          "method": "System.Windows.Freezable.get_InheritanceContext()",
+          "samples": 1
+        },
+        {
+          "role": "Native WPF",
+          "module": "presentationframework.il",
+          "method": "System.Windows.Controls.Grid.ResolveStarMaxDiscrepancy(class System.Windows.Controls.DefinitionBase[],float64)",
+          "samples": 1
+        },
+        {
+          "role": "Native WPF",
+          "module": "windowsbase.il",
+          "method": "System.Windows.Threading.Dispatcher.FromThread(class System.Threading.Thread)",
+          "samples": 1
+        }
+      ]
+    },
+    {
+      "implementation": "native",
+      "phase": "settled",
+      "totalSamples": 34,
+      "samplesWithStack": 34,
+      "sampleIntervalMs": 1,
+      "leaves": [
+        {
+          "role": "Native WPF",
+          "module": "wpfgfx_cor3",
+          "method": "wpfgfx_cor3",
+          "samples": 13
+        },
+        {
+          "role": "Native WPF",
+          "module": "nvd3dumx",
+          "method": "nvd3dumx",
+          "samples": 6
+        },
+        {
+          "role": "Native WPF",
+          "module": "ntoskrnl",
+          "method": "ntoskrnl",
+          "samples": 5
+        },
+        {
+          "role": "Native WPF",
+          "module": "ntdll",
+          "method": "ntdll",
+          "samples": 2
+        },
+        {
+          "role": "Native WPF",
+          "module": "Unresolved / JIT code",
+          "method": "Unresolved / JIT code",
+          "samples": 2
+        },
+        {
+          "role": "Native WPF",
+          "module": "windowsbase.il",
+          "method": "System.Windows.DependencyObject.InvalidateSubProperty(class System.Windows.DependencyProperty)",
+          "samples": 1
+        },
+        {
+          "role": "Native WPF",
+          "module": "nvlddmkm.sys",
+          "method": "nvlddmkm.sys",
+          "samples": 1
+        },
+        {
+          "role": "Native WPF",
+          "module": "presentationcore.il",
+          "method": "System.Windows.Media.Visual.PrecomputeRecursive(value class System.Windows.Rect\u0026)",
+          "samples": 1
+        },
+        {
+          "role": "Native WPF",
+          "module": "presentationcore.il",
+          "method": "System.Windows.Media.VisualTreeHelper.GetParent(class System.Windows.DependencyObject)",
+          "samples": 1
+        },
+        {
+          "role": "Native WPF",
+          "module": "presentationcore.il",
+          "method": "System.Windows.Media.RectangleGeometry.GetBoundsHelper(class System.Windows.Media.Pen,value class System.Windows.Media.Matrix,value class System.Windows.Rect,float64,float64,value class System.Windows.Media.Matrix,float64,value class System.Windows.Media.ToleranceType)",
+          "samples": 1
+        },
+        {
+          "role": "Native WPF",
+          "module": "gdi32full",
+          "method": "gdi32full",
+          "samples": 1
+        }
+      ]
+    },
+    {
+      "implementation": "native",
+      "phase": "dragging",
+      "totalSamples": 206,
+      "samplesWithStack": 206,
+      "sampleIntervalMs": 1,
+      "leaves": [
+        {
+          "role": "Native WPF",
+          "module": "ntoskrnl",
+          "method": "ntoskrnl",
+          "samples": 27
+        },
+        {
+          "role": "Native WPF",
+          "module": "coreclr",
+          "method": "coreclr",
+          "samples": 26
+        },
+        {
+          "role": "Native WPF",
+          "module": "wpfgfx_cor3",
+          "method": "wpfgfx_cor3",
+          "samples": 18
+        },
+        {
+          "role": "Native WPF",
+          "module": "ntdll",
+          "method": "ntdll",
+          "samples": 16
+        },
+        {
+          "role": "Native WPF",
+          "module": "clrjit",
+          "method": "clrjit",
+          "samples": 14
+        },
+        {
+          "role": "Native WPF",
+          "module": "nvd3dumx",
+          "method": "nvd3dumx",
+          "samples": 14
+        },
+        {
+          "role": "Native WPF",
+          "module": "dwrite",
+          "method": "dwrite",
+          "samples": 12
+        },
+        {
+          "role": "Native WPF",
+          "module": "win32kbase.sys",
+          "method": "win32kbase.sys",
+          "samples": 10
+        },
+        {
+          "role": "Native WPF",
+          "module": "win32kfull.sys",
+          "method": "win32kfull.sys",
+          "samples": 8
+        },
+        {
+          "role": "Native WPF",
+          "module": "presentationnative_cor3",
+          "method": "presentationnative_cor3",
+          "samples": 5
+        },
+        {
+          "role": "Native WPF",
+          "module": "Unresolved / JIT code",
+          "method": "Unresolved / JIT code",
+          "samples": 5
+        },
+        {
+          "role": "Native WPF",
+          "module": "nvlddmkm.sys",
+          "method": "nvlddmkm.sys",
+          "samples": 4
+        },
+        {
+          "role": "Native WPF",
+          "module": "dxgkrnl.sys",
+          "method": "dxgkrnl.sys",
+          "samples": 4
+        },
+        {
+          "role": "Native WPF",
+          "module": "textshaping",
+          "method": "textshaping",
+          "samples": 3
+        },
+        {
+          "role": "Native WPF",
+          "module": "ucrtbase",
+          "method": "ucrtbase",
+          "samples": 3
+        },
+        {
+          "role": "Native WPF",
+          "module": "system.private.corelib.il",
+          "method": "System.Runtime.CompilerServices.CastHelpers.IsInstanceOfClass(void*,class System.Object)",
+          "samples": 3
+        },
+        {
+          "role": "Native WPF",
+          "module": "presentationcore.il",
+          "method": "System.Windows.Media.Animation.ClockGroup.ComputeTreeState()",
+          "samples": 2
+        },
+        {
+          "role": "Native WPF",
+          "module": "system.private.corelib.il",
+          "method": "System.Runtime.CompilerServices.CastHelpers.StelemRef(class System.Object[],int,class System.Object)",
+          "samples": 2
+        },
+        {
+          "role": "Native WPF",
+          "module": "presentationframework.il",
+          "method": "System.Windows.FrameworkElement.ApplyTemplate()",
+          "samples": 2
+        },
+        {
+          "role": "Native WPF",
+          "module": "system.private.corelib.il",
+          "method": "System.Threading.WaitHandle.WaitOneNoCheck(int32,bool,class System.Object,value class WaitHandleWaitSourceMap)",
+          "samples": 2
+        },
+        {
+          "role": "Native WPF",
+          "module": "system.private.corelib.il",
+          "method": "System.Threading.LowLevelLifoSemaphore.Wait(int32,bool)",
+          "samples": 2
+        },
+        {
+          "role": "Native WPF",
+          "module": "presentationcore.il",
+          "method": "System.Windows.Media.ScaleTransform.AddRefOnChannelCore(class Channel)",
+          "samples": 1
+        },
+        {
+          "role": "Native WPF",
+          "module": "system.collections.immutable.il",
+          "method": "System.Collections.Frozen.FrozenDictionary.CreateFromDictionary(class System.Collections.Generic.Dictionary\u00602\u003C!!0,!!1\u003E)",
+          "samples": 1
+        },
+        {
+          "role": "Native WPF",
+          "module": "presentationcore.il",
+          "method": "System.Windows.UIElement.GetUIParentOrICH(class System.Windows.UIElement\u0026,class System.Windows.IContentHost\u0026)",
+          "samples": 1
+        },
+        {
+          "role": "Native WPF",
+          "module": "system.private.corelib.il",
+          "method": "System.Threading.LowLevelLifoSemaphore.WaitForSignal(int32)",
+          "samples": 1
+        },
+        {
+          "role": "Native WPF",
+          "module": "win32u",
+          "method": "win32u",
+          "samples": 1
+        },
+        {
+          "role": "Native WPF",
+          "module": "system.private.corelib.il",
+          "method": "System.Globalization.CultureInfo.set_CurrentCulture(class System.Globalization.CultureInfo)",
+          "samples": 1
+        },
+        {
+          "role": "Native WPF",
+          "module": "presentationcore.il",
+          "method": "System.Windows.Media.Visual.GetDpi()",
+          "samples": 1
+        },
+        {
+          "role": "Native WPF",
+          "module": "presentationcore.il",
+          "method": "System.Windows.UIElement.RoundLayoutValue(float64,float64)",
+          "samples": 1
+        },
+        {
+          "role": "Native WPF",
+          "module": "presentationcore.il",
+          "method": "MS.Internal.TextFormatting.DigitState.GetNumberCulture(class System.Windows.Media.TextFormatting.TextRunProperties,value class System.Windows.Media.NumberSubstitutionMethod\u0026,bool\u0026)",
+          "samples": 1
+        },
+        {
+          "role": "Native WPF",
+          "module": "presentationframework.il",
+          "method": "System.Windows.Controls.Grid.ArrangeOverride(value class System.Windows.Size)",
+          "samples": 1
+        },
+        {
+          "role": "Native WPF",
+          "module": "system.private.corelib.il",
+          "method": "System.Number.NumberToStringFormat(value class System.Collections.Generic.ValueListBuilder\u00601\u003C!!0\u003E\u0026,value class NumberBuffer\u0026,value class System.ReadOnlySpan\u00601\u003Cwchar\u003E,class System.Globalization.NumberFormatInfo)",
+          "samples": 1
+        },
+        {
+          "role": "Native WPF",
+          "module": "d3d9",
+          "method": "d3d9",
+          "samples": 1
+        },
+        {
+          "role": "Native WPF",
+          "module": "presentationframework.il",
+          "method": "System.Windows.FrameworkElement.ArrangeCore(value class System.Windows.Rect)",
+          "samples": 1
+        },
+        {
+          "role": "Native WPF",
+          "module": "windowsbase.il",
+          "method": "System.Windows.DependencyObject.GetEffectiveValue(value class System.Windows.EntryIndex,class System.Windows.DependencyProperty,value class System.Windows.RequestFlags)",
+          "samples": 1
+        },
+        {
+          "role": "Native WPF",
+          "module": "presentationcore.il",
+          "method": "System.Windows.UIElement.Measure(value class System.Windows.Size)",
+          "samples": 1
+        },
+        {
+          "role": "Native WPF",
+          "module": "presentationcore.il",
+          "method": "System.Windows.Media.ScaleTransform.get_IsIdentity()",
+          "samples": 1
+        },
+        {
+          "role": "Native WPF",
+          "module": "ManagedModule",
+          "method": "dynamicClass.IL_STUB_COMtoCLR(pMT: 00007FF9E06C9448*,int64,int64,pMT: 00007FF9E06C9448*)",
+          "samples": 1
+        },
+        {
+          "role": "Native WPF",
+          "module": "windowsbase.il",
+          "method": "System.Windows.Threading.Dispatcher.FromThread(class System.Threading.Thread)",
+          "samples": 1
+        },
+        {
+          "role": "Native WPF",
+          "module": "presentationcore.il",
+          "method": "MS.Internal.StringCharacterBuffer.get_Count()",
+          "samples": 1
+        },
+        {
+          "role": "Native WPF",
+          "module": "system.private.corelib.il",
+          "method": "System.Collections.Generic.ArraySortHelper\u00601[System.__Canon].Sort(value class System.Span\u00601\u003C!0\u003E,class System.Comparison\u00601\u003C!0\u003E)",
+          "samples": 1
+        },
+        {
+          "role": "Native WPF",
+          "module": "windowsbase.il",
+          "method": "MS.Internal.CulturePreservingExecutionContext.Capture()",
+          "samples": 1
+        },
+        {
+          "role": "Native WPF",
+          "module": "system.private.corelib.il",
+          "method": "System.Runtime.InteropServices.CriticalHandle.Cleanup()",
+          "samples": 1
+        },
+        {
+          "role": "Native WPF",
+          "module": "ManagedModule",
+          "method": "MS.Internal.Text.TextInterface.Font.ResetFontFaceCache()",
+          "samples": 1
+        },
+        {
+          "role": "Native WPF",
+          "module": "windowsbase.il",
+          "method": "System.Windows.DependencyObject.LookupEntry(int32)",
+          "samples": 1
+        }
+      ]
+    },
+    {
+      "implementation": "browser",
+      "phase": "idle",
+      "totalSamples": 206,
+      "samplesWithStack": 206,
+      "sampleIntervalMs": 1,
+      "leaves": [
+        {
+          "role": "browser",
+          "module": "ntoskrnl",
+          "method": "ntoskrnl",
+          "samples": 35
+        },
+        {
+          "role": "browser",
+          "module": "chrome",
+          "method": "chrome",
+          "samples": 27
+        },
+        {
+          "role": "GPU",
+          "module": "chrome",
+          "method": "chrome",
+          "samples": 19
+        },
+        {
+          "role": "GPU",
+          "module": "nvgpucomp64",
+          "method": "nvgpucomp64",
+          "samples": 13
+        },
+        {
+          "role": "browser",
+          "module": "win32kfull.sys",
+          "method": "win32kfull.sys",
+          "samples": 11
+        },
+        {
+          "role": "renderer",
+          "module": "chrome",
+          "method": "chrome",
+          "samples": 11
+        },
+        {
+          "role": "GPU",
+          "module": "ntoskrnl",
+          "method": "ntoskrnl",
+          "samples": 11
+        },
+        {
+          "role": "GPU",
+          "module": "d3dcompiler_47",
+          "method": "d3dcompiler_47",
+          "samples": 11
+        },
+        {
+          "role": "browser",
+          "module": "win32kbase.sys",
+          "method": "win32kbase.sys",
+          "samples": 8
+        },
+        {
+          "role": "GPU",
+          "module": "ntdll",
+          "method": "ntdll",
+          "samples": 7
+        },
+        {
+          "role": "GPU",
+          "module": "nvwgf2umx",
+          "method": "nvwgf2umx",
+          "samples": 7
+        },
+        {
+          "role": "network.mojom.NetworkService",
+          "module": "ntoskrnl",
+          "method": "ntoskrnl",
+          "samples": 6
+        },
+        {
+          "role": "browser",
+          "module": "ntdll",
+          "method": "ntdll",
+          "samples": 5
+        },
+        {
+          "role": "browser",
+          "module": "win32u",
+          "method": "win32u",
+          "samples": 4
+        },
+        {
+          "role": "browser",
+          "module": "Unresolved / JIT code",
+          "method": "Unresolved / JIT code",
+          "samples": 3
+        },
+        {
+          "role": "browser",
+          "module": "user32",
+          "method": "user32",
+          "samples": 3
+        },
+        {
+          "role": "GPU",
+          "module": "nvlddmkm.sys",
+          "method": "nvlddmkm.sys",
+          "samples": 3
+        },
+        {
+          "role": "renderer",
+          "module": "ntoskrnl",
+          "method": "ntoskrnl",
+          "samples": 2
+        },
+        {
+          "role": "GPU",
+          "module": "dxgi",
+          "method": "dxgi",
+          "samples": 2
+        },
+        {
+          "role": "browser",
+          "module": "kernelbase",
+          "method": "kernelbase",
+          "samples": 2
+        },
+        {
+          "role": "renderer",
+          "module": "ntdll",
+          "method": "ntdll",
+          "samples": 2
+        },
+        {
+          "role": "browser",
+          "module": "dxgkrnl.sys",
+          "method": "dxgkrnl.sys",
+          "samples": 1
+        },
+        {
+          "role": "browser",
+          "module": "nvlddmkm.sys",
+          "method": "nvlddmkm.sys",
+          "samples": 1
+        },
+        {
+          "role": "browser",
+          "module": "win32k.sys",
+          "method": "win32k.sys",
+          "samples": 1
+        },
+        {
+          "role": "browser",
+          "module": "fltmgr.sys",
+          "method": "fltmgr.sys",
+          "samples": 1
+        },
+        {
+          "role": "storage.mojom.StorageService",
+          "module": "chrome",
+          "method": "chrome",
+          "samples": 1
+        },
+        {
+          "role": "network.mojom.NetworkService",
+          "module": "chrome",
+          "method": "chrome",
+          "samples": 1
+        },
+        {
+          "role": "GPU",
+          "module": "d3d11",
+          "method": "d3d11",
+          "samples": 1
+        },
+        {
+          "role": "GPU",
+          "module": "win32kbase.sys",
+          "method": "win32kbase.sys",
+          "samples": 1
+        },
+        {
+          "role": "GPU",
+          "module": "dxgkrnl.sys",
+          "method": "dxgkrnl.sys",
+          "samples": 1
+        },
+        {
+          "role": "tracing.mojom.TracingService",
+          "module": "chrome",
+          "method": "chrome",
+          "samples": 1
+        },
+        {
+          "role": "tracing.mojom.TracingService",
+          "module": "ntoskrnl",
+          "method": "ntoskrnl",
+          "samples": 1
+        },
+        {
+          "role": "browser",
+          "module": "ntfs.sys",
+          "method": "ntfs.sys",
+          "samples": 1
+        },
+        {
+          "role": "network.mojom.NetworkService",
+          "module": "luafv.sys",
+          "method": "luafv.sys",
+          "samples": 1
+        },
+        {
+          "role": "network.mojom.NetworkService",
+          "module": "ntfs.sys",
+          "method": "ntfs.sys",
+          "samples": 1
+        }
+      ]
+    },
+    {
+      "implementation": "browser",
+      "phase": "switching",
+      "totalSamples": 8829,
+      "samplesWithStack": 8825,
+      "sampleIntervalMs": 1,
+      "leaves": [
+        {
+          "role": "renderer",
+          "module": "chrome",
+          "method": "chrome",
+          "samples": 2932
+        },
+        {
+          "role": "GPU",
+          "module": "chrome",
+          "method": "chrome",
+          "samples": 2007
+        },
+        {
+          "role": "GPU",
+          "module": "libglesv2",
+          "method": "libglesv2",
+          "samples": 866
+        },
+        {
+          "role": "GPU",
+          "module": "nvwgf2umx",
+          "method": "nvwgf2umx",
+          "samples": 853
+        },
+        {
+          "role": "GPU",
+          "module": "ntdll",
+          "method": "ntdll",
+          "samples": 482
+        },
+        {
+          "role": "renderer",
+          "module": "ntoskrnl",
+          "method": "ntoskrnl",
+          "samples": 366
+        },
+        {
+          "role": "GPU",
+          "module": "ntoskrnl",
+          "method": "ntoskrnl",
+          "samples": 363
+        },
+        {
+          "role": "renderer",
+          "module": "ntdll",
+          "method": "ntdll",
+          "samples": 281
+        },
+        {
+          "role": "GPU",
+          "module": "nvlddmkm.sys",
+          "method": "nvlddmkm.sys",
+          "samples": 165
+        },
+        {
+          "role": "GPU",
+          "module": "nvgpucomp64",
+          "method": "nvgpucomp64",
+          "samples": 111
+        },
+        {
+          "role": "GPU",
+          "module": "d3d11",
+          "method": "d3d11",
+          "samples": 89
+        },
+        {
+          "role": "renderer",
+          "module": "nvlddmkm.sys",
+          "method": "nvlddmkm.sys",
+          "samples": 75
+        },
+        {
+          "role": "GPU",
+          "module": "dxgkrnl.sys",
+          "method": "dxgkrnl.sys",
+          "samples": 35
+        },
+        {
+          "role": "GPU",
+          "module": "dxgmms2.sys",
+          "method": "dxgmms2.sys",
+          "samples": 34
+        },
+        {
+          "role": "renderer",
+          "module": "kernelbase",
+          "method": "kernelbase",
+          "samples": 29
+        },
+        {
+          "role": "tracing.mojom.TracingService",
+          "module": "ntoskrnl",
+          "method": "ntoskrnl",
+          "samples": 25
+        },
+        {
+          "role": "tracing.mojom.TracingService",
+          "module": "chrome",
+          "method": "chrome",
+          "samples": 15
+        },
+        {
+          "role": "GPU",
+          "module": "kernelbase",
+          "method": "kernelbase",
+          "samples": 10
+        },
+        {
+          "role": "GPU",
+          "module": "dxgi",
+          "method": "dxgi",
+          "samples": 9
+        },
+        {
+          "role": "GPU",
+          "module": "win32kbase.sys",
+          "method": "win32kbase.sys",
+          "samples": 8
+        },
+        {
+          "role": "renderer",
+          "module": "dxgmms2.sys",
+          "method": "dxgmms2.sys",
+          "samples": 7
+        },
+        {
+          "role": "GPU",
+          "module": "Unresolved / JIT code",
+          "method": "Unresolved / JIT code",
+          "samples": 7
+        },
+        {
+          "role": "GPU",
+          "module": "kernel32",
+          "method": "kernel32",
+          "samples": 6
+        },
+        {
+          "role": "renderer",
+          "module": "kernel32",
+          "method": "kernel32",
+          "samples": 5
+        },
+        {
+          "role": "browser",
+          "module": "chrome",
+          "method": "chrome",
+          "samples": 5
+        },
+        {
+          "role": "browser",
+          "module": "ntoskrnl",
+          "method": "ntoskrnl",
+          "samples": 4
+        },
+        {
+          "role": "GPU",
+          "module": "watchdog.sys",
+          "method": "watchdog.sys",
+          "samples": 3
+        },
+        {
+          "role": "GPU",
+          "module": "npfs.sys",
+          "method": "npfs.sys",
+          "samples": 3
+        },
+        {
+          "role": "GPU",
+          "module": "gdi32",
+          "method": "gdi32",
+          "samples": 3
+        },
+        {
+          "role": "GPU",
+          "module": "win32u",
+          "method": "win32u",
+          "samples": 3
+        },
+        {
+          "role": "GPU",
+          "module": "msvcrt",
+          "method": "msvcrt",
+          "samples": 3
+        },
+        {
+          "role": "browser",
+          "module": "ntdll",
+          "method": "ntdll",
+          "samples": 2
+        },
+        {
+          "role": "GPU",
+          "module": "user32",
+          "method": "user32",
+          "samples": 2
+        },
+        {
+          "role": "GPU",
+          "module": "fltmgr.sys",
+          "method": "fltmgr.sys",
+          "samples": 2
+        },
+        {
+          "role": "renderer",
+          "module": "dwrite",
+          "method": "dwrite",
+          "samples": 1
+        },
+        {
+          "role": "GPU",
+          "module": "libegl",
+          "method": "libegl",
+          "samples": 1
+        },
+        {
+          "role": "renderer",
+          "module": "dxgkrnl.sys",
+          "method": "dxgkrnl.sys",
+          "samples": 1
+        },
+        {
+          "role": "renderer",
+          "module": "npfs.sys",
+          "method": "npfs.sys",
+          "samples": 1
+        },
+        {
+          "role": "GPU",
+          "module": "rt640x64.sys",
+          "method": "rt640x64.sys",
+          "samples": 1
+        },
+        {
+          "role": "browser",
+          "module": "kernelbase",
+          "method": "kernelbase",
+          "samples": 1
+        },
+        {
+          "role": "renderer",
+          "module": "fltmgr.sys",
+          "method": "fltmgr.sys",
+          "samples": 1
+        },
+        {
+          "role": "storage.mojom.StorageService",
+          "module": "chrome",
+          "method": "chrome",
+          "samples": 1
+        },
+        {
+          "role": "GPU",
+          "module": "win32k.sys",
+          "method": "win32k.sys",
+          "samples": 1
+        },
+        {
+          "role": "browser",
+          "module": "win32kbase.sys",
+          "method": "win32kbase.sys",
+          "samples": 1
+        },
+        {
+          "role": "renderer",
+          "module": "Unresolved / JIT code",
+          "method": "Unresolved / JIT code",
+          "samples": 1
+        },
+        {
+          "role": "tracing.mojom.TracingService",
+          "module": "ntdll",
+          "method": "ntdll",
+          "samples": 1
+        },
+        {
+          "role": "network.mojom.NetworkService",
+          "module": "chrome",
+          "method": "chrome",
+          "samples": 1
+        },
+        {
+          "role": "renderer",
+          "module": "bcryptprimitives",
+          "method": "bcryptprimitives",
+          "samples": 1
+        },
+        {
+          "role": "browser",
+          "module": "ntfs.sys",
+          "method": "ntfs.sys",
+          "samples": 1
+        },
+        {
+          "role": "browser",
+          "module": "fltmgr.sys",
+          "method": "fltmgr.sys",
+          "samples": 1
+        },
+        {
+          "role": "tracing.mojom.TracingService",
+          "module": "nvlddmkm.sys",
+          "method": "nvlddmkm.sys",
+          "samples": 1
+        },
+        {
+          "role": "GPU",
+          "module": "win32kfull.sys",
+          "method": "win32kfull.sys",
+          "samples": 1
+        },
+        {
+          "role": "tracing.mojom.TracingService",
+          "module": "kernelbase",
+          "method": "kernelbase",
+          "samples": 1
+        }
+      ]
+    },
+    {
+      "implementation": "browser",
+      "phase": "settled",
+      "totalSamples": 263,
+      "samplesWithStack": 263,
+      "sampleIntervalMs": 1,
+      "leaves": [
+        {
+          "role": "GPU",
+          "module": "nvgpucomp64",
+          "method": "nvgpucomp64",
+          "samples": 69
+        },
+        {
+          "role": "renderer",
+          "module": "chrome",
+          "method": "chrome",
+          "samples": 46
+        },
+        {
+          "role": "browser",
+          "module": "ntoskrnl",
+          "method": "ntoskrnl",
+          "samples": 25
+        },
+        {
+          "role": "GPU",
+          "module": "chrome",
+          "method": "chrome",
+          "samples": 22
+        },
+        {
+          "role": "GPU",
+          "module": "ntoskrnl",
+          "method": "ntoskrnl",
+          "samples": 22
+        },
+        {
+          "role": "GPU",
+          "module": "nvwgf2umx",
+          "method": "nvwgf2umx",
+          "samples": 15
+        },
+        {
+          "role": "GPU",
+          "module": "libglesv2",
+          "method": "libglesv2",
+          "samples": 13
+        },
+        {
+          "role": "renderer",
+          "module": "ntoskrnl",
+          "method": "ntoskrnl",
+          "samples": 6
+        },
+        {
+          "role": "GPU",
+          "module": "ntdll",
+          "method": "ntdll",
+          "samples": 5
+        },
+        {
+          "role": "renderer",
+          "module": "ntdll",
+          "method": "ntdll",
+          "samples": 4
+        },
+        {
+          "role": "browser",
+          "module": "win32kfull.sys",
+          "method": "win32kfull.sys",
+          "samples": 4
+        },
+        {
+          "role": "browser",
+          "module": "win32kbase.sys",
+          "method": "win32kbase.sys",
+          "samples": 4
+        },
+        {
+          "role": "browser",
+          "module": "chrome",
+          "method": "chrome",
+          "samples": 4
+        },
+        {
+          "role": "tracing.mojom.TracingService",
+          "module": "chrome",
+          "method": "chrome",
+          "samples": 3
+        },
+        {
+          "role": "browser",
+          "module": "win32u",
+          "method": "win32u",
+          "samples": 3
+        },
+        {
+          "role": "GPU",
+          "module": "d3d11",
+          "method": "d3d11",
+          "samples": 2
+        },
+        {
+          "role": "browser",
+          "module": "user32",
+          "method": "user32",
+          "samples": 2
+        },
+        {
+          "role": "browser",
+          "module": "dxgkrnl.sys",
+          "method": "dxgkrnl.sys",
+          "samples": 2
+        },
+        {
+          "role": "browser",
+          "module": "ntdll",
+          "method": "ntdll",
+          "samples": 2
+        },
+        {
+          "role": "GPU",
+          "module": "dxgkrnl.sys",
+          "method": "dxgkrnl.sys",
+          "samples": 1
+        },
+        {
+          "role": "GPU",
+          "module": "nvlddmkm.sys",
+          "method": "nvlddmkm.sys",
+          "samples": 1
+        },
+        {
+          "role": "GPU",
+          "module": "dxgmms2.sys",
+          "method": "dxgmms2.sys",
+          "samples": 1
+        },
+        {
+          "role": "GPU",
+          "module": "win32u",
+          "method": "win32u",
+          "samples": 1
+        },
+        {
+          "role": "tracing.mojom.TracingService",
+          "module": "ntoskrnl",
+          "method": "ntoskrnl",
+          "samples": 1
+        },
+        {
+          "role": "storage.mojom.StorageService",
+          "module": "chrome",
+          "method": "chrome",
+          "samples": 1
+        },
+        {
+          "role": "browser",
+          "module": "ntfs.sys",
+          "method": "ntfs.sys",
+          "samples": 1
+        },
+        {
+          "role": "browser",
+          "module": "nvlddmkm.sys",
+          "method": "nvlddmkm.sys",
+          "samples": 1
+        },
+        {
+          "role": "browser",
+          "module": "watchdog.sys",
+          "method": "watchdog.sys",
+          "samples": 1
+        },
+        {
+          "role": "browser",
+          "module": "win32k.sys",
+          "method": "win32k.sys",
+          "samples": 1
+        }
+      ]
+    },
+    {
+      "implementation": "browser",
+      "phase": "dragging",
+      "totalSamples": 963,
+      "samplesWithStack": 963,
+      "sampleIntervalMs": 1,
+      "leaves": [
+        {
+          "role": "renderer",
+          "module": "chrome",
+          "method": "chrome",
+          "samples": 364
+        },
+        {
+          "role": "GPU",
+          "module": "chrome",
+          "method": "chrome",
+          "samples": 161
+        },
+        {
+          "role": "renderer",
+          "module": "ntoskrnl",
+          "method": "ntoskrnl",
+          "samples": 86
+        },
+        {
+          "role": "GPU",
+          "module": "ntoskrnl",
+          "method": "ntoskrnl",
+          "samples": 76
+        },
+        {
+          "role": "GPU",
+          "module": "nvwgf2umx",
+          "method": "nvwgf2umx",
+          "samples": 54
+        },
+        {
+          "role": "renderer",
+          "module": "ntdll",
+          "method": "ntdll",
+          "samples": 39
+        },
+        {
+          "role": "GPU",
+          "module": "libglesv2",
+          "method": "libglesv2",
+          "samples": 38
+        },
+        {
+          "role": "GPU",
+          "module": "ntdll",
+          "method": "ntdll",
+          "samples": 34
+        },
+        {
+          "role": "browser",
+          "module": "ntoskrnl",
+          "method": "ntoskrnl",
+          "samples": 26
+        },
+        {
+          "role": "GPU",
+          "module": "nvlddmkm.sys",
+          "method": "nvlddmkm.sys",
+          "samples": 13
+        },
+        {
+          "role": "browser",
+          "module": "chrome",
+          "method": "chrome",
+          "samples": 12
+        },
+        {
+          "role": "GPU",
+          "module": "d3d11",
+          "method": "d3d11",
+          "samples": 8
+        },
+        {
+          "role": "GPU",
+          "module": "nvgpucomp64",
+          "method": "nvgpucomp64",
+          "samples": 8
+        },
+        {
+          "role": "tracing.mojom.TracingService",
+          "module": "ntoskrnl",
+          "method": "ntoskrnl",
+          "samples": 7
+        },
+        {
+          "role": "GPU",
+          "module": "dxgmms2.sys",
+          "method": "dxgmms2.sys",
+          "samples": 5
+        },
+        {
+          "role": "GPU",
+          "module": "dxgkrnl.sys",
+          "method": "dxgkrnl.sys",
+          "samples": 5
+        },
+        {
+          "role": "renderer",
+          "module": "kernelbase",
+          "method": "kernelbase",
+          "samples": 4
+        },
+        {
+          "role": "GPU",
+          "module": "kernelbase",
+          "method": "kernelbase",
+          "samples": 3
+        },
+        {
+          "role": "browser",
+          "module": "ntdll",
+          "method": "ntdll",
+          "samples": 3
+        },
+        {
+          "role": "renderer",
+          "module": "nvlddmkm.sys",
+          "method": "nvlddmkm.sys",
+          "samples": 3
+        },
+        {
+          "role": "network.mojom.NetworkService",
+          "module": "chrome",
+          "method": "chrome",
+          "samples": 2
+        },
+        {
+          "role": "browser",
+          "module": "win32kfull.sys",
+          "method": "win32kfull.sys",
+          "samples": 2
+        },
+        {
+          "role": "GPU",
+          "module": "win32u",
+          "method": "win32u",
+          "samples": 2
+        },
+        {
+          "role": "browser",
+          "module": "ntfs.sys",
+          "method": "ntfs.sys",
+          "samples": 1
+        },
+        {
+          "role": "browser",
+          "module": "combase",
+          "method": "combase",
+          "samples": 1
+        },
+        {
+          "role": "GPU",
+          "module": "Unresolved / JIT code",
+          "method": "Unresolved / JIT code",
+          "samples": 1
+        },
+        {
+          "role": "GPU",
+          "module": "npfs.sys",
+          "method": "npfs.sys",
+          "samples": 1
+        },
+        {
+          "role": "GPU",
+          "module": "watchdog.sys",
+          "method": "watchdog.sys",
+          "samples": 1
+        },
+        {
+          "role": "tracing.mojom.TracingService",
+          "module": "chrome",
+          "method": "chrome",
+          "samples": 1
+        },
+        {
+          "role": "storage.mojom.StorageService",
+          "module": "chrome",
+          "method": "chrome",
+          "samples": 1
+        },
+        {
+          "role": "browser",
+          "module": "Unresolved / JIT code",
+          "method": "Unresolved / JIT code",
+          "samples": 1
+        }
+      ]
+    },
+    {
+      "implementation": "browser",
+      "phase": "idle",
+      "totalSamples": 424,
+      "samplesWithStack": 423,
+      "sampleIntervalMs": 1,
+      "leaves": [
+        {
+          "role": "browser",
+          "module": "ntoskrnl",
+          "method": "ntoskrnl",
+          "samples": 110
+        },
+        {
+          "role": "browser",
+          "module": "chrome",
+          "method": "chrome",
+          "samples": 61
+        },
+        {
+          "role": "renderer",
+          "module": "chrome",
+          "method": "chrome",
+          "samples": 51
+        },
+        {
+          "role": "browser",
+          "module": "win32kfull.sys",
+          "method": "win32kfull.sys",
+          "samples": 23
+        },
+        {
+          "role": "GPU",
+          "module": "chrome",
+          "method": "chrome",
+          "samples": 23
+        },
+        {
+          "role": "browser",
+          "module": "win32kbase.sys",
+          "method": "win32kbase.sys",
+          "samples": 23
+        },
+        {
+          "role": "renderer",
+          "module": "ntoskrnl",
+          "method": "ntoskrnl",
+          "samples": 19
+        },
+        {
+          "role": "GPU",
+          "module": "ntoskrnl",
+          "method": "ntoskrnl",
+          "samples": 16
+        },
+        {
+          "role": "browser",
+          "module": "Unresolved / JIT code",
+          "method": "Unresolved / JIT code",
+          "samples": 14
+        },
+        {
+          "role": "GPU",
+          "module": "ntdll",
+          "method": "ntdll",
+          "samples": 10
+        },
+        {
+          "role": "GPU",
+          "module": "nvwgf2umx",
+          "method": "nvwgf2umx",
+          "samples": 9
+        },
+        {
+          "role": "browser",
+          "module": "ntdll",
+          "method": "ntdll",
+          "samples": 8
+        },
+        {
+          "role": "browser",
+          "module": "dxgkrnl.sys",
+          "method": "dxgkrnl.sys",
+          "samples": 8
+        },
+        {
+          "role": "renderer",
+          "module": "ntdll",
+          "method": "ntdll",
+          "samples": 6
+        },
+        {
+          "role": "GPU",
+          "module": "libglesv2",
+          "method": "libglesv2",
+          "samples": 4
+        },
+        {
+          "role": "browser",
+          "module": "win32k.sys",
+          "method": "win32k.sys",
+          "samples": 3
+        },
+        {
+          "role": "browser",
+          "module": "user32",
+          "method": "user32",
+          "samples": 3
+        },
+        {
+          "role": "GPU",
+          "module": "dxgkrnl.sys",
+          "method": "dxgkrnl.sys",
+          "samples": 3
+        },
+        {
+          "role": "GPU",
+          "module": "nvlddmkm.sys",
+          "method": "nvlddmkm.sys",
+          "samples": 3
+        },
+        {
+          "role": "network.mojom.NetworkService",
+          "module": "ntoskrnl",
+          "method": "ntoskrnl",
+          "samples": 3
+        },
+        {
+          "role": "GPU",
+          "module": "d3d11",
+          "method": "d3d11",
+          "samples": 2
+        },
+        {
+          "role": "tracing.mojom.TracingService",
+          "module": "ntoskrnl",
+          "method": "ntoskrnl",
+          "samples": 2
+        },
+        {
+          "role": "browser",
+          "module": "wpprecorder.sys",
+          "method": "wpprecorder.sys",
+          "samples": 2
+        },
+        {
+          "role": "tracing.mojom.TracingService",
+          "module": "ntdll",
+          "method": "ntdll",
+          "samples": 2
+        },
+        {
+          "role": "renderer",
+          "module": "kernelbase",
+          "method": "kernelbase",
+          "samples": 1
+        },
+        {
+          "role": "storage.mojom.StorageService",
+          "module": "ntoskrnl",
+          "method": "ntoskrnl",
+          "samples": 1
+        },
+        {
+          "role": "browser",
+          "module": "win32u",
+          "method": "win32u",
+          "samples": 1
+        },
+        {
+          "role": "tracing.mojom.TracingService",
+          "module": "chrome",
+          "method": "chrome",
+          "samples": 1
+        },
+        {
+          "role": "GPU",
+          "module": "dwmapi",
+          "method": "dwmapi",
+          "samples": 1
+        },
+        {
+          "role": "GPU",
+          "module": "msvcrt",
+          "method": "msvcrt",
+          "samples": 1
+        },
+        {
+          "role": "browser",
+          "module": "nvlddmkm.sys",
+          "method": "nvlddmkm.sys",
+          "samples": 1
+        },
+        {
+          "role": "GPU",
+          "module": "kernelbase",
+          "method": "kernelbase",
+          "samples": 1
+        },
+        {
+          "role": "GPU",
+          "module": "dxgi",
+          "method": "dxgi",
+          "samples": 1
+        },
+        {
+          "role": "GPU",
+          "module": "dxgmms2.sys",
+          "method": "dxgmms2.sys",
+          "samples": 1
+        },
+        {
+          "role": "GPU",
+          "module": "win32k.sys",
+          "method": "win32k.sys",
+          "samples": 1
+        },
+        {
+          "role": "browser",
+          "module": "npfs.sys",
+          "method": "npfs.sys",
+          "samples": 1
+        },
+        {
+          "role": "browser",
+          "module": "ntfs.sys",
+          "method": "ntfs.sys",
+          "samples": 1
+        },
+        {
+          "role": "network.mojom.NetworkService",
+          "module": "chrome",
+          "method": "chrome",
+          "samples": 1
+        },
+        {
+          "role": "network.mojom.NetworkService",
+          "module": "stornvme.sys",
+          "method": "stornvme.sys",
+          "samples": 1
+        },
+        {
+          "role": "renderer",
+          "module": "nvlddmkm.sys",
+          "method": "nvlddmkm.sys",
+          "samples": 1
+        }
+      ]
+    },
+    {
+      "implementation": "browser",
+      "phase": "switching",
+      "totalSamples": 8828,
+      "samplesWithStack": 8827,
+      "sampleIntervalMs": 1,
+      "leaves": [
+        {
+          "role": "renderer",
+          "module": "chrome",
+          "method": "chrome",
+          "samples": 2920
+        },
+        {
+          "role": "GPU",
+          "module": "chrome",
+          "method": "chrome",
+          "samples": 2040
+        },
+        {
+          "role": "GPU",
+          "module": "nvwgf2umx",
+          "method": "nvwgf2umx",
+          "samples": 911
+        },
+        {
+          "role": "GPU",
+          "module": "libglesv2",
+          "method": "libglesv2",
+          "samples": 872
+        },
+        {
+          "role": "GPU",
+          "module": "ntdll",
+          "method": "ntdll",
+          "samples": 493
+        },
+        {
+          "role": "renderer",
+          "module": "ntoskrnl",
+          "method": "ntoskrnl",
+          "samples": 352
+        },
+        {
+          "role": "GPU",
+          "module": "ntoskrnl",
+          "method": "ntoskrnl",
+          "samples": 340
+        },
+        {
+          "role": "renderer",
+          "module": "ntdll",
+          "method": "ntdll",
+          "samples": 308
+        },
+        {
+          "role": "GPU",
+          "module": "nvlddmkm.sys",
+          "method": "nvlddmkm.sys",
+          "samples": 179
+        },
+        {
+          "role": "GPU",
+          "module": "d3d11",
+          "method": "d3d11",
+          "samples": 102
+        },
+        {
+          "role": "renderer",
+          "module": "nvlddmkm.sys",
+          "method": "nvlddmkm.sys",
+          "samples": 72
+        },
+        {
+          "role": "GPU",
+          "module": "dxgmms2.sys",
+          "method": "dxgmms2.sys",
+          "samples": 37
+        },
+        {
+          "role": "tracing.mojom.TracingService",
+          "module": "ntoskrnl",
+          "method": "ntoskrnl",
+          "samples": 35
+        },
+        {
+          "role": "GPU",
+          "module": "kernelbase",
+          "method": "kernelbase",
+          "samples": 25
+        },
+        {
+          "role": "GPU",
+          "module": "dxgkrnl.sys",
+          "method": "dxgkrnl.sys",
+          "samples": 23
+        },
+        {
+          "role": "renderer",
+          "module": "kernelbase",
+          "method": "kernelbase",
+          "samples": 20
+        },
+        {
+          "role": "tracing.mojom.TracingService",
+          "module": "chrome",
+          "method": "chrome",
+          "samples": 16
+        },
+        {
+          "role": "browser",
+          "module": "ntoskrnl",
+          "method": "ntoskrnl",
+          "samples": 12
+        },
+        {
+          "role": "renderer",
+          "module": "kernel32",
+          "method": "kernel32",
+          "samples": 9
+        },
+        {
+          "role": "GPU",
+          "module": "Unresolved / JIT code",
+          "method": "Unresolved / JIT code",
+          "samples": 7
+        },
+        {
+          "role": "browser",
+          "module": "chrome",
+          "method": "chrome",
+          "samples": 7
+        },
+        {
+          "role": "GPU",
+          "module": "win32kbase.sys",
+          "method": "win32kbase.sys",
+          "samples": 6
+        },
+        {
+          "role": "GPU",
+          "module": "kernel32",
+          "method": "kernel32",
+          "samples": 5
+        },
+        {
+          "role": "GPU",
+          "module": "rt640x64.sys",
+          "method": "rt640x64.sys",
+          "samples": 4
+        },
+        {
+          "role": "renderer",
+          "module": "dxgmms2.sys",
+          "method": "dxgmms2.sys",
+          "samples": 3
+        },
+        {
+          "role": "GPU",
+          "module": "win32kfull.sys",
+          "method": "win32kfull.sys",
+          "samples": 2
+        },
+        {
+          "role": "GPU",
+          "module": "msvcrt",
+          "method": "msvcrt",
+          "samples": 2
+        },
+        {
+          "role": "GPU",
+          "module": "ndis.sys",
+          "method": "ndis.sys",
+          "samples": 2
+        },
+        {
+          "role": "GPU",
+          "module": "gdi32",
+          "method": "gdi32",
+          "samples": 2
+        },
+        {
+          "role": "GPU",
+          "module": "user32",
+          "method": "user32",
+          "samples": 2
+        },
+        {
+          "role": "GPU",
+          "module": "win32u",
+          "method": "win32u",
+          "samples": 2
+        },
+        {
+          "role": "renderer",
+          "module": "dwrite",
+          "method": "dwrite",
+          "samples": 1
+        },
+        {
+          "role": "GPU",
+          "module": "nvgpucomp64",
+          "method": "nvgpucomp64",
+          "samples": 1
+        },
+        {
+          "role": "tracing.mojom.TracingService",
+          "module": "ntdll",
+          "method": "ntdll",
+          "samples": 1
+        },
+        {
+          "role": "renderer",
+          "module": "bcryptprimitives",
+          "method": "bcryptprimitives",
+          "samples": 1
+        },
+        {
+          "role": "GPU",
+          "module": "fltmgr.sys",
+          "method": "fltmgr.sys",
+          "samples": 1
+        },
+        {
+          "role": "GPU",
+          "module": "dxgi",
+          "method": "dxgi",
+          "samples": 1
+        },
+        {
+          "role": "GPU",
+          "module": "libegl",
+          "method": "libegl",
+          "samples": 1
+        },
+        {
+          "role": "GPU",
+          "module": "npfs.sys",
+          "method": "npfs.sys",
+          "samples": 1
+        },
+        {
+          "role": "storage.mojom.StorageService",
+          "module": "nvlddmkm.sys",
+          "method": "nvlddmkm.sys",
+          "samples": 1
+        },
+        {
+          "role": "GPU",
+          "module": "win32k.sys",
+          "method": "win32k.sys",
+          "samples": 1
+        },
+        {
+          "role": "renderer",
+          "module": "fltmgr.sys",
+          "method": "fltmgr.sys",
+          "samples": 1
+        },
+        {
+          "role": "browser",
+          "module": "ntfs.sys",
+          "method": "ntfs.sys",
+          "samples": 1
+        },
+        {
+          "role": "renderer",
+          "module": "wdf01000.sys",
+          "method": "wdf01000.sys",
+          "samples": 1
+        },
+        {
+          "role": "renderer",
+          "module": "Unresolved / JIT code",
+          "method": "Unresolved / JIT code",
+          "samples": 1
+        },
+        {
+          "role": "network.mojom.NetworkService",
+          "module": "ntdll",
+          "method": "ntdll",
+          "samples": 1
+        },
+        {
+          "role": "browser",
+          "module": "ntdll",
+          "method": "ntdll",
+          "samples": 1
+        },
+        {
+          "role": "GPU",
+          "module": "dcomp",
+          "method": "dcomp",
+          "samples": 1
+        },
+        {
+          "role": "GPU",
+          "module": "wdf01000.sys",
+          "method": "wdf01000.sys",
+          "samples": 1
+        }
+      ]
+    },
+    {
+      "implementation": "browser",
+      "phase": "settled",
+      "totalSamples": 113,
+      "samplesWithStack": 113,
+      "sampleIntervalMs": 1,
+      "leaves": [
+        {
+          "role": "renderer",
+          "module": "chrome",
+          "method": "chrome",
+          "samples": 31
+        },
+        {
+          "role": "GPU",
+          "module": "chrome",
+          "method": "chrome",
+          "samples": 22
+        },
+        {
+          "role": "GPU",
+          "module": "nvwgf2umx",
+          "method": "nvwgf2umx",
+          "samples": 14
+        },
+        {
+          "role": "GPU",
+          "module": "ntdll",
+          "method": "ntdll",
+          "samples": 10
+        },
+        {
+          "role": "GPU",
+          "module": "libglesv2",
+          "method": "libglesv2",
+          "samples": 9
+        },
+        {
+          "role": "renderer",
+          "module": "ntdll",
+          "method": "ntdll",
+          "samples": 6
+        },
+        {
+          "role": "GPU",
+          "module": "ntoskrnl",
+          "method": "ntoskrnl",
+          "samples": 6
+        },
+        {
+          "role": "renderer",
+          "module": "ntoskrnl",
+          "method": "ntoskrnl",
+          "samples": 3
+        },
+        {
+          "role": "tracing.mojom.TracingService",
+          "module": "chrome",
+          "method": "chrome",
+          "samples": 3
+        },
+        {
+          "role": "GPU",
+          "module": "dxgi",
+          "method": "dxgi",
+          "samples": 1
+        },
+        {
+          "role": "GPU",
+          "module": "kernel32",
+          "method": "kernel32",
+          "samples": 1
+        },
+        {
+          "role": "tracing.mojom.TracingService",
+          "module": "nvlddmkm.sys",
+          "method": "nvlddmkm.sys",
+          "samples": 1
+        },
+        {
+          "role": "network.mojom.NetworkService",
+          "module": "ntdll",
+          "method": "ntdll",
+          "samples": 1
+        },
+        {
+          "role": "storage.mojom.StorageService",
+          "module": "chrome",
+          "method": "chrome",
+          "samples": 1
+        },
+        {
+          "role": "GPU",
+          "module": "d3d11",
+          "method": "d3d11",
+          "samples": 1
+        },
+        {
+          "role": "network.mojom.NetworkService",
+          "module": "ntoskrnl",
+          "method": "ntoskrnl",
+          "samples": 1
+        },
+        {
+          "role": "GPU",
+          "module": "nvlddmkm.sys",
+          "method": "nvlddmkm.sys",
+          "samples": 1
+        },
+        {
+          "role": "tracing.mojom.TracingService",
+          "module": "ntdll",
+          "method": "ntdll",
+          "samples": 1
+        }
+      ]
+    },
+    {
+      "implementation": "browser",
+      "phase": "dragging",
+      "totalSamples": 918,
+      "samplesWithStack": 916,
+      "sampleIntervalMs": 1,
+      "leaves": [
+        {
+          "role": "renderer",
+          "module": "chrome",
+          "method": "chrome",
+          "samples": 355
+        },
+        {
+          "role": "GPU",
+          "module": "chrome",
+          "method": "chrome",
+          "samples": 152
+        },
+        {
+          "role": "renderer",
+          "module": "ntoskrnl",
+          "method": "ntoskrnl",
+          "samples": 95
+        },
+        {
+          "role": "GPU",
+          "module": "nvwgf2umx",
+          "method": "nvwgf2umx",
+          "samples": 58
+        },
+        {
+          "role": "GPU",
+          "module": "ntoskrnl",
+          "method": "ntoskrnl",
+          "samples": 52
+        },
+        {
+          "role": "GPU",
+          "module": "libglesv2",
+          "method": "libglesv2",
+          "samples": 47
+        },
+        {
+          "role": "renderer",
+          "module": "ntdll",
+          "method": "ntdll",
+          "samples": 46
+        },
+        {
+          "role": "GPU",
+          "module": "ntdll",
+          "method": "ntdll",
+          "samples": 28
+        },
+        {
+          "role": "GPU",
+          "module": "d3d11",
+          "method": "d3d11",
+          "samples": 13
+        },
+        {
+          "role": "GPU",
+          "module": "nvlddmkm.sys",
+          "method": "nvlddmkm.sys",
+          "samples": 10
+        },
+        {
+          "role": "browser",
+          "module": "ntoskrnl",
+          "method": "ntoskrnl",
+          "samples": 10
+        },
+        {
+          "role": "browser",
+          "module": "chrome",
+          "method": "chrome",
+          "samples": 6
+        },
+        {
+          "role": "GPU",
+          "module": "dxgmms2.sys",
+          "method": "dxgmms2.sys",
+          "samples": 4
+        },
+        {
+          "role": "GPU",
+          "module": "kernel32",
+          "method": "kernel32",
+          "samples": 4
+        },
+        {
+          "role": "tracing.mojom.TracingService",
+          "module": "chrome",
+          "method": "chrome",
+          "samples": 4
+        },
+        {
+          "role": "tracing.mojom.TracingService",
+          "module": "ntoskrnl",
+          "method": "ntoskrnl",
+          "samples": 4
+        },
+        {
+          "role": "browser",
+          "module": "ntdll",
+          "method": "ntdll",
+          "samples": 3
+        },
+        {
+          "role": "GPU",
+          "module": "dxgkrnl.sys",
+          "method": "dxgkrnl.sys",
+          "samples": 3
+        },
+        {
+          "role": "renderer",
+          "module": "nvlddmkm.sys",
+          "method": "nvlddmkm.sys",
+          "samples": 3
+        },
+        {
+          "role": "GPU",
+          "module": "kernelbase",
+          "method": "kernelbase",
+          "samples": 3
+        },
+        {
+          "role": "GPU",
+          "module": "dxgi",
+          "method": "dxgi",
+          "samples": 2
+        },
+        {
+          "role": "renderer",
+          "module": "npfs.sys",
+          "method": "npfs.sys",
+          "samples": 2
+        },
+        {
+          "role": "tracing.mojom.TracingService",
+          "module": "ntdll",
+          "method": "ntdll",
+          "samples": 2
+        },
+        {
+          "role": "GPU",
+          "module": "win32kfull.sys",
+          "method": "win32kfull.sys",
+          "samples": 2
+        },
+        {
+          "role": "renderer",
+          "module": "dwrite",
+          "method": "dwrite",
+          "samples": 1
+        },
+        {
+          "role": "network.mojom.NetworkService",
+          "module": "ntdll",
+          "method": "ntdll",
+          "samples": 1
+        },
+        {
+          "role": "browser",
+          "module": "ntfs.sys",
+          "method": "ntfs.sys",
+          "samples": 1
+        },
+        {
+          "role": "browser",
+          "module": "rt640x64.sys",
+          "method": "rt640x64.sys",
+          "samples": 1
+        },
+        {
+          "role": "browser",
+          "module": "win32u",
+          "method": "win32u",
+          "samples": 1
+        },
+        {
+          "role": "renderer",
+          "module": "rt640x64.sys",
+          "method": "rt640x64.sys",
+          "samples": 1
+        },
+        {
+          "role": "renderer",
+          "module": "Unresolved / JIT code",
+          "method": "Unresolved / JIT code",
+          "samples": 1
+        },
+        {
+          "role": "renderer",
+          "module": "wdf01000.sys",
+          "method": "wdf01000.sys",
+          "samples": 1
+        },
+        {
+          "role": "renderer",
+          "module": "kernelbase",
+          "method": "kernelbase",
+          "samples": 1
+        },
+        {
+          "role": "GPU",
+          "module": "win32kbase.sys",
+          "method": "win32kbase.sys",
+          "samples": 1
+        }
+      ]
+    },
+    {
+      "implementation": "native",
+      "phase": "idle",
+      "totalSamples": 3,
+      "samplesWithStack": 3,
+      "sampleIntervalMs": 1,
+      "leaves": [
+        {
+          "role": "Native WPF",
+          "module": "ntdll",
+          "method": "ntdll",
+          "samples": 2
+        },
+        {
+          "role": "Native WPF",
+          "module": "clrjit",
+          "method": "clrjit",
+          "samples": 1
+        }
+      ]
+    },
+    {
+      "implementation": "native",
+      "phase": "switching",
+      "totalSamples": 3292,
+      "samplesWithStack": 3292,
+      "sampleIntervalMs": 1,
+      "leaves": [
+        {
+          "role": "Native WPF",
+          "module": "clrjit",
+          "method": "clrjit",
+          "samples": 1533
+        },
+        {
+          "role": "Native WPF",
+          "module": "wpfgfx_cor3",
+          "method": "wpfgfx_cor3",
+          "samples": 439
+        },
+        {
+          "role": "Native WPF",
+          "module": "coreclr",
+          "method": "coreclr",
+          "samples": 284
+        },
+        {
+          "role": "Native WPF",
+          "module": "ntdll",
+          "method": "ntdll",
+          "samples": 188
+        },
+        {
+          "role": "Native WPF",
+          "module": "ntoskrnl",
+          "method": "ntoskrnl",
+          "samples": 177
+        },
+        {
+          "role": "Native WPF",
+          "module": "nvd3dumx",
+          "method": "nvd3dumx",
+          "samples": 133
+        },
+        {
+          "role": "Native WPF",
+          "module": "nvlddmkm.sys",
+          "method": "nvlddmkm.sys",
+          "samples": 73
+        },
+        {
+          "role": "Native WPF",
+          "module": "win32kbase.sys",
+          "method": "win32kbase.sys",
+          "samples": 44
+        },
+        {
+          "role": "Native WPF",
+          "module": "Unresolved / JIT code",
+          "method": "Unresolved / JIT code",
+          "samples": 40
+        },
+        {
+          "role": "Native WPF",
+          "module": "dwrite",
+          "method": "dwrite",
+          "samples": 28
+        },
+        {
+          "role": "Native WPF",
+          "module": "ucrtbase",
+          "method": "ucrtbase",
+          "samples": 23
+        },
+        {
+          "role": "Native WPF",
+          "module": "d3d9",
+          "method": "d3d9",
+          "samples": 20
+        },
+        {
+          "role": "Native WPF",
+          "module": "win32kfull.sys",
+          "method": "win32kfull.sys",
+          "samples": 18
+        },
+        {
+          "role": "Native WPF",
+          "module": "dxgkrnl.sys",
+          "method": "dxgkrnl.sys",
+          "samples": 15
+        },
+        {
+          "role": "Native WPF",
+          "module": "presentationcore.il",
+          "method": "System.Windows.Media.Animation.ClockGroup.ComputeTreeState()",
+          "samples": 15
+        },
+        {
+          "role": "Native WPF",
+          "module": "windowsbase.il",
+          "method": "System.Windows.DependencyObject.LookupEntry(int32)",
+          "samples": 12
+        },
+        {
+          "role": "Native WPF",
+          "module": "dxgmms2.sys",
+          "method": "dxgmms2.sys",
+          "samples": 11
+        },
+        {
+          "role": "Native WPF",
+          "module": "system.private.corelib.il",
+          "method": "System.Runtime.CompilerServices.CastHelpers.IsInstanceOfClass(void*,class System.Object)",
+          "samples": 9
+        },
+        {
+          "role": "Native WPF",
+          "module": "presentationcore.il",
+          "method": "System.Windows.Media.Animation.ClockGroup.ComputeTreeStateRoot()",
+          "samples": 9
+        },
+        {
+          "role": "Native WPF",
+          "module": "msvcrt",
+          "method": "msvcrt",
+          "samples": 8
+        },
+        {
+          "role": "Native WPF",
+          "module": "system.private.corelib.il",
+          "method": "System.Runtime.CompilerServices.CastHelpers.ChkCastClassSpecial(void*,class System.Object)",
+          "samples": 7
+        },
+        {
+          "role": "Native WPF",
+          "module": "windowsbase.il",
+          "method": "System.Windows.DependencyObject.GetEffectiveValue(value class System.Windows.EntryIndex,class System.Windows.DependencyProperty,value class System.Windows.RequestFlags)",
+          "samples": 6
+        },
+        {
+          "role": "Native WPF",
+          "module": "windowsbase.il",
+          "method": "System.Windows.DependencyProperty.GetMetadata(class System.Windows.DependencyObjectType)",
+          "samples": 6
+        },
+        {
+          "role": "Native WPF",
+          "module": "win32u",
+          "method": "win32u",
+          "samples": 5
+        },
+        {
+          "role": "Native WPF",
+          "module": "presentationcore",
+          "method": "presentationcore",
+          "samples": 4
+        },
+        {
+          "role": "Native WPF",
+          "module": "presentationcore.il",
+          "method": "System.Windows.Media.Animation.WeakRefEnumerator\u00601[System.__Canon].MoveNext()",
+          "samples": 4
+        },
+        {
+          "role": "Native WPF",
+          "module": "windowsbase.il",
+          "method": "System.Windows.Rect..ctor(value class System.Windows.Size)",
+          "samples": 4
+        },
+        {
+          "role": "Native WPF",
+          "module": "textshaping",
+          "method": "textshaping",
+          "samples": 4
+        },
+        {
+          "role": "Native WPF",
+          "module": "kernelbase",
+          "method": "kernelbase",
+          "samples": 4
+        },
+        {
+          "role": "Native WPF",
+          "module": "user32",
+          "method": "user32",
+          "samples": 4
+        },
+        {
+          "role": "Native WPF",
+          "module": "presentationcore.il",
+          "method": "System.Windows.Media.RenderData.DrawingContextWalk(class System.Windows.Media.DrawingContextWalker)",
+          "samples": 4
+        },
+        {
+          "role": "Native WPF",
+          "module": "presentationframework.il",
+          "method": "System.Windows.FrameworkElement.ArrangeCore(value class System.Windows.Rect)",
+          "samples": 4
+        },
+        {
+          "role": "Native WPF",
+          "module": "windowsbase.il",
+          "method": "System.Windows.Freezable.GetChangeHandlersAndInvalidateSubProperties(class EventStorage\u0026)",
+          "samples": 4
+        },
+        {
+          "role": "Native WPF",
+          "module": "windowsbase.il",
+          "method": "System.Windows.DependencyObject.InvalidateSubProperty(class System.Windows.DependencyProperty)",
+          "samples": 3
+        },
+        {
+          "role": "Native WPF",
+          "module": "gdi32",
+          "method": "gdi32",
+          "samples": 3
+        },
+        {
+          "role": "Native WPF",
+          "module": "system.private.corelib.il",
+          "method": "System.Runtime.CompilerServices.CastHelpers.ChkCastAny(void*,class System.Object)",
+          "samples": 3
+        },
+        {
+          "role": "Native WPF",
+          "module": "presentationnative_cor3",
+          "method": "presentationnative_cor3",
+          "samples": 3
+        },
+        {
+          "role": "Native WPF",
+          "module": "presentationcore.il",
+          "method": "System.Windows.Media.Visual.PrecomputeRecursive(value class System.Windows.Rect\u0026)",
+          "samples": 3
+        },
+        {
+          "role": "Native WPF",
+          "module": "presentationcore.il",
+          "method": "System.Windows.UIElement.GetHitTestBounds()",
+          "samples": 3
+        },
+        {
+          "role": "Native WPF",
+          "module": "system.private.corelib.il",
+          "method": "System.Runtime.CompilerServices.CastHelpers.ChkCastClass(void*,class System.Object)",
+          "samples": 3
+        },
+        {
+          "role": "Native WPF",
+          "module": "presentationcore.il",
+          "method": "System.Windows.Media.Animation.Clock.RaiseAccumulatedEvents()",
+          "samples": 3
+        },
+        {
+          "role": "Native WPF",
+          "module": "wpprecorder.sys",
+          "method": "wpprecorder.sys",
+          "samples": 3
+        },
+        {
+          "role": "Native WPF",
+          "module": "presentationcore.il",
+          "method": "System.Windows.Media.Visual.PrecomputeContent()",
+          "samples": 3
+        },
+        {
+          "role": "Native WPF",
+          "module": "presentationcore.il",
+          "method": "System.Windows.Media.TransformGroup.get_Value()",
+          "samples": 3
+        },
+        {
+          "role": "Native WPF",
+          "module": "system.private.corelib",
+          "method": "system.private.corelib",
+          "samples": 2
+        },
+        {
+          "role": "Native WPF",
+          "module": "dwmapi",
+          "method": "dwmapi",
+          "samples": 2
+        },
+        {
+          "role": "Native WPF",
+          "module": "presentationframework",
+          "method": "presentationframework",
+          "samples": 2
+        },
+        {
+          "role": "Native WPF",
+          "module": "windowsbase.il",
+          "method": "System.Windows.EffectiveValueEntry.set_BaseValueSourceInternal(value class System.Windows.BaseValueSourceInternal)",
+          "samples": 2
+        },
+        {
+          "role": "Native WPF",
+          "module": "presentationcore.il",
+          "method": "System.Windows.Media.Visual.PropagateFlags(class System.Windows.Media.Visual,value class System.Windows.Media.VisualFlags,value class System.Windows.Media.VisualProxyFlags)",
+          "samples": 2
+        },
+        {
+          "role": "Native WPF",
+          "module": "presentationcore.il",
+          "method": "System.Windows.Media.Color.ScRgbTosRgb(float32)",
+          "samples": 2
+        },
+        {
+          "role": "Native WPF",
+          "module": "windowsbase.il",
+          "method": "System.Windows.BaseCompatibilityPreferences.Seal()",
+          "samples": 2
+        },
+        {
+          "role": "Native WPF",
+          "module": "presentationcore.il",
+          "method": "System.Windows.Media.GlyphRun.ComputeInkBoundingBox()",
+          "samples": 2
+        },
+        {
+          "role": "Native WPF",
+          "module": "gdi32full",
+          "method": "gdi32full",
+          "samples": 2
+        },
+        {
+          "role": "Native WPF",
+          "module": "presentationframework.il",
+          "method": "System.Windows.FrameworkElement.MeasureCore(value class System.Windows.Size)",
+          "samples": 2
+        },
+        {
+          "role": "Native WPF",
+          "module": "win32k.sys",
+          "method": "win32k.sys",
+          "samples": 2
+        },
+        {
+          "role": "Native WPF",
+          "module": "rt640x64.sys",
+          "method": "rt640x64.sys",
+          "samples": 2
+        },
+        {
+          "role": "Native WPF",
+          "module": "presentationframework.il",
+          "method": "System.Windows.DescendentsWalker\u00601[System.Windows.InheritablePropertyChangeInfo].WalkFrameworkElementLogicalThenVisualChildren(class System.Windows.FrameworkElement,bool)",
+          "samples": 2
+        },
+        {
+          "role": "Native WPF",
+          "module": "presentationframework.il",
+          "method": "System.Windows.FrameworkElement.OnPropertyChanged(value class System.Windows.DependencyPropertyChangedEventArgs)",
+          "samples": 2
+        },
+        {
+          "role": "Native WPF",
+          "module": "presentationcore.il",
+          "method": "System.Windows.Media.Animation.Clock.ComputeEvents(value class System.Nullable\u00601\u003Cvalue class System.TimeSpan\u003E,value class System.Windows.Media.Animation.TimeIntervalCollection)",
+          "samples": 2
+        },
+        {
+          "role": "Native WPF",
+          "module": "watchdog.sys",
+          "method": "watchdog.sys",
+          "samples": 2
+        },
+        {
+          "role": "Native WPF",
+          "module": "windowsbase.il",
+          "method": "System.Windows.DependencyObject.UpdateEffectiveValue(value class System.Windows.EntryIndex,class System.Windows.DependencyProperty,class System.Windows.PropertyMetadata,value class System.Windows.EffectiveValueEntry,value class System.Windows.EffectiveValueEntry\u0026,bool,bool,value class System.Windows.OperationType)",
+          "samples": 2
+        },
+        {
+          "role": "Native WPF",
+          "module": "presentationcore.il",
+          "method": "System.Windows.ContextLayoutManager.UpdateLayout()",
+          "samples": 2
+        },
+        {
+          "role": "Native WPF",
+          "module": "presentationcore.il",
+          "method": "System.Windows.Media.Animation.Timeline.get_AccelerationRatio()",
+          "samples": 1
+        },
+        {
+          "role": "Native WPF",
+          "module": "presentationcore.il",
+          "method": "System.Windows.ContextLayoutManager\u002BLayoutQueue.RemoveOrphans(class System.Windows.UIElement)",
+          "samples": 1
+        },
+        {
+          "role": "Native WPF",
+          "module": "system.private.corelib.il",
+          "method": "System.Collections.Generic.Dictionary\u00602[System.__Canon,System.__Canon].FindValue(!0)",
+          "samples": 1
+        },
+        {
+          "role": "Native WPF",
+          "module": "windowsbase",
+          "method": "windowsbase",
+          "samples": 1
+        },
+        {
+          "role": "Native WPF",
+          "module": "windowsbase.il",
+          "method": "System.Windows.Freezable.OnFreezablePropertyChanged(class System.Windows.DependencyObject,class System.Windows.DependencyObject)",
+          "samples": 1
+        },
+        {
+          "role": "Native WPF",
+          "module": "system.private.corelib.il",
+          "method": "System.RuntimeTypeHandle.GetRuntimeTypeFromHandle(int)",
+          "samples": 1
+        },
+        {
+          "role": "Native WPF",
+          "module": "windowsbase.il",
+          "method": "System.Windows.Rect.Union(value class System.Windows.Rect)",
+          "samples": 1
+        },
+        {
+          "role": "Native WPF",
+          "module": "windowsbase.il",
+          "method": "System.Windows.Threading.DispatcherTimer.Stop()",
+          "samples": 1
+        },
+        {
+          "role": "Native WPF",
+          "module": "presentationframework.il",
+          "method": "System.Windows.StyleHelper.OnTriggerSourcePropertyInvalidated(class System.Windows.Style,class System.Windows.FrameworkTemplate,class System.Windows.DependencyObject,class System.Windows.DependencyProperty,value class System.Windows.DependencyPropertyChangedEventArgs,bool,value class MS.Utility.FrugalStructList\u00601\u003Cvalue class MS.Utility.ItemStructMap\u00601\u003Cvalue class System.Windows.TriggerSourceRecord\u003E\u003E\u0026,value class MS.Utility.FrugalMap\u0026,int32)",
+          "samples": 1
+        },
+        {
+          "role": "Native WPF",
+          "module": "ks.sys",
+          "method": "ks.sys",
+          "samples": 1
+        },
+        {
+          "role": "Native WPF",
+          "module": "presentationcore.il",
+          "method": "System.Windows.Media.Animation.Clock.ComputeCurrentTime(value class System.TimeSpan,float64\u0026)",
+          "samples": 1
+        },
+        {
+          "role": "Native WPF",
+          "module": "presentationcore.il",
+          "method": "System.Windows.Media.Typeface.CheckFastPathNominalGlyphs(value class System.Windows.Media.TextFormatting.CharacterBufferRange,float64,float32,float64,float64,bool,bool,class System.Globalization.CultureInfo,value class System.Windows.Media.TextFormattingMode,bool,bool,int32\u0026)",
+          "samples": 1
+        },
+        {
+          "role": "Native WPF",
+          "module": "presentationcore.il",
+          "method": "System.Windows.Media.Animation.Clock.ComputeEffectiveDuration()",
+          "samples": 1
+        },
+        {
+          "role": "Native WPF",
+          "module": "windowsbase.il",
+          "method": "System.Windows.DependencyObject.InsertEntry(value class System.Windows.EffectiveValueEntry,unsigned int32)",
+          "samples": 1
+        },
+        {
+          "role": "Native WPF",
+          "module": "presentationcore.il",
+          "method": "System.Windows.Media.StreamGeometry.IsEmpty()",
+          "samples": 1
+        },
+        {
+          "role": "Native WPF",
+          "module": "ManagedModule",
+          "method": "dynamicClass.IL_STUB_COMtoCLR(pMT: 00007FF9E06A86C0*)",
+          "samples": 1
+        },
+        {
+          "role": "Native WPF",
+          "module": "presentationframework.il",
+          "method": "System.Windows.FrameworkElement.get_VisualChildrenCount()",
+          "samples": 1
+        },
+        {
+          "role": "Native WPF",
+          "module": "presentationcore.il",
+          "method": "MS.Internal.Shaping.TypefaceMap.GetShapeableText(value class System.Windows.Media.TextFormatting.CharacterBufferReference,int32,class System.Windows.Media.TextFormatting.TextRunProperties,class System.Globalization.CultureInfo,bool,class System.Collections.Generic.IList\u00601\u003Cclass MS.Internal.TextFormatting.TextShapeableSymbols\u003E,class MS.Internal.TextFormatting.IShapeableTextCollector,value class System.Windows.Media.TextFormattingMode)",
+          "samples": 1
+        },
+        {
+          "role": "Native WPF",
+          "module": "presentationcore.il",
+          "method": "System.Windows.Media.Animation.PrefixSubtreeEnumerator.MoveNext()",
+          "samples": 1
+        },
+        {
+          "role": "Native WPF",
+          "module": "system.private.corelib.il",
+          "method": "System.Collections.Comparer.Compare(class System.Object,class System.Object)",
+          "samples": 1
+        },
+        {
+          "role": "Native WPF",
+          "module": "presentationcore.il",
+          "method": "System.Windows.Media.Visual.UpdateClip(class Channel,value class ResourceHandle,value class System.Windows.Media.VisualProxyFlags,bool)",
+          "samples": 1
+        },
+        {
+          "role": "Native WPF",
+          "module": "windowsbase.il",
+          "method": "System.Windows.DependencyObject.SetValue(class System.Windows.DependencyProperty,class System.Object)",
+          "samples": 1
+        },
+        {
+          "role": "Native WPF",
+          "module": "windowsbase.il",
+          "method": "System.Windows.Threading.Dispatcher.get_CurrentDispatcher()",
+          "samples": 1
+        },
+        {
+          "role": "Native WPF",
+          "module": "presentationcore.il",
+          "method": "System.Windows.Media.Animation.Clock.ComputeNextTickNeededTime(value class System.Nullable\u00601\u003Cvalue class System.TimeSpan\u003E,value class System.TimeSpan,float64)",
+          "samples": 1
+        },
+        {
+          "role": "Native WPF",
+          "module": "presentationcore.il",
+          "method": "MS.Internal.TextFormatting.TextMetrics\u002BFullTextLine..ctor(class MS.Internal.TextFormatting.FormatSettings,int32,int32,int32,value class MS.Internal.TextFormatting.LineFlags)",
+          "samples": 1
+        },
+        {
+          "role": "Native WPF",
+          "module": "presentationcore.il",
+          "method": "System.Windows.Media.Animation.DoubleAnimationBase.GetCurrentValue(class System.Object,class System.Object,class System.Windows.Media.Animation.AnimationClock)",
+          "samples": 1
+        },
+        {
+          "role": "Native WPF",
+          "module": "system.private.corelib.il",
+          "method": "System.Threading.AsyncLocalValueMap\u002BTwoElementAsyncLocalValueMap.TryGetValue(class System.Threading.IAsyncLocal,class System.Object\u0026)",
+          "samples": 1
+        },
+        {
+          "role": "Native WPF",
+          "module": "presentationframework.il",
+          "method": "System.Windows.Controls.TextBlock.MeasureOverride(value class System.Windows.Size)",
+          "samples": 1
+        },
+        {
+          "role": "Native WPF",
+          "module": "system.private.corelib.il",
+          "method": "System.Runtime.CompilerServices.StaticsHelpers.GetGCStaticBase(value class System.Runtime.CompilerServices.MethodTable*)",
+          "samples": 1
+        },
+        {
+          "role": "Native WPF",
+          "module": "windowsbase.il",
+          "method": "System.Windows.EffectiveValueEntry.get_LocalValue()",
+          "samples": 1
+        },
+        {
+          "role": "Native WPF",
+          "module": "windowsbase.il",
+          "method": "System.Windows.Threading.Dispatcher.ProcessQueue()",
+          "samples": 1
+        },
+        {
+          "role": "Native WPF",
+          "module": "system.private.corelib.il",
+          "method": "System.Runtime.CompilerServices.CastHelpers.StelemRef(class System.Object[],int,class System.Object)",
+          "samples": 1
+        },
+        {
+          "role": "Native WPF",
+          "module": "presentationcore.il",
+          "method": "System.Windows.Media.Animation.Clock.RaiseCurrentStateInvalidated()",
+          "samples": 1
+        },
+        {
+          "role": "Native WPF",
+          "module": "presentationcore.il",
+          "method": "System.Windows.UIElement.GetUIParentWithinLayoutIsland()",
+          "samples": 1
+        },
+        {
+          "role": "Native WPF",
+          "module": "presentationframework.il",
+          "method": "System.Windows.Shapes.Ellipse.ArrangeOverride(value class System.Windows.Size)",
+          "samples": 1
+        },
+        {
+          "role": "Native WPF",
+          "module": "presentationcore.il",
+          "method": "System.Windows.Media.Visual.TransformChanged(class System.Object,class System.EventArgs)",
+          "samples": 1
+        },
+        {
+          "role": "Native WPF",
+          "module": "presentationcore.il",
+          "method": "System.Windows.Media.Animation.DoubleAnimationUsingKeyFrames.GetCurrentValueCore(float64,float64,class System.Windows.Media.Animation.AnimationClock)",
+          "samples": 1
+        },
+        {
+          "role": "Native WPF",
+          "module": "presentationframework.il",
+          "method": "System.Windows.FrameworkElement.get_TemplateInternal()",
+          "samples": 1
+        },
+        {
+          "role": "Native WPF",
+          "module": "presentationcore.il",
+          "method": "System.Windows.Media.MediaContext.CommitChannel()",
+          "samples": 1
+        },
+        {
+          "role": "Native WPF",
+          "module": "presentationcore.il",
+          "method": "System.Windows.Media.ScaleTransform.ScaleXPropertyChanged(class System.Windows.DependencyObject,value class System.Windows.DependencyPropertyChangedEventArgs)",
+          "samples": 1
+        },
+        {
+          "role": "Native WPF",
+          "module": "presentationcore.il",
+          "method": "System.Windows.UIElement.RenderClose(class System.Windows.Media.IDrawingContent)",
+          "samples": 1
+        },
+        {
+          "role": "Native WPF",
+          "module": "presentationcore.il",
+          "method": "MS.Internal.SpanVector.FindSpan(int32,value class MS.Internal.SpanPosition,value class MS.Internal.SpanPosition\u0026)",
+          "samples": 1
+        },
+        {
+          "role": "Native WPF",
+          "module": "presentationcore.il",
+          "method": "System.Windows.Media.Animation.AnimationStorage.OnCurrentTimeInvalidated(class System.Object,class System.EventArgs)",
+          "samples": 1
+        },
+        {
+          "role": "Native WPF",
+          "module": "ManagedModule",
+          "method": "MS.Internal.Text.TextInterface.Font.ResetFontFaceCache()",
+          "samples": 1
+        },
+        {
+          "role": "Native WPF",
+          "module": "wfplwfs.sys",
+          "method": "wfplwfs.sys",
+          "samples": 1
+        },
+        {
+          "role": "Native WPF",
+          "module": "presentationcore.il",
+          "method": "System.Windows.Media.Visual.UpdateChildren(class System.Windows.Media.RenderContext,value class ResourceHandle)",
+          "samples": 1
+        },
+        {
+          "role": "Native WPF",
+          "module": "windowsbase.il",
+          "method": "System.Windows.DependencyObject.EvaluateEffectiveValue(value class System.Windows.EntryIndex,class System.Windows.DependencyProperty,class System.Windows.PropertyMetadata,value class System.Windows.EffectiveValueEntry,value class System.Windows.EffectiveValueEntry,value class System.Windows.OperationType)",
+          "samples": 1
+        },
+        {
+          "role": "Native WPF",
+          "module": "presentationcore.il",
+          "method": "System.Windows.Media.Animation.Clock.ComputeCurrentState(value class System.Nullable\u00601\u003Cvalue class System.TimeSpan\u003E,value class System.TimeSpan\u0026,float64,bool)",
+          "samples": 1
+        },
+        {
+          "role": "Native WPF",
+          "module": "windowsbase.il",
+          "method": "System.Windows.DependencyObject.NotifyPropertyChange(value class System.Windows.DependencyPropertyChangedEventArgs)",
+          "samples": 1
+        },
+        {
+          "role": "Native WPF",
+          "module": "presentationcore.il",
+          "method": "System.Windows.Media.MediaContext.RenderMessageHandlerCore(class System.Object)",
+          "samples": 1
+        },
+        {
+          "role": "Native WPF",
+          "module": "presentationcore.il",
+          "method": "System.Windows.Media.Color.Equals(class System.Object)",
+          "samples": 1
+        },
+        {
+          "role": "Native WPF",
+          "module": "presentationcore.il",
+          "method": "System.Windows.Media.MediaContext.ScheduleNextRenderOp(value class System.TimeSpan)",
+          "samples": 1
+        },
+        {
+          "role": "Native WPF",
+          "module": "presentationframework.il",
+          "method": "System.Windows.StyleHelper.GetChildValueHelper(class System.Windows.UncommonField\u00601\u003Cclass System.Collections.Specialized.HybridDictionary[]\u003E,value class MS.Utility.ItemStructList\u00601\u003Cvalue class System.Windows.ChildValueLookup\u003E\u0026,class System.Windows.DependencyProperty,class System.Windows.DependencyObject,value class MS.Internal.FrameworkObject,int32,bool,value class System.Windows.EffectiveValueEntry\u0026,value class System.Windows.ValueLookupType\u0026,class System.Windows.FrameworkElementFactory)",
+          "samples": 1
+        },
+        {
+          "role": "Native WPF",
+          "module": "ManagedModule",
+          "method": "dynamicClass.IL_STUB_PInvoke(unsigned int8*,unsigned int32,bool,int)",
+          "samples": 1
+        },
+        {
+          "role": "Native WPF",
+          "module": "presentationcore.il",
+          "method": "System.Windows.Media.Visual.RenderRecursive(class System.Windows.Media.RenderContext)",
+          "samples": 1
+        },
+        {
+          "role": "Native WPF",
+          "module": "windowsbase.il",
+          "method": "MS.Internal.MatrixUtil.MultiplyMatrix(value class System.Windows.Media.Matrix\u0026,value class System.Windows.Media.Matrix\u0026)",
+          "samples": 1
+        },
+        {
+          "role": "Native WPF",
+          "module": "system.private.corelib.il",
+          "method": "System.Threading.Tasks.AwaitTaskContinuation.RunCallback(class System.Threading.ContextCallback,class System.Object,class System.Threading.Tasks.Task\u0026)",
+          "samples": 1
+        },
+        {
+          "role": "Native WPF",
+          "module": "system.collections.immutable.il",
+          "method": "System.Collections.Frozen.FrozenDictionary.CreateFromDictionary(class System.Collections.Generic.Dictionary\u00602\u003C!!0,!!1\u003E)",
+          "samples": 1
+        },
+        {
+          "role": "Native WPF",
+          "module": "presentationcore.il",
+          "method": "System.Windows.Media.Animation.TimeIntervalCollection.IntersectsHelper(value class System.Windows.Media.Animation.TimeIntervalCollection)",
+          "samples": 1
+        },
+        {
+          "role": "Native WPF",
+          "module": "presentationcore.il",
+          "method": "System.Windows.Media.MediaContext.VerifyWriteAccess()",
+          "samples": 1
+        },
+        {
+          "role": "Native WPF",
+          "module": "windowsbase.il",
+          "method": "System.Windows.PropertyMetadata.get_DefaultValue()",
+          "samples": 1
+        },
+        {
+          "role": "Native WPF",
+          "module": "epsilon engineering",
+          "method": "Epsilon.Native.PanelWindow.Blend(class System.Windows.Media.SolidColorBrush,value class System.Windows.Media.Color)",
+          "samples": 1
+        },
+        {
+          "role": "Native WPF",
+          "module": "windowsbase.il",
+          "method": "System.Windows.Freezable.get_InheritanceContext()",
+          "samples": 1
+        },
+        {
+          "role": "Native WPF",
+          "module": "system.private.corelib.il",
+          "method": "System.Threading.LowLevelLifoSemaphore.Wait(int32,bool)",
+          "samples": 1
+        },
+        {
+          "role": "Native WPF",
+          "module": "presentationcore.il",
+          "method": "System.Windows.Automation.AutomationProperties.SetHelpText(class System.Windows.DependencyObject,class System.String)",
+          "samples": 1
+        },
+        {
+          "role": "Native WPF",
+          "module": "windowsbase.il",
+          "method": "System.Windows.DependencyObject.GetValueEntry(value class System.Windows.EntryIndex,class System.Windows.DependencyProperty,class System.Windows.PropertyMetadata,value class System.Windows.RequestFlags)",
+          "samples": 1
+        },
+        {
+          "role": "Native WPF",
+          "module": "presentationframework.il",
+          "method": "MS.Internal.Text.LineProperties..ctor(class System.Windows.DependencyObject,class System.Windows.DependencyObject,class MS.Internal.Text.TextProperties,class MS.Internal.Text.MarkerProperties,value class System.Windows.TextAlignment)",
+          "samples": 1
+        },
+        {
+          "role": "Native WPF",
+          "module": "windowsbase.il",
+          "method": "System.Windows.Freezable.CloneCoreCommon(class System.Windows.Freezable,bool,bool)",
+          "samples": 1
+        },
+        {
+          "role": "Native WPF",
+          "module": "presentationcore.il",
+          "method": "System.Windows.Media.Animation.Clock.ComputeCurrentIteration(value class System.TimeSpan,float64,value class System.Nullable\u00601\u003Cvalue class System.TimeSpan\u003E,value class System.TimeSpan\u0026)",
+          "samples": 1
+        },
+        {
+          "role": "Native WPF",
+          "module": "presentationcore.il",
+          "method": "MS.Internal.TextFormatting.LineServicesCallbacks.GetGlyphPositions(int,int*,int32*,int32,value class MS.Internal.TextFormatting.LsDevice,wchar*,unsigned int16*,unsigned int16*,int32,unsigned int16*,unsigned int32*,int32,value class MS.Internal.TextFormatting.LsTFlow,int32*,value class MS.Internal.Text.TextInterface.GlyphOffset*)",
+          "samples": 1
+        },
+        {
+          "role": "Native WPF",
+          "module": "ManagedModule",
+          "method": "dynamicClass.IL_STUB_ReversePInvoke(int64,int32,int64,int64)",
+          "samples": 1
+        },
+        {
+          "role": "Native WPF",
+          "module": "system.private.corelib.il",
+          "method": "System.Runtime.CompilerServices.AsyncTaskMethodBuilder\u00601\u002BAsyncStateMachineBox\u00601[System.Threading.Tasks.VoidTaskResult,Epsilon.Native.PerformanceProfile\u002B\u003CRunAsync\u003Ed__0].ExecutionContextCallback(class System.Object)",
+          "samples": 1
+        },
+        {
+          "role": "Native WPF",
+          "module": "presentationcore.il",
+          "method": "System.Windows.Media.ContainerVisual.get_VisualChildrenCount()",
+          "samples": 1
+        },
+        {
+          "role": "Native WPF",
+          "module": "system.private.uri.il",
+          "method": "System.Uri.CombineUri(class System.Uri,class System.String,value class System.UriFormat)",
+          "samples": 1
+        },
+        {
+          "role": "Native WPF",
+          "module": "presentationcore.il",
+          "method": "System.Windows.Media.Animation.ColorAnimation.GetCurrentValueCore(value class System.Windows.Media.Color,value class System.Windows.Media.Color,class System.Windows.Media.Animation.AnimationClock)",
+          "samples": 1
+        },
+        {
+          "role": "Native WPF",
+          "module": "presentationcore.il",
+          "method": "System.Windows.Media.BoundsDrawingContextWalker.AddTransformedBounds(value class System.Windows.Rect\u0026)",
+          "samples": 1
+        },
+        {
+          "role": "Native WPF",
+          "module": "presentationframework.il",
+          "method": "System.Windows.Controls.Grid.SetFinalSizeMaxDiscrepancy(class System.Windows.Controls.DefinitionBase[],float64,bool)",
+          "samples": 1
+        },
+        {
+          "role": "Native WPF",
+          "module": "presentationframework.il",
+          "method": "System.Windows.StyleHelper.InvalidateDependents(class System.Windows.Style,class System.Windows.FrameworkTemplate,class System.Windows.DependencyObject,class System.Windows.DependencyProperty,value class MS.Utility.FrugalStructList\u00601\u003Cvalue class System.Windows.ChildPropertyDependent\u003E\u0026,bool)",
+          "samples": 1
+        },
+        {
+          "role": "Native WPF",
+          "module": "presentationcore.il",
+          "method": "System.Windows.Media.EllipseGeometry.GetBoundsHelper(class System.Windows.Media.Pen,value class System.Windows.Media.Matrix,value class System.Windows.Point,float64,float64,value class System.Windows.Media.Matrix,float64,value class System.Windows.Media.ToleranceType)",
+          "samples": 1
+        },
+        {
+          "role": "Native WPF",
+          "module": "system.private.uri.il",
+          "method": "System.Uri.InitializeUri(value class System.ParsingError,value class System.UriKind,class System.UriFormatException\u0026)",
+          "samples": 1
+        },
+        {
+          "role": "Native WPF",
+          "module": "presentationcore.il",
+          "method": "MS.Internal.TextFormatting.LSRun.CompileFeatureSet(class MS.Internal.TextFormatting.LSRun[],int32*,unsigned int32,value class MS.Internal.Text.TextInterface.DWriteFontFeature[][]\u0026,unsigned int32[]\u0026)",
+          "samples": 1
+        },
+        {
+          "role": "Native WPF",
+          "module": "windowsbase.il",
+          "method": "System.Windows.Freezable.get_SingletonContext()",
+          "samples": 1
+        },
+        {
+          "role": "Native WPF",
+          "module": "windowsbase.il",
+          "method": "MS.Utility.ThreeItemList\u00601[System.Windows.Freezable\u002BFreezableContextPair].EntryAt(int32)",
+          "samples": 1
+        },
+        {
+          "role": "Native WPF",
+          "module": "system.private.corelib.il",
+          "method": "System.Runtime.CompilerServices.CastHelpers.StelemRef_Helper(class System.Object\u0026,void*,class System.Object)",
+          "samples": 1
+        }
+      ]
+    },
+    {
+      "implementation": "native",
+      "phase": "settled",
+      "totalSamples": 19,
+      "samplesWithStack": 19,
+      "sampleIntervalMs": 1,
+      "leaves": [
+        {
+          "role": "Native WPF",
+          "module": "wpfgfx_cor3",
+          "method": "wpfgfx_cor3",
+          "samples": 8
+        },
+        {
+          "role": "Native WPF",
+          "module": "nvlddmkm.sys",
+          "method": "nvlddmkm.sys",
+          "samples": 2
+        },
+        {
+          "role": "Native WPF",
+          "module": "win32kbase.sys",
+          "method": "win32kbase.sys",
+          "samples": 2
+        },
+        {
+          "role": "Native WPF",
+          "module": "presentationcore.il",
+          "method": "System.Windows.Media.Animation.Clock.ComputeEvents(value class System.Nullable\u00601\u003Cvalue class System.TimeSpan\u003E,value class System.Windows.Media.Animation.TimeIntervalCollection)",
+          "samples": 1
+        },
+        {
+          "role": "Native WPF",
+          "module": "nvd3dumx",
+          "method": "nvd3dumx",
+          "samples": 1
+        },
+        {
+          "role": "Native WPF",
+          "module": "presentationcore.il",
+          "method": "System.Windows.Media.TransformCollection.get_Count()",
+          "samples": 1
+        },
+        {
+          "role": "Native WPF",
+          "module": "dxgkrnl.sys",
+          "method": "dxgkrnl.sys",
+          "samples": 1
+        },
+        {
+          "role": "Native WPF",
+          "module": "ntdll",
+          "method": "ntdll",
+          "samples": 1
+        },
+        {
+          "role": "Native WPF",
+          "module": "ntoskrnl",
+          "method": "ntoskrnl",
+          "samples": 1
+        },
+        {
+          "role": "Native WPF",
+          "module": "nvmemmapstoragex",
+          "method": "nvmemmapstoragex",
+          "samples": 1
+        }
+      ]
+    },
+    {
+      "implementation": "native",
+      "phase": "dragging",
+      "totalSamples": 192,
+      "samplesWithStack": 192,
+      "sampleIntervalMs": 1,
+      "leaves": [
+        {
+          "role": "Native WPF",
+          "module": "wpfgfx_cor3",
+          "method": "wpfgfx_cor3",
+          "samples": 29
+        },
+        {
+          "role": "Native WPF",
+          "module": "ntoskrnl",
+          "method": "ntoskrnl",
+          "samples": 25
+        },
+        {
+          "role": "Native WPF",
+          "module": "coreclr",
+          "method": "coreclr",
+          "samples": 22
+        },
+        {
+          "role": "Native WPF",
+          "module": "clrjit",
+          "method": "clrjit",
+          "samples": 13
+        },
+        {
+          "role": "Native WPF",
+          "module": "ntdll",
+          "method": "ntdll",
+          "samples": 12
+        },
+        {
+          "role": "Native WPF",
+          "module": "nvd3dumx",
+          "method": "nvd3dumx",
+          "samples": 7
+        },
+        {
+          "role": "Native WPF",
+          "module": "dwrite",
+          "method": "dwrite",
+          "samples": 6
+        },
+        {
+          "role": "Native WPF",
+          "module": "Unresolved / JIT code",
+          "method": "Unresolved / JIT code",
+          "samples": 6
+        },
+        {
+          "role": "Native WPF",
+          "module": "win32kbase.sys",
+          "method": "win32kbase.sys",
+          "samples": 6
+        },
+        {
+          "role": "Native WPF",
+          "module": "presentationnative_cor3",
+          "method": "presentationnative_cor3",
+          "samples": 6
+        },
+        {
+          "role": "Native WPF",
+          "module": "d3d9",
+          "method": "d3d9",
+          "samples": 5
+        },
+        {
+          "role": "Native WPF",
+          "module": "user32",
+          "method": "user32",
+          "samples": 4
+        },
+        {
+          "role": "Native WPF",
+          "module": "nvlddmkm.sys",
+          "method": "nvlddmkm.sys",
+          "samples": 4
+        },
+        {
+          "role": "Native WPF",
+          "module": "textshaping",
+          "method": "textshaping",
+          "samples": 3
+        },
+        {
+          "role": "Native WPF",
+          "module": "system.private.corelib.il",
+          "method": "System.Threading.ThreadPoolWorkQueue.Dispatch()",
+          "samples": 2
+        },
+        {
+          "role": "Native WPF",
+          "module": "gdi32",
+          "method": "gdi32",
+          "samples": 2
+        },
+        {
+          "role": "Native WPF",
+          "module": "watchdog.sys",
+          "method": "watchdog.sys",
+          "samples": 2
+        },
+        {
+          "role": "Native WPF",
+          "module": "presentationframework.il",
+          "method": "System.Windows.Controls.Grid.ValidateDefinitionsLayout(class System.Windows.Controls.DefinitionBase[],bool)",
+          "samples": 2
+        },
+        {
+          "role": "Native WPF",
+          "module": "win32kfull.sys",
+          "method": "win32kfull.sys",
+          "samples": 2
+        },
+        {
+          "role": "Native WPF",
+          "module": "system.private.corelib.il",
+          "method": "System.Threading.PortableThreadPool\u002BWorkerThread.MaybeAddWorkingWorker(class System.Threading.PortableThreadPool)",
+          "samples": 1
+        },
+        {
+          "role": "Native WPF",
+          "module": "windowsbase.il",
+          "method": "System.Windows.PropertyMetadata.get_DefaultValue()",
+          "samples": 1
+        },
+        {
+          "role": "Native WPF",
+          "module": "presentationcore.il",
+          "method": "System.Windows.Media.GlyphTypeface.GetGlyphMetricsOptimized(value class System.Windows.Media.TextFormatting.CharacterBufferRange,float64,float32,unsigned int16[],value class MS.Internal.Text.TextInterface.GlyphMetrics[],value class System.Windows.Media.TextFormattingMode,bool)",
+          "samples": 1
+        },
+        {
+          "role": "Native WPF",
+          "module": "system.private.corelib.il",
+          "method": "System.Threading.TimerQueue.get_TickCount64()",
+          "samples": 1
+        },
+        {
+          "role": "Native WPF",
+          "module": "system.private.corelib.il",
+          "method": "System.Collections.Generic.List\u00601[System.__Canon].AddWithResize(!0)",
+          "samples": 1
+        },
+        {
+          "role": "Native WPF",
+          "module": "presentationcore.il",
+          "method": "System.IO.Packaging.PackWebResponse\u002BCachedResponse.GetResponseStream()",
+          "samples": 1
+        },
+        {
+          "role": "Native WPF",
+          "module": "windowsbase.il",
+          "method": "System.Windows.DependencyObject.GetEffectiveValue(value class System.Windows.EntryIndex,class System.Windows.DependencyProperty,value class System.Windows.RequestFlags)",
+          "samples": 1
+        },
+        {
+          "role": "Native WPF",
+          "module": "system.private.corelib.il",
+          "method": "System.Threading.WaitHandle.WaitOneNoCheck(int32,bool,class System.Object,value class WaitHandleWaitSourceMap)",
+          "samples": 1
+        },
+        {
+          "role": "Native WPF",
+          "module": "presentationcore.il",
+          "method": "System.Windows.Media.MediaContext.From(class System.Windows.Threading.Dispatcher)",
+          "samples": 1
+        },
+        {
+          "role": "Native WPF",
+          "module": "windowsbase.il",
+          "method": "System.Windows.Threading.DispatcherOperation.InvokeImpl()",
+          "samples": 1
+        },
+        {
+          "role": "Native WPF",
+          "module": "presentationcore.il",
+          "method": "System.Windows.Media.Visual.PrecomputeRecursive(value class System.Windows.Rect\u0026)",
+          "samples": 1
+        },
+        {
+          "role": "Native WPF",
+          "module": "wpprecorder.sys",
+          "method": "wpprecorder.sys",
+          "samples": 1
+        },
+        {
+          "role": "Native WPF",
+          "module": "system.private.uri.il",
+          "method": "System.Uri.GetRelativeSerializationString(value class System.UriFormat)",
+          "samples": 1
+        },
+        {
+          "role": "Native WPF",
+          "module": "system.private.corelib.il",
+          "method": "System.Runtime.CompilerServices.CastHelpers.ChkCastClass(void*,class System.Object)",
+          "samples": 1
+        },
+        {
+          "role": "Native WPF",
+          "module": "hdaudbus.sys",
+          "method": "hdaudbus.sys",
+          "samples": 1
+        },
+        {
+          "role": "Native WPF",
+          "module": "presentationframework.il",
+          "method": "System.Windows.FrameworkElement.ArrangeCore(value class System.Windows.Rect)",
+          "samples": 1
+        },
+        {
+          "role": "Native WPF",
+          "module": "system.private.corelib.il",
+          "method": "System.Threading.ThreadPoolWorkQueue.EnqueueAtHighPriority(class System.Object)",
+          "samples": 1
+        },
+        {
+          "role": "Native WPF",
+          "module": "kernel32",
+          "method": "kernel32",
+          "samples": 1
+        },
+        {
+          "role": "Native WPF",
+          "module": "presentationcore.il",
+          "method": "System.Windows.EventHandlersStore.get_Item(class System.Windows.RoutedEvent)",
+          "samples": 1
+        },
+        {
+          "role": "Native WPF",
+          "module": "presentationframework.il",
+          "method": "System.Windows.Controls.Grid.MeasureOverride(value class System.Windows.Size)",
+          "samples": 1
+        },
+        {
+          "role": "Native WPF",
+          "module": "presentationcore.il",
+          "method": "System.Windows.UIElement.InvalidateMeasure()",
+          "samples": 1
+        },
+        {
+          "role": "Native WPF",
+          "module": "presentationcore.il",
+          "method": "MS.Internal.SpanVector.FindSpan(int32,value class MS.Internal.SpanPosition,value class MS.Internal.SpanPosition\u0026)",
+          "samples": 1
+        },
+        {
+          "role": "Native WPF",
+          "module": "msvcrt",
+          "method": "msvcrt",
+          "samples": 1
+        },
+        {
+          "role": "Native WPF",
+          "module": "presentationframework.il",
+          "method": "MS.Internal.Text.TextDpi.EnsureValidLineOffset(float64\u0026)",
+          "samples": 1
+        },
+        {
+          "role": "Native WPF",
+          "module": "system.private.corelib.il",
+          "method": "System.Collections.Generic.NonRandomizedStringEqualityComparer\u002BOrdinalComparer.Equals(class System.String,class System.String)",
+          "samples": 1
+        },
+        {
+          "role": "Native WPF",
+          "module": "presentationcore.il",
+          "method": "MS.Internal.FontCache.BufferCache.GetUShorts(int32)",
+          "samples": 1
+        },
+        {
+          "role": "Native WPF",
+          "module": "presentationframework.il",
+          "method": "System.Windows.Controls.Control.MeasureOverride(value class System.Windows.Size)",
+          "samples": 1
+        },
+        {
+          "role": "Native WPF",
+          "module": "windowsbase.il",
+          "method": "System.Windows.DependencyObject.LookupEntry(int32)",
+          "samples": 1
+        },
+        {
+          "role": "Native WPF",
+          "module": "system.private.corelib.il",
+          "method": "System.Runtime.CompilerServices.CastHelpers.IsInstanceOfClass(void*,class System.Object)",
+          "samples": 1
+        },
+        {
+          "role": "Native WPF",
+          "module": "system.threading.channels.il",
+          "method": "System.Threading.Channels.ChannelUtilities.TryDequeueAndReserveCompletionIfCancelable(!!0\u0026)",
+          "samples": 1
+        },
+        {
+          "role": "Native WPF",
+          "module": "dxgmms2.sys",
+          "method": "dxgmms2.sys",
+          "samples": 1
+        },
+        {
+          "role": "Native WPF",
+          "module": "presentationframework.il",
+          "method": "System.Windows.FrameworkElement.GetLayoutClip(value class System.Windows.Size)",
+          "samples": 1
+        },
+        {
+          "role": "Native WPF",
+          "module": "system.threading.channels.il",
+          "method": "System.Threading.Channels.ChannelReader\u00601\u002B\u003CReadAllAsync\u003Ed__12[System.__Canon].MoveNext()",
+          "samples": 1
+        },
+        {
+          "role": "Native WPF",
+          "module": "windowsbase.il",
+          "method": "MS.Utility.ThreeItemList\u00601[System.Double].EntryAt(int32)",
+          "samples": 1
+        }
+      ]
+    }
+  ]
+}

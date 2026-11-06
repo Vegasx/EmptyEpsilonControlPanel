@@ -1,0 +1,79 @@
+{
+  "implementation": "native",
+  "timestamp": "2026-11-06T03:41:05.1739449+00:00",
+  "width": 1000,
+  "height": 700,
+  "deviceScaleFactor": 1,
+  "reducedMotion": false,
+  "renderTier": 2,
+  "logicalProcessors": 16,
+  "runtime": "10.0.14",
+  "overlayEnabled": false,
+  "interactionWarmup": true,
+  "phases": [
+    {
+      "name": "idle",
+      "start": "2026-11-06T03:40:33.135423+00:00",
+      "end": "2026-11-06T03:40:38.1480218+00:00",
+      "elapsedMs": 5012.6202,
+      "actions": 0,
+      "resets": 0,
+      "cpuMs": 0,
+      "privateMiB": 117.359375,
+      "pids": [
+        {
+          "id": 7600,
+          "role": "Native WPF"
+        }
+      ]
+    },
+    {
+      "name": "switching",
+      "start": "2026-11-06T03:40:38.1540079+00:00",
+      "end": "2026-11-06T03:40:50.1547389+00:00",
+      "elapsedMs": 12000.7318,
+      "actions": 120,
+      "resets": 17,
+      "cpuMs": 281.25,
+      "privateMiB": 151.00390625,
+      "pids": [
+        {
+          "id": 7600,
+          "role": "Native WPF"
+        }
+      ]
+    },
+    {
+      "name": "settled",
+      "start": "2026-11-06T03:40:50.1575961+00:00",
+      "end": "2026-11-06T03:40:55.1573946+00:00",
+      "elapsedMs": 4999.799,
+      "actions": 0,
+      "resets": 0,
+      "cpuMs": 0,
+      "privateMiB": 151.25,
+      "pids": [
+        {
+          "id": 7600,
+          "role": "Native WPF"
+        }
+      ]
+    },
+    {
+      "name": "dragging",
+      "start": "2026-11-06T03:40:55.1604836+00:00",
+      "end": "2026-11-06T03:41:05.1701246+00:00",
+      "elapsedMs": 10009.6413,
+      "actions": 300,
+      "resets": 0,
+      "cpuMs": 31.25,
+      "privateMiB": 153.7421875,
+      "pids": [
+        {
+          "id": 7600,
+          "role": "Native WPF"
+        }
+      ]
+    }
+  ]
+}

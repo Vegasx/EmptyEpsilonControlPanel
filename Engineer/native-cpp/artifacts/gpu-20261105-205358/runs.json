@@ -1,0 +1,36 @@
+{
+  "runs": [
+    {
+      "samples": "cpp-1-gpu.json",
+      "pid": 2424,
+      "trial": 1,
+      "report": "cpp-1.json",
+      "implementation": "cpp",
+      "scale": 1.0
+    },
+    {
+      "samples": "wpf-1-gpu.json",
+      "pid": 22816,
+      "trial": 1,
+      "report": "wpf-1.json",
+      "implementation": "wpf",
+      "scale": 1
+    },
+    {
+      "samples": "wpf-2-gpu.json",
+      "pid": 18464,
+      "trial": 2,
+      "report": "wpf-2.json",
+      "implementation": "wpf",
+      "scale": 1
+    },
+    {
+      "samples": "cpp-2-gpu.json",
+      "pid": 384,
+      "trial": 2,
+      "report": "cpp-2.json",
+      "implementation": "cpp",
+      "scale": 1.0
+    }
+  ]
+}

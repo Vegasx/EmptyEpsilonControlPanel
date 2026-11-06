@@ -1,0 +1,410 @@
+{
+  "generated": "2026-11-06T04:00:00.361Z",
+  "units": "Summed GPU engine active time; not display latency or per-frame execution time",
+  "deviceScaleFactor": 1,
+  "hardware": {
+    "adapters": [
+      {
+        "description": "NVIDIA GeForce RTX 5080",
+        "luid": "luid_0x00000000_0x00017f82",
+        "dedicatedMemoryMiB": 15977,
+        "software": false
+      },
+      {
+        "description": "Microsoft Basic Render Driver",
+        "luid": "luid_0x00000000_0x0001924c",
+        "dedicatedMemoryMiB": 0,
+        "software": true
+      }
+    ]
+  },
+  "activeAdapters": {
+    "cpp": [
+      "luid_0x00000000_0x00017f82"
+    ],
+    "wpf": [
+      "luid_0x00000000_0x00017f82"
+    ]
+  },
+  "validationPassed": true,
+  "aggregate": [
+    {
+      "implementation": "cpp",
+      "phase": "idle",
+      "trials": 2,
+      "meanBusyMs": 0,
+      "meanCoverageMs": 4754.2428,
+      "combinedEngineUtilPercent": 0,
+      "busiestEngineUtilPercent": 0,
+      "busyMsPerSecond": 0,
+      "individualBusyMsPerSecond": [
+        0,
+        0
+      ]
+    },
+    {
+      "implementation": "wpf",
+      "phase": "idle",
+      "trials": 2,
+      "meanBusyMs": 0,
+      "meanCoverageMs": 4752.21465,
+      "combinedEngineUtilPercent": 0,
+      "busiestEngineUtilPercent": 0,
+      "busyMsPerSecond": 0,
+      "individualBusyMsPerSecond": [
+        0,
+        0
+      ]
+    },
+    {
+      "implementation": "cpp",
+      "phase": "switching",
+      "trials": 2,
+      "meanBusyMs": 26.250500000000002,
+      "meanCoverageMs": 11754.083450000002,
+      "combinedEngineUtilPercent": 0.22333089697436168,
+      "busiestEngineUtilPercent": 0.22333089697436168,
+      "busyMsPerSecond": 2.233308969743617,
+      "individualBusyMsPerSecond": [
+        2.1632264980268894,
+        2.3034772421135674
+      ]
+    },
+    {
+      "implementation": "wpf",
+      "phase": "switching",
+      "trials": 2,
+      "meanBusyMs": 29.916500000000006,
+      "meanCoverageMs": 11747.872800000001,
+      "combinedEngineUtilPercent": 0.2546546128759583,
+      "busiestEngineUtilPercent": 0.2546546128759583,
+      "busyMsPerSecond": 2.546546128759583,
+      "individualBusyMsPerSecond": [
+        2.574006145003045,
+        2.519080112572249
+      ]
+    },
+    {
+      "implementation": "cpp",
+      "phase": "settled",
+      "trials": 2,
+      "meanBusyMs": 0.2084,
+      "meanCoverageMs": 4751.2399000000005,
+      "combinedEngineUtilPercent": 0.004386223478212497,
+      "busiestEngineUtilPercent": 0.004386223478212496,
+      "busyMsPerSecond": 0.043862234782124976,
+      "individualBusyMsPerSecond": [
+        0.035704475635013055,
+        0.052006489434102514
+      ]
+    },
+    {
+      "implementation": "wpf",
+      "phase": "settled",
+      "trials": 2,
+      "meanBusyMs": 1.09195,
+      "meanCoverageMs": 4752.8408,
+      "combinedEngineUtilPercent": 0.022974680742515085,
+      "busiestEngineUtilPercent": 0.022974680742515085,
+      "busyMsPerSecond": 0.22974680742515088,
+      "individualBusyMsPerSecond": [
+        0.07453117522209815,
+        0.3847568013843929
+      ]
+    },
+    {
+      "implementation": "cpp",
+      "phase": "dragging",
+      "trials": 2,
+      "meanBusyMs": 3.98515,
+      "meanCoverageMs": 9748.417950000003,
+      "combinedEngineUtilPercent": 0.040879966579602786,
+      "busiestEngineUtilPercent": 0.040879966579602786,
+      "busyMsPerSecond": 0.40879966579602783,
+      "individualBusyMsPerSecond": [
+        0.41102248611079,
+        0.4065750906191727
+      ]
+    },
+    {
+      "implementation": "wpf",
+      "phase": "dragging",
+      "trials": 2,
+      "meanBusyMs": 4.1674999999999995,
+      "meanCoverageMs": 9738.17265,
+      "combinedEngineUtilPercent": 0.042795503322689596,
+      "busiestEngineUtilPercent": 0.042795503322689596,
+      "busyMsPerSecond": 0.4279550332268959,
+      "individualBusyMsPerSecond": [
+        0.4200065618321194,
+        0.4358984674599514
+      ]
+    }
+  ],
+  "trials": [
+    {
+      "implementation": "cpp",
+      "trial": 1,
+      "phase": "idle",
+      "phaseElapsedMs": 5009.3637,
+      "coverageMs": 4755.3437,
+      "coveragePercent": 94.92909648385084,
+      "samples": 19,
+      "busyMs": 0,
+      "combinedEngineUtilPercent": 0,
+      "busiestEngineUtilPercent": 0,
+      "engines": {},
+      "invalidCounterReads": 0,
+      "source": "cpp-1-gpu.json"
+    },
+    {
+      "implementation": "cpp",
+      "trial": 1,
+      "phase": "switching",
+      "phaseElapsedMs": 12013.0266,
+      "coverageMs": 11761.274200000002,
+      "coveragePercent": 97.90433827891468,
+      "samples": 47,
+      "busyMs": 25.44230000000001,
+      "combinedEngineUtilPercent": 0.21632264980268895,
+      "busiestEngineUtilPercent": 0.21632264980268895,
+      "engines": {
+        "luid_0x00000000_0x00017F82_phys_0_eng_0_engtype_3D": 25.44230000000001
+      },
+      "invalidCounterReads": 0,
+      "source": "cpp-1-gpu.json"
+    },
+    {
+      "implementation": "cpp",
+      "trial": 1,
+      "phase": "settled",
+      "phaseElapsedMs": 5007.6204,
+      "coverageMs": 4747.304,
+      "coveragePercent": 94.80159478541945,
+      "samples": 19,
+      "busyMs": 0.1695,
+      "combinedEngineUtilPercent": 0.0035704475635013055,
+      "busiestEngineUtilPercent": 0.003570447563501305,
+      "engines": {
+        "luid_0x00000000_0x00017F82_phys_0_eng_0_engtype_3D": 0.1695
+      },
+      "invalidCounterReads": 0,
+      "source": "cpp-1-gpu.json"
+    },
+    {
+      "implementation": "cpp",
+      "trial": 1,
+      "phase": "dragging",
+      "phaseElapsedMs": 10008.1289,
+      "coverageMs": 9752.264500000001,
+      "coveragePercent": 97.44343420676768,
+      "samples": 39,
+      "busyMs": 4.008400000000001,
+      "combinedEngineUtilPercent": 0.041102248611079,
+      "busiestEngineUtilPercent": 0.041102248611079,
+      "engines": {
+        "luid_0x00000000_0x00017F82_phys_0_eng_0_engtype_3D": 4.008400000000001
+      },
+      "invalidCounterReads": 0,
+      "source": "cpp-1-gpu.json"
+    },
+    {
+      "implementation": "wpf",
+      "trial": 1,
+      "phase": "idle",
+      "phaseElapsedMs": 5001.9017,
+      "coverageMs": 4745.938499999999,
+      "coveragePercent": 94.88268232060616,
+      "samples": 19,
+      "busyMs": 0,
+      "combinedEngineUtilPercent": 0,
+      "busiestEngineUtilPercent": 0,
+      "engines": {},
+      "invalidCounterReads": 0,
+      "source": "wpf-1-gpu.json"
+    },
+    {
+      "implementation": "wpf",
+      "trial": 1,
+      "phase": "switching",
+      "phaseElapsedMs": 11998.8435,
+      "coverageMs": 11749.156099999998,
+      "coveragePercent": 97.91907111714556,
+      "samples": 47,
+      "busyMs": 30.242400000000004,
+      "combinedEngineUtilPercent": 0.2574006145003045,
+      "busiestEngineUtilPercent": 0.2574006145003045,
+      "engines": {
+        "luid_0x00000000_0x00017F82_phys_0_eng_0_engtype_3D": 30.242400000000004
+      },
+      "invalidCounterReads": 0,
+      "source": "wpf-1-gpu.json"
+    },
+    {
+      "implementation": "wpf",
+      "trial": 1,
+      "phase": "settled",
+      "phaseElapsedMs": 5000.7224,
+      "coverageMs": 4749.6903,
+      "coveragePercent": 94.98008327756807,
+      "samples": 19,
+      "busyMs": 0.354,
+      "combinedEngineUtilPercent": 0.007453117522209816,
+      "busiestEngineUtilPercent": 0.0074531175222098175,
+      "engines": {
+        "luid_0x00000000_0x00017F82_phys_0_eng_0_engtype_3D": 0.354
+      },
+      "invalidCounterReads": 0,
+      "source": "wpf-1-gpu.json"
+    },
+    {
+      "implementation": "wpf",
+      "trial": 1,
+      "phase": "dragging",
+      "phaseElapsedMs": 9999.8347,
+      "coverageMs": 9735.086000000001,
+      "coveragePercent": 97.3524692363165,
+      "samples": 39,
+      "busyMs": 4.0888,
+      "combinedEngineUtilPercent": 0.042000656183211936,
+      "busiestEngineUtilPercent": 0.042000656183211936,
+      "engines": {
+        "luid_0x00000000_0x00017F82_phys_0_eng_0_engtype_3D": 4.0888
+      },
+      "invalidCounterReads": 0,
+      "source": "wpf-1-gpu.json"
+    },
+    {
+      "implementation": "wpf",
+      "trial": 2,
+      "phase": "idle",
+      "phaseElapsedMs": 5014.6022,
+      "coverageMs": 4758.4908000000005,
+      "coveragePercent": 94.89268759942713,
+      "samples": 19,
+      "busyMs": 0,
+      "combinedEngineUtilPercent": 0,
+      "busiestEngineUtilPercent": 0,
+      "engines": {},
+      "invalidCounterReads": 0,
+      "source": "wpf-2-gpu.json"
+    },
+    {
+      "implementation": "wpf",
+      "trial": 2,
+      "phase": "switching",
+      "phaseElapsedMs": 12000.0992,
+      "coverageMs": 11746.589500000002,
+      "coveragePercent": 97.88743663052387,
+      "samples": 47,
+      "busyMs": 29.590600000000006,
+      "combinedEngineUtilPercent": 0.2519080112572249,
+      "busiestEngineUtilPercent": 0.2519080112572249,
+      "engines": {
+        "luid_0x00000000_0x00017F82_phys_0_eng_0_engtype_3D": 29.590600000000006
+      },
+      "invalidCounterReads": 0,
+      "source": "wpf-2-gpu.json"
+    },
+    {
+      "implementation": "wpf",
+      "trial": 2,
+      "phase": "settled",
+      "phaseElapsedMs": 5000.0596,
+      "coverageMs": 4755.991299999999,
+      "coveragePercent": 95.11869218518913,
+      "samples": 19,
+      "busyMs": 1.8299,
+      "combinedEngineUtilPercent": 0.038475680138439286,
+      "busiestEngineUtilPercent": 0.038475680138439286,
+      "engines": {
+        "luid_0x00000000_0x00017F82_phys_0_eng_0_engtype_3D": 1.8299
+      },
+      "invalidCounterReads": 0,
+      "source": "wpf-2-gpu.json"
+    },
+    {
+      "implementation": "wpf",
+      "trial": 2,
+      "phase": "dragging",
+      "phaseElapsedMs": 10014.1463,
+      "coverageMs": 9741.2593,
+      "coveragePercent": 97.2749848881277,
+      "samples": 39,
+      "busyMs": 4.246199999999999,
+      "combinedEngineUtilPercent": 0.04358984674599514,
+      "busiestEngineUtilPercent": 0.04358984674599514,
+      "engines": {
+        "luid_0x00000000_0x00017F82_phys_0_eng_0_engtype_3D": 4.246199999999999
+      },
+      "invalidCounterReads": 0,
+      "source": "wpf-2-gpu.json"
+    },
+    {
+      "implementation": "cpp",
+      "trial": 2,
+      "phase": "idle",
+      "phaseElapsedMs": 5009.2879,
+      "coverageMs": 4753.1419000000005,
+      "coveragePercent": 94.88657858934401,
+      "samples": 19,
+      "busyMs": 0,
+      "combinedEngineUtilPercent": 0,
+      "busiestEngineUtilPercent": 0,
+      "engines": {},
+      "invalidCounterReads": 0,
+      "source": "cpp-2-gpu.json"
+    },
+    {
+      "implementation": "cpp",
+      "trial": 2,
+      "phase": "switching",
+      "phaseElapsedMs": 12012.7662,
+      "coverageMs": 11746.8927,
+      "coveragePercent": 97.7867420744441,
+      "samples": 47,
+      "busyMs": 27.058699999999998,
+      "combinedEngineUtilPercent": 0.23034772421135674,
+      "busiestEngineUtilPercent": 0.23034772421135674,
+      "engines": {
+        "luid_0x00000000_0x00017F82_phys_0_eng_0_engtype_3D": 27.058699999999998
+      },
+      "invalidCounterReads": 0,
+      "source": "cpp-2-gpu.json"
+    },
+    {
+      "implementation": "cpp",
+      "trial": 2,
+      "phase": "settled",
+      "phaseElapsedMs": 5012.1289,
+      "coverageMs": 4755.1758,
+      "coveragePercent": 94.8733740666566,
+      "samples": 19,
+      "busyMs": 0.2473,
+      "combinedEngineUtilPercent": 0.005200648943410252,
+      "busiestEngineUtilPercent": 0.005200648943410251,
+      "engines": {
+        "luid_0x00000000_0x00017F82_phys_0_eng_0_engtype_3D": 0.2473
+      },
+      "invalidCounterReads": 0,
+      "source": "cpp-2-gpu.json"
+    },
+    {
+      "implementation": "cpp",
+      "trial": 2,
+      "phase": "dragging",
+      "phaseElapsedMs": 10014.7305,
+      "coverageMs": 9744.571400000003,
+      "coveragePercent": 97.30238272512678,
+      "samples": 39,
+      "busyMs": 3.9618999999999995,
+      "combinedEngineUtilPercent": 0.04065750906191727,
+      "busiestEngineUtilPercent": 0.04065750906191727,
+      "engines": {
+        "luid_0x00000000_0x00017F82_phys_0_eng_0_engtype_3D": 3.9618999999999995
+      },
+      "invalidCounterReads": 0,
+      "source": "cpp-2-gpu.json"
+    }
+  ]
+}

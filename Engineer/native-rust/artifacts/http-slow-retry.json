@@ -1,0 +1,8 @@
+{
+  "acknowledged": 302,
+  "failed": 2,
+  "finalSequence": 302,
+  "passed": true,
+  "sent": 3,
+  "status": "HTTP OK"
+}

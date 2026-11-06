@@ -1,0 +1,35 @@
+{
+  "passed": true,
+  "ui": {
+    "passed": true,
+    "checks": 18,
+    "physicalInputTested": false,
+    "width": 1000,
+    "height": 700,
+    "deviceScaleFactor": 1
+  },
+  "rejected": [
+    "missing-config",
+    "bad-endpoint",
+    "missing-transport"
+  ],
+  "network": [
+    {
+      "name": "normal",
+      "requests": 103,
+      "failures": 0,
+      "acknowledged": 302
+    },
+    {
+      "name": "slow-retry",
+      "requests": 28,
+      "failures": 3,
+      "acknowledged": 302
+    }
+  ],
+  "demo": {
+    "passed": true,
+    "finalSequence": 302,
+    "reactor": 150
+  }
+}

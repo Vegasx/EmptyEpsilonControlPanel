@@ -1,0 +1,7 @@
+{
+  "sampleFile": "gpu-isolated.json",
+  "reports": [
+    "native-gpu.json",
+    "browser-gpu.json"
+  ]
+}

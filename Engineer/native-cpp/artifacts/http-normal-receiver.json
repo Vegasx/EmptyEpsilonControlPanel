@@ -1,0 +1,4443 @@
+{
+  "passed": true,
+  "concurrent": 1,
+  "report": {
+    "passed": true,
+    "sent": 103,
+    "failed": 0,
+    "finalSequence": 302,
+    "acknowledged": 302,
+    "status": "HTTP OK"
+  },
+  "received": [
+    {
+      "at": 1793937459036,
+      "value": {
+        "version": 1,
+        "shipName": "ESS Endeavour",
+        "sequence": 1,
+        "final": false,
+        "powerPercentages": {
+          "reactor": 100,
+          "beamweapons": 100,
+          "missilesystem": 100,
+          "maneuver": 100,
+          "impulse": 100,
+          "warp": 100,
+          "frontshield": 100,
+          "rearshield": 100
+        },
+        "coolantWeights": {
+          "reactor": 0,
+          "beamweapons": 0,
+          "missilesystem": 0,
+          "maneuver": 0,
+          "impulse": 0,
+          "warp": 0,
+          "frontshield": 0,
+          "rearshield": 0
+        },
+        "coolant": {
+          "totalWeight": 0,
+          "rulerMaximum": 100,
+          "percentages": {
+            "reactor": 0,
+            "beamweapons": 0,
+            "missilesystem": 0,
+            "maneuver": 0,
+            "impulse": 0,
+            "warp": 0,
+            "frontshield": 0,
+            "rearshield": 0
+          }
+        }
+      }
+    },
+    {
+      "at": 1793937459135,
+      "value": {
+        "version": 1,
+        "shipName": "ESS Endeavour",
+        "sequence": 2,
+        "final": false,
+        "powerPercentages": {
+          "reactor": 0,
+          "beamweapons": 100,
+          "missilesystem": 100,
+          "maneuver": 100,
+          "impulse": 100,
+          "warp": 100,
+          "frontshield": 100,
+          "rearshield": 100
+        },
+        "coolantWeights": {
+          "reactor": 0,
+          "beamweapons": 0,
+          "missilesystem": 0,
+          "maneuver": 0,
+          "impulse": 0,
+          "warp": 0,
+          "frontshield": 0,
+          "rearshield": 0
+        },
+        "coolant": {
+          "totalWeight": 0,
+          "rulerMaximum": 100,
+          "percentages": {
+            "reactor": 0,
+            "beamweapons": 0,
+            "missilesystem": 0,
+            "maneuver": 0,
+            "impulse": 0,
+            "warp": 0,
+            "frontshield": 0,
+            "rearshield": 0
+          }
+        }
+      }
+    },
+    {
+      "at": 1793937459183,
+      "value": {
+        "version": 1,
+        "shipName": "ESS Endeavour",
+        "sequence": 4,
+        "final": false,
+        "powerPercentages": {
+          "reactor": 2,
+          "beamweapons": 100,
+          "missilesystem": 100,
+          "maneuver": 100,
+          "impulse": 100,
+          "warp": 100,
+          "frontshield": 100,
+          "rearshield": 100
+        },
+        "coolantWeights": {
+          "reactor": 0,
+          "beamweapons": 0,
+          "missilesystem": 0,
+          "maneuver": 0,
+          "impulse": 0,
+          "warp": 0,
+          "frontshield": 0,
+          "rearshield": 0
+        },
+        "coolant": {
+          "totalWeight": 0,
+          "rulerMaximum": 100,
+          "percentages": {
+            "reactor": 0,
+            "beamweapons": 0,
+            "missilesystem": 0,
+            "maneuver": 0,
+            "impulse": 0,
+            "warp": 0,
+            "frontshield": 0,
+            "rearshield": 0
+          }
+        }
+      }
+    },
+    {
+      "at": 1793937459231,
+      "value": {
+        "version": 1,
+        "shipName": "ESS Endeavour",
+        "sequence": 7,
+        "final": false,
+        "powerPercentages": {
+          "reactor": 5,
+          "beamweapons": 100,
+          "missilesystem": 100,
+          "maneuver": 100,
+          "impulse": 100,
+          "warp": 100,
+          "frontshield": 100,
+          "rearshield": 100
+        },
+        "coolantWeights": {
+          "reactor": 0,
+          "beamweapons": 0,
+          "missilesystem": 0,
+          "maneuver": 0,
+          "impulse": 0,
+          "warp": 0,
+          "frontshield": 0,
+          "rearshield": 0
+        },
+        "coolant": {
+          "totalWeight": 0,
+          "rulerMaximum": 100,
+          "percentages": {
+            "reactor": 0,
+            "beamweapons": 0,
+            "missilesystem": 0,
+            "maneuver": 0,
+            "impulse": 0,
+            "warp": 0,
+            "frontshield": 0,
+            "rearshield": 0
+          }
+        }
+      }
+    },
+    {
+      "at": 1793937459279,
+      "value": {
+        "version": 1,
+        "shipName": "ESS Endeavour",
+        "sequence": 10,
+        "final": false,
+        "powerPercentages": {
+          "reactor": 8,
+          "beamweapons": 100,
+          "missilesystem": 100,
+          "maneuver": 100,
+          "impulse": 100,
+          "warp": 100,
+          "frontshield": 100,
+          "rearshield": 100
+        },
+        "coolantWeights": {
+          "reactor": 0,
+          "beamweapons": 0,
+          "missilesystem": 0,
+          "maneuver": 0,
+          "impulse": 0,
+          "warp": 0,
+          "frontshield": 0,
+          "rearshield": 0
+        },
+        "coolant": {
+          "totalWeight": 0,
+          "rulerMaximum": 100,
+          "percentages": {
+            "reactor": 0,
+            "beamweapons": 0,
+            "missilesystem": 0,
+            "maneuver": 0,
+            "impulse": 0,
+            "warp": 0,
+            "frontshield": 0,
+            "rearshield": 0
+          }
+        }
+      }
+    },
+    {
+      "at": 1793937459327,
+      "value": {
+        "version": 1,
+        "shipName": "ESS Endeavour",
+        "sequence": 13,
+        "final": false,
+        "powerPercentages": {
+          "reactor": 11,
+          "beamweapons": 100,
+          "missilesystem": 100,
+          "maneuver": 100,
+          "impulse": 100,
+          "warp": 100,
+          "frontshield": 100,
+          "rearshield": 100
+        },
+        "coolantWeights": {
+          "reactor": 0,
+          "beamweapons": 0,
+          "missilesystem": 0,
+          "maneuver": 0,
+          "impulse": 0,
+          "warp": 0,
+          "frontshield": 0,
+          "rearshield": 0
+        },
+        "coolant": {
+          "totalWeight": 0,
+          "rulerMaximum": 100,
+          "percentages": {
+            "reactor": 0,
+            "beamweapons": 0,
+            "missilesystem": 0,
+            "maneuver": 0,
+            "impulse": 0,
+            "warp": 0,
+            "frontshield": 0,
+            "rearshield": 0
+          }
+        }
+      }
+    },
+    {
+      "at": 1793937459374,
+      "value": {
+        "version": 1,
+        "shipName": "ESS Endeavour",
+        "sequence": 16,
+        "final": false,
+        "powerPercentages": {
+          "reactor": 14,
+          "beamweapons": 100,
+          "missilesystem": 100,
+          "maneuver": 100,
+          "impulse": 100,
+          "warp": 100,
+          "frontshield": 100,
+          "rearshield": 100
+        },
+        "coolantWeights": {
+          "reactor": 0,
+          "beamweapons": 0,
+          "missilesystem": 0,
+          "maneuver": 0,
+          "impulse": 0,
+          "warp": 0,
+          "frontshield": 0,
+          "rearshield": 0
+        },
+        "coolant": {
+          "totalWeight": 0,
+          "rulerMaximum": 100,
+          "percentages": {
+            "reactor": 0,
+            "beamweapons": 0,
+            "missilesystem": 0,
+            "maneuver": 0,
+            "impulse": 0,
+            "warp": 0,
+            "frontshield": 0,
+            "rearshield": 0
+          }
+        }
+      }
+    },
+    {
+      "at": 1793937459421,
+      "value": {
+        "version": 1,
+        "shipName": "ESS Endeavour",
+        "sequence": 19,
+        "final": false,
+        "powerPercentages": {
+          "reactor": 17,
+          "beamweapons": 100,
+          "missilesystem": 100,
+          "maneuver": 100,
+          "impulse": 100,
+          "warp": 100,
+          "frontshield": 100,
+          "rearshield": 100
+        },
+        "coolantWeights": {
+          "reactor": 0,
+          "beamweapons": 0,
+          "missilesystem": 0,
+          "maneuver": 0,
+          "impulse": 0,
+          "warp": 0,
+          "frontshield": 0,
+          "rearshield": 0
+        },
+        "coolant": {
+          "totalWeight": 0,
+          "rulerMaximum": 100,
+          "percentages": {
+            "reactor": 0,
+            "beamweapons": 0,
+            "missilesystem": 0,
+            "maneuver": 0,
+            "impulse": 0,
+            "warp": 0,
+            "frontshield": 0,
+            "rearshield": 0
+          }
+        }
+      }
+    },
+    {
+      "at": 1793937459469,
+      "value": {
+        "version": 1,
+        "shipName": "ESS Endeavour",
+        "sequence": 22,
+        "final": false,
+        "powerPercentages": {
+          "reactor": 20,
+          "beamweapons": 100,
+          "missilesystem": 100,
+          "maneuver": 100,
+          "impulse": 100,
+          "warp": 100,
+          "frontshield": 100,
+          "rearshield": 100
+        },
+        "coolantWeights": {
+          "reactor": 0,
+          "beamweapons": 0,
+          "missilesystem": 0,
+          "maneuver": 0,
+          "impulse": 0,
+          "warp": 0,
+          "frontshield": 0,
+          "rearshield": 0
+        },
+        "coolant": {
+          "totalWeight": 0,
+          "rulerMaximum": 100,
+          "percentages": {
+            "reactor": 0,
+            "beamweapons": 0,
+            "missilesystem": 0,
+            "maneuver": 0,
+            "impulse": 0,
+            "warp": 0,
+            "frontshield": 0,
+            "rearshield": 0
+          }
+        }
+      }
+    },
+    {
+      "at": 1793937459518,
+      "value": {
+        "version": 1,
+        "shipName": "ESS Endeavour",
+        "sequence": 25,
+        "final": false,
+        "powerPercentages": {
+          "reactor": 23,
+          "beamweapons": 100,
+          "missilesystem": 100,
+          "maneuver": 100,
+          "impulse": 100,
+          "warp": 100,
+          "frontshield": 100,
+          "rearshield": 100
+        },
+        "coolantWeights": {
+          "reactor": 0,
+          "beamweapons": 0,
+          "missilesystem": 0,
+          "maneuver": 0,
+          "impulse": 0,
+          "warp": 0,
+          "frontshield": 0,
+          "rearshield": 0
+        },
+        "coolant": {
+          "totalWeight": 0,
+          "rulerMaximum": 100,
+          "percentages": {
+            "reactor": 0,
+            "beamweapons": 0,
+            "missilesystem": 0,
+            "maneuver": 0,
+            "impulse": 0,
+            "warp": 0,
+            "frontshield": 0,
+            "rearshield": 0
+          }
+        }
+      }
+    },
+    {
+      "at": 1793937459566,
+      "value": {
+        "version": 1,
+        "shipName": "ESS Endeavour",
+        "sequence": 28,
+        "final": false,
+        "powerPercentages": {
+          "reactor": 26,
+          "beamweapons": 100,
+          "missilesystem": 100,
+          "maneuver": 100,
+          "impulse": 100,
+          "warp": 100,
+          "frontshield": 100,
+          "rearshield": 100
+        },
+        "coolantWeights": {
+          "reactor": 0,
+          "beamweapons": 0,
+          "missilesystem": 0,
+          "maneuver": 0,
+          "impulse": 0,
+          "warp": 0,
+          "frontshield": 0,
+          "rearshield": 0
+        },
+        "coolant": {
+          "totalWeight": 0,
+          "rulerMaximum": 100,
+          "percentages": {
+            "reactor": 0,
+            "beamweapons": 0,
+            "missilesystem": 0,
+            "maneuver": 0,
+            "impulse": 0,
+            "warp": 0,
+            "frontshield": 0,
+            "rearshield": 0
+          }
+        }
+      }
+    },
+    {
+      "at": 1793937459614,
+      "value": {
+        "version": 1,
+        "shipName": "ESS Endeavour",
+        "sequence": 31,
+        "final": false,
+        "powerPercentages": {
+          "reactor": 29,
+          "beamweapons": 100,
+          "missilesystem": 100,
+          "maneuver": 100,
+          "impulse": 100,
+          "warp": 100,
+          "frontshield": 100,
+          "rearshield": 100
+        },
+        "coolantWeights": {
+          "reactor": 0,
+          "beamweapons": 0,
+          "missilesystem": 0,
+          "maneuver": 0,
+          "impulse": 0,
+          "warp": 0,
+          "frontshield": 0,
+          "rearshield": 0
+        },
+        "coolant": {
+          "totalWeight": 0,
+          "rulerMaximum": 100,
+          "percentages": {
+            "reactor": 0,
+            "beamweapons": 0,
+            "missilesystem": 0,
+            "maneuver": 0,
+            "impulse": 0,
+            "warp": 0,
+            "frontshield": 0,
+            "rearshield": 0
+          }
+        }
+      }
+    },
+    {
+      "at": 1793937459662,
+      "value": {
+        "version": 1,
+        "shipName": "ESS Endeavour",
+        "sequence": 34,
+        "final": false,
+        "powerPercentages": {
+          "reactor": 32,
+          "beamweapons": 100,
+          "missilesystem": 100,
+          "maneuver": 100,
+          "impulse": 100,
+          "warp": 100,
+          "frontshield": 100,
+          "rearshield": 100
+        },
+        "coolantWeights": {
+          "reactor": 0,
+          "beamweapons": 0,
+          "missilesystem": 0,
+          "maneuver": 0,
+          "impulse": 0,
+          "warp": 0,
+          "frontshield": 0,
+          "rearshield": 0
+        },
+        "coolant": {
+          "totalWeight": 0,
+          "rulerMaximum": 100,
+          "percentages": {
+            "reactor": 0,
+            "beamweapons": 0,
+            "missilesystem": 0,
+            "maneuver": 0,
+            "impulse": 0,
+            "warp": 0,
+            "frontshield": 0,
+            "rearshield": 0
+          }
+        }
+      }
+    },
+    {
+      "at": 1793937459709,
+      "value": {
+        "version": 1,
+        "shipName": "ESS Endeavour",
+        "sequence": 37,
+        "final": false,
+        "powerPercentages": {
+          "reactor": 35,
+          "beamweapons": 100,
+          "missilesystem": 100,
+          "maneuver": 100,
+          "impulse": 100,
+          "warp": 100,
+          "frontshield": 100,
+          "rearshield": 100
+        },
+        "coolantWeights": {
+          "reactor": 0,
+          "beamweapons": 0,
+          "missilesystem": 0,
+          "maneuver": 0,
+          "impulse": 0,
+          "warp": 0,
+          "frontshield": 0,
+          "rearshield": 0
+        },
+        "coolant": {
+          "totalWeight": 0,
+          "rulerMaximum": 100,
+          "percentages": {
+            "reactor": 0,
+            "beamweapons": 0,
+            "missilesystem": 0,
+            "maneuver": 0,
+            "impulse": 0,
+            "warp": 0,
+            "frontshield": 0,
+            "rearshield": 0
+          }
+        }
+      }
+    },
+    {
+      "at": 1793937459756,
+      "value": {
+        "version": 1,
+        "shipName": "ESS Endeavour",
+        "sequence": 40,
+        "final": false,
+        "powerPercentages": {
+          "reactor": 38,
+          "beamweapons": 100,
+          "missilesystem": 100,
+          "maneuver": 100,
+          "impulse": 100,
+          "warp": 100,
+          "frontshield": 100,
+          "rearshield": 100
+        },
+        "coolantWeights": {
+          "reactor": 0,
+          "beamweapons": 0,
+          "missilesystem": 0,
+          "maneuver": 0,
+          "impulse": 0,
+          "warp": 0,
+          "frontshield": 0,
+          "rearshield": 0
+        },
+        "coolant": {
+          "totalWeight": 0,
+          "rulerMaximum": 100,
+          "percentages": {
+            "reactor": 0,
+            "beamweapons": 0,
+            "missilesystem": 0,
+            "maneuver": 0,
+            "impulse": 0,
+            "warp": 0,
+            "frontshield": 0,
+            "rearshield": 0
+          }
+        }
+      }
+    },
+    {
+      "at": 1793937459802,
+      "value": {
+        "version": 1,
+        "shipName": "ESS Endeavour",
+        "sequence": 43,
+        "final": false,
+        "powerPercentages": {
+          "reactor": 41,
+          "beamweapons": 100,
+          "missilesystem": 100,
+          "maneuver": 100,
+          "impulse": 100,
+          "warp": 100,
+          "frontshield": 100,
+          "rearshield": 100
+        },
+        "coolantWeights": {
+          "reactor": 0,
+          "beamweapons": 0,
+          "missilesystem": 0,
+          "maneuver": 0,
+          "impulse": 0,
+          "warp": 0,
+          "frontshield": 0,
+          "rearshield": 0
+        },
+        "coolant": {
+          "totalWeight": 0,
+          "rulerMaximum": 100,
+          "percentages": {
+            "reactor": 0,
+            "beamweapons": 0,
+            "missilesystem": 0,
+            "maneuver": 0,
+            "impulse": 0,
+            "warp": 0,
+            "frontshield": 0,
+            "rearshield": 0
+          }
+        }
+      }
+    },
+    {
+      "at": 1793937459850,
+      "value": {
+        "version": 1,
+        "shipName": "ESS Endeavour",
+        "sequence": 46,
+        "final": false,
+        "powerPercentages": {
+          "reactor": 44,
+          "beamweapons": 100,
+          "missilesystem": 100,
+          "maneuver": 100,
+          "impulse": 100,
+          "warp": 100,
+          "frontshield": 100,
+          "rearshield": 100
+        },
+        "coolantWeights": {
+          "reactor": 0,
+          "beamweapons": 0,
+          "missilesystem": 0,
+          "maneuver": 0,
+          "impulse": 0,
+          "warp": 0,
+          "frontshield": 0,
+          "rearshield": 0
+        },
+        "coolant": {
+          "totalWeight": 0,
+          "rulerMaximum": 100,
+          "percentages": {
+            "reactor": 0,
+            "beamweapons": 0,
+            "missilesystem": 0,
+            "maneuver": 0,
+            "impulse": 0,
+            "warp": 0,
+            "frontshield": 0,
+            "rearshield": 0
+          }
+        }
+      }
+    },
+    {
+      "at": 1793937459898,
+      "value": {
+        "version": 1,
+        "shipName": "ESS Endeavour",
+        "sequence": 49,
+        "final": false,
+        "powerPercentages": {
+          "reactor": 47,
+          "beamweapons": 100,
+          "missilesystem": 100,
+          "maneuver": 100,
+          "impulse": 100,
+          "warp": 100,
+          "frontshield": 100,
+          "rearshield": 100
+        },
+        "coolantWeights": {
+          "reactor": 0,
+          "beamweapons": 0,
+          "missilesystem": 0,
+          "maneuver": 0,
+          "impulse": 0,
+          "warp": 0,
+          "frontshield": 0,
+          "rearshield": 0
+        },
+        "coolant": {
+          "totalWeight": 0,
+          "rulerMaximum": 100,
+          "percentages": {
+            "reactor": 0,
+            "beamweapons": 0,
+            "missilesystem": 0,
+            "maneuver": 0,
+            "impulse": 0,
+            "warp": 0,
+            "frontshield": 0,
+            "rearshield": 0
+          }
+        }
+      }
+    },
+    {
+      "at": 1793937459946,
+      "value": {
+        "version": 1,
+        "shipName": "ESS Endeavour",
+        "sequence": 52,
+        "final": false,
+        "powerPercentages": {
+          "reactor": 50,
+          "beamweapons": 100,
+          "missilesystem": 100,
+          "maneuver": 100,
+          "impulse": 100,
+          "warp": 100,
+          "frontshield": 100,
+          "rearshield": 100
+        },
+        "coolantWeights": {
+          "reactor": 0,
+          "beamweapons": 0,
+          "missilesystem": 0,
+          "maneuver": 0,
+          "impulse": 0,
+          "warp": 0,
+          "frontshield": 0,
+          "rearshield": 0
+        },
+        "coolant": {
+          "totalWeight": 0,
+          "rulerMaximum": 100,
+          "percentages": {
+            "reactor": 0,
+            "beamweapons": 0,
+            "missilesystem": 0,
+            "maneuver": 0,
+            "impulse": 0,
+            "warp": 0,
+            "frontshield": 0,
+            "rearshield": 0
+          }
+        }
+      }
+    },
+    {
+      "at": 1793937459994,
+      "value": {
+        "version": 1,
+        "shipName": "ESS Endeavour",
+        "sequence": 55,
+        "final": false,
+        "powerPercentages": {
+          "reactor": 53,
+          "beamweapons": 100,
+          "missilesystem": 100,
+          "maneuver": 100,
+          "impulse": 100,
+          "warp": 100,
+          "frontshield": 100,
+          "rearshield": 100
+        },
+        "coolantWeights": {
+          "reactor": 0,
+          "beamweapons": 0,
+          "missilesystem": 0,
+          "maneuver": 0,
+          "impulse": 0,
+          "warp": 0,
+          "frontshield": 0,
+          "rearshield": 0
+        },
+        "coolant": {
+          "totalWeight": 0,
+          "rulerMaximum": 100,
+          "percentages": {
+            "reactor": 0,
+            "beamweapons": 0,
+            "missilesystem": 0,
+            "maneuver": 0,
+            "impulse": 0,
+            "warp": 0,
+            "frontshield": 0,
+            "rearshield": 0
+          }
+        }
+      }
+    },
+    {
+      "at": 1793937460042,
+      "value": {
+        "version": 1,
+        "shipName": "ESS Endeavour",
+        "sequence": 58,
+        "final": false,
+        "powerPercentages": {
+          "reactor": 56,
+          "beamweapons": 100,
+          "missilesystem": 100,
+          "maneuver": 100,
+          "impulse": 100,
+          "warp": 100,
+          "frontshield": 100,
+          "rearshield": 100
+        },
+        "coolantWeights": {
+          "reactor": 0,
+          "beamweapons": 0,
+          "missilesystem": 0,
+          "maneuver": 0,
+          "impulse": 0,
+          "warp": 0,
+          "frontshield": 0,
+          "rearshield": 0
+        },
+        "coolant": {
+          "totalWeight": 0,
+          "rulerMaximum": 100,
+          "percentages": {
+            "reactor": 0,
+            "beamweapons": 0,
+            "missilesystem": 0,
+            "maneuver": 0,
+            "impulse": 0,
+            "warp": 0,
+            "frontshield": 0,
+            "rearshield": 0
+          }
+        }
+      }
+    },
+    {
+      "at": 1793937460090,
+      "value": {
+        "version": 1,
+        "shipName": "ESS Endeavour",
+        "sequence": 61,
+        "final": false,
+        "powerPercentages": {
+          "reactor": 59,
+          "beamweapons": 100,
+          "missilesystem": 100,
+          "maneuver": 100,
+          "impulse": 100,
+          "warp": 100,
+          "frontshield": 100,
+          "rearshield": 100
+        },
+        "coolantWeights": {
+          "reactor": 0,
+          "beamweapons": 0,
+          "missilesystem": 0,
+          "maneuver": 0,
+          "impulse": 0,
+          "warp": 0,
+          "frontshield": 0,
+          "rearshield": 0
+        },
+        "coolant": {
+          "totalWeight": 0,
+          "rulerMaximum": 100,
+          "percentages": {
+            "reactor": 0,
+            "beamweapons": 0,
+            "missilesystem": 0,
+            "maneuver": 0,
+            "impulse": 0,
+            "warp": 0,
+            "frontshield": 0,
+            "rearshield": 0
+          }
+        }
+      }
+    },
+    {
+      "at": 1793937460138,
+      "value": {
+        "version": 1,
+        "shipName": "ESS Endeavour",
+        "sequence": 64,
+        "final": false,
+        "powerPercentages": {
+          "reactor": 62,
+          "beamweapons": 100,
+          "missilesystem": 100,
+          "maneuver": 100,
+          "impulse": 100,
+          "warp": 100,
+          "frontshield": 100,
+          "rearshield": 100
+        },
+        "coolantWeights": {
+          "reactor": 0,
+          "beamweapons": 0,
+          "missilesystem": 0,
+          "maneuver": 0,
+          "impulse": 0,
+          "warp": 0,
+          "frontshield": 0,
+          "rearshield": 0
+        },
+        "coolant": {
+          "totalWeight": 0,
+          "rulerMaximum": 100,
+          "percentages": {
+            "reactor": 0,
+            "beamweapons": 0,
+            "missilesystem": 0,
+            "maneuver": 0,
+            "impulse": 0,
+            "warp": 0,
+            "frontshield": 0,
+            "rearshield": 0
+          }
+        }
+      }
+    },
+    {
+      "at": 1793937460186,
+      "value": {
+        "version": 1,
+        "shipName": "ESS Endeavour",
+        "sequence": 67,
+        "final": false,
+        "powerPercentages": {
+          "reactor": 65,
+          "beamweapons": 100,
+          "missilesystem": 100,
+          "maneuver": 100,
+          "impulse": 100,
+          "warp": 100,
+          "frontshield": 100,
+          "rearshield": 100
+        },
+        "coolantWeights": {
+          "reactor": 0,
+          "beamweapons": 0,
+          "missilesystem": 0,
+          "maneuver": 0,
+          "impulse": 0,
+          "warp": 0,
+          "frontshield": 0,
+          "rearshield": 0
+        },
+        "coolant": {
+          "totalWeight": 0,
+          "rulerMaximum": 100,
+          "percentages": {
+            "reactor": 0,
+            "beamweapons": 0,
+            "missilesystem": 0,
+            "maneuver": 0,
+            "impulse": 0,
+            "warp": 0,
+            "frontshield": 0,
+            "rearshield": 0
+          }
+        }
+      }
+    },
+    {
+      "at": 1793937460234,
+      "value": {
+        "version": 1,
+        "shipName": "ESS Endeavour",
+        "sequence": 70,
+        "final": false,
+        "powerPercentages": {
+          "reactor": 68,
+          "beamweapons": 100,
+          "missilesystem": 100,
+          "maneuver": 100,
+          "impulse": 100,
+          "warp": 100,
+          "frontshield": 100,
+          "rearshield": 100
+        },
+        "coolantWeights": {
+          "reactor": 0,
+          "beamweapons": 0,
+          "missilesystem": 0,
+          "maneuver": 0,
+          "impulse": 0,
+          "warp": 0,
+          "frontshield": 0,
+          "rearshield": 0
+        },
+        "coolant": {
+          "totalWeight": 0,
+          "rulerMaximum": 100,
+          "percentages": {
+            "reactor": 0,
+            "beamweapons": 0,
+            "missilesystem": 0,
+            "maneuver": 0,
+            "impulse": 0,
+            "warp": 0,
+            "frontshield": 0,
+            "rearshield": 0
+          }
+        }
+      }
+    },
+    {
+      "at": 1793937460282,
+      "value": {
+        "version": 1,
+        "shipName": "ESS Endeavour",
+        "sequence": 73,
+        "final": false,
+        "powerPercentages": {
+          "reactor": 71,
+          "beamweapons": 100,
+          "missilesystem": 100,
+          "maneuver": 100,
+          "impulse": 100,
+          "warp": 100,
+          "frontshield": 100,
+          "rearshield": 100
+        },
+        "coolantWeights": {
+          "reactor": 0,
+          "beamweapons": 0,
+          "missilesystem": 0,
+          "maneuver": 0,
+          "impulse": 0,
+          "warp": 0,
+          "frontshield": 0,
+          "rearshield": 0
+        },
+        "coolant": {
+          "totalWeight": 0,
+          "rulerMaximum": 100,
+          "percentages": {
+            "reactor": 0,
+            "beamweapons": 0,
+            "missilesystem": 0,
+            "maneuver": 0,
+            "impulse": 0,
+            "warp": 0,
+            "frontshield": 0,
+            "rearshield": 0
+          }
+        }
+      }
+    },
+    {
+      "at": 1793937460330,
+      "value": {
+        "version": 1,
+        "shipName": "ESS Endeavour",
+        "sequence": 76,
+        "final": false,
+        "powerPercentages": {
+          "reactor": 74,
+          "beamweapons": 100,
+          "missilesystem": 100,
+          "maneuver": 100,
+          "impulse": 100,
+          "warp": 100,
+          "frontshield": 100,
+          "rearshield": 100
+        },
+        "coolantWeights": {
+          "reactor": 0,
+          "beamweapons": 0,
+          "missilesystem": 0,
+          "maneuver": 0,
+          "impulse": 0,
+          "warp": 0,
+          "frontshield": 0,
+          "rearshield": 0
+        },
+        "coolant": {
+          "totalWeight": 0,
+          "rulerMaximum": 100,
+          "percentages": {
+            "reactor": 0,
+            "beamweapons": 0,
+            "missilesystem": 0,
+            "maneuver": 0,
+            "impulse": 0,
+            "warp": 0,
+            "frontshield": 0,
+            "rearshield": 0
+          }
+        }
+      }
+    },
+    {
+      "at": 1793937460378,
+      "value": {
+        "version": 1,
+        "shipName": "ESS Endeavour",
+        "sequence": 79,
+        "final": false,
+        "powerPercentages": {
+          "reactor": 77,
+          "beamweapons": 100,
+          "missilesystem": 100,
+          "maneuver": 100,
+          "impulse": 100,
+          "warp": 100,
+          "frontshield": 100,
+          "rearshield": 100
+        },
+        "coolantWeights": {
+          "reactor": 0,
+          "beamweapons": 0,
+          "missilesystem": 0,
+          "maneuver": 0,
+          "impulse": 0,
+          "warp": 0,
+          "frontshield": 0,
+          "rearshield": 0
+        },
+        "coolant": {
+          "totalWeight": 0,
+          "rulerMaximum": 100,
+          "percentages": {
+            "reactor": 0,
+            "beamweapons": 0,
+            "missilesystem": 0,
+            "maneuver": 0,
+            "impulse": 0,
+            "warp": 0,
+            "frontshield": 0,
+            "rearshield": 0
+          }
+        }
+      }
+    },
+    {
+      "at": 1793937460426,
+      "value": {
+        "version": 1,
+        "shipName": "ESS Endeavour",
+        "sequence": 82,
+        "final": false,
+        "powerPercentages": {
+          "reactor": 80,
+          "beamweapons": 100,
+          "missilesystem": 100,
+          "maneuver": 100,
+          "impulse": 100,
+          "warp": 100,
+          "frontshield": 100,
+          "rearshield": 100
+        },
+        "coolantWeights": {
+          "reactor": 0,
+          "beamweapons": 0,
+          "missilesystem": 0,
+          "maneuver": 0,
+          "impulse": 0,
+          "warp": 0,
+          "frontshield": 0,
+          "rearshield": 0
+        },
+        "coolant": {
+          "totalWeight": 0,
+          "rulerMaximum": 100,
+          "percentages": {
+            "reactor": 0,
+            "beamweapons": 0,
+            "missilesystem": 0,
+            "maneuver": 0,
+            "impulse": 0,
+            "warp": 0,
+            "frontshield": 0,
+            "rearshield": 0
+          }
+        }
+      }
+    },
+    {
+      "at": 1793937460474,
+      "value": {
+        "version": 1,
+        "shipName": "ESS Endeavour",
+        "sequence": 85,
+        "final": false,
+        "powerPercentages": {
+          "reactor": 83,
+          "beamweapons": 100,
+          "missilesystem": 100,
+          "maneuver": 100,
+          "impulse": 100,
+          "warp": 100,
+          "frontshield": 100,
+          "rearshield": 100
+        },
+        "coolantWeights": {
+          "reactor": 0,
+          "beamweapons": 0,
+          "missilesystem": 0,
+          "maneuver": 0,
+          "impulse": 0,
+          "warp": 0,
+          "frontshield": 0,
+          "rearshield": 0
+        },
+        "coolant": {
+          "totalWeight": 0,
+          "rulerMaximum": 100,
+          "percentages": {
+            "reactor": 0,
+            "beamweapons": 0,
+            "missilesystem": 0,
+            "maneuver": 0,
+            "impulse": 0,
+            "warp": 0,
+            "frontshield": 0,
+            "rearshield": 0
+          }
+        }
+      }
+    },
+    {
+      "at": 1793937460522,
+      "value": {
+        "version": 1,
+        "shipName": "ESS Endeavour",
+        "sequence": 89,
+        "final": false,
+        "powerPercentages": {
+          "reactor": 87,
+          "beamweapons": 100,
+          "missilesystem": 100,
+          "maneuver": 100,
+          "impulse": 100,
+          "warp": 100,
+          "frontshield": 100,
+          "rearshield": 100
+        },
+        "coolantWeights": {
+          "reactor": 0,
+          "beamweapons": 0,
+          "missilesystem": 0,
+          "maneuver": 0,
+          "impulse": 0,
+          "warp": 0,
+          "frontshield": 0,
+          "rearshield": 0
+        },
+        "coolant": {
+          "totalWeight": 0,
+          "rulerMaximum": 100,
+          "percentages": {
+            "reactor": 0,
+            "beamweapons": 0,
+            "missilesystem": 0,
+            "maneuver": 0,
+            "impulse": 0,
+            "warp": 0,
+            "frontshield": 0,
+            "rearshield": 0
+          }
+        }
+      }
+    },
+    {
+      "at": 1793937460570,
+      "value": {
+        "version": 1,
+        "shipName": "ESS Endeavour",
+        "sequence": 91,
+        "final": false,
+        "powerPercentages": {
+          "reactor": 89,
+          "beamweapons": 100,
+          "missilesystem": 100,
+          "maneuver": 100,
+          "impulse": 100,
+          "warp": 100,
+          "frontshield": 100,
+          "rearshield": 100
+        },
+        "coolantWeights": {
+          "reactor": 0,
+          "beamweapons": 0,
+          "missilesystem": 0,
+          "maneuver": 0,
+          "impulse": 0,
+          "warp": 0,
+          "frontshield": 0,
+          "rearshield": 0
+        },
+        "coolant": {
+          "totalWeight": 0,
+          "rulerMaximum": 100,
+          "percentages": {
+            "reactor": 0,
+            "beamweapons": 0,
+            "missilesystem": 0,
+            "maneuver": 0,
+            "impulse": 0,
+            "warp": 0,
+            "frontshield": 0,
+            "rearshield": 0
+          }
+        }
+      }
+    },
+    {
+      "at": 1793937460618,
+      "value": {
+        "version": 1,
+        "shipName": "ESS Endeavour",
+        "sequence": 94,
+        "final": false,
+        "powerPercentages": {
+          "reactor": 92,
+          "beamweapons": 100,
+          "missilesystem": 100,
+          "maneuver": 100,
+          "impulse": 100,
+          "warp": 100,
+          "frontshield": 100,
+          "rearshield": 100
+        },
+        "coolantWeights": {
+          "reactor": 0,
+          "beamweapons": 0,
+          "missilesystem": 0,
+          "maneuver": 0,
+          "impulse": 0,
+          "warp": 0,
+          "frontshield": 0,
+          "rearshield": 0
+        },
+        "coolant": {
+          "totalWeight": 0,
+          "rulerMaximum": 100,
+          "percentages": {
+            "reactor": 0,
+            "beamweapons": 0,
+            "missilesystem": 0,
+            "maneuver": 0,
+            "impulse": 0,
+            "warp": 0,
+            "frontshield": 0,
+            "rearshield": 0
+          }
+        }
+      }
+    },
+    {
+      "at": 1793937460666,
+      "value": {
+        "version": 1,
+        "shipName": "ESS Endeavour",
+        "sequence": 97,
+        "final": false,
+        "powerPercentages": {
+          "reactor": 95,
+          "beamweapons": 100,
+          "missilesystem": 100,
+          "maneuver": 100,
+          "impulse": 100,
+          "warp": 100,
+          "frontshield": 100,
+          "rearshield": 100
+        },
+        "coolantWeights": {
+          "reactor": 0,
+          "beamweapons": 0,
+          "missilesystem": 0,
+          "maneuver": 0,
+          "impulse": 0,
+          "warp": 0,
+          "frontshield": 0,
+          "rearshield": 0
+        },
+        "coolant": {
+          "totalWeight": 0,
+          "rulerMaximum": 100,
+          "percentages": {
+            "reactor": 0,
+            "beamweapons": 0,
+            "missilesystem": 0,
+            "maneuver": 0,
+            "impulse": 0,
+            "warp": 0,
+            "frontshield": 0,
+            "rearshield": 0
+          }
+        }
+      }
+    },
+    {
+      "at": 1793937460714,
+      "value": {
+        "version": 1,
+        "shipName": "ESS Endeavour",
+        "sequence": 100,
+        "final": false,
+        "powerPercentages": {
+          "reactor": 98,
+          "beamweapons": 100,
+          "missilesystem": 100,
+          "maneuver": 100,
+          "impulse": 100,
+          "warp": 100,
+          "frontshield": 100,
+          "rearshield": 100
+        },
+        "coolantWeights": {
+          "reactor": 0,
+          "beamweapons": 0,
+          "missilesystem": 0,
+          "maneuver": 0,
+          "impulse": 0,
+          "warp": 0,
+          "frontshield": 0,
+          "rearshield": 0
+        },
+        "coolant": {
+          "totalWeight": 0,
+          "rulerMaximum": 100,
+          "percentages": {
+            "reactor": 0,
+            "beamweapons": 0,
+            "missilesystem": 0,
+            "maneuver": 0,
+            "impulse": 0,
+            "warp": 0,
+            "frontshield": 0,
+            "rearshield": 0
+          }
+        }
+      }
+    },
+    {
+      "at": 1793937460761,
+      "value": {
+        "version": 1,
+        "shipName": "ESS Endeavour",
+        "sequence": 103,
+        "final": false,
+        "powerPercentages": {
+          "reactor": 101,
+          "beamweapons": 100,
+          "missilesystem": 100,
+          "maneuver": 100,
+          "impulse": 100,
+          "warp": 100,
+          "frontshield": 100,
+          "rearshield": 100
+        },
+        "coolantWeights": {
+          "reactor": 0,
+          "beamweapons": 0,
+          "missilesystem": 0,
+          "maneuver": 0,
+          "impulse": 0,
+          "warp": 0,
+          "frontshield": 0,
+          "rearshield": 0
+        },
+        "coolant": {
+          "totalWeight": 0,
+          "rulerMaximum": 100,
+          "percentages": {
+            "reactor": 0,
+            "beamweapons": 0,
+            "missilesystem": 0,
+            "maneuver": 0,
+            "impulse": 0,
+            "warp": 0,
+            "frontshield": 0,
+            "rearshield": 0
+          }
+        }
+      }
+    },
+    {
+      "at": 1793937460808,
+      "value": {
+        "version": 1,
+        "shipName": "ESS Endeavour",
+        "sequence": 106,
+        "final": false,
+        "powerPercentages": {
+          "reactor": 104,
+          "beamweapons": 100,
+          "missilesystem": 100,
+          "maneuver": 100,
+          "impulse": 100,
+          "warp": 100,
+          "frontshield": 100,
+          "rearshield": 100
+        },
+        "coolantWeights": {
+          "reactor": 0,
+          "beamweapons": 0,
+          "missilesystem": 0,
+          "maneuver": 0,
+          "impulse": 0,
+          "warp": 0,
+          "frontshield": 0,
+          "rearshield": 0
+        },
+        "coolant": {
+          "totalWeight": 0,
+          "rulerMaximum": 100,
+          "percentages": {
+            "reactor": 0,
+            "beamweapons": 0,
+            "missilesystem": 0,
+            "maneuver": 0,
+            "impulse": 0,
+            "warp": 0,
+            "frontshield": 0,
+            "rearshield": 0
+          }
+        }
+      }
+    },
+    {
+      "at": 1793937460856,
+      "value": {
+        "version": 1,
+        "shipName": "ESS Endeavour",
+        "sequence": 109,
+        "final": false,
+        "powerPercentages": {
+          "reactor": 107,
+          "beamweapons": 100,
+          "missilesystem": 100,
+          "maneuver": 100,
+          "impulse": 100,
+          "warp": 100,
+          "frontshield": 100,
+          "rearshield": 100
+        },
+        "coolantWeights": {
+          "reactor": 0,
+          "beamweapons": 0,
+          "missilesystem": 0,
+          "maneuver": 0,
+          "impulse": 0,
+          "warp": 0,
+          "frontshield": 0,
+          "rearshield": 0
+        },
+        "coolant": {
+          "totalWeight": 0,
+          "rulerMaximum": 100,
+          "percentages": {
+            "reactor": 0,
+            "beamweapons": 0,
+            "missilesystem": 0,
+            "maneuver": 0,
+            "impulse": 0,
+            "warp": 0,
+            "frontshield": 0,
+            "rearshield": 0
+          }
+        }
+      }
+    },
+    {
+      "at": 1793937460904,
+      "value": {
+        "version": 1,
+        "shipName": "ESS Endeavour",
+        "sequence": 112,
+        "final": false,
+        "powerPercentages": {
+          "reactor": 110,
+          "beamweapons": 100,
+          "missilesystem": 100,
+          "maneuver": 100,
+          "impulse": 100,
+          "warp": 100,
+          "frontshield": 100,
+          "rearshield": 100
+        },
+        "coolantWeights": {
+          "reactor": 0,
+          "beamweapons": 0,
+          "missilesystem": 0,
+          "maneuver": 0,
+          "impulse": 0,
+          "warp": 0,
+          "frontshield": 0,
+          "rearshield": 0
+        },
+        "coolant": {
+          "totalWeight": 0,
+          "rulerMaximum": 100,
+          "percentages": {
+            "reactor": 0,
+            "beamweapons": 0,
+            "missilesystem": 0,
+            "maneuver": 0,
+            "impulse": 0,
+            "warp": 0,
+            "frontshield": 0,
+            "rearshield": 0
+          }
+        }
+      }
+    },
+    {
+      "at": 1793937460952,
+      "value": {
+        "version": 1,
+        "shipName": "ESS Endeavour",
+        "sequence": 115,
+        "final": false,
+        "powerPercentages": {
+          "reactor": 113,
+          "beamweapons": 100,
+          "missilesystem": 100,
+          "maneuver": 100,
+          "impulse": 100,
+          "warp": 100,
+          "frontshield": 100,
+          "rearshield": 100
+        },
+        "coolantWeights": {
+          "reactor": 0,
+          "beamweapons": 0,
+          "missilesystem": 0,
+          "maneuver": 0,
+          "impulse": 0,
+          "warp": 0,
+          "frontshield": 0,
+          "rearshield": 0
+        },
+        "coolant": {
+          "totalWeight": 0,
+          "rulerMaximum": 100,
+          "percentages": {
+            "reactor": 0,
+            "beamweapons": 0,
+            "missilesystem": 0,
+            "maneuver": 0,
+            "impulse": 0,
+            "warp": 0,
+            "frontshield": 0,
+            "rearshield": 0
+          }
+        }
+      }
+    },
+    {
+      "at": 1793937461000,
+      "value": {
+        "version": 1,
+        "shipName": "ESS Endeavour",
+        "sequence": 118,
+        "final": false,
+        "powerPercentages": {
+          "reactor": 116,
+          "beamweapons": 100,
+          "missilesystem": 100,
+          "maneuver": 100,
+          "impulse": 100,
+          "warp": 100,
+          "frontshield": 100,
+          "rearshield": 100
+        },
+        "coolantWeights": {
+          "reactor": 0,
+          "beamweapons": 0,
+          "missilesystem": 0,
+          "maneuver": 0,
+          "impulse": 0,
+          "warp": 0,
+          "frontshield": 0,
+          "rearshield": 0
+        },
+        "coolant": {
+          "totalWeight": 0,
+          "rulerMaximum": 100,
+          "percentages": {
+            "reactor": 0,
+            "beamweapons": 0,
+            "missilesystem": 0,
+            "maneuver": 0,
+            "impulse": 0,
+            "warp": 0,
+            "frontshield": 0,
+            "rearshield": 0
+          }
+        }
+      }
+    },
+    {
+      "at": 1793937461048,
+      "value": {
+        "version": 1,
+        "shipName": "ESS Endeavour",
+        "sequence": 121,
+        "final": false,
+        "powerPercentages": {
+          "reactor": 119,
+          "beamweapons": 100,
+          "missilesystem": 100,
+          "maneuver": 100,
+          "impulse": 100,
+          "warp": 100,
+          "frontshield": 100,
+          "rearshield": 100
+        },
+        "coolantWeights": {
+          "reactor": 0,
+          "beamweapons": 0,
+          "missilesystem": 0,
+          "maneuver": 0,
+          "impulse": 0,
+          "warp": 0,
+          "frontshield": 0,
+          "rearshield": 0
+        },
+        "coolant": {
+          "totalWeight": 0,
+          "rulerMaximum": 100,
+          "percentages": {
+            "reactor": 0,
+            "beamweapons": 0,
+            "missilesystem": 0,
+            "maneuver": 0,
+            "impulse": 0,
+            "warp": 0,
+            "frontshield": 0,
+            "rearshield": 0
+          }
+        }
+      }
+    },
+    {
+      "at": 1793937461096,
+      "value": {
+        "version": 1,
+        "shipName": "ESS Endeavour",
+        "sequence": 124,
+        "final": false,
+        "powerPercentages": {
+          "reactor": 122,
+          "beamweapons": 100,
+          "missilesystem": 100,
+          "maneuver": 100,
+          "impulse": 100,
+          "warp": 100,
+          "frontshield": 100,
+          "rearshield": 100
+        },
+        "coolantWeights": {
+          "reactor": 0,
+          "beamweapons": 0,
+          "missilesystem": 0,
+          "maneuver": 0,
+          "impulse": 0,
+          "warp": 0,
+          "frontshield": 0,
+          "rearshield": 0
+        },
+        "coolant": {
+          "totalWeight": 0,
+          "rulerMaximum": 100,
+          "percentages": {
+            "reactor": 0,
+            "beamweapons": 0,
+            "missilesystem": 0,
+            "maneuver": 0,
+            "impulse": 0,
+            "warp": 0,
+            "frontshield": 0,
+            "rearshield": 0
+          }
+        }
+      }
+    },
+    {
+      "at": 1793937461144,
+      "value": {
+        "version": 1,
+        "shipName": "ESS Endeavour",
+        "sequence": 127,
+        "final": false,
+        "powerPercentages": {
+          "reactor": 125,
+          "beamweapons": 100,
+          "missilesystem": 100,
+          "maneuver": 100,
+          "impulse": 100,
+          "warp": 100,
+          "frontshield": 100,
+          "rearshield": 100
+        },
+        "coolantWeights": {
+          "reactor": 0,
+          "beamweapons": 0,
+          "missilesystem": 0,
+          "maneuver": 0,
+          "impulse": 0,
+          "warp": 0,
+          "frontshield": 0,
+          "rearshield": 0
+        },
+        "coolant": {
+          "totalWeight": 0,
+          "rulerMaximum": 100,
+          "percentages": {
+            "reactor": 0,
+            "beamweapons": 0,
+            "missilesystem": 0,
+            "maneuver": 0,
+            "impulse": 0,
+            "warp": 0,
+            "frontshield": 0,
+            "rearshield": 0
+          }
+        }
+      }
+    },
+    {
+      "at": 1793937461192,
+      "value": {
+        "version": 1,
+        "shipName": "ESS Endeavour",
+        "sequence": 130,
+        "final": false,
+        "powerPercentages": {
+          "reactor": 128,
+          "beamweapons": 100,
+          "missilesystem": 100,
+          "maneuver": 100,
+          "impulse": 100,
+          "warp": 100,
+          "frontshield": 100,
+          "rearshield": 100
+        },
+        "coolantWeights": {
+          "reactor": 0,
+          "beamweapons": 0,
+          "missilesystem": 0,
+          "maneuver": 0,
+          "impulse": 0,
+          "warp": 0,
+          "frontshield": 0,
+          "rearshield": 0
+        },
+        "coolant": {
+          "totalWeight": 0,
+          "rulerMaximum": 100,
+          "percentages": {
+            "reactor": 0,
+            "beamweapons": 0,
+            "missilesystem": 0,
+            "maneuver": 0,
+            "impulse": 0,
+            "warp": 0,
+            "frontshield": 0,
+            "rearshield": 0
+          }
+        }
+      }
+    },
+    {
+      "at": 1793937461240,
+      "value": {
+        "version": 1,
+        "shipName": "ESS Endeavour",
+        "sequence": 133,
+        "final": false,
+        "powerPercentages": {
+          "reactor": 131,
+          "beamweapons": 100,
+          "missilesystem": 100,
+          "maneuver": 100,
+          "impulse": 100,
+          "warp": 100,
+          "frontshield": 100,
+          "rearshield": 100
+        },
+        "coolantWeights": {
+          "reactor": 0,
+          "beamweapons": 0,
+          "missilesystem": 0,
+          "maneuver": 0,
+          "impulse": 0,
+          "warp": 0,
+          "frontshield": 0,
+          "rearshield": 0
+        },
+        "coolant": {
+          "totalWeight": 0,
+          "rulerMaximum": 100,
+          "percentages": {
+            "reactor": 0,
+            "beamweapons": 0,
+            "missilesystem": 0,
+            "maneuver": 0,
+            "impulse": 0,
+            "warp": 0,
+            "frontshield": 0,
+            "rearshield": 0
+          }
+        }
+      }
+    },
+    {
+      "at": 1793937461287,
+      "value": {
+        "version": 1,
+        "shipName": "ESS Endeavour",
+        "sequence": 136,
+        "final": false,
+        "powerPercentages": {
+          "reactor": 134,
+          "beamweapons": 100,
+          "missilesystem": 100,
+          "maneuver": 100,
+          "impulse": 100,
+          "warp": 100,
+          "frontshield": 100,
+          "rearshield": 100
+        },
+        "coolantWeights": {
+          "reactor": 0,
+          "beamweapons": 0,
+          "missilesystem": 0,
+          "maneuver": 0,
+          "impulse": 0,
+          "warp": 0,
+          "frontshield": 0,
+          "rearshield": 0
+        },
+        "coolant": {
+          "totalWeight": 0,
+          "rulerMaximum": 100,
+          "percentages": {
+            "reactor": 0,
+            "beamweapons": 0,
+            "missilesystem": 0,
+            "maneuver": 0,
+            "impulse": 0,
+            "warp": 0,
+            "frontshield": 0,
+            "rearshield": 0
+          }
+        }
+      }
+    },
+    {
+      "at": 1793937461333,
+      "value": {
+        "version": 1,
+        "shipName": "ESS Endeavour",
+        "sequence": 139,
+        "final": false,
+        "powerPercentages": {
+          "reactor": 137,
+          "beamweapons": 100,
+          "missilesystem": 100,
+          "maneuver": 100,
+          "impulse": 100,
+          "warp": 100,
+          "frontshield": 100,
+          "rearshield": 100
+        },
+        "coolantWeights": {
+          "reactor": 0,
+          "beamweapons": 0,
+          "missilesystem": 0,
+          "maneuver": 0,
+          "impulse": 0,
+          "warp": 0,
+          "frontshield": 0,
+          "rearshield": 0
+        },
+        "coolant": {
+          "totalWeight": 0,
+          "rulerMaximum": 100,
+          "percentages": {
+            "reactor": 0,
+            "beamweapons": 0,
+            "missilesystem": 0,
+            "maneuver": 0,
+            "impulse": 0,
+            "warp": 0,
+            "frontshield": 0,
+            "rearshield": 0
+          }
+        }
+      }
+    },
+    {
+      "at": 1793937461380,
+      "value": {
+        "version": 1,
+        "shipName": "ESS Endeavour",
+        "sequence": 142,
+        "final": false,
+        "powerPercentages": {
+          "reactor": 140,
+          "beamweapons": 100,
+          "missilesystem": 100,
+          "maneuver": 100,
+          "impulse": 100,
+          "warp": 100,
+          "frontshield": 100,
+          "rearshield": 100
+        },
+        "coolantWeights": {
+          "reactor": 0,
+          "beamweapons": 0,
+          "missilesystem": 0,
+          "maneuver": 0,
+          "impulse": 0,
+          "warp": 0,
+          "frontshield": 0,
+          "rearshield": 0
+        },
+        "coolant": {
+          "totalWeight": 0,
+          "rulerMaximum": 100,
+          "percentages": {
+            "reactor": 0,
+            "beamweapons": 0,
+            "missilesystem": 0,
+            "maneuver": 0,
+            "impulse": 0,
+            "warp": 0,
+            "frontshield": 0,
+            "rearshield": 0
+          }
+        }
+      }
+    },
+    {
+      "at": 1793937461428,
+      "value": {
+        "version": 1,
+        "shipName": "ESS Endeavour",
+        "sequence": 145,
+        "final": false,
+        "powerPercentages": {
+          "reactor": 143,
+          "beamweapons": 100,
+          "missilesystem": 100,
+          "maneuver": 100,
+          "impulse": 100,
+          "warp": 100,
+          "frontshield": 100,
+          "rearshield": 100
+        },
+        "coolantWeights": {
+          "reactor": 0,
+          "beamweapons": 0,
+          "missilesystem": 0,
+          "maneuver": 0,
+          "impulse": 0,
+          "warp": 0,
+          "frontshield": 0,
+          "rearshield": 0
+        },
+        "coolant": {
+          "totalWeight": 0,
+          "rulerMaximum": 100,
+          "percentages": {
+            "reactor": 0,
+            "beamweapons": 0,
+            "missilesystem": 0,
+            "maneuver": 0,
+            "impulse": 0,
+            "warp": 0,
+            "frontshield": 0,
+            "rearshield": 0
+          }
+        }
+      }
+    },
+    {
+      "at": 1793937461476,
+      "value": {
+        "version": 1,
+        "shipName": "ESS Endeavour",
+        "sequence": 148,
+        "final": false,
+        "powerPercentages": {
+          "reactor": 146,
+          "beamweapons": 100,
+          "missilesystem": 100,
+          "maneuver": 100,
+          "impulse": 100,
+          "warp": 100,
+          "frontshield": 100,
+          "rearshield": 100
+        },
+        "coolantWeights": {
+          "reactor": 0,
+          "beamweapons": 0,
+          "missilesystem": 0,
+          "maneuver": 0,
+          "impulse": 0,
+          "warp": 0,
+          "frontshield": 0,
+          "rearshield": 0
+        },
+        "coolant": {
+          "totalWeight": 0,
+          "rulerMaximum": 100,
+          "percentages": {
+            "reactor": 0,
+            "beamweapons": 0,
+            "missilesystem": 0,
+            "maneuver": 0,
+            "impulse": 0,
+            "warp": 0,
+            "frontshield": 0,
+            "rearshield": 0
+          }
+        }
+      }
+    },
+    {
+      "at": 1793937461523,
+      "value": {
+        "version": 1,
+        "shipName": "ESS Endeavour",
+        "sequence": 151,
+        "final": false,
+        "powerPercentages": {
+          "reactor": 149,
+          "beamweapons": 100,
+          "missilesystem": 100,
+          "maneuver": 100,
+          "impulse": 100,
+          "warp": 100,
+          "frontshield": 100,
+          "rearshield": 100
+        },
+        "coolantWeights": {
+          "reactor": 0,
+          "beamweapons": 0,
+          "missilesystem": 0,
+          "maneuver": 0,
+          "impulse": 0,
+          "warp": 0,
+          "frontshield": 0,
+          "rearshield": 0
+        },
+        "coolant": {
+          "totalWeight": 0,
+          "rulerMaximum": 100,
+          "percentages": {
+            "reactor": 0,
+            "beamweapons": 0,
+            "missilesystem": 0,
+            "maneuver": 0,
+            "impulse": 0,
+            "warp": 0,
+            "frontshield": 0,
+            "rearshield": 0
+          }
+        }
+      }
+    },
+    {
+      "at": 1793937461570,
+      "value": {
+        "version": 1,
+        "shipName": "ESS Endeavour",
+        "sequence": 154,
+        "final": false,
+        "powerPercentages": {
+          "reactor": 152,
+          "beamweapons": 100,
+          "missilesystem": 100,
+          "maneuver": 100,
+          "impulse": 100,
+          "warp": 100,
+          "frontshield": 100,
+          "rearshield": 100
+        },
+        "coolantWeights": {
+          "reactor": 0,
+          "beamweapons": 0,
+          "missilesystem": 0,
+          "maneuver": 0,
+          "impulse": 0,
+          "warp": 0,
+          "frontshield": 0,
+          "rearshield": 0
+        },
+        "coolant": {
+          "totalWeight": 0,
+          "rulerMaximum": 100,
+          "percentages": {
+            "reactor": 0,
+            "beamweapons": 0,
+            "missilesystem": 0,
+            "maneuver": 0,
+            "impulse": 0,
+            "warp": 0,
+            "frontshield": 0,
+            "rearshield": 0
+          }
+        }
+      }
+    },
+    {
+      "at": 1793937461618,
+      "value": {
+        "version": 1,
+        "shipName": "ESS Endeavour",
+        "sequence": 157,
+        "final": false,
+        "powerPercentages": {
+          "reactor": 155,
+          "beamweapons": 100,
+          "missilesystem": 100,
+          "maneuver": 100,
+          "impulse": 100,
+          "warp": 100,
+          "frontshield": 100,
+          "rearshield": 100
+        },
+        "coolantWeights": {
+          "reactor": 0,
+          "beamweapons": 0,
+          "missilesystem": 0,
+          "maneuver": 0,
+          "impulse": 0,
+          "warp": 0,
+          "frontshield": 0,
+          "rearshield": 0
+        },
+        "coolant": {
+          "totalWeight": 0,
+          "rulerMaximum": 100,
+          "percentages": {
+            "reactor": 0,
+            "beamweapons": 0,
+            "missilesystem": 0,
+            "maneuver": 0,
+            "impulse": 0,
+            "warp": 0,
+            "frontshield": 0,
+            "rearshield": 0
+          }
+        }
+      }
+    },
+    {
+      "at": 1793937461666,
+      "value": {
+        "version": 1,
+        "shipName": "ESS Endeavour",
+        "sequence": 160,
+        "final": false,
+        "powerPercentages": {
+          "reactor": 158,
+          "beamweapons": 100,
+          "missilesystem": 100,
+          "maneuver": 100,
+          "impulse": 100,
+          "warp": 100,
+          "frontshield": 100,
+          "rearshield": 100
+        },
+        "coolantWeights": {
+          "reactor": 0,
+          "beamweapons": 0,
+          "missilesystem": 0,
+          "maneuver": 0,
+          "impulse": 0,
+          "warp": 0,
+          "frontshield": 0,
+          "rearshield": 0
+        },
+        "coolant": {
+          "totalWeight": 0,
+          "rulerMaximum": 100,
+          "percentages": {
+            "reactor": 0,
+            "beamweapons": 0,
+            "missilesystem": 0,
+            "maneuver": 0,
+            "impulse": 0,
+            "warp": 0,
+            "frontshield": 0,
+            "rearshield": 0
+          }
+        }
+      }
+    },
+    {
+      "at": 1793937461714,
+      "value": {
+        "version": 1,
+        "shipName": "ESS Endeavour",
+        "sequence": 163,
+        "final": false,
+        "powerPercentages": {
+          "reactor": 161,
+          "beamweapons": 100,
+          "missilesystem": 100,
+          "maneuver": 100,
+          "impulse": 100,
+          "warp": 100,
+          "frontshield": 100,
+          "rearshield": 100
+        },
+        "coolantWeights": {
+          "reactor": 0,
+          "beamweapons": 0,
+          "missilesystem": 0,
+          "maneuver": 0,
+          "impulse": 0,
+          "warp": 0,
+          "frontshield": 0,
+          "rearshield": 0
+        },
+        "coolant": {
+          "totalWeight": 0,
+          "rulerMaximum": 100,
+          "percentages": {
+            "reactor": 0,
+            "beamweapons": 0,
+            "missilesystem": 0,
+            "maneuver": 0,
+            "impulse": 0,
+            "warp": 0,
+            "frontshield": 0,
+            "rearshield": 0
+          }
+        }
+      }
+    },
+    {
+      "at": 1793937461760,
+      "value": {
+        "version": 1,
+        "shipName": "ESS Endeavour",
+        "sequence": 166,
+        "final": false,
+        "powerPercentages": {
+          "reactor": 164,
+          "beamweapons": 100,
+          "missilesystem": 100,
+          "maneuver": 100,
+          "impulse": 100,
+          "warp": 100,
+          "frontshield": 100,
+          "rearshield": 100
+        },
+        "coolantWeights": {
+          "reactor": 0,
+          "beamweapons": 0,
+          "missilesystem": 0,
+          "maneuver": 0,
+          "impulse": 0,
+          "warp": 0,
+          "frontshield": 0,
+          "rearshield": 0
+        },
+        "coolant": {
+          "totalWeight": 0,
+          "rulerMaximum": 100,
+          "percentages": {
+            "reactor": 0,
+            "beamweapons": 0,
+            "missilesystem": 0,
+            "maneuver": 0,
+            "impulse": 0,
+            "warp": 0,
+            "frontshield": 0,
+            "rearshield": 0
+          }
+        }
+      }
+    },
+    {
+      "at": 1793937461808,
+      "value": {
+        "version": 1,
+        "shipName": "ESS Endeavour",
+        "sequence": 169,
+        "final": false,
+        "powerPercentages": {
+          "reactor": 167,
+          "beamweapons": 100,
+          "missilesystem": 100,
+          "maneuver": 100,
+          "impulse": 100,
+          "warp": 100,
+          "frontshield": 100,
+          "rearshield": 100
+        },
+        "coolantWeights": {
+          "reactor": 0,
+          "beamweapons": 0,
+          "missilesystem": 0,
+          "maneuver": 0,
+          "impulse": 0,
+          "warp": 0,
+          "frontshield": 0,
+          "rearshield": 0
+        },
+        "coolant": {
+          "totalWeight": 0,
+          "rulerMaximum": 100,
+          "percentages": {
+            "reactor": 0,
+            "beamweapons": 0,
+            "missilesystem": 0,
+            "maneuver": 0,
+            "impulse": 0,
+            "warp": 0,
+            "frontshield": 0,
+            "rearshield": 0
+          }
+        }
+      }
+    },
+    {
+      "at": 1793937461856,
+      "value": {
+        "version": 1,
+        "shipName": "ESS Endeavour",
+        "sequence": 172,
+        "final": false,
+        "powerPercentages": {
+          "reactor": 170,
+          "beamweapons": 100,
+          "missilesystem": 100,
+          "maneuver": 100,
+          "impulse": 100,
+          "warp": 100,
+          "frontshield": 100,
+          "rearshield": 100
+        },
+        "coolantWeights": {
+          "reactor": 0,
+          "beamweapons": 0,
+          "missilesystem": 0,
+          "maneuver": 0,
+          "impulse": 0,
+          "warp": 0,
+          "frontshield": 0,
+          "rearshield": 0
+        },
+        "coolant": {
+          "totalWeight": 0,
+          "rulerMaximum": 100,
+          "percentages": {
+            "reactor": 0,
+            "beamweapons": 0,
+            "missilesystem": 0,
+            "maneuver": 0,
+            "impulse": 0,
+            "warp": 0,
+            "frontshield": 0,
+            "rearshield": 0
+          }
+        }
+      }
+    },
+    {
+      "at": 1793937461904,
+      "value": {
+        "version": 1,
+        "shipName": "ESS Endeavour",
+        "sequence": 175,
+        "final": false,
+        "powerPercentages": {
+          "reactor": 173,
+          "beamweapons": 100,
+          "missilesystem": 100,
+          "maneuver": 100,
+          "impulse": 100,
+          "warp": 100,
+          "frontshield": 100,
+          "rearshield": 100
+        },
+        "coolantWeights": {
+          "reactor": 0,
+          "beamweapons": 0,
+          "missilesystem": 0,
+          "maneuver": 0,
+          "impulse": 0,
+          "warp": 0,
+          "frontshield": 0,
+          "rearshield": 0
+        },
+        "coolant": {
+          "totalWeight": 0,
+          "rulerMaximum": 100,
+          "percentages": {
+            "reactor": 0,
+            "beamweapons": 0,
+            "missilesystem": 0,
+            "maneuver": 0,
+            "impulse": 0,
+            "warp": 0,
+            "frontshield": 0,
+            "rearshield": 0
+          }
+        }
+      }
+    },
+    {
+      "at": 1793937461952,
+      "value": {
+        "version": 1,
+        "shipName": "ESS Endeavour",
+        "sequence": 178,
+        "final": false,
+        "powerPercentages": {
+          "reactor": 176,
+          "beamweapons": 100,
+          "missilesystem": 100,
+          "maneuver": 100,
+          "impulse": 100,
+          "warp": 100,
+          "frontshield": 100,
+          "rearshield": 100
+        },
+        "coolantWeights": {
+          "reactor": 0,
+          "beamweapons": 0,
+          "missilesystem": 0,
+          "maneuver": 0,
+          "impulse": 0,
+          "warp": 0,
+          "frontshield": 0,
+          "rearshield": 0
+        },
+        "coolant": {
+          "totalWeight": 0,
+          "rulerMaximum": 100,
+          "percentages": {
+            "reactor": 0,
+            "beamweapons": 0,
+            "missilesystem": 0,
+            "maneuver": 0,
+            "impulse": 0,
+            "warp": 0,
+            "frontshield": 0,
+            "rearshield": 0
+          }
+        }
+      }
+    },
+    {
+      "at": 1793937461998,
+      "value": {
+        "version": 1,
+        "shipName": "ESS Endeavour",
+        "sequence": 181,
+        "final": false,
+        "powerPercentages": {
+          "reactor": 179,
+          "beamweapons": 100,
+          "missilesystem": 100,
+          "maneuver": 100,
+          "impulse": 100,
+          "warp": 100,
+          "frontshield": 100,
+          "rearshield": 100
+        },
+        "coolantWeights": {
+          "reactor": 0,
+          "beamweapons": 0,
+          "missilesystem": 0,
+          "maneuver": 0,
+          "impulse": 0,
+          "warp": 0,
+          "frontshield": 0,
+          "rearshield": 0
+        },
+        "coolant": {
+          "totalWeight": 0,
+          "rulerMaximum": 100,
+          "percentages": {
+            "reactor": 0,
+            "beamweapons": 0,
+            "missilesystem": 0,
+            "maneuver": 0,
+            "impulse": 0,
+            "warp": 0,
+            "frontshield": 0,
+            "rearshield": 0
+          }
+        }
+      }
+    },
+    {
+      "at": 1793937462046,
+      "value": {
+        "version": 1,
+        "shipName": "ESS Endeavour",
+        "sequence": 184,
+        "final": false,
+        "powerPercentages": {
+          "reactor": 182,
+          "beamweapons": 100,
+          "missilesystem": 100,
+          "maneuver": 100,
+          "impulse": 100,
+          "warp": 100,
+          "frontshield": 100,
+          "rearshield": 100
+        },
+        "coolantWeights": {
+          "reactor": 0,
+          "beamweapons": 0,
+          "missilesystem": 0,
+          "maneuver": 0,
+          "impulse": 0,
+          "warp": 0,
+          "frontshield": 0,
+          "rearshield": 0
+        },
+        "coolant": {
+          "totalWeight": 0,
+          "rulerMaximum": 100,
+          "percentages": {
+            "reactor": 0,
+            "beamweapons": 0,
+            "missilesystem": 0,
+            "maneuver": 0,
+            "impulse": 0,
+            "warp": 0,
+            "frontshield": 0,
+            "rearshield": 0
+          }
+        }
+      }
+    },
+    {
+      "at": 1793937462094,
+      "value": {
+        "version": 1,
+        "shipName": "ESS Endeavour",
+        "sequence": 187,
+        "final": false,
+        "powerPercentages": {
+          "reactor": 185,
+          "beamweapons": 100,
+          "missilesystem": 100,
+          "maneuver": 100,
+          "impulse": 100,
+          "warp": 100,
+          "frontshield": 100,
+          "rearshield": 100
+        },
+        "coolantWeights": {
+          "reactor": 0,
+          "beamweapons": 0,
+          "missilesystem": 0,
+          "maneuver": 0,
+          "impulse": 0,
+          "warp": 0,
+          "frontshield": 0,
+          "rearshield": 0
+        },
+        "coolant": {
+          "totalWeight": 0,
+          "rulerMaximum": 100,
+          "percentages": {
+            "reactor": 0,
+            "beamweapons": 0,
+            "missilesystem": 0,
+            "maneuver": 0,
+            "impulse": 0,
+            "warp": 0,
+            "frontshield": 0,
+            "rearshield": 0
+          }
+        }
+      }
+    },
+    {
+      "at": 1793937462142,
+      "value": {
+        "version": 1,
+        "shipName": "ESS Endeavour",
+        "sequence": 190,
+        "final": false,
+        "powerPercentages": {
+          "reactor": 188,
+          "beamweapons": 100,
+          "missilesystem": 100,
+          "maneuver": 100,
+          "impulse": 100,
+          "warp": 100,
+          "frontshield": 100,
+          "rearshield": 100
+        },
+        "coolantWeights": {
+          "reactor": 0,
+          "beamweapons": 0,
+          "missilesystem": 0,
+          "maneuver": 0,
+          "impulse": 0,
+          "warp": 0,
+          "frontshield": 0,
+          "rearshield": 0
+        },
+        "coolant": {
+          "totalWeight": 0,
+          "rulerMaximum": 100,
+          "percentages": {
+            "reactor": 0,
+            "beamweapons": 0,
+            "missilesystem": 0,
+            "maneuver": 0,
+            "impulse": 0,
+            "warp": 0,
+            "frontshield": 0,
+            "rearshield": 0
+          }
+        }
+      }
+    },
+    {
+      "at": 1793937462190,
+      "value": {
+        "version": 1,
+        "shipName": "ESS Endeavour",
+        "sequence": 193,
+        "final": false,
+        "powerPercentages": {
+          "reactor": 191,
+          "beamweapons": 100,
+          "missilesystem": 100,
+          "maneuver": 100,
+          "impulse": 100,
+          "warp": 100,
+          "frontshield": 100,
+          "rearshield": 100
+        },
+        "coolantWeights": {
+          "reactor": 0,
+          "beamweapons": 0,
+          "missilesystem": 0,
+          "maneuver": 0,
+          "impulse": 0,
+          "warp": 0,
+          "frontshield": 0,
+          "rearshield": 0
+        },
+        "coolant": {
+          "totalWeight": 0,
+          "rulerMaximum": 100,
+          "percentages": {
+            "reactor": 0,
+            "beamweapons": 0,
+            "missilesystem": 0,
+            "maneuver": 0,
+            "impulse": 0,
+            "warp": 0,
+            "frontshield": 0,
+            "rearshield": 0
+          }
+        }
+      }
+    },
+    {
+      "at": 1793937462238,
+      "value": {
+        "version": 1,
+        "shipName": "ESS Endeavour",
+        "sequence": 196,
+        "final": false,
+        "powerPercentages": {
+          "reactor": 194,
+          "beamweapons": 100,
+          "missilesystem": 100,
+          "maneuver": 100,
+          "impulse": 100,
+          "warp": 100,
+          "frontshield": 100,
+          "rearshield": 100
+        },
+        "coolantWeights": {
+          "reactor": 0,
+          "beamweapons": 0,
+          "missilesystem": 0,
+          "maneuver": 0,
+          "impulse": 0,
+          "warp": 0,
+          "frontshield": 0,
+          "rearshield": 0
+        },
+        "coolant": {
+          "totalWeight": 0,
+          "rulerMaximum": 100,
+          "percentages": {
+            "reactor": 0,
+            "beamweapons": 0,
+            "missilesystem": 0,
+            "maneuver": 0,
+            "impulse": 0,
+            "warp": 0,
+            "frontshield": 0,
+            "rearshield": 0
+          }
+        }
+      }
+    },
+    {
+      "at": 1793937462286,
+      "value": {
+        "version": 1,
+        "shipName": "ESS Endeavour",
+        "sequence": 199,
+        "final": false,
+        "powerPercentages": {
+          "reactor": 197,
+          "beamweapons": 100,
+          "missilesystem": 100,
+          "maneuver": 100,
+          "impulse": 100,
+          "warp": 100,
+          "frontshield": 100,
+          "rearshield": 100
+        },
+        "coolantWeights": {
+          "reactor": 0,
+          "beamweapons": 0,
+          "missilesystem": 0,
+          "maneuver": 0,
+          "impulse": 0,
+          "warp": 0,
+          "frontshield": 0,
+          "rearshield": 0
+        },
+        "coolant": {
+          "totalWeight": 0,
+          "rulerMaximum": 100,
+          "percentages": {
+            "reactor": 0,
+            "beamweapons": 0,
+            "missilesystem": 0,
+            "maneuver": 0,
+            "impulse": 0,
+            "warp": 0,
+            "frontshield": 0,
+            "rearshield": 0
+          }
+        }
+      }
+    },
+    {
+      "at": 1793937462334,
+      "value": {
+        "version": 1,
+        "shipName": "ESS Endeavour",
+        "sequence": 202,
+        "final": false,
+        "powerPercentages": {
+          "reactor": 200,
+          "beamweapons": 100,
+          "missilesystem": 100,
+          "maneuver": 100,
+          "impulse": 100,
+          "warp": 100,
+          "frontshield": 100,
+          "rearshield": 100
+        },
+        "coolantWeights": {
+          "reactor": 0,
+          "beamweapons": 0,
+          "missilesystem": 0,
+          "maneuver": 0,
+          "impulse": 0,
+          "warp": 0,
+          "frontshield": 0,
+          "rearshield": 0
+        },
+        "coolant": {
+          "totalWeight": 0,
+          "rulerMaximum": 100,
+          "percentages": {
+            "reactor": 0,
+            "beamweapons": 0,
+            "missilesystem": 0,
+            "maneuver": 0,
+            "impulse": 0,
+            "warp": 0,
+            "frontshield": 0,
+            "rearshield": 0
+          }
+        }
+      }
+    },
+    {
+      "at": 1793937462382,
+      "value": {
+        "version": 1,
+        "shipName": "ESS Endeavour",
+        "sequence": 205,
+        "final": false,
+        "powerPercentages": {
+          "reactor": 203,
+          "beamweapons": 100,
+          "missilesystem": 100,
+          "maneuver": 100,
+          "impulse": 100,
+          "warp": 100,
+          "frontshield": 100,
+          "rearshield": 100
+        },
+        "coolantWeights": {
+          "reactor": 0,
+          "beamweapons": 0,
+          "missilesystem": 0,
+          "maneuver": 0,
+          "impulse": 0,
+          "warp": 0,
+          "frontshield": 0,
+          "rearshield": 0
+        },
+        "coolant": {
+          "totalWeight": 0,
+          "rulerMaximum": 100,
+          "percentages": {
+            "reactor": 0,
+            "beamweapons": 0,
+            "missilesystem": 0,
+            "maneuver": 0,
+            "impulse": 0,
+            "warp": 0,
+            "frontshield": 0,
+            "rearshield": 0
+          }
+        }
+      }
+    },
+    {
+      "at": 1793937462430,
+      "value": {
+        "version": 1,
+        "shipName": "ESS Endeavour",
+        "sequence": 208,
+        "final": false,
+        "powerPercentages": {
+          "reactor": 206,
+          "beamweapons": 100,
+          "missilesystem": 100,
+          "maneuver": 100,
+          "impulse": 100,
+          "warp": 100,
+          "frontshield": 100,
+          "rearshield": 100
+        },
+        "coolantWeights": {
+          "reactor": 0,
+          "beamweapons": 0,
+          "missilesystem": 0,
+          "maneuver": 0,
+          "impulse": 0,
+          "warp": 0,
+          "frontshield": 0,
+          "rearshield": 0
+        },
+        "coolant": {
+          "totalWeight": 0,
+          "rulerMaximum": 100,
+          "percentages": {
+            "reactor": 0,
+            "beamweapons": 0,
+            "missilesystem": 0,
+            "maneuver": 0,
+            "impulse": 0,
+            "warp": 0,
+            "frontshield": 0,
+            "rearshield": 0
+          }
+        }
+      }
+    },
+    {
+      "at": 1793937462478,
+      "value": {
+        "version": 1,
+        "shipName": "ESS Endeavour",
+        "sequence": 211,
+        "final": false,
+        "powerPercentages": {
+          "reactor": 209,
+          "beamweapons": 100,
+          "missilesystem": 100,
+          "maneuver": 100,
+          "impulse": 100,
+          "warp": 100,
+          "frontshield": 100,
+          "rearshield": 100
+        },
+        "coolantWeights": {
+          "reactor": 0,
+          "beamweapons": 0,
+          "missilesystem": 0,
+          "maneuver": 0,
+          "impulse": 0,
+          "warp": 0,
+          "frontshield": 0,
+          "rearshield": 0
+        },
+        "coolant": {
+          "totalWeight": 0,
+          "rulerMaximum": 100,
+          "percentages": {
+            "reactor": 0,
+            "beamweapons": 0,
+            "missilesystem": 0,
+            "maneuver": 0,
+            "impulse": 0,
+            "warp": 0,
+            "frontshield": 0,
+            "rearshield": 0
+          }
+        }
+      }
+    },
+    {
+      "at": 1793937462526,
+      "value": {
+        "version": 1,
+        "shipName": "ESS Endeavour",
+        "sequence": 214,
+        "final": false,
+        "powerPercentages": {
+          "reactor": 212,
+          "beamweapons": 100,
+          "missilesystem": 100,
+          "maneuver": 100,
+          "impulse": 100,
+          "warp": 100,
+          "frontshield": 100,
+          "rearshield": 100
+        },
+        "coolantWeights": {
+          "reactor": 0,
+          "beamweapons": 0,
+          "missilesystem": 0,
+          "maneuver": 0,
+          "impulse": 0,
+          "warp": 0,
+          "frontshield": 0,
+          "rearshield": 0
+        },
+        "coolant": {
+          "totalWeight": 0,
+          "rulerMaximum": 100,
+          "percentages": {
+            "reactor": 0,
+            "beamweapons": 0,
+            "missilesystem": 0,
+            "maneuver": 0,
+            "impulse": 0,
+            "warp": 0,
+            "frontshield": 0,
+            "rearshield": 0
+          }
+        }
+      }
+    },
+    {
+      "at": 1793937462574,
+      "value": {
+        "version": 1,
+        "shipName": "ESS Endeavour",
+        "sequence": 217,
+        "final": false,
+        "powerPercentages": {
+          "reactor": 215,
+          "beamweapons": 100,
+          "missilesystem": 100,
+          "maneuver": 100,
+          "impulse": 100,
+          "warp": 100,
+          "frontshield": 100,
+          "rearshield": 100
+        },
+        "coolantWeights": {
+          "reactor": 0,
+          "beamweapons": 0,
+          "missilesystem": 0,
+          "maneuver": 0,
+          "impulse": 0,
+          "warp": 0,
+          "frontshield": 0,
+          "rearshield": 0
+        },
+        "coolant": {
+          "totalWeight": 0,
+          "rulerMaximum": 100,
+          "percentages": {
+            "reactor": 0,
+            "beamweapons": 0,
+            "missilesystem": 0,
+            "maneuver": 0,
+            "impulse": 0,
+            "warp": 0,
+            "frontshield": 0,
+            "rearshield": 0
+          }
+        }
+      }
+    },
+    {
+      "at": 1793937462622,
+      "value": {
+        "version": 1,
+        "shipName": "ESS Endeavour",
+        "sequence": 220,
+        "final": false,
+        "powerPercentages": {
+          "reactor": 218,
+          "beamweapons": 100,
+          "missilesystem": 100,
+          "maneuver": 100,
+          "impulse": 100,
+          "warp": 100,
+          "frontshield": 100,
+          "rearshield": 100
+        },
+        "coolantWeights": {
+          "reactor": 0,
+          "beamweapons": 0,
+          "missilesystem": 0,
+          "maneuver": 0,
+          "impulse": 0,
+          "warp": 0,
+          "frontshield": 0,
+          "rearshield": 0
+        },
+        "coolant": {
+          "totalWeight": 0,
+          "rulerMaximum": 100,
+          "percentages": {
+            "reactor": 0,
+            "beamweapons": 0,
+            "missilesystem": 0,
+            "maneuver": 0,
+            "impulse": 0,
+            "warp": 0,
+            "frontshield": 0,
+            "rearshield": 0
+          }
+        }
+      }
+    },
+    {
+      "at": 1793937462670,
+      "value": {
+        "version": 1,
+        "shipName": "ESS Endeavour",
+        "sequence": 223,
+        "final": false,
+        "powerPercentages": {
+          "reactor": 221,
+          "beamweapons": 100,
+          "missilesystem": 100,
+          "maneuver": 100,
+          "impulse": 100,
+          "warp": 100,
+          "frontshield": 100,
+          "rearshield": 100
+        },
+        "coolantWeights": {
+          "reactor": 0,
+          "beamweapons": 0,
+          "missilesystem": 0,
+          "maneuver": 0,
+          "impulse": 0,
+          "warp": 0,
+          "frontshield": 0,
+          "rearshield": 0
+        },
+        "coolant": {
+          "totalWeight": 0,
+          "rulerMaximum": 100,
+          "percentages": {
+            "reactor": 0,
+            "beamweapons": 0,
+            "missilesystem": 0,
+            "maneuver": 0,
+            "impulse": 0,
+            "warp": 0,
+            "frontshield": 0,
+            "rearshield": 0
+          }
+        }
+      }
+    },
+    {
+      "at": 1793937462718,
+      "value": {
+        "version": 1,
+        "shipName": "ESS Endeavour",
+        "sequence": 226,
+        "final": false,
+        "powerPercentages": {
+          "reactor": 224,
+          "beamweapons": 100,
+          "missilesystem": 100,
+          "maneuver": 100,
+          "impulse": 100,
+          "warp": 100,
+          "frontshield": 100,
+          "rearshield": 100
+        },
+        "coolantWeights": {
+          "reactor": 0,
+          "beamweapons": 0,
+          "missilesystem": 0,
+          "maneuver": 0,
+          "impulse": 0,
+          "warp": 0,
+          "frontshield": 0,
+          "rearshield": 0
+        },
+        "coolant": {
+          "totalWeight": 0,
+          "rulerMaximum": 100,
+          "percentages": {
+            "reactor": 0,
+            "beamweapons": 0,
+            "missilesystem": 0,
+            "maneuver": 0,
+            "impulse": 0,
+            "warp": 0,
+            "frontshield": 0,
+            "rearshield": 0
+          }
+        }
+      }
+    },
+    {
+      "at": 1793937462766,
+      "value": {
+        "version": 1,
+        "shipName": "ESS Endeavour",
+        "sequence": 229,
+        "final": false,
+        "powerPercentages": {
+          "reactor": 227,
+          "beamweapons": 100,
+          "missilesystem": 100,
+          "maneuver": 100,
+          "impulse": 100,
+          "warp": 100,
+          "frontshield": 100,
+          "rearshield": 100
+        },
+        "coolantWeights": {
+          "reactor": 0,
+          "beamweapons": 0,
+          "missilesystem": 0,
+          "maneuver": 0,
+          "impulse": 0,
+          "warp": 0,
+          "frontshield": 0,
+          "rearshield": 0
+        },
+        "coolant": {
+          "totalWeight": 0,
+          "rulerMaximum": 100,
+          "percentages": {
+            "reactor": 0,
+            "beamweapons": 0,
+            "missilesystem": 0,
+            "maneuver": 0,
+            "impulse": 0,
+            "warp": 0,
+            "frontshield": 0,
+            "rearshield": 0
+          }
+        }
+      }
+    },
+    {
+      "at": 1793937462814,
+      "value": {
+        "version": 1,
+        "shipName": "ESS Endeavour",
+        "sequence": 232,
+        "final": false,
+        "powerPercentages": {
+          "reactor": 230,
+          "beamweapons": 100,
+          "missilesystem": 100,
+          "maneuver": 100,
+          "impulse": 100,
+          "warp": 100,
+          "frontshield": 100,
+          "rearshield": 100
+        },
+        "coolantWeights": {
+          "reactor": 0,
+          "beamweapons": 0,
+          "missilesystem": 0,
+          "maneuver": 0,
+          "impulse": 0,
+          "warp": 0,
+          "frontshield": 0,
+          "rearshield": 0
+        },
+        "coolant": {
+          "totalWeight": 0,
+          "rulerMaximum": 100,
+          "percentages": {
+            "reactor": 0,
+            "beamweapons": 0,
+            "missilesystem": 0,
+            "maneuver": 0,
+            "impulse": 0,
+            "warp": 0,
+            "frontshield": 0,
+            "rearshield": 0
+          }
+        }
+      }
+    },
+    {
+      "at": 1793937462862,
+      "value": {
+        "version": 1,
+        "shipName": "ESS Endeavour",
+        "sequence": 236,
+        "final": false,
+        "powerPercentages": {
+          "reactor": 234,
+          "beamweapons": 100,
+          "missilesystem": 100,
+          "maneuver": 100,
+          "impulse": 100,
+          "warp": 100,
+          "frontshield": 100,
+          "rearshield": 100
+        },
+        "coolantWeights": {
+          "reactor": 0,
+          "beamweapons": 0,
+          "missilesystem": 0,
+          "maneuver": 0,
+          "impulse": 0,
+          "warp": 0,
+          "frontshield": 0,
+          "rearshield": 0
+        },
+        "coolant": {
+          "totalWeight": 0,
+          "rulerMaximum": 100,
+          "percentages": {
+            "reactor": 0,
+            "beamweapons": 0,
+            "missilesystem": 0,
+            "maneuver": 0,
+            "impulse": 0,
+            "warp": 0,
+            "frontshield": 0,
+            "rearshield": 0
+          }
+        }
+      }
+    },
+    {
+      "at": 1793937462910,
+      "value": {
+        "version": 1,
+        "shipName": "ESS Endeavour",
+        "sequence": 238,
+        "final": false,
+        "powerPercentages": {
+          "reactor": 236,
+          "beamweapons": 100,
+          "missilesystem": 100,
+          "maneuver": 100,
+          "impulse": 100,
+          "warp": 100,
+          "frontshield": 100,
+          "rearshield": 100
+        },
+        "coolantWeights": {
+          "reactor": 0,
+          "beamweapons": 0,
+          "missilesystem": 0,
+          "maneuver": 0,
+          "impulse": 0,
+          "warp": 0,
+          "frontshield": 0,
+          "rearshield": 0
+        },
+        "coolant": {
+          "totalWeight": 0,
+          "rulerMaximum": 100,
+          "percentages": {
+            "reactor": 0,
+            "beamweapons": 0,
+            "missilesystem": 0,
+            "maneuver": 0,
+            "impulse": 0,
+            "warp": 0,
+            "frontshield": 0,
+            "rearshield": 0
+          }
+        }
+      }
+    },
+    {
+      "at": 1793937462958,
+      "value": {
+        "version": 1,
+        "shipName": "ESS Endeavour",
+        "sequence": 241,
+        "final": false,
+        "powerPercentages": {
+          "reactor": 239,
+          "beamweapons": 100,
+          "missilesystem": 100,
+          "maneuver": 100,
+          "impulse": 100,
+          "warp": 100,
+          "frontshield": 100,
+          "rearshield": 100
+        },
+        "coolantWeights": {
+          "reactor": 0,
+          "beamweapons": 0,
+          "missilesystem": 0,
+          "maneuver": 0,
+          "impulse": 0,
+          "warp": 0,
+          "frontshield": 0,
+          "rearshield": 0
+        },
+        "coolant": {
+          "totalWeight": 0,
+          "rulerMaximum": 100,
+          "percentages": {
+            "reactor": 0,
+            "beamweapons": 0,
+            "missilesystem": 0,
+            "maneuver": 0,
+            "impulse": 0,
+            "warp": 0,
+            "frontshield": 0,
+            "rearshield": 0
+          }
+        }
+      }
+    },
+    {
+      "at": 1793937463006,
+      "value": {
+        "version": 1,
+        "shipName": "ESS Endeavour",
+        "sequence": 244,
+        "final": false,
+        "powerPercentages": {
+          "reactor": 242,
+          "beamweapons": 100,
+          "missilesystem": 100,
+          "maneuver": 100,
+          "impulse": 100,
+          "warp": 100,
+          "frontshield": 100,
+          "rearshield": 100
+        },
+        "coolantWeights": {
+          "reactor": 0,
+          "beamweapons": 0,
+          "missilesystem": 0,
+          "maneuver": 0,
+          "impulse": 0,
+          "warp": 0,
+          "frontshield": 0,
+          "rearshield": 0
+        },
+        "coolant": {
+          "totalWeight": 0,
+          "rulerMaximum": 100,
+          "percentages": {
+            "reactor": 0,
+            "beamweapons": 0,
+            "missilesystem": 0,
+            "maneuver": 0,
+            "impulse": 0,
+            "warp": 0,
+            "frontshield": 0,
+            "rearshield": 0
+          }
+        }
+      }
+    },
+    {
+      "at": 1793937463054,
+      "value": {
+        "version": 1,
+        "shipName": "ESS Endeavour",
+        "sequence": 247,
+        "final": false,
+        "powerPercentages": {
+          "reactor": 245,
+          "beamweapons": 100,
+          "missilesystem": 100,
+          "maneuver": 100,
+          "impulse": 100,
+          "warp": 100,
+          "frontshield": 100,
+          "rearshield": 100
+        },
+        "coolantWeights": {
+          "reactor": 0,
+          "beamweapons": 0,
+          "missilesystem": 0,
+          "maneuver": 0,
+          "impulse": 0,
+          "warp": 0,
+          "frontshield": 0,
+          "rearshield": 0
+        },
+        "coolant": {
+          "totalWeight": 0,
+          "rulerMaximum": 100,
+          "percentages": {
+            "reactor": 0,
+            "beamweapons": 0,
+            "missilesystem": 0,
+            "maneuver": 0,
+            "impulse": 0,
+            "warp": 0,
+            "frontshield": 0,
+            "rearshield": 0
+          }
+        }
+      }
+    },
+    {
+      "at": 1793937463102,
+      "value": {
+        "version": 1,
+        "shipName": "ESS Endeavour",
+        "sequence": 250,
+        "final": false,
+        "powerPercentages": {
+          "reactor": 248,
+          "beamweapons": 100,
+          "missilesystem": 100,
+          "maneuver": 100,
+          "impulse": 100,
+          "warp": 100,
+          "frontshield": 100,
+          "rearshield": 100
+        },
+        "coolantWeights": {
+          "reactor": 0,
+          "beamweapons": 0,
+          "missilesystem": 0,
+          "maneuver": 0,
+          "impulse": 0,
+          "warp": 0,
+          "frontshield": 0,
+          "rearshield": 0
+        },
+        "coolant": {
+          "totalWeight": 0,
+          "rulerMaximum": 100,
+          "percentages": {
+            "reactor": 0,
+            "beamweapons": 0,
+            "missilesystem": 0,
+            "maneuver": 0,
+            "impulse": 0,
+            "warp": 0,
+            "frontshield": 0,
+            "rearshield": 0
+          }
+        }
+      }
+    },
+    {
+      "at": 1793937463150,
+      "value": {
+        "version": 1,
+        "shipName": "ESS Endeavour",
+        "sequence": 253,
+        "final": false,
+        "powerPercentages": {
+          "reactor": 251,
+          "beamweapons": 100,
+          "missilesystem": 100,
+          "maneuver": 100,
+          "impulse": 100,
+          "warp": 100,
+          "frontshield": 100,
+          "rearshield": 100
+        },
+        "coolantWeights": {
+          "reactor": 0,
+          "beamweapons": 0,
+          "missilesystem": 0,
+          "maneuver": 0,
+          "impulse": 0,
+          "warp": 0,
+          "frontshield": 0,
+          "rearshield": 0
+        },
+        "coolant": {
+          "totalWeight": 0,
+          "rulerMaximum": 100,
+          "percentages": {
+            "reactor": 0,
+            "beamweapons": 0,
+            "missilesystem": 0,
+            "maneuver": 0,
+            "impulse": 0,
+            "warp": 0,
+            "frontshield": 0,
+            "rearshield": 0
+          }
+        }
+      }
+    },
+    {
+      "at": 1793937463198,
+      "value": {
+        "version": 1,
+        "shipName": "ESS Endeavour",
+        "sequence": 256,
+        "final": false,
+        "powerPercentages": {
+          "reactor": 254,
+          "beamweapons": 100,
+          "missilesystem": 100,
+          "maneuver": 100,
+          "impulse": 100,
+          "warp": 100,
+          "frontshield": 100,
+          "rearshield": 100
+        },
+        "coolantWeights": {
+          "reactor": 0,
+          "beamweapons": 0,
+          "missilesystem": 0,
+          "maneuver": 0,
+          "impulse": 0,
+          "warp": 0,
+          "frontshield": 0,
+          "rearshield": 0
+        },
+        "coolant": {
+          "totalWeight": 0,
+          "rulerMaximum": 100,
+          "percentages": {
+            "reactor": 0,
+            "beamweapons": 0,
+            "missilesystem": 0,
+            "maneuver": 0,
+            "impulse": 0,
+            "warp": 0,
+            "frontshield": 0,
+            "rearshield": 0
+          }
+        }
+      }
+    },
+    {
+      "at": 1793937463245,
+      "value": {
+        "version": 1,
+        "shipName": "ESS Endeavour",
+        "sequence": 259,
+        "final": false,
+        "powerPercentages": {
+          "reactor": 257,
+          "beamweapons": 100,
+          "missilesystem": 100,
+          "maneuver": 100,
+          "impulse": 100,
+          "warp": 100,
+          "frontshield": 100,
+          "rearshield": 100
+        },
+        "coolantWeights": {
+          "reactor": 0,
+          "beamweapons": 0,
+          "missilesystem": 0,
+          "maneuver": 0,
+          "impulse": 0,
+          "warp": 0,
+          "frontshield": 0,
+          "rearshield": 0
+        },
+        "coolant": {
+          "totalWeight": 0,
+          "rulerMaximum": 100,
+          "percentages": {
+            "reactor": 0,
+            "beamweapons": 0,
+            "missilesystem": 0,
+            "maneuver": 0,
+            "impulse": 0,
+            "warp": 0,
+            "frontshield": 0,
+            "rearshield": 0
+          }
+        }
+      }
+    },
+    {
+      "at": 1793937463292,
+      "value": {
+        "version": 1,
+        "shipName": "ESS Endeavour",
+        "sequence": 262,
+        "final": false,
+        "powerPercentages": {
+          "reactor": 260,
+          "beamweapons": 100,
+          "missilesystem": 100,
+          "maneuver": 100,
+          "impulse": 100,
+          "warp": 100,
+          "frontshield": 100,
+          "rearshield": 100
+        },
+        "coolantWeights": {
+          "reactor": 0,
+          "beamweapons": 0,
+          "missilesystem": 0,
+          "maneuver": 0,
+          "impulse": 0,
+          "warp": 0,
+          "frontshield": 0,
+          "rearshield": 0
+        },
+        "coolant": {
+          "totalWeight": 0,
+          "rulerMaximum": 100,
+          "percentages": {
+            "reactor": 0,
+            "beamweapons": 0,
+            "missilesystem": 0,
+            "maneuver": 0,
+            "impulse": 0,
+            "warp": 0,
+            "frontshield": 0,
+            "rearshield": 0
+          }
+        }
+      }
+    },
+    {
+      "at": 1793937463340,
+      "value": {
+        "version": 1,
+        "shipName": "ESS Endeavour",
+        "sequence": 265,
+        "final": false,
+        "powerPercentages": {
+          "reactor": 263,
+          "beamweapons": 100,
+          "missilesystem": 100,
+          "maneuver": 100,
+          "impulse": 100,
+          "warp": 100,
+          "frontshield": 100,
+          "rearshield": 100
+        },
+        "coolantWeights": {
+          "reactor": 0,
+          "beamweapons": 0,
+          "missilesystem": 0,
+          "maneuver": 0,
+          "impulse": 0,
+          "warp": 0,
+          "frontshield": 0,
+          "rearshield": 0
+        },
+        "coolant": {
+          "totalWeight": 0,
+          "rulerMaximum": 100,
+          "percentages": {
+            "reactor": 0,
+            "beamweapons": 0,
+            "missilesystem": 0,
+            "maneuver": 0,
+            "impulse": 0,
+            "warp": 0,
+            "frontshield": 0,
+            "rearshield": 0
+          }
+        }
+      }
+    },
+    {
+      "at": 1793937463388,
+      "value": {
+        "version": 1,
+        "shipName": "ESS Endeavour",
+        "sequence": 268,
+        "final": false,
+        "powerPercentages": {
+          "reactor": 266,
+          "beamweapons": 100,
+          "missilesystem": 100,
+          "maneuver": 100,
+          "impulse": 100,
+          "warp": 100,
+          "frontshield": 100,
+          "rearshield": 100
+        },
+        "coolantWeights": {
+          "reactor": 0,
+          "beamweapons": 0,
+          "missilesystem": 0,
+          "maneuver": 0,
+          "impulse": 0,
+          "warp": 0,
+          "frontshield": 0,
+          "rearshield": 0
+        },
+        "coolant": {
+          "totalWeight": 0,
+          "rulerMaximum": 100,
+          "percentages": {
+            "reactor": 0,
+            "beamweapons": 0,
+            "missilesystem": 0,
+            "maneuver": 0,
+            "impulse": 0,
+            "warp": 0,
+            "frontshield": 0,
+            "rearshield": 0
+          }
+        }
+      }
+    },
+    {
+      "at": 1793937463436,
+      "value": {
+        "version": 1,
+        "shipName": "ESS Endeavour",
+        "sequence": 271,
+        "final": false,
+        "powerPercentages": {
+          "reactor": 269,
+          "beamweapons": 100,
+          "missilesystem": 100,
+          "maneuver": 100,
+          "impulse": 100,
+          "warp": 100,
+          "frontshield": 100,
+          "rearshield": 100
+        },
+        "coolantWeights": {
+          "reactor": 0,
+          "beamweapons": 0,
+          "missilesystem": 0,
+          "maneuver": 0,
+          "impulse": 0,
+          "warp": 0,
+          "frontshield": 0,
+          "rearshield": 0
+        },
+        "coolant": {
+          "totalWeight": 0,
+          "rulerMaximum": 100,
+          "percentages": {
+            "reactor": 0,
+            "beamweapons": 0,
+            "missilesystem": 0,
+            "maneuver": 0,
+            "impulse": 0,
+            "warp": 0,
+            "frontshield": 0,
+            "rearshield": 0
+          }
+        }
+      }
+    },
+    {
+      "at": 1793937463484,
+      "value": {
+        "version": 1,
+        "shipName": "ESS Endeavour",
+        "sequence": 274,
+        "final": false,
+        "powerPercentages": {
+          "reactor": 272,
+          "beamweapons": 100,
+          "missilesystem": 100,
+          "maneuver": 100,
+          "impulse": 100,
+          "warp": 100,
+          "frontshield": 100,
+          "rearshield": 100
+        },
+        "coolantWeights": {
+          "reactor": 0,
+          "beamweapons": 0,
+          "missilesystem": 0,
+          "maneuver": 0,
+          "impulse": 0,
+          "warp": 0,
+          "frontshield": 0,
+          "rearshield": 0
+        },
+        "coolant": {
+          "totalWeight": 0,
+          "rulerMaximum": 100,
+          "percentages": {
+            "reactor": 0,
+            "beamweapons": 0,
+            "missilesystem": 0,
+            "maneuver": 0,
+            "impulse": 0,
+            "warp": 0,
+            "frontshield": 0,
+            "rearshield": 0
+          }
+        }
+      }
+    },
+    {
+      "at": 1793937463532,
+      "value": {
+        "version": 1,
+        "shipName": "ESS Endeavour",
+        "sequence": 277,
+        "final": false,
+        "powerPercentages": {
+          "reactor": 275,
+          "beamweapons": 100,
+          "missilesystem": 100,
+          "maneuver": 100,
+          "impulse": 100,
+          "warp": 100,
+          "frontshield": 100,
+          "rearshield": 100
+        },
+        "coolantWeights": {
+          "reactor": 0,
+          "beamweapons": 0,
+          "missilesystem": 0,
+          "maneuver": 0,
+          "impulse": 0,
+          "warp": 0,
+          "frontshield": 0,
+          "rearshield": 0
+        },
+        "coolant": {
+          "totalWeight": 0,
+          "rulerMaximum": 100,
+          "percentages": {
+            "reactor": 0,
+            "beamweapons": 0,
+            "missilesystem": 0,
+            "maneuver": 0,
+            "impulse": 0,
+            "warp": 0,
+            "frontshield": 0,
+            "rearshield": 0
+          }
+        }
+      }
+    },
+    {
+      "at": 1793937463580,
+      "value": {
+        "version": 1,
+        "shipName": "ESS Endeavour",
+        "sequence": 280,
+        "final": false,
+        "powerPercentages": {
+          "reactor": 278,
+          "beamweapons": 100,
+          "missilesystem": 100,
+          "maneuver": 100,
+          "impulse": 100,
+          "warp": 100,
+          "frontshield": 100,
+          "rearshield": 100
+        },
+        "coolantWeights": {
+          "reactor": 0,
+          "beamweapons": 0,
+          "missilesystem": 0,
+          "maneuver": 0,
+          "impulse": 0,
+          "warp": 0,
+          "frontshield": 0,
+          "rearshield": 0
+        },
+        "coolant": {
+          "totalWeight": 0,
+          "rulerMaximum": 100,
+          "percentages": {
+            "reactor": 0,
+            "beamweapons": 0,
+            "missilesystem": 0,
+            "maneuver": 0,
+            "impulse": 0,
+            "warp": 0,
+            "frontshield": 0,
+            "rearshield": 0
+          }
+        }
+      }
+    },
+    {
+      "at": 1793937463628,
+      "value": {
+        "version": 1,
+        "shipName": "ESS Endeavour",
+        "sequence": 283,
+        "final": false,
+        "powerPercentages": {
+          "reactor": 281,
+          "beamweapons": 100,
+          "missilesystem": 100,
+          "maneuver": 100,
+          "impulse": 100,
+          "warp": 100,
+          "frontshield": 100,
+          "rearshield": 100
+        },
+        "coolantWeights": {
+          "reactor": 0,
+          "beamweapons": 0,
+          "missilesystem": 0,
+          "maneuver": 0,
+          "impulse": 0,
+          "warp": 0,
+          "frontshield": 0,
+          "rearshield": 0
+        },
+        "coolant": {
+          "totalWeight": 0,
+          "rulerMaximum": 100,
+          "percentages": {
+            "reactor": 0,
+            "beamweapons": 0,
+            "missilesystem": 0,
+            "maneuver": 0,
+            "impulse": 0,
+            "warp": 0,
+            "frontshield": 0,
+            "rearshield": 0
+          }
+        }
+      }
+    },
+    {
+      "at": 1793937463676,
+      "value": {
+        "version": 1,
+        "shipName": "ESS Endeavour",
+        "sequence": 286,
+        "final": false,
+        "powerPercentages": {
+          "reactor": 284,
+          "beamweapons": 100,
+          "missilesystem": 100,
+          "maneuver": 100,
+          "impulse": 100,
+          "warp": 100,
+          "frontshield": 100,
+          "rearshield": 100
+        },
+        "coolantWeights": {
+          "reactor": 0,
+          "beamweapons": 0,
+          "missilesystem": 0,
+          "maneuver": 0,
+          "impulse": 0,
+          "warp": 0,
+          "frontshield": 0,
+          "rearshield": 0
+        },
+        "coolant": {
+          "totalWeight": 0,
+          "rulerMaximum": 100,
+          "percentages": {
+            "reactor": 0,
+            "beamweapons": 0,
+            "missilesystem": 0,
+            "maneuver": 0,
+            "impulse": 0,
+            "warp": 0,
+            "frontshield": 0,
+            "rearshield": 0
+          }
+        }
+      }
+    },
+    {
+      "at": 1793937463724,
+      "value": {
+        "version": 1,
+        "shipName": "ESS Endeavour",
+        "sequence": 289,
+        "final": false,
+        "powerPercentages": {
+          "reactor": 287,
+          "beamweapons": 100,
+          "missilesystem": 100,
+          "maneuver": 100,
+          "impulse": 100,
+          "warp": 100,
+          "frontshield": 100,
+          "rearshield": 100
+        },
+        "coolantWeights": {
+          "reactor": 0,
+          "beamweapons": 0,
+          "missilesystem": 0,
+          "maneuver": 0,
+          "impulse": 0,
+          "warp": 0,
+          "frontshield": 0,
+          "rearshield": 0
+        },
+        "coolant": {
+          "totalWeight": 0,
+          "rulerMaximum": 100,
+          "percentages": {
+            "reactor": 0,
+            "beamweapons": 0,
+            "missilesystem": 0,
+            "maneuver": 0,
+            "impulse": 0,
+            "warp": 0,
+            "frontshield": 0,
+            "rearshield": 0
+          }
+        }
+      }
+    },
+    {
+      "at": 1793937463772,
+      "value": {
+        "version": 1,
+        "shipName": "ESS Endeavour",
+        "sequence": 292,
+        "final": false,
+        "powerPercentages": {
+          "reactor": 290,
+          "beamweapons": 100,
+          "missilesystem": 100,
+          "maneuver": 100,
+          "impulse": 100,
+          "warp": 100,
+          "frontshield": 100,
+          "rearshield": 100
+        },
+        "coolantWeights": {
+          "reactor": 0,
+          "beamweapons": 0,
+          "missilesystem": 0,
+          "maneuver": 0,
+          "impulse": 0,
+          "warp": 0,
+          "frontshield": 0,
+          "rearshield": 0
+        },
+        "coolant": {
+          "totalWeight": 0,
+          "rulerMaximum": 100,
+          "percentages": {
+            "reactor": 0,
+            "beamweapons": 0,
+            "missilesystem": 0,
+            "maneuver": 0,
+            "impulse": 0,
+            "warp": 0,
+            "frontshield": 0,
+            "rearshield": 0
+          }
+        }
+      }
+    },
+    {
+      "at": 1793937463820,
+      "value": {
+        "version": 1,
+        "shipName": "ESS Endeavour",
+        "sequence": 295,
+        "final": false,
+        "powerPercentages": {
+          "reactor": 293,
+          "beamweapons": 100,
+          "missilesystem": 100,
+          "maneuver": 100,
+          "impulse": 100,
+          "warp": 100,
+          "frontshield": 100,
+          "rearshield": 100
+        },
+        "coolantWeights": {
+          "reactor": 0,
+          "beamweapons": 0,
+          "missilesystem": 0,
+          "maneuver": 0,
+          "impulse": 0,
+          "warp": 0,
+          "frontshield": 0,
+          "rearshield": 0
+        },
+        "coolant": {
+          "totalWeight": 0,
+          "rulerMaximum": 100,
+          "percentages": {
+            "reactor": 0,
+            "beamweapons": 0,
+            "missilesystem": 0,
+            "maneuver": 0,
+            "impulse": 0,
+            "warp": 0,
+            "frontshield": 0,
+            "rearshield": 0
+          }
+        }
+      }
+    },
+    {
+      "at": 1793937463868,
+      "value": {
+        "version": 1,
+        "shipName": "ESS Endeavour",
+        "sequence": 298,
+        "final": false,
+        "powerPercentages": {
+          "reactor": 296,
+          "beamweapons": 100,
+          "missilesystem": 100,
+          "maneuver": 100,
+          "impulse": 100,
+          "warp": 100,
+          "frontshield": 100,
+          "rearshield": 100
+        },
+        "coolantWeights": {
+          "reactor": 0,
+          "beamweapons": 0,
+          "missilesystem": 0,
+          "maneuver": 0,
+          "impulse": 0,
+          "warp": 0,
+          "frontshield": 0,
+          "rearshield": 0
+        },
+        "coolant": {
+          "totalWeight": 0,
+          "rulerMaximum": 100,
+          "percentages": {
+            "reactor": 0,
+            "beamweapons": 0,
+            "missilesystem": 0,
+            "maneuver": 0,
+            "impulse": 0,
+            "warp": 0,
+            "frontshield": 0,
+            "rearshield": 0
+          }
+        }
+      }
+    },
+    {
+      "at": 1793937463914,
+      "value": {
+        "version": 1,
+        "shipName": "ESS Endeavour",
+        "sequence": 301,
+        "final": false,
+        "powerPercentages": {
+          "reactor": 299,
+          "beamweapons": 100,
+          "missilesystem": 100,
+          "maneuver": 100,
+          "impulse": 100,
+          "warp": 100,
+          "frontshield": 100,
+          "rearshield": 100
+        },
+        "coolantWeights": {
+          "reactor": 0,
+          "beamweapons": 0,
+          "missilesystem": 0,
+          "maneuver": 0,
+          "impulse": 0,
+          "warp": 0,
+          "frontshield": 0,
+          "rearshield": 0
+        },
+        "coolant": {
+          "totalWeight": 0,
+          "rulerMaximum": 100,
+          "percentages": {
+            "reactor": 0,
+            "beamweapons": 0,
+            "missilesystem": 0,
+            "maneuver": 0,
+            "impulse": 0,
+            "warp": 0,
+            "frontshield": 0,
+            "rearshield": 0
+          }
+        }
+      }
+    },
+    {
+      "at": 1793937463914,
+      "value": {
+        "version": 1,
+        "shipName": "ESS Endeavour",
+        "sequence": 302,
+        "final": true,
+        "powerPercentages": {
+          "reactor": 150,
+          "beamweapons": 100,
+          "missilesystem": 100,
+          "maneuver": 100,
+          "impulse": 100,
+          "warp": 100,
+          "frontshield": 100,
+          "rearshield": 100
+        },
+        "coolantWeights": {
+          "reactor": 0,
+          "beamweapons": 0,
+          "missilesystem": 0,
+          "maneuver": 0,
+          "impulse": 0,
+          "warp": 0,
+          "frontshield": 0,
+          "rearshield": 0
+        },
+        "coolant": {
+          "totalWeight": 0,
+          "rulerMaximum": 100,
+          "percentages": {
+            "reactor": 0,
+            "beamweapons": 0,
+            "missilesystem": 0,
+            "maneuver": 0,
+            "impulse": 0,
+            "warp": 0,
+            "frontshield": 0,
+            "rearshield": 0
+          }
+        }
+      }
+    }
+  ]
+}

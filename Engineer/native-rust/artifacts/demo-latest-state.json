@@ -1,0 +1,41 @@
+{
+  "receivedAt": "2026-11-06T07:22:50.166Z",
+  "coolant": {
+    "percentages": {
+      "beamweapons": 0,
+      "frontshield": 0,
+      "impulse": 0,
+      "maneuver": 0,
+      "missilesystem": 0,
+      "reactor": 0,
+      "rearshield": 0,
+      "warp": 0
+    },
+    "rulerMaximum": 100,
+    "totalWeight": 0
+  },
+  "coolantWeights": {
+    "beamweapons": 0,
+    "frontshield": 0,
+    "impulse": 0,
+    "maneuver": 0,
+    "missilesystem": 0,
+    "reactor": 0,
+    "rearshield": 0,
+    "warp": 0
+  },
+  "final": true,
+  "powerPercentages": {
+    "beamweapons": 100,
+    "frontshield": 100,
+    "impulse": 100,
+    "maneuver": 100,
+    "missilesystem": 100,
+    "reactor": 150,
+    "rearshield": 100,
+    "warp": 100
+  },
+  "sequence": 302,
+  "shipName": "ESS Endeavour",
+  "version": 1
+}

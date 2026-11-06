@@ -1,0 +1,129 @@
+<div id="epsilon-performance-map">
+  <style>
+    #epsilon-performance-map{display:grid;gap:calc(var(--font-size-base)*1);color:var(--foreground)}
+    #epsilon-performance-map .ep-pair{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:calc(var(--font-size-base)*1.5)}
+    #epsilon-performance-map .ep-panel{min-width:0;display:grid;align-content:start;gap:calc(var(--font-size-base)*.5)}
+    #epsilon-performance-map .ep-head{display:grid;gap:calc(var(--font-size-base)*.25)}
+    #epsilon-performance-map .ep-map{width:100%;height:310px;display:block;overflow:visible}
+    #epsilon-performance-map .ep-label{height:100%;padding:8px;box-sizing:border-box;overflow:hidden;color:var(--foreground);overflow-wrap:anywhere}
+    #epsilon-performance-map .ep-label span{display:block}
+    #epsilon-performance-map .ep-empty{height:310px;display:grid;place-content:center;color:var(--muted-foreground)}
+    #epsilon-performance-map .ep-path{min-height:32px;display:flex;flex-wrap:wrap;align-items:center;gap:calc(var(--font-size-base)*.25)}
+    #epsilon-performance-map .ep-key{display:flex;flex-wrap:wrap;gap:calc(var(--font-size-base)*.75)}
+    #epsilon-performance-map .ep-key span{display:inline-flex;align-items:center;gap:calc(var(--font-size-base)*.3)}
+    #epsilon-performance-map .ep-swatch{width:10px;height:10px;display:inline-block}
+    #epsilon-performance-map .ep-tile rect{transition:x .2s,y .2s,width .2s,height .2s}
+    @media(max-width:650px){#epsilon-performance-map .ep-pair{grid-template-columns:minmax(0,1fr)}#epsilon-performance-map .ep-map{height:280px}}
+    @media(prefers-reduced-motion:reduce){#epsilon-performance-map .ep-tile rect{transition:none}}
+  </style>
+  <h2>Where the controller spends its time</h2>
+  <div class="viz-controls">
+    <label class="form-label">Workload
+      <select class="form-select" data-phase><option value="switching">Switching modes · 10 times/sec</option><option value="dragging">Slider updates · 30 times/sec</option><option value="idle">Initial idle</option><option value="settled">Settled idle</option></select>
+    </label>
+    <label class="form-label">Measurement
+      <select class="form-select" data-metric><option value="cpu">CPU execution samples</option><option value="gpu">GPU engine busy time</option><option value="tasks">Chrome main-thread trace</option></select>
+    </label>
+  </div>
+  <div class="text-small" data-context></div>
+  <div class="ep-pair">
+    <section class="ep-panel" data-implementation="native" aria-label="Native WPF performance">
+      <div class="ep-head"><h3>Native C# / WPF</h3><div class="tabular-nums" data-total></div></div>
+      <div class="ep-path" data-path></div>
+      <div data-chart></div>
+      <div class="text-small tabular-nums" data-status aria-live="polite"></div>
+      <details><summary>Exact values</summary><table class="table table-sm"><thead><tr><th>Work</th><th class="text-end">Time</th><th class="text-end">Share</th></tr></thead><tbody data-values></tbody></table></details>
+    </section>
+    <section class="ep-panel" data-implementation="browser" aria-label="Browser performance">
+      <div class="ep-head"><h3>Browser / Chrome</h3><div class="tabular-nums" data-total></div></div>
+      <div class="ep-path" data-path></div>
+      <div data-chart></div>
+      <div class="text-small tabular-nums" data-status aria-live="polite"></div>
+      <details><summary>Exact values</summary><table class="table table-sm"><thead><tr><th>Work</th><th class="text-end">Time</th><th class="text-end">Share</th></tr></thead><tbody data-values></tbody></table></details>
+    </section>
+  </div>
+  <div class="ep-key text-small" data-key></div>
+  <div class="text-small" data-method></div>
+  <script type="application/json" data-profile>__PROFILE_DATA__</script>
+  <script>
+  (()=>{
+    const root=document.getElementById('epsilon-performance-map');
+    const data=JSON.parse(root.querySelector('[data-profile]').textContent);
+    const phaseControl=root.querySelector('[data-phase]'),metricControl=root.querySelector('[data-metric]');
+    const NS='http://www.w3.org/2000/svg';
+    let state={phase:'switching',metric:'cpu',paths:{native:[],browser:[]}};
+    const colors=new Map();
+    const fixedGroups=['Application','WPF UI and layout','Chrome engine','Graphics and driver CPU','Runtime and libraries','Windows and other modules','Unresolved'];
+    fixedGroups.forEach((g,i)=>colors.set(g,i===6?'var(--muted)':`var(--viz-series-${i%6+1})`));
+    const fmt=n=>n>=1000?(n/1000).toFixed(2)+' s':n.toFixed(n<10?2:1)+' ms';
+    const el=(tag,attrs={})=>{const e=document.createElementNS(NS,tag);for(const [k,v]of Object.entries(attrs))e.setAttribute(k,v);return e;};
+    function load(saved){const s=saved?.privateContent;if(!s||!data.phases[s.phase]||!['cpu','gpu','tasks'].includes(s.metric))return;state={phase:s.phase,metric:s.metric,paths:s.paths||{native:[],browser:[]}};}
+    load(window.openai?.widgetState);
+    function save(){window.openai?.setWidgetState({modelContent:{workload:state.phase,measurement:state.metric,selection:state.paths},privateContent:state})?.catch(()=>{});}
+    function tree(leaves){
+      const node={name:'All work',children:[],value:0};
+      for(const l of leaves){
+        if(!(l.value>0))continue;
+        const role=l.branch==='Native WPF'?null:l.branch;
+        const parts=state.metric==='cpu'?[l.group,role,l.name,l.detail===l.name?null:l.detail]:state.metric==='gpu'?[l.group,role,l.name]:[l.group,l.name];
+        let current=node;current.value+=l.value;
+        for(const name of parts.filter(Boolean)){let child=current.children.find(c=>c.name===name);if(!child){child={name,children:[],value:0,group:l.group};current.children.push(child);}child.value+=l.value;current=child;}
+      }
+      return node;
+    }
+    function layout(nodes,x,y,w,h,output=[]){
+      if(!nodes.length)return output;
+      if(nodes.length===1){output.push({node:nodes[0],x,y,w,h});return output;}
+      const total=nodes.reduce((s,n)=>s+n.value,0);let sum=0,index=0;
+      while(index<nodes.length-1&&sum<total/2)sum+=nodes[index++].value;
+      const fraction=sum/total;
+      if(w>=h){layout(nodes.slice(0,index),x,y,w*fraction,h,output);layout(nodes.slice(index),x+w*fraction,y,w*(1-fraction),h,output);}
+      else{layout(nodes.slice(0,index),x,y,w,h*fraction,output);layout(nodes.slice(index),x,y+h*fraction,w,h*(1-fraction),output);}
+      return output;
+    }
+    function renderPanel(implementation){
+      const panel=root.querySelector('[data-implementation="'+implementation+'"]'),report=data.phases[state.phase][implementation];
+      const total=panel.querySelector('[data-total]'),chart=panel.querySelector('[data-chart]'),path=panel.querySelector('[data-path]'),values=panel.querySelector('[data-values]'),status=panel.querySelector('[data-status]');
+      let current=tree(report[state.metric]),ancestors=[current];
+      const chosen=state.paths[implementation]||[];
+      for(const name of chosen){const next=current.children.find(c=>c.name===name);if(!next)break;current=next;ancestors.push(current);}
+      state.paths[implementation]=ancestors.slice(1).map(n=>n.name);
+      if(state.metric==='cpu')total.textContent=report.cpuPercent.toFixed(2)+'% machine CPU · '+fmt(report.cpuMs)+' CPU / trial';
+      else if(state.metric==='gpu')total.textContent=(report.gpuEngineMs/report.gpuCoverageMs*100).toFixed(2)+'% combined engine utilization · '+(report.gpuCoverageMs/1000).toFixed(1)+' s sampled';
+      else total.textContent=implementation==='browser'?fmt(current.value)+' traced main-thread task time / trial':'Native work: use CPU execution samples';
+      path.replaceChildren();
+      ancestors.forEach((n,index)=>{if(index){const sep=document.createElement('span');sep.textContent='›';sep.setAttribute('aria-hidden','true');path.append(sep);}const b=document.createElement('button');b.className='btn btn-ghost';b.textContent=index===0?'All work':n.name;b.type='button';b.setAttribute('data-tooltip',n.name);b.addEventListener('click',()=>{state.paths[implementation]=ancestors.slice(1,index+1).map(n=>n.name);render();save();});path.append(b);});
+      const nodes=(current.children.length?current.children:[current]).filter(n=>n.value>0).sort((a,b)=>b.value-a.value);
+      chart.replaceChildren();values.replaceChildren();
+      if(!current.value){const empty=document.createElement('div');empty.className='ep-empty';empty.textContent=state.metric==='tasks'?'WPF has no Chrome trace events':'No activity captured in this sample';chart.append(empty);status.textContent='No measured time';return;}
+      const width=chart.clientWidth||450,height=width<350?280:310;
+      const svg=el('svg',{class:'ep-map',viewBox:`0 0 ${width} ${height}`,role:'img','aria-label':implementation+' '+state.phase+' '+state.metric+' treemap. Tile area is share within this build.'});
+      const title=el('title');title.textContent=implementation+' '+state.phase+' performance breakdown';svg.append(title);
+      const cells=layout(nodes,0,0,width,height);
+      for(const cell of cells){
+        const n=cell.node,pct=n.value/current.value*100,canZoom=n.children.length>0&&n!==current;
+        const anchor=el('a',{href:'#',class:'ep-tile cursor-interaction','aria-label':n.name+', '+fmt(n.value)+', '+pct.toFixed(1)+' percent'+(canZoom?', open breakdown':''),'data-tooltip':n.name+' · '+fmt(n.value)+' · '+pct.toFixed(1)+'%'});
+        const color=colors.get(n.group)||'var(--viz-series-1)';
+        anchor.append(el('rect',{x:cell.x+1,y:cell.y+1,width:Math.max(0,cell.w-2),height:Math.max(0,cell.h-2),fill:color,'fill-opacity':'.24'}));
+        if(cell.w>82&&cell.h>46){const foreign=el('foreignObject',{x:cell.x+1,y:cell.y+1,width:Math.max(0,cell.w-2),height:Math.max(0,cell.h-2),'pointer-events':'none'});const label=document.createElement('div');label.className='ep-label';const name=document.createElement('span');name.textContent=n.name;const value=document.createElement('span');value.className='text-small tabular-nums';value.textContent=fmt(n.value)+' · '+pct.toFixed(1)+'%';label.append(name,value);foreign.append(label);anchor.append(foreign);}
+        anchor.addEventListener('click',event=>{event.preventDefault();if(canZoom){state.paths[implementation].push(n.name);render();save();}else status.textContent=n.name+' · '+fmt(n.value)+' · '+pct.toFixed(1)+'% of selection';});
+        svg.append(anchor);
+        const tr=document.createElement('tr');for(const text of [n.name,fmt(n.value),pct.toFixed(1)+'%']){const td=document.createElement('td');td.textContent=text;if(tr.children.length)td.className='text-end tabular-nums';tr.append(td);}values.append(tr);
+      }
+      chart.append(svg);status.textContent=fmt(current.value)+(state.metric==='cpu'?' sampled CPU · '+report.sampleCount+' total samples':state.metric==='gpu'?' engine busy time':' traced task time')+' · '+nodes.length+' categories';
+    }
+    function render(){
+      phaseControl.value=state.phase;metricControl.value=state.metric;
+      root.querySelector('[data-context]').textContent=state.metric==='cpu'?'Tile area: share of sampled CPU within each build · select a tile to drill down':state.metric==='gpu'?'Tile area: observed GPU engine busy time · concurrent engines can overlap':'Tile area: exclusive elapsed trace time on Chrome’s renderer main thread · not CPU sampling';
+      renderPanel('native');renderPanel('browser');
+      const key=root.querySelector('[data-key]');key.replaceChildren();
+      if(state.metric==='cpu')for(const group of fixedGroups){const span=document.createElement('span'),swatch=document.createElement('i');swatch.className='ep-swatch';swatch.style.background=colors.get(group);span.append(swatch,document.createTextNode(group));key.append(span);}
+      root.querySelector('[data-method]').textContent=state.metric==='tasks'?'Separate detailed Chrome trace pass; includes tracing overhead. Durations partition traced work without double-counting nested events.':state.metric==='gpu'?'One isolated matched GPU trial · complete counter intervals only · shared desktop composition excluded':'Two warmed-up CPU trials, reversed order · 1000 × 700 panel · '+data.conditions[0].deviceScaleFactor+'× pixel scale · FPS overlay off · ETW events lost: '+data.eventsLost;
+    }
+    for(const control of [phaseControl,metricControl])control.addEventListener('change',()=>{state.phase=phaseControl.value;state.metric=metricControl.value;state.paths={native:[],browser:[]};render();save();});
+    window.addEventListener('openai:set_globals',event=>{load(event.detail?.globals?.widgetState);render();});
+    let resizeTimer;new ResizeObserver(()=>{clearTimeout(resizeTimer);resizeTimer=setTimeout(render,100);}).observe(root.querySelector('.ep-pair'));
+    render();
+  })();
+  </script>
+</div>

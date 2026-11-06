@@ -1,0 +1,178 @@
+[
+  {
+    "implementation": "cpp",
+    "trial": 1,
+    "phase": "idle",
+    "cpuMs": 0.0,
+    "machineCpuPercent": 0.0,
+    "privateMiB": 59.71,
+    "width": 1000.0,
+    "height": 700.0,
+    "scale": 1.0
+  },
+  {
+    "implementation": "cpp",
+    "trial": 1,
+    "phase": "switching",
+    "cpuMs": 93.75,
+    "machineCpuPercent": 0.049,
+    "privateMiB": 59.73,
+    "width": 1000.0,
+    "height": 700.0,
+    "scale": 1.0
+  },
+  {
+    "implementation": "cpp",
+    "trial": 1,
+    "phase": "settled",
+    "cpuMs": 0.0,
+    "machineCpuPercent": 0.0,
+    "privateMiB": 59.73,
+    "width": 1000.0,
+    "height": 700.0,
+    "scale": 1.0
+  },
+  {
+    "implementation": "cpp",
+    "trial": 1,
+    "phase": "dragging",
+    "cpuMs": 31.25,
+    "machineCpuPercent": 0.02,
+    "privateMiB": 59.82,
+    "width": 1000.0,
+    "height": 700.0,
+    "scale": 1.0
+  },
+  {
+    "implementation": "wpf",
+    "trial": 1,
+    "phase": "idle",
+    "cpuMs": 0.0,
+    "machineCpuPercent": 0.0,
+    "privateMiB": 117.97,
+    "width": 1000,
+    "height": 700,
+    "scale": 1
+  },
+  {
+    "implementation": "wpf",
+    "trial": 1,
+    "phase": "switching",
+    "cpuMs": 390.62,
+    "machineCpuPercent": 0.203,
+    "privateMiB": 150.01,
+    "width": 1000,
+    "height": 700,
+    "scale": 1
+  },
+  {
+    "implementation": "wpf",
+    "trial": 1,
+    "phase": "settled",
+    "cpuMs": 0.0,
+    "machineCpuPercent": 0.0,
+    "privateMiB": 150.27,
+    "width": 1000,
+    "height": 700,
+    "scale": 1
+  },
+  {
+    "implementation": "wpf",
+    "trial": 1,
+    "phase": "dragging",
+    "cpuMs": 31.25,
+    "machineCpuPercent": 0.02,
+    "privateMiB": 153.64,
+    "width": 1000,
+    "height": 700,
+    "scale": 1
+  },
+  {
+    "implementation": "wpf",
+    "trial": 2,
+    "phase": "idle",
+    "cpuMs": 0.0,
+    "machineCpuPercent": 0.0,
+    "privateMiB": 117.36,
+    "width": 1000,
+    "height": 700,
+    "scale": 1
+  },
+  {
+    "implementation": "wpf",
+    "trial": 2,
+    "phase": "switching",
+    "cpuMs": 281.25,
+    "machineCpuPercent": 0.146,
+    "privateMiB": 151.0,
+    "width": 1000,
+    "height": 700,
+    "scale": 1
+  },
+  {
+    "implementation": "wpf",
+    "trial": 2,
+    "phase": "settled",
+    "cpuMs": 0.0,
+    "machineCpuPercent": 0.0,
+    "privateMiB": 151.25,
+    "width": 1000,
+    "height": 700,
+    "scale": 1
+  },
+  {
+    "implementation": "wpf",
+    "trial": 2,
+    "phase": "dragging",
+    "cpuMs": 31.25,
+    "machineCpuPercent": 0.02,
+    "privateMiB": 153.74,
+    "width": 1000,
+    "height": 700,
+    "scale": 1
+  },
+  {
+    "implementation": "cpp",
+    "trial": 2,
+    "phase": "idle",
+    "cpuMs": 0.0,
+    "machineCpuPercent": 0.0,
+    "privateMiB": 59.84,
+    "width": 1000.0,
+    "height": 700.0,
+    "scale": 1.0
+  },
+  {
+    "implementation": "cpp",
+    "trial": 2,
+    "phase": "switching",
+    "cpuMs": 0.0,
+    "machineCpuPercent": 0.0,
+    "privateMiB": 59.89,
+    "width": 1000.0,
+    "height": 700.0,
+    "scale": 1.0
+  },
+  {
+    "implementation": "cpp",
+    "trial": 2,
+    "phase": "settled",
+    "cpuMs": 0.0,
+    "machineCpuPercent": 0.0,
+    "privateMiB": 59.89,
+    "width": 1000.0,
+    "height": 700.0,
+    "scale": 1.0
+  },
+  {
+    "implementation": "cpp",
+    "trial": 2,
+    "phase": "dragging",
+    "cpuMs": 0.0,
+    "machineCpuPercent": 0.0,
+    "privateMiB": 59.89,
+    "width": 1000.0,
+    "height": 700.0,
+    "scale": 1.0
+  }
+]

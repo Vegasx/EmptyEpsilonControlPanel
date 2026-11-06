@@ -1,0 +1,22 @@
+[
+  {
+    "sha256": "B773C3899663CA8B2973531AFC45FB0D40F2C29F0D4EEB7148CE391CBB2C9387",
+    "path": "Engineer/native-cpp/src/main.cpp"
+  },
+  {
+    "sha256": "5F61DBCC4814BC1F2830FD9B133FEFA2492657DB8B7ABE1B0763519AEB99C332",
+    "path": "Engineer/native-cpp/src/model.h"
+  },
+  {
+    "sha256": "028EF2691A4C0E11D99359E4E6C5E1D1434F10DCD6A8B8C6DF08DFAD28804E27",
+    "path": "Engineer/native-cpp/src/transport.h"
+  },
+  {
+    "sha256": "9EE4C64FCAAABFAB0E0756FA4AF6B8657015A33E9FFC2756BDCA0B1980078617",
+    "path": "Engineer/native-cpp/dist/Epsilon-Engineering-Cpp-win-x64/Epsilon Engineering Cpp.exe"
+  },
+  {
+    "sha256": "98DB999C2BB2FCC4313D33F8C35E443F9440C4E7AD62FC3C3DAC615108088702",
+    "path": "Engineer/native-cpp/dist/Epsilon-Engineering-Cpp-win-x64.zip"
+  }
+]

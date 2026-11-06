@@ -1,0 +1,12 @@
+TraceReader/bin/
+TraceReader/obj/
+packages/
+cli-home/
+artifacts/*.etl
+artifacts/*.etlx
+artifacts/chrome-profile/
+artifacts/run-*/cpu.etl*
+artifacts/run-*/gpu.json*
+artifacts/run-*/gpu-extra.json*
+artifacts/run-*/gpu-isolated.json*
+artifacts/run-*/*-trace.json

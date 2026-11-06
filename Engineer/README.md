@@ -2,7 +2,11 @@
 
 A standalone touch-friendly practice controller inspired by the physical engineering panel. Written in browser-native JavaScript, HTML and CSS, with a small Node.js static server and no installation dependencies. No game connection or simulated telemetry is included.
 
+Windows desktop alternatives are available alongside the browser app: [C# / WPF](native-windows/README.md) and the [C++ / Direct2D comparison prototype](native-cpp/README.md). Launch the latter with `native-cpp/Start Cpp Controller.cmd`. It includes a configurable background JSON POST sender and a local demo receiver; game-specific server integration remains separate. See its [performance report](native-cpp/PERFORMANCE.md) for the measured comparison.
+
 ## Run
+
+A separate [native Rust / Direct2D controller](native-rust/README.md) matches the optimized C++ controller's appearance, controls, animation rules and background HTTP contract. Launch `native-rust/Start Rust Controller.cmd`, or copy its portable distribution folder to a Windows x64 tablet. It runs as a native executable without a browser or runtime installation. Performance measurements are left to independent testing.
 
 With Node.js 20 or newer installed, open a terminal in this folder and run:
 

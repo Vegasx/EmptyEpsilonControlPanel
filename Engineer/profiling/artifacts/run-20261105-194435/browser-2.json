@@ -1,0 +1,158 @@
+{
+  "implementation": "browser",
+  "timestamp": "2026-11-06T02:47:13.311Z",
+  "width": 1000,
+  "height": 700,
+  "deviceScaleFactor": 1,
+  "reducedMotion": false,
+  "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/132.0.0.0 Safari/537.36",
+  "logicalProcessors": 16,
+  "detailedTrace": false,
+  "interactionWarmup": true,
+  "phases": [
+    {
+      "name": "idle",
+      "start": "2026-11-06T02:46:41.266Z",
+      "end": "2026-11-06T02:46:46.277Z",
+      "elapsedMs": 5010.605100000001,
+      "actions": 0,
+      "resets": 0,
+      "cpuMs": 4.923000000000233,
+      "pids": [
+        {
+          "id": 4284,
+          "role": "browser"
+        },
+        {
+          "id": 43520,
+          "role": "renderer"
+        },
+        {
+          "id": 13596,
+          "role": "renderer"
+        },
+        {
+          "id": 34200,
+          "role": "GPU"
+        },
+        {
+          "id": 35412,
+          "role": "network.mojom.NetworkService"
+        },
+        {
+          "id": 44808,
+          "role": "storage.mojom.StorageService"
+        }
+      ],
+      "serverPid": 23636
+    },
+    {
+      "name": "switching",
+      "start": "2026-11-06T02:46:46.278Z",
+      "end": "2026-11-06T02:46:58.281Z",
+      "elapsedMs": 12003.3946,
+      "actions": 120,
+      "resets": 17,
+      "cpuMs": 8235.583,
+      "pids": [
+        {
+          "id": 4284,
+          "role": "browser"
+        },
+        {
+          "id": 43520,
+          "role": "renderer"
+        },
+        {
+          "id": 13596,
+          "role": "renderer"
+        },
+        {
+          "id": 34200,
+          "role": "GPU"
+        },
+        {
+          "id": 35412,
+          "role": "network.mojom.NetworkService"
+        },
+        {
+          "id": 44808,
+          "role": "storage.mojom.StorageService"
+        }
+      ],
+      "serverPid": 23636
+    },
+    {
+      "name": "settled",
+      "start": "2026-11-06T02:46:58.282Z",
+      "end": "2026-11-06T02:47:03.306Z",
+      "elapsedMs": 5024.365400000002,
+      "actions": 0,
+      "resets": 0,
+      "cpuMs": 99.7520000000005,
+      "pids": [
+        {
+          "id": 4284,
+          "role": "browser"
+        },
+        {
+          "id": 43520,
+          "role": "renderer"
+        },
+        {
+          "id": 13596,
+          "role": "renderer"
+        },
+        {
+          "id": 34200,
+          "role": "GPU"
+        },
+        {
+          "id": 35412,
+          "role": "network.mojom.NetworkService"
+        },
+        {
+          "id": 44808,
+          "role": "storage.mojom.StorageService"
+        }
+      ],
+      "serverPid": 23636
+    },
+    {
+      "name": "dragging",
+      "start": "2026-11-06T02:47:03.307Z",
+      "end": "2026-11-06T02:47:13.310Z",
+      "elapsedMs": 10003.212599999999,
+      "actions": 300,
+      "resets": 0,
+      "cpuMs": 864.5500000000013,
+      "pids": [
+        {
+          "id": 4284,
+          "role": "browser"
+        },
+        {
+          "id": 43520,
+          "role": "renderer"
+        },
+        {
+          "id": 13596,
+          "role": "renderer"
+        },
+        {
+          "id": 34200,
+          "role": "GPU"
+        },
+        {
+          "id": 35412,
+          "role": "network.mojom.NetworkService"
+        },
+        {
+          "id": 44808,
+          "role": "storage.mojom.StorageService"
+        }
+      ],
+      "serverPid": 23636
+    }
+  ]
+}

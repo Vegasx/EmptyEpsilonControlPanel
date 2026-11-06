@@ -1,0 +1,34 @@
+[
+  {
+    "rust": "rust-panel.png",
+    "height": 700,
+    "width": 1000,
+    "differentChannels": 0,
+    "reference": "cpp-panel.png",
+    "maxChannelDifference": 0
+  },
+  {
+    "rust": "rust-panel-minimum.png",
+    "height": 480,
+    "width": 640,
+    "differentChannels": 0,
+    "reference": "cpp-panel-minimum.png",
+    "maxChannelDifference": 0
+  },
+  {
+    "rust": "rust-panel-portrait.png",
+    "height": 1024,
+    "width": 768,
+    "differentChannels": 0,
+    "reference": "cpp-panel-portrait.png",
+    "maxChannelDifference": 0
+  },
+  {
+    "rust": "rust-panel-coolant.png",
+    "height": 1024,
+    "width": 768,
+    "differentChannels": 0,
+    "reference": "cpp-panel-coolant.png",
+    "maxChannelDifference": 0
+  }
+]
